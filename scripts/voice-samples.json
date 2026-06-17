@@ -1,0 +1,11 @@
+{
+  "text": "Olá! Eu vou te acompanhar neste curso de espanhol. Vamos com calma: eu explico, você repete em voz alta, e a gente aprende conversando.",
+  "vozes": [
+    { "key": "voz-leticia", "name": "Letícia (a atual)", "voiceId": "CcElPA8NBrawbunFs7rh" },
+    { "key": "voz-dani", "name": "Dani", "voiceId": "PznTnBc8X6pvixs9UkQm" },
+    { "key": "voz-elena", "name": "Elena Vinter", "voiceId": "S4M4JhZIzYGUlDsYIOow" },
+    { "key": "voz-bia", "name": "Bia", "voiceId": "0ozreaQ0xnggCu2x9oFC" },
+    { "key": "voz-nina", "name": "Nina M.", "voiceId": "GM2UA3fbsIaLHcswCDX9" },
+    { "key": "voz-mariana", "name": "Mariana M.", "voiceId": "0t7A9YvHlaUjp3Mon3X1" }
+  ]
+}

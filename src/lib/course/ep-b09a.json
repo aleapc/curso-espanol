@@ -1,0 +1,55 @@
+{
+  "id": "b09a",
+  "nivel": "basico",
+  "numero": 9,
+  "parte": "6A",
+  "titulo": "Falsos amigos — Na mesa e na loja",
+  "subtitulo": "Palavras de comida e objeto que traem o brasileiro",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9a-n01", "pt": "Episódio especial: os falsos amigos — palavras que parecem português mas te traem. Parte 1: comida e objetos. Fale em voz alta quando eu pedir." },
+
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9a-n02", "pt": "'Exquisito' parece 'esquisito', mas é DELICIOSO. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep9a-p01", "promptPt": "Elogie a comida: 'está exquisita'. Fale agora.", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
+
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9a-n03", "pt": "'Vaso' não é vaso de planta nem privada — é o COPO de beber. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-vaso", "es": "Un vaso de agua, por favor.", "pt": "Um copo de água, por favor." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep9a-p02", "promptPt": "Peça um copo de água, 'un vaso'. Fale agora.", "audioKey": "r-vaso", "es": "Un vaso de agua, por favor.", "pt": "Um copo de água, por favor." },
+
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9a-n04", "pt": "Cuidado: 'presunto' em espanhol é SUSPEITO! Presunto de comer é 'jamón'. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "fa-jamon", "es": "Un sándwich de jamón.", "pt": "Um sanduíche de presunto." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep9a-p03", "promptPt": "Peça um sanduíche de presunto, 'de jamón'. Fale agora.", "audioKey": "fa-jamon", "es": "Un sándwich de jamón.", "pt": "Um sanduíche de presunto." },
+
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9a-n05", "pt": "'Salsa' é MOLHO (e também a dança). Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "fa-salsa", "es": "La salsa de tomate.", "pt": "O molho de tomate." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep9a-p04", "promptPt": "Diga 'o molho de tomate', la salsa. Fale agora.", "audioKey": "fa-salsa", "es": "La salsa de tomate.", "pt": "O molho de tomate." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9a-n06", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep9a-p05", "promptPt": "Elogie a comida: 'está exquisita'. Fale agora.", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep9a-p06", "promptPt": "Peça um sanduíche de presunto. Fale agora.", "audioKey": "fa-jamon", "es": "Un sándwich de jamón.", "pt": "Um sanduíche de presunto." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9a-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "r-vaso", "es": "Un vaso de agua, por favor.", "pt": "Um copo de água, por favor." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "fa-salsa", "es": "La salsa de tomate.", "pt": "O molho de tomate." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9a-n07", "pt": "Gramática em foco: a regra de ouro dos falsos amigos. Entre línguas tão parecidas, parecido NÃO é igual — na dúvida, confirme o sentido. Você acabou de ver quatro armadilhas; guarde-as." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep9a-rend", "pt": "Boa! Esses quatro não te pegam mais. Na próxima parte: pessoas e lugares. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "Falsos amigos de comida e objeto",
+    "secoes": [
+      {
+        "titulo": "A lista",
+        "corpo": "Palavras que enganam o brasileiro:",
+        "exemplos": [
+          { "es": "exquisito", "pt": "delicioso (não 'esquisito')" },
+          { "es": "vaso", "pt": "copo de beber (não vaso/privada)" },
+          { "es": "jamón", "pt": "presunto (em ES, 'presunto' = suspeito!)" },
+          { "es": "salsa", "pt": "molho (e a dança)" }
+        ]
+      }
+    ]
+  }
+}

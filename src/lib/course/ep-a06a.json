@@ -1,0 +1,66 @@
+{
+  "id": "a06a",
+  "nivel": "avancado",
+  "numero": 22,
+  "parte": "A",
+  "titulo": "Entender o nativo — Pedir pra repetir",
+  "subtitulo": "Más despacio, ¿podés repetir?, ¿cómo se dice?",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr1-n01", "pt": "Avançado, episódio 6, o último: entender o nativo falando rápido. Parte 1: o kit de sobrevivência do ouvinte — o que dizer quando o outro fala depressa. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr1-n02", "pt": "Recordando dos trâmites: diga 'gostaria de fazer uma reclamação'. Responda." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "anr1-p01", "promptPt": "Diga 'gostaria de fazer uma reclamação', quisiera hacer un reclamo. Fale agora.", "audioKey": "tr-reclamo", "es": "Quisiera hacer un reclamo.", "pt": "Gostaria de fazer uma reclamação." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr1-n03", "pt": "Escute alguém pedindo pra desacelerar:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "nr-d1", "es": "Perdón, ¿podés hablar más despacio?", "pt": "Desculpe, pode falar mais devagar?" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "nr-d2", "es": "¡Sí, claro! Disculpá.", "pt": "Sim, claro! Desculpa." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr1-n04", "pt": "A frase mais útil de todas — 'más despacio, por favor':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "nr-despacio", "es": "Más despacio, por favor.", "pt": "Mais devagar, por favor." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr1-p02", "promptPt": "Peça 'mais devagar, por favor', más despacio, por favor. Fale agora.", "audioKey": "nr-despacio", "es": "Más despacio, por favor.", "pt": "Mais devagar, por favor." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr1-n05", "pt": "Pra pedir pra repetir — '¿podés repetir?':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "nr-repetir", "es": "¿Podés repetir, por favor?", "pt": "Pode repetir, por favor?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "anr1-p03", "promptPt": "Peça 'pode repetir, por favor?', ¿podés repetir, por favor?. Fale agora.", "audioKey": "nr-repetir", "es": "¿Podés repetir, por favor?", "pt": "Pode repetir, por favor?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr1-n06", "pt": "Pra avisar que não entendeu — 'no te entendí':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "nr-noentendi", "es": "Perdón, no te entendí.", "pt": "Desculpe, não te entendi." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr1-p04", "promptPt": "Diga 'desculpe, não te entendi', perdón, no te entendí. Fale agora.", "audioKey": "nr-noentendi", "es": "Perdón, no te entendí.", "pt": "Desculpe, não te entendi." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr1-n07", "pt": "Pra perguntar o que uma palavra quer dizer — '¿qué significa…?':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "nr-significa", "es": "¿Qué significa esa palabra?", "pt": "O que significa essa palavra?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "anr1-p05", "promptPt": "Pergunte 'o que significa essa palavra?', ¿qué significa esa palabra?. Fale agora.", "audioKey": "nr-significa", "es": "¿Qué significa esa palabra?", "pt": "O que significa essa palavra?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr1-n08", "pt": "E pra perguntar como se diz algo — '¿cómo se dice…?':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "nr-comosedice", "es": "¿Cómo se dice esto en español?", "pt": "Como se diz isto em espanhol?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr1-p06", "promptPt": "Pergunte 'como se diz isto em espanhol?', ¿cómo se dice esto en español?. Fale agora.", "audioKey": "nr-comosedice", "es": "¿Cómo se dice esto en español?", "pt": "Como se diz isto em espanhol?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr1-n09", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr1-p07", "promptPt": "Peça 'mais devagar, por favor'. Fale agora.", "audioKey": "nr-despacio", "es": "Más despacio, por favor.", "pt": "Mais devagar, por favor." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "anr1-p08", "promptPt": "Peça 'pode repetir, por favor?'. Fale agora.", "audioKey": "nr-repetir", "es": "¿Podés repetir, por favor?", "pt": "Pode repetir, por favor?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr1-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "nr-despacio", "es": "Más despacio, por favor.", "pt": "Mais devagar, por favor." },
+    { "tipo": "shadow", "voz": "Ana", "audioKey": "nr-repetir", "es": "¿Podés repetir, por favor?", "pt": "Pode repetir, por favor?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr1-n10", "pt": "Gramática em foco: essas frases salvam qualquer conversa. Guarde como reflexo: 'más despacio', '¿podés repetir?', 'no te entendí', '¿qué significa?', '¿cómo se dice?'. Pedir pra repetir não é fraqueza — é o que todo bom ouvinte faz. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "nr-despacio", "es": "Más despacio, por favor.", "pt": "Mais devagar, por favor." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "nr-significa", "es": "¿Qué significa esa palabra?", "pt": "O que significa essa palavra?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr1-n11", "pt": "Kit de sobrevivência do ouvinte: tenha sempre na ponta da língua. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "anr1-rend", "pt": "Muito bem! Agora você nunca trava numa conversa. Na próxima: as muletillas, os 'tipo' e 'ou seja' deles. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
+  ],
+  "aprofundar": {
+    "titulo": "Kit de sobrevivência do ouvinte",
+    "secoes": [
+      {
+        "titulo": "Frases para ter de reflexo",
+        "corpo": "Más despacio, por favor; ¿Podés/Puede repetir?; No te/le entendí; ¿Qué significa…?; ¿Cómo se dice…?; ¿Me lo podés escribir? (você pode escrever pra mim?).",
+        "exemplos": [
+          { "es": "¿Me lo podés repetir más despacio?", "pt": "Pode repetir mais devagar pra mim?" },
+          { "es": "No entendí la última parte.", "pt": "Não entendi a última parte." }
+        ]
+      },
+      {
+        "titulo": "Dica de ouro",
+        "corpo": "Repita de volta o que entendeu ('Entonces, ¿decís que…?') — confirma o sentido e ganha tempo. Pedir pra repetir é normal até entre nativos."
+      }
+    ]
+  }
+}

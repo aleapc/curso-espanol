@@ -1,0 +1,87 @@
+{
+  "id": "b05a",
+  "nivel": "basico",
+  "numero": 5,
+  "parte": "2A",
+  "titulo": "Comida a fundo — La parrilla",
+  "subtitulo": "O churrasco rioplatense: cortes e o ponto da carne",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n01", "pt": "Restaurante, parte 2: a comida a fundo. Começamos pela estrela do Rio da Prata, a parrilla — o churrasco. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n02", "pt": "Recordando: como você começa um pedido, 'pra mim'? Responda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep5a-p01", "promptPt": "Comece um pedido com 'pra mim…'. Fale agora.", "audioKey": "r-parami", "es": "Para mí, la milanesa.", "pt": "Pra mim, a milanesa." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n03", "pt": "Escute o casal na parrilla:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-d1", "es": "¿Ya saben qué van a pedir?", "pt": "Já sabem o que vão pedir?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-d2", "es": "Sí, para mí un bife de chorizo.", "pt": "Sim, pra mim um bife de chorizo." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-d3", "es": "¿Cómo lo quiere?", "pt": "Como o senhor quer (o ponto)?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-d4", "es": "A punto, por favor.", "pt": "Ao ponto, por favor." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n04", "pt": "A churrascaria, e o próprio churrasco, é 'la parrilla'. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-parrilla", "es": "Una parrilla.", "pt": "Uma parrilla (churrasco)." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n05", "pt": "Um corte clássico: o bife de chorizo. Cuidado: NÃO é linguiça, é um corte nobre. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-bife", "es": "Un bife de chorizo.", "pt": "Um bife de chorizo (corte)." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep5a-p02", "promptPt": "Peça um bife de chorizo. Fale agora.", "audioKey": "r2-bife", "es": "Un bife de chorizo.", "pt": "Um bife de chorizo." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n06", "pt": "Outro corte, o vacío:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-vacio", "es": "El vacío.", "pt": "O vacío (corte)." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep5a-p03", "promptPt": "Peça o vacío. Fale agora.", "audioKey": "r2-vacio", "es": "El vacío.", "pt": "O vacío." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n07", "pt": "E a costela, 'asado de tira':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-tira", "es": "Asado de tira.", "pt": "Costela (tira)." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep5a-p04", "promptPt": "Peça asado de tira. Fale agora.", "audioKey": "r2-tira", "es": "Asado de tira.", "pt": "Costela." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n08", "pt": "O garçom vai perguntar o ponto: 'como o senhor quer?'. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-comolo", "es": "¿Cómo lo quiere?", "pt": "Como o senhor quer (o ponto)?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n09", "pt": "Os pontos: mal passado é 'jugoso'; ao ponto, 'a punto'; bem passado, 'bien cocido'. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-jugoso", "es": "Jugoso.", "pt": "Mal passado / suculento." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-apunto", "es": "A punto.", "pt": "Ao ponto." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-cocido", "es": "Bien cocido.", "pt": "Bem passado." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n10", "pt": "Pra pedir o ponto: 'eu quero ao ponto':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-loquiero", "es": "Lo quiero a punto.", "pt": "Eu quero ao ponto." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep5a-p05", "promptPt": "Diga que quer a carne ao ponto. Fale agora.", "audioKey": "r2-loquiero", "es": "Lo quiero a punto.", "pt": "Eu quero ao ponto." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n11", "pt": "Uma entrada típica da parrilla: a provoleta, um queijo grelhado:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-provoleta", "es": "Una provoleta.", "pt": "Uma provoleta (queijo grelhado)." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep5a-p06", "promptPt": "Peça uma provoleta. Fale agora.", "audioKey": "r2-provoleta", "es": "Una provoleta.", "pt": "Uma provoleta." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n12", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep5a-p07", "promptPt": "Peça um bife de chorizo. Fale agora.", "audioKey": "r2-bife", "es": "Un bife de chorizo.", "pt": "Um bife de chorizo." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep5a-p08", "promptPt": "Diga que quer a carne ao ponto. Fale agora.", "audioKey": "r2-loquiero", "es": "Lo quiero a punto.", "pt": "Eu quero ao ponto." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "r2-bife", "es": "Un bife de chorizo.", "pt": "Um bife de chorizo." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "r2-loquiero", "es": "Lo quiero a punto.", "pt": "Eu quero ao ponto." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n13", "pt": "Gramática em foco: pra falar de gosto, use 'me gusta' (eu gosto) e 'me gustaría' (eu gostaria — mais educado pra pedir). Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-megusta", "es": "Me gusta la carne jugosa.", "pt": "Eu gosto da carne mal passada." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-megustaria", "es": "Me gustaría un bife de chorizo.", "pt": "Eu gostaria de um bife de chorizo." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n14", "pt": "'Me gusta' pro que você gosta; 'me gustaría' pra pedir com jeitinho. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep5a-rend", "pt": "Muito bem! Você já manda bem na parrilla. Na próxima parte, outros pratos típicos. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "Gostar e pedir (gustar) + o ponto da carne",
+    "secoes": [
+      {
+        "titulo": "me gusta / me gustan",
+        "corpo": "Pra dizer que gosta de algo, use 'me gusta' (singular) e 'me gustan' (plural). Literalmente é 'me agrada / me agradam'.",
+        "exemplos": [
+          { "es": "Me gusta el vino tinto.", "pt": "Eu gosto de vinho tinto." },
+          { "es": "Me gustan las empanadas.", "pt": "Eu gosto de empanadas." }
+        ]
+      },
+      {
+        "titulo": "me gustaría (pedir com educação)",
+        "corpo": "'Me gustaría' = eu gostaria. Soa mais educado que 'quiero' na hora de pedir.",
+        "exemplos": [
+          { "es": "Me gustaría un café.", "pt": "Eu gostaria de um café." }
+        ]
+      },
+      {
+        "titulo": "O ponto da carne",
+        "corpo": "jugoso = mal passado/suculento · a punto = ao ponto · bien cocido = bem passado.",
+        "exemplos": [
+          { "es": "Lo quiero a punto.", "pt": "Eu quero ao ponto." }
+        ]
+      }
+    ]
+  }
+}

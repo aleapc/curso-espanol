@@ -1,0 +1,66 @@
+{
+  "id": "a05a",
+  "nivel": "avancado",
+  "numero": 21,
+  "parte": "A",
+  "titulo": "Trâmites — Burocracia e documentos",
+  "subtitulo": "Sacar turno, firmar, el comprobante",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-n01", "pt": "Avançado, episódio 5: situações complexas — trâmites e trabalho. Parte 1: resolver burocracia. Aqui usamos bastante o registro formal 'usted'. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-n02", "pt": "Recordando do registro formal: cumprimente '¿cómo está usted?'. Responda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "atr1-p01", "promptPt": "Cumprimente com respeito: '¿cómo está usted?'. Fale agora.", "audioKey": "md-comoesta", "es": "¿Cómo está usted?", "pt": "Como o senhor está?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-n03", "pt": "Escute alguém chegando a uma repartição:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-d1", "es": "Buenos días. Vengo a hacer un trámite.", "pt": "Bom dia. Vim resolver uma papelada." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-d2", "es": "¿Sacó turno? Sin turno no puedo atenderlo.", "pt": "Marcou hora? Sem senha não posso te atender." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-n04", "pt": "Pra dizer a que veio — 'vengo a hacer un trámite':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-tramite", "es": "Vengo a hacer un trámite.", "pt": "Vim resolver uma papelada/burocracia." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "atr1-p02", "promptPt": "Diga 'vim resolver uma papelada', vengo a hacer un trámite. Fale agora.", "audioKey": "tr-tramite", "es": "Vengo a hacer un trámite.", "pt": "Vim resolver uma papelada." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-n05", "pt": "Pra perguntar os documentos — '¿qué documentación necesito?':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-documentacion", "es": "¿Qué documentación necesito?", "pt": "Que documentos eu preciso?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "atr1-p03", "promptPt": "Pergunte 'que documentos eu preciso?', ¿qué documentación necesito?. Fale agora.", "audioKey": "tr-documentacion", "es": "¿Qué documentación necesito?", "pt": "Que documentos eu preciso?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-n06", "pt": "Pra perguntar se precisa marcar — '¿hay que sacar turno?':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-turno", "es": "¿Hay que sacar turno?", "pt": "Precisa marcar hora/senha?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "atr1-p04", "promptPt": "Pergunte 'precisa marcar hora?', ¿hay que sacar turno?. Fale agora.", "audioKey": "tr-turno", "es": "¿Hay que sacar turno?", "pt": "Precisa marcar hora?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-n07", "pt": "Pra perguntar onde assinar — '¿dónde tengo que firmar?':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-firmar", "es": "¿Dónde tengo que firmar?", "pt": "Onde eu tenho que assinar?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "atr1-p05", "promptPt": "Pergunte 'onde tenho que assinar?', ¿dónde tengo que firmar?. Fale agora.", "audioKey": "tr-firmar", "es": "¿Dónde tengo que firmar?", "pt": "Onde tenho que assinar?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-n08", "pt": "E pra guardar a prova — pedir 'el comprobante':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-comprobante", "es": "¿Me da el comprobante?", "pt": "O senhor me dá o comprovante?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "atr1-p06", "promptPt": "Peça 'me dá o comprovante?', ¿me da el comprobante?. Fale agora.", "audioKey": "tr-comprobante", "es": "¿Me da el comprobante?", "pt": "Me dá o comprovante?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-n09", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "atr1-p07", "promptPt": "Diga 'vim resolver uma papelada'. Fale agora.", "audioKey": "tr-tramite", "es": "Vengo a hacer un trámite.", "pt": "Vim resolver uma papelada." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "atr1-p08", "promptPt": "Pergunte 'onde tenho que assinar?'. Fale agora.", "audioKey": "tr-firmar", "es": "¿Dónde tengo que firmar?", "pt": "Onde tenho que assinar?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "tr-tramite", "es": "Vengo a hacer un trámite.", "pt": "Vim resolver uma papelada." },
+    { "tipo": "shadow", "voz": "Ana", "audioKey": "tr-documentacion", "es": "¿Qué documentación necesito?", "pt": "Que documentos eu preciso?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-n10", "pt": "Gramática em foco: dois falsos amigos perigosos aqui. 'Turno' não é só plantão: é hora marcada — 'sacar turno' é marcar/tirar senha. E pra obrigação use 'hay que' (impessoal: tem que/precisa) ou 'tengo que' (eu tenho que). Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-turno", "es": "¿Hay que sacar turno?", "pt": "Precisa marcar hora?" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-firmar", "es": "¿Dónde tengo que firmar?", "pt": "Onde tenho que assinar?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-n11", "pt": "Turno = hora marcada; hay que / tengo que = obrigação. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "atr1-rend", "pt": "Muito bem! Você encara uma repartição sem medo. Na próxima: reuniões e trabalho. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
+  ],
+  "aprofundar": {
+    "titulo": "Vocabulário de trâmites",
+    "secoes": [
+      {
+        "titulo": "Palavras-chave",
+        "corpo": "el trámite (a papelada/processo); sacar turno (marcar hora/senha); la documentación (os documentos); firmar (assinar); el comprobante (comprovante); la ventanilla (o guichê); la fila/cola (a fila).",
+        "exemplos": [
+          { "es": "Saqué turno para el lunes.", "pt": "Marquei hora para segunda." },
+          { "es": "Tenés que firmar acá.", "pt": "Você tem que assinar aqui." }
+        ]
+      },
+      {
+        "titulo": "Falso amigo: turno",
+        "corpo": "'Turno' = hora marcada / atendimento agendado, não 'plantão'. 'Pedir/sacar un turno' = agendar. Em consultórios, bancos e repartições, quase tudo funciona 'con turno'."
+      }
+    ]
+  }
+}

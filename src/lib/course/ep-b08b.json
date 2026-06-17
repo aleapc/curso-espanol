@@ -1,0 +1,73 @@
+{
+  "id": "b08b",
+  "nivel": "basico",
+  "numero": 8,
+  "parte": "5B",
+  "titulo": "Mercado — Quantidades e o caixa",
+  "subtitulo": "Quilo, dúzia, preço por quilo, sacola e pagar",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n01", "pt": "Parte 2: quantidades e o caixa. Antes, recordando: como você diz 'preciso de pão e leite'? Responda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p01", "promptPt": "Diga 'preciso de pão e leite'. Fale agora.", "audioKey": "m-necesito", "es": "Necesito pan y leche.", "pt": "Preciso de pão e leite." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n02", "pt": "Escute pesando frutas:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-d3", "es": "Un kilo de tomates, por favor.", "pt": "Um quilo de tomates, por favor." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "m-d4", "es": "¿Algo más?", "pt": "Mais alguma coisa?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-d5", "es": "Nada más, gracias.", "pt": "Só isso, obrigado." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n03", "pt": "As quantidades. Um quilo:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-kilo", "es": "Un kilo.", "pt": "Um quilo." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p02", "promptPt": "Peça um quilo, 'un kilo'. Fale agora.", "audioKey": "m-kilo", "es": "Un kilo.", "pt": "Um quilo." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n04", "pt": "Meio quilo:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-mediokilo", "es": "Medio kilo.", "pt": "Meio quilo." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p03", "promptPt": "Peça meio quilo. Fale agora.", "audioKey": "m-mediokilo", "es": "Medio kilo.", "pt": "Meio quilo." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n05", "pt": "Uma dúzia, por exemplo de ovos:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "m-docena", "es": "Una docena de huevos.", "pt": "Uma dúzia de ovos." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep8b-p04", "promptPt": "Peça uma dúzia de ovos. Fale agora.", "audioKey": "m-docena", "es": "Una docena de huevos.", "pt": "Uma dúzia de ovos." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n06", "pt": "Pra perguntar o preço do quilo:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-cuantokilo", "es": "¿Cuánto cuesta el kilo?", "pt": "Quanto custa o quilo?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p05", "promptPt": "Pergunte quanto custa o quilo. Fale agora.", "audioKey": "m-cuantokilo", "es": "¿Cuánto cuesta el kilo?", "pt": "Quanto custa o quilo?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n07", "pt": "No caixa, pra pedir uma sacola:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-bolsa", "es": "¿Me da una bolsa?", "pt": "Pode me dar uma sacola?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p06", "promptPt": "Peça uma sacola, 'una bolsa'. Fale agora.", "audioKey": "m-bolsa", "es": "¿Me da una bolsa?", "pt": "Pode me dar uma sacola?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n08", "pt": "Pra fechar a compra:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-nadamas", "es": "Nada más, gracias.", "pt": "Só isso, obrigado." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p07", "promptPt": "Diga 'só isso, obrigado'. Fale agora.", "audioKey": "m-nadamas", "es": "Nada más, gracias.", "pt": "Só isso, obrigado." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n09", "pt": "Pra pagar — você já sabe do restaurante:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-tarjeta", "es": "¿Puedo pagar con tarjeta?", "pt": "Posso pagar com cartão?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p08", "promptPt": "Pergunte se pode pagar com cartão. Fale agora.", "audioKey": "r-tarjeta", "es": "¿Puedo pagar con tarjeta?", "pt": "Posso pagar com cartão?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n10", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p09", "promptPt": "Peça um quilo. Fale agora.", "audioKey": "m-kilo", "es": "Un kilo.", "pt": "Um quilo." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep8b-p10", "promptPt": "Peça uma dúzia de ovos. Fale agora.", "audioKey": "m-docena", "es": "Una docena de huevos.", "pt": "Uma dúzia de ovos." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "m-kilo", "es": "Un kilo.", "pt": "Um quilo." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "m-cuantokilo", "es": "¿Cuánto cuesta el kilo?", "pt": "Quanto custa o quilo?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n11", "pt": "Gramática em foco: as quantidades ligam ao produto com 'de'. 'Un kilo DE manzanas', 'una docena DE huevos'. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "m-docena", "es": "Una docena de huevos.", "pt": "Uma dúzia de ovos." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-mediokilo", "es": "Medio kilo.", "pt": "Meio quilo." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n12", "pt": "Quantidade + 'de' + produto. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep8b-rend", "pt": "Muito bem! Você pesa, paga e fecha a compra. Na última parte: a farmácia. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "Quantidades",
+    "secoes": [
+      {
+        "titulo": "Medir e contar",
+        "corpo": "un kilo (um quilo), medio kilo (meio quilo), un cuarto kilo (250 g), una docena (uma dúzia). Liga ao produto com 'de'.",
+        "exemplos": [
+          { "es": "Un kilo de tomates.", "pt": "Um quilo de tomates." },
+          { "es": "Una docena de huevos.", "pt": "Uma dúzia de ovos." }
+        ]
+      },
+      {
+        "titulo": "No caixa",
+        "corpo": "una bolsa (sacola), '¿algo más?' (mais alguma coisa?), 'nada más' (só isso)."
+      }
+    ]
+  }
+}

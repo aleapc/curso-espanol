@@ -1,0 +1,9 @@
+{
+  "_comentario": "ES rioplatense: Ana=Isabela (fem), Diego=Lucas (masc). PT-BR (voz-guia): Bia (professora), Eduardo (avisos). REGRA: PT só na voz-guia, espanhol só nas vozes ES. model: eleven_flash_v2_5 (0,5 créd/char, econômico). Quando fizer upgrade de pacote, trocar por eleven_multilingual_v2 (1 créd/char) e regerar.",
+  "model": "eleven_flash_v2_5",
+  "narrador": "1ctzUhkgUOhdrYPLo67n",
+  "Ana": "1ctzUhkgUOhdrYPLo67n",
+  "Diego": "xcAUMhbpNX2WRGsuhjFy",
+  "Bia": "0ozreaQ0xnggCu2x9oFC",
+  "Eduardo": "4J31DrhygVjvFsoj7BsM"
+}

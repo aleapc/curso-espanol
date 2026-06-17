@@ -1,0 +1,61 @@
+{
+  "id": "i05a",
+  "nivel": "intermediario",
+  "numero": 14,
+  "parte": "A",
+  "titulo": "Servicios — Banco e dinheiro",
+  "subtitulo": "Caixa eletrônico, trocar e sacar dinheiro",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise1-n01", "pt": "Intermediário, episódio 5: serviços e resolver problemas. Parte 1: banco e dinheiro. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise1-n02", "pt": "Recordando: pergunte 'quanto custa?'. Responda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ise1-p01", "promptPt": "Pergunte o preço, '¿cuánto sale?'. Fale agora.", "audioKey": "c-cuantosale", "es": "¿Cuánto sale?", "pt": "Quanto custa?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise1-n03", "pt": "Escute no banco:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "se-d1", "es": "¿Dónde hay un cajero?", "pt": "Onde tem um caixa eletrônico?" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "se-d2", "es": "Quiero cambiar dólares.", "pt": "Quero trocar dólares." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise1-n04", "pt": "Pra achar um caixa eletrônico — 'cajero':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "se-cajero", "es": "¿Dónde hay un cajero?", "pt": "Onde tem um caixa eletrônico?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ise1-p02", "promptPt": "Pergunte onde tem um caixa, 'un cajero'. Fale agora.", "audioKey": "se-cajero", "es": "¿Dónde hay un cajero?", "pt": "Onde tem um caixa eletrônico?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise1-n05", "pt": "Pra trocar dinheiro:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "se-cambiar", "es": "Quiero cambiar dinero.", "pt": "Quero trocar dinheiro." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ise1-p03", "promptPt": "Diga 'quero trocar dinheiro', quiero cambiar dinero. Fale agora.", "audioKey": "se-cambiar", "es": "Quiero cambiar dinero.", "pt": "Quero trocar dinheiro." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise1-n06", "pt": "Pra perguntar a cotação:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "se-tipocambio", "es": "¿Cuál es el tipo de cambio?", "pt": "Qual é a cotação (do câmbio)?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ise1-p04", "promptPt": "Pergunte a cotação, '¿cuál es el tipo de cambio?'. Fale agora.", "audioKey": "se-tipocambio", "es": "¿Cuál es el tipo de cambio?", "pt": "Qual é a cotação?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise1-n07", "pt": "Pra saber se aceitam dólares:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "se-dolares", "es": "¿Aceptan dólares?", "pt": "Aceitam dólares?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ise1-p05", "promptPt": "Pergunte 'aceitam dólares?'. Fale agora.", "audioKey": "se-dolares", "es": "¿Aceptan dólares?", "pt": "Aceitam dólares?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise1-n08", "pt": "Pra sacar dinheiro — 'plata' é dinheiro, na fala:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "se-sacar", "es": "Quiero sacar plata.", "pt": "Quero sacar dinheiro." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ise1-p06", "promptPt": "Diga 'quero sacar dinheiro', quiero sacar plata. Fale agora.", "audioKey": "se-sacar", "es": "Quiero sacar plata.", "pt": "Quero sacar dinheiro." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise1-n09", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ise1-p07", "promptPt": "Pergunte onde tem um caixa. Fale agora.", "audioKey": "se-cajero", "es": "¿Dónde hay un cajero?", "pt": "Onde tem um caixa eletrônico?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ise1-p08", "promptPt": "Diga 'quero trocar dinheiro'. Fale agora.", "audioKey": "se-cambiar", "es": "Quiero cambiar dinero.", "pt": "Quero trocar dinheiro." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise1-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "se-cajero", "es": "¿Dónde hay un cajero?", "pt": "Onde tem um caixa?" },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "se-sacar", "es": "Quiero sacar plata.", "pt": "Quero sacar dinheiro." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise1-n10", "pt": "Gramática em foco: no Rio da Prata, 'plata' é dinheiro (não só o metal). 'Cajero' é o caixa eletrônico; 'sacar plata' é sacar; 'cambiar' é trocar. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "se-sacar", "es": "Quiero sacar plata.", "pt": "Quero sacar dinheiro." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "se-cambiar", "es": "Quiero cambiar dinero.", "pt": "Quero trocar dinheiro." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise1-n11", "pt": "'Plata' = dinheiro; 'cajero' = caixa; 'sacar/cambiar'. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ise1-rend", "pt": "Ótimo! Você se vira com dinheiro e câmbio. Na próxima: celular e internet. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "Banco e dinheiro (rioplatense)",
+    "secoes": [
+      {
+        "titulo": "Vocabulário",
+        "corpo": "el cajero (caixa eletrônico), cambiar dinero (trocar), el tipo de cambio (cotação), sacar plata (sacar), 'plata' = dinheiro na fala.",
+        "exemplos": [
+          { "es": "¿Dónde hay un cajero para sacar plata?", "pt": "Onde tem um caixa pra sacar dinheiro?" }
+        ]
+      }
+    ]
+  }
+}

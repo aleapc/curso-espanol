@@ -1,0 +1,84 @@
+{
+  "id": "b07a",
+  "nivel": "basico",
+  "numero": 7,
+  "parte": "4A",
+  "titulo": "No hotel — Check-in",
+  "subtitulo": "Reserva, tipos de quarto, diária e café da manhã",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n01", "pt": "Vamos pro hotel! Parte 1: a chegada e o check-in. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n02", "pt": "Recordando: como você cumprimenta de manhã? Responda." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep7a-p01", "promptPt": "Diga 'bom dia'. Fale agora.", "audioKey": "es-bd", "es": "Buenos días.", "pt": "Bom dia." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n03", "pt": "Escute o casal chegando no hotel:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-d1", "es": "Buenas tardes, tengo una reserva.", "pt": "Boa tarde, tenho uma reserva." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "h-d2", "es": "¿A nombre de quién?", "pt": "Em nome de quem?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-d3", "es": "A nombre de Alexandre.", "pt": "Em nome de Alexandre." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n04", "pt": "Pra dizer que tem reserva:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-reserva", "es": "Tengo una reserva.", "pt": "Tenho uma reserva." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7a-p02", "promptPt": "Diga 'tenho uma reserva'. Fale agora.", "audioKey": "h-reserva", "es": "Tengo una reserva.", "pt": "Tenho uma reserva." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n05", "pt": "Se não tiver reserva, pergunte se há quartos livres:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-habitaciones", "es": "¿Tienen habitaciones libres?", "pt": "Vocês têm quartos disponíveis?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7a-p03", "promptPt": "Pergunte se têm quartos disponíveis. Fale agora.", "audioKey": "h-habitaciones", "es": "¿Tienen habitaciones libres?", "pt": "Vocês têm quartos disponíveis?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n06", "pt": "Os tipos de quarto: individual, ou de casal ('doble'):" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "h-individual", "es": "Una habitación individual.", "pt": "Um quarto individual." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "h-doble", "es": "Una habitación doble.", "pt": "Um quarto de casal." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep7a-p04", "promptPt": "Peça um quarto de casal, 'doble'. Fale agora.", "audioKey": "h-doble", "es": "Una habitación doble.", "pt": "Um quarto de casal." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n07", "pt": "Pra perguntar o preço da diária:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-noche", "es": "¿Cuánto cuesta la noche?", "pt": "Quanto custa a diária?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7a-p05", "promptPt": "Pergunte quanto custa a diária. Fale agora.", "audioKey": "h-noche", "es": "¿Cuánto cuesta la noche?", "pt": "Quanto custa a diária?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n08", "pt": "Pra saber se inclui café da manhã:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-desayuno", "es": "¿Incluye el desayuno?", "pt": "Inclui o café da manhã?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7a-p06", "promptPt": "Pergunte se inclui café da manhã. Fale agora.", "audioKey": "h-desayuno", "es": "¿Incluye el desayuno?", "pt": "Inclui o café da manhã?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n09", "pt": "Pra fazer o check-in:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-checkin", "es": "Quería hacer el check-in.", "pt": "Eu queria fazer o check-in." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7a-p07", "promptPt": "Diga que quer fazer o check-in. Fale agora.", "audioKey": "h-checkin", "es": "Quería hacer el check-in.", "pt": "Eu queria fazer o check-in." },
+
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep7a-n10", "pt": "Lembra do falso amigo? Na recepção vão pedir o seu 'apellido' — é o seu sobrenome. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-apellido2", "es": "¿Cuál es tu apellido?", "pt": "Qual é o seu sobrenome?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n11", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7a-p08", "promptPt": "Diga 'tenho uma reserva'. Fale agora.", "audioKey": "h-reserva", "es": "Tengo una reserva.", "pt": "Tenho uma reserva." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7a-p09", "promptPt": "Pergunte se inclui café da manhã. Fale agora.", "audioKey": "h-desayuno", "es": "¿Incluye el desayuno?", "pt": "Inclui o café da manhã?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "h-reserva", "es": "Tengo una reserva.", "pt": "Tenho uma reserva." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "h-noche", "es": "¿Cuánto cuesta la noche?", "pt": "Quanto custa a diária?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n12", "pt": "Gramática em foco: 'tengo' é eu tenho; '¿tienen?' é vocês têm; e 'hay' é 'tem/há' (existência). Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-reserva", "es": "Tengo una reserva.", "pt": "Tenho uma reserva." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-habitaciones", "es": "¿Tienen habitaciones libres?", "pt": "Vocês têm quartos disponíveis?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n13", "pt": "'Tengo / tienen' é do verbo ter; 'hay' é tem/há. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep7a-rend", "pt": "Ótimo! Você já faz o check-in. Na próxima parte: o quarto e os pedidos. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "Reserva e check-in: tener / hay",
+    "secoes": [
+      {
+        "titulo": "tener (ter)",
+        "corpo": "'tengo' (eu tenho), 'tenés' (você tem, vos), '¿tienen?' (vocês têm, formal).",
+        "exemplos": [
+          { "es": "Tengo una reserva.", "pt": "Tenho uma reserva." },
+          { "es": "¿Tienen habitaciones libres?", "pt": "Vocês têm quartos disponíveis?" }
+        ]
+      },
+      {
+        "titulo": "hay (tem / há)",
+        "corpo": "'hay' indica existência (tem, há), sem dono. Serve pra perguntar e afirmar.",
+        "exemplos": [
+          { "es": "¿Hay wifi?", "pt": "Tem wifi?" },
+          { "es": "No hay agua caliente.", "pt": "Não tem água quente." }
+        ]
+      },
+      {
+        "titulo": "O quarto",
+        "corpo": "habitación = quarto; individual = de solteiro; doble = de casal; la noche = a diária."
+      }
+    ]
+  }
+}

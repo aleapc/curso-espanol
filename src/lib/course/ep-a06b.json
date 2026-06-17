@@ -1,0 +1,62 @@
+{
+  "id": "a06b",
+  "nivel": "avancado",
+  "numero": 22,
+  "parte": "B",
+  "titulo": "Entender o nativo — Muletillas",
+  "subtitulo": "O sea, este…, digamos, ¿viste?",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr2-n01", "pt": "Parte 2: as muletillas — aquelas palavrinhas de enchimento que o nativo solta o tempo todo. Entender elas é metade da batalha pra acompanhar a fala rápida. E usá-las faz você soar local. Antes, recordando: peça 'mais devagar, por favor'. Responda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr2-p01", "promptPt": "Peça 'mais devagar, por favor', más despacio, por favor. Fale agora.", "audioKey": "nr-despacio", "es": "Más despacio, por favor.", "pt": "Mais devagar, por favor." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr2-n02", "pt": "Escute quantas muletillas cabem numa fala só:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "nr-d3", "es": "Este… o sea, digamos que sí, ¿viste?", "pt": "É… ou seja, digamos que sim, sabe?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "nr-d4", "es": "Claro, te entiendo perfecto.", "pt": "Claro, te entendo perfeitamente." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr2-n03", "pt": "A muletilla que reformula — 'o sea' (ou seja):" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "nr-osea", "es": "O sea, no me molesta.", "pt": "Ou seja, não me incomoda." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "anr2-p02", "promptPt": "Diga 'ou seja, não me incomoda', o sea, no me molesta. Fale agora.", "audioKey": "nr-osea", "es": "O sea, no me molesta.", "pt": "Ou seja, não me incomoda." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr2-n04", "pt": "A pausa pra pensar — 'este…' (é… / então…):" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "nr-este", "es": "Este… no sé, dejame pensar.", "pt": "É… não sei, deixa eu pensar." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr2-p03", "promptPt": "Ganhe tempo: 'é… não sei, deixa eu pensar', este… no sé, dejame pensar. Fale agora.", "audioKey": "nr-este", "es": "Este… no sé, dejame pensar.", "pt": "É… não sei, deixa eu pensar." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr2-n05", "pt": "Pra suavizar uma afirmação — 'digamos':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "nr-digamos", "es": "Es, digamos, bastante caro.", "pt": "É, digamos, bem caro." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "anr2-p04", "promptPt": "Diga 'é, digamos, bem caro', es, digamos, bastante caro. Fale agora.", "audioKey": "nr-digamos", "es": "Es, digamos, bastante caro.", "pt": "É, digamos, bem caro." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr2-n06", "pt": "E a que pede confirmação — '¿viste?' (sabe? / né?):" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "nr-viste", "es": "Estaba buenísimo, ¿viste?", "pt": "Estava delicioso, sabe?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr2-p05", "promptPt": "Diga 'estava delicioso, sabe?', estaba buenísimo, ¿viste?. Fale agora.", "audioKey": "nr-viste", "es": "Estaba buenísimo, ¿viste?", "pt": "Estava delicioso, sabe?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr2-n07", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "anr2-p06", "promptPt": "Diga 'ou seja, não me incomoda'. Fale agora.", "audioKey": "nr-osea", "es": "O sea, no me molesta.", "pt": "Ou seja, não me incomoda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr2-p07", "promptPt": "Diga 'estava delicioso, sabe?'. Fale agora.", "audioKey": "nr-viste", "es": "Estaba buenísimo, ¿viste?", "pt": "Estava delicioso, sabe?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr2-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Ana", "audioKey": "nr-osea", "es": "O sea, no me molesta.", "pt": "Ou seja, não me incomoda." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "nr-este", "es": "Este… no sé, dejame pensar.", "pt": "É… não sei, deixa eu pensar." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr2-n08", "pt": "Gramática em foco: muletillas não carregam significado forte — servem pra ganhar tempo, reformular ou puxar a confirmação. 'O sea' = ou seja; 'este…' = é…/então…; 'digamos' = digamos; '¿viste?' = sabe?/né?. Quando você reconhece que são enchimento, sua mente para de tropeçar nelas e foca no que importa. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "nr-osea", "es": "O sea, no me molesta.", "pt": "Ou seja, não me incomoda." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "nr-viste", "es": "Estaba buenísimo, ¿viste?", "pt": "Estava delicioso, sabe?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr2-n09", "pt": "Muletillas = enchimento; reconhecê-las destrava a escuta. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "anr2-rend", "pt": "Muito bem! As muletillas já não te atrapalham. Na última parte: o grande teste de escuta, com tudo que você aprendeu. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
+  ],
+  "aprofundar": {
+    "titulo": "Muletillas rioplatenses",
+    "secoes": [
+      {
+        "titulo": "As mais comuns",
+        "corpo": "este… (é…/hesitação); o sea (ou seja); digamos (digamos); ¿viste? / ¿no? (sabe?/né?); nada, … (enfim,…); tipo (tipo); a ver… (deixa ver…); bueno (bom,…).",
+        "exemplos": [
+          { "es": "Nada, al final no fuimos.", "pt": "Enfim, no fim não fomos." },
+          { "es": "A ver… ¿cómo te explico?", "pt": "Deixa ver… como te explico?" }
+        ]
+      },
+      {
+        "titulo": "Por que importam",
+        "corpo": "Numa fala rápida, boa parte é muletilla. Quem aprende a 'descontá-las' acompanha melhor o miolo da frase. E soltar uma ou outra ('o sea…', '¿viste?') faz você soar natural e ganha tempo pra formular."
+      }
+    ]
+  }
+}

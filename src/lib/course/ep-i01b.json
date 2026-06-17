@@ -1,0 +1,65 @@
+{
+  "id": "i01b",
+  "nivel": "intermediario",
+  "numero": 10,
+  "parte": "B",
+  "titulo": "Hablar del pasado — Contar a viagem",
+  "subtitulo": "O 'nós' no passado: narrar o que vocês fizeram",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ipb1-n01", "pt": "Parte 2: contar uma viagem, no 'nós'. Antes, recordando: diga 'ontem fui ao centro'. Responda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ipb1-p01", "promptPt": "Diga 'ontem fui ao centro'. Fale agora.", "audioKey": "pa-fui", "es": "Ayer fui al centro.", "pt": "Ontem fui ao centro." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ipb1-n02", "pt": "Escute o casal contando a viagem:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "pa-d3", "es": "Fuimos a la playa y la pasamos bárbaro.", "pt": "Fomos à praia e foi ótimo." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "pa-d4", "es": "Sí, sacamos un montón de fotos.", "pt": "Sim, tiramos um montão de fotos." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ipb1-n03", "pt": "'Nós fomos' — fuimos:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "pa-fuimos", "es": "Fuimos a la playa.", "pt": "Fomos à praia." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ipb1-p02", "promptPt": "Diga 'fomos à praia', fuimos a la playa. Fale agora.", "audioKey": "pa-fuimos", "es": "Fuimos a la playa.", "pt": "Fomos à praia." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ipb1-n04", "pt": "'Nós vimos' — vimos:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "pa-vimos", "es": "Vimos la ciudad.", "pt": "Vimos a cidade." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ipb1-p03", "promptPt": "Diga 'vimos a cidade', vimos la ciudad. Fale agora.", "audioKey": "pa-vimos", "es": "Vimos la ciudad.", "pt": "Vimos a cidade." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ipb1-n05", "pt": "'Ficamos' — nos quedamos:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "pa-quedamos", "es": "Nos quedamos tres días.", "pt": "Ficamos três dias." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ipb1-p04", "promptPt": "Diga 'ficamos três dias', nos quedamos tres días. Fale agora.", "audioKey": "pa-quedamos", "es": "Nos quedamos tres días.", "pt": "Ficamos três dias." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ipb1-n06", "pt": "'Tiramos fotos' — sacamos fotos:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "pa-sacamos", "es": "Sacamos muchas fotos.", "pt": "Tiramos muitas fotos." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ipb1-p05", "promptPt": "Diga 'tiramos muitas fotos', sacamos muchas fotos. Fale agora.", "audioKey": "pa-sacamos", "es": "Sacamos muchas fotos.", "pt": "Tiramos muitas fotos." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ipb1-n07", "pt": "Pra dizer que foi ótimo, bem rioplatense: 'la pasamos bárbaro':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "pa-barbaro", "es": "La pasamos bárbaro.", "pt": "Foi ótimo / nos divertimos muito." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ipb1-p06", "promptPt": "Diga que foi ótimo, 'la pasamos bárbaro'. Fale agora.", "audioKey": "pa-barbaro", "es": "La pasamos bárbaro.", "pt": "Foi ótimo." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ipb1-n08", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ipb1-p07", "promptPt": "Diga 'fomos à praia'. Fale agora.", "audioKey": "pa-fuimos", "es": "Fuimos a la playa.", "pt": "Fomos à praia." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ipb1-p08", "promptPt": "Diga 'tiramos muitas fotos'. Fale agora.", "audioKey": "pa-sacamos", "es": "Sacamos muchas fotos.", "pt": "Tiramos muitas fotos." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ipb1-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "pa-fuimos", "es": "Fuimos a la playa.", "pt": "Fomos à praia." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "pa-barbaro", "es": "La pasamos bárbaro.", "pt": "Foi ótimo." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ipb1-n09", "pt": "Gramática em foco: no passado, o 'nós' termina em -amos (verbos -ar) e -imos (verbos -er/-ir): fuimos, sacamos, comimos, salimos. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "pa-fuimos", "es": "Fuimos.", "pt": "Fomos." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "pa-sacamos", "es": "Sacamos.", "pt": "Tiramos." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ipb1-n10", "pt": "-amos e -imos pro 'nós'. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ipb1-rend", "pt": "Muito bem! Você conta uma viagem inteira. Na última parte: perguntar e reagir. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "O 'nós' no pretérito",
+    "secoes": [
+      {
+        "titulo": "Terminações",
+        "corpo": "Verbos -ar → -amos (caminamos, sacamos). Verbos -er/-ir → -imos (comimos, salimos). Curiosidade: em -ar e -ir, a forma 'nós' é igual no presente e no passado (o contexto resolve).",
+        "exemplos": [
+          { "es": "Fuimos y nos quedamos dos días.", "pt": "Fomos e ficamos dois dias." },
+          { "es": "Comimos afuera.", "pt": "Comemos fora." }
+        ]
+      },
+      {
+        "titulo": "Rioplatense",
+        "corpo": "'La pasamos bárbaro/genial' = foi ótimo, nos divertimos muito. 'Un montón' = um montão, bastante."
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "b02c",
+  "nivel": "basico",
+  "numero": 2,
+  "parte": "C",
+  "titulo": "Horas e datas",
+  "subtitulo": "Que horas são, a que horas, dias da semana",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep2c-n01", "pt": "Última parte: horas e datas. Antes, recordando: diga 'mil'. Responda." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep2c-p01", "promptPt": "Diga 'mil'. Fale agora.", "audioKey": "n-mil", "es": "Mil.", "pt": "Mil." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep2c-n02", "pt": "Pra perguntar a hora:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "t-quehora", "es": "¿Qué hora es?", "pt": "Que horas são?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep2c-p02", "promptPt": "Pergunte 'que horas são?'. Fale agora.", "audioKey": "t-quehora", "es": "¿Qué hora es?", "pt": "Que horas são?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep2c-n03", "pt": "Pra responder: uma hora é 'es la una'; as outras, 'son las'. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "t-launa", "es": "Es la una.", "pt": "É uma hora." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "t-lastres", "es": "Son las tres.", "pt": "São três horas." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep2c-p03", "promptPt": "Diga 'são três horas', son las tres. Fale agora.", "audioKey": "t-lastres", "es": "Son las tres.", "pt": "São três horas." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep2c-n04", "pt": "E meia, e quinze:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "t-media", "es": "Son las tres y media.", "pt": "São três e meia." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "t-cuarto", "es": "Son las tres y cuarto.", "pt": "São três e quinze." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep2c-p04", "promptPt": "Diga 'três e meia', son las tres y media. Fale agora.", "audioKey": "t-media", "es": "Son las tres y media.", "pt": "São três e meia." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep2c-n05", "pt": "Pra dizer A QUE horas algo é, use 'a las':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "t-alas", "es": "A las ocho.", "pt": "Às oito." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep2c-p05", "promptPt": "Diga 'às oito', a las ocho. Fale agora.", "audioKey": "t-alas", "es": "A las ocho.", "pt": "Às oito." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep2c-n06", "pt": "Os dias da semana. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "t-dias1", "es": "Lunes, martes, miércoles.", "pt": "Segunda, terça, quarta." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "t-dias2", "es": "Jueves, viernes, sábado, domingo.", "pt": "Quinta, sexta, sábado, domingo." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "t-sabado", "es": "Sábado.", "pt": "Sábado." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep2c-p06", "promptPt": "Diga 'sábado'. Fale agora.", "audioKey": "t-sabado", "es": "Sábado.", "pt": "Sábado." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep2c-n07", "pt": "Hoje, amanhã e ontem:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "t-hoy", "es": "Hoy.", "pt": "Hoje." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "t-manana", "es": "Mañana.", "pt": "Amanhã." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "t-ayer", "es": "Ayer.", "pt": "Ontem." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep2c-p07", "promptPt": "Diga 'amanhã', mañana. Fale agora.", "audioKey": "t-manana", "es": "Mañana.", "pt": "Amanhã." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep2c-n08", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep2c-p08", "promptPt": "Pergunte 'que horas são?'. Fale agora.", "audioKey": "t-quehora", "es": "¿Qué hora es?", "pt": "Que horas são?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep2c-p09", "promptPt": "Diga 'às oito'. Fale agora.", "audioKey": "t-alas", "es": "A las ocho.", "pt": "Às oito." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep2c-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "t-dias1", "es": "Lunes, martes, miércoles.", "pt": "Os dias." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "t-media", "es": "Son las tres y media.", "pt": "Três e meia." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep2c-r00", "pt": "Pra fechar, números e horas em uso. Você entende tudo:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "n-d1", "es": "Son quinientos pesos.", "pt": "São quinhentos pesos." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "t-quehora", "es": "¿Qué hora es?", "pt": "Que horas são?" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "t-lastres", "es": "Son las tres.", "pt": "São três horas." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "t-alas", "es": "A las ocho.", "pt": "Às oito." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "n-cambio", "es": "¿Tiene cambio?", "pt": "Tem trocado?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep2c-n09", "pt": "Gramática em foco: pras horas, 'es la una' (1h, no singular) e 'son las…' pro resto. Pra marcar horário, 'a las…'. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "t-launa", "es": "Es la una.", "pt": "É uma hora." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "t-alas", "es": "A las ocho.", "pt": "Às oito." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep2c-n10", "pt": "'Son las' diz a hora; 'a las' marca o horário. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep2c-rend", "pt": "Parabéns! Números, preços e horas — dominados. Até logo!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
+  ],
+  "aprofundar": {
+    "titulo": "Horas e dias",
+    "secoes": [
+      {
+        "titulo": "Dizer a hora",
+        "corpo": "'Es la una' (1h). 'Son las' + número pro resto. Adicione 'y media' (e meia) e 'y cuarto' (e quinze).",
+        "exemplos": [
+          { "es": "Son las tres y media.", "pt": "São três e meia." },
+          { "es": "A las ocho.", "pt": "Às oito (marcando horário)." }
+        ]
+      },
+      {
+        "titulo": "Dias e referências",
+        "corpo": "lunes, martes, miércoles, jueves, viernes, sábado, domingo. hoy (hoje), mañana (amanhã), ayer (ontem)."
+      }
+    ]
+  }
+}

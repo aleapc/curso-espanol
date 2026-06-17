@@ -1,0 +1,66 @@
+{
+  "id": "i02a",
+  "nivel": "intermediario",
+  "numero": 11,
+  "parte": "A",
+  "titulo": "Rutinas — Minha rotina",
+  "subtitulo": "Falar do dia a dia (presente e reflexivos)",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "iru1-n01", "pt": "Intermediário, episódio 2: rotinas e o imperfeito. Parte 1: a sua rotina, no presente. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "iru1-n02", "pt": "Recordando do episódio passado: diga 'ontem fui ao centro'. Responda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "iru1-p01", "promptPt": "Diga 'ontem fui ao centro'. Fale agora.", "audioKey": "pa-fui", "es": "Ayer fui al centro.", "pt": "Ontem fui ao centro." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "iru1-n03", "pt": "Escute uma rotina:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "ru-d1", "es": "Me levanto temprano y desayuno.", "pt": "Eu me levanto cedo e tomo café." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ru-d2", "es": "Yo trabajo y almuerzo al mediodía.", "pt": "Eu trabalho e almoço ao meio-dia." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "iru1-n04", "pt": "'Me levanto' — eu me levanto (verbo reflexivo):" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ru-levanto", "es": "Me levanto a las siete.", "pt": "Eu me levanto às sete." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "iru1-p02", "promptPt": "Diga 'me levanto às sete'. Fale agora.", "audioKey": "ru-levanto", "es": "Me levanto a las siete.", "pt": "Eu me levanto às sete." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "iru1-n05", "pt": "'Me ducho' — eu tomo banho:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ru-ducho", "es": "Me ducho.", "pt": "Eu tomo banho." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "iru1-p03", "promptPt": "Diga 'tomo banho', me ducho. Fale agora.", "audioKey": "ru-ducho", "es": "Me ducho.", "pt": "Eu tomo banho." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "iru1-n06", "pt": "'Desayuno' — tomo café da manhã:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "ru-desayuno", "es": "Desayuno a las ocho.", "pt": "Tomo café às oito." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "iru1-p04", "promptPt": "Diga 'tomo café da manhã', desayuno. Fale agora.", "audioKey": "ru-desayuno", "es": "Desayuno a las ocho.", "pt": "Tomo café às oito." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "iru1-n07", "pt": "'Almuerzo' — almoço; e 'ceno' — janto:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ru-almuerzo", "es": "Almuerzo al mediodía.", "pt": "Almoço ao meio-dia." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ru-ceno", "es": "Ceno a las nueve.", "pt": "Janto às nove." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "iru1-p05", "promptPt": "Diga 'almoço ao meio-dia', almuerzo al mediodía. Fale agora.", "audioKey": "ru-almuerzo", "es": "Almuerzo al mediodía.", "pt": "Almoço ao meio-dia." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "iru1-n08", "pt": "'Me acuesto' — eu me deito:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "ru-acuesto", "es": "Me acuesto tarde.", "pt": "Eu me deito tarde." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "iru1-p06", "promptPt": "Diga 'me deito tarde', me acuesto tarde. Fale agora.", "audioKey": "ru-acuesto", "es": "Me acuesto tarde.", "pt": "Eu me deito tarde." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "iru1-n09", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "iru1-p07", "promptPt": "Diga 'me levanto às sete'. Fale agora.", "audioKey": "ru-levanto", "es": "Me levanto a las siete.", "pt": "Eu me levanto às sete." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "iru1-p08", "promptPt": "Diga 'me deito tarde'. Fale agora.", "audioKey": "ru-acuesto", "es": "Me acuesto tarde.", "pt": "Eu me deito tarde." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "iru1-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "ru-levanto", "es": "Me levanto a las siete.", "pt": "Eu me levanto às sete." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "ru-ducho", "es": "Me ducho.", "pt": "Eu tomo banho." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "iru1-n10", "pt": "Gramática em foco: verbos reflexivos levam 'me' na frente — me levanto, me ducho, me acuesto. É a ação que volta pra você (me levantar, me deitar). Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ru-levanto", "es": "Me levanto.", "pt": "Eu me levanto." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "ru-acuesto", "es": "Me acuesto.", "pt": "Eu me deito." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "iru1-n11", "pt": "'Me' marca o reflexivo. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "iru1-rend", "pt": "Muito bem! Você descreve sua rotina. Na próxima: como as coisas eram antes. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "Rotina e verbos reflexivos",
+    "secoes": [
+      {
+        "titulo": "Reflexivos",
+        "corpo": "Levam o pronome 'me' (eu): me levanto, me ducho, me visto, me acuesto. No 'vos': te levantás, te acostás.",
+        "exemplos": [
+          { "es": "Me levanto y me ducho.", "pt": "Eu me levanto e tomo banho." }
+        ]
+      },
+      {
+        "titulo": "Verbos do dia",
+        "corpo": "desayunar (tomar café), almorzar (almoçar), cenar (jantar), trabajar, volver (voltar)."
+      }
+    ]
+  }
+}

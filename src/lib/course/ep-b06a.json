@@ -1,0 +1,90 @@
+{
+  "id": "b06a",
+  "nivel": "basico",
+  "numero": 6,
+  "parte": "3A",
+  "titulo": "De compras — Na loja",
+  "subtitulo": "Entrar, procurar, peças de roupa e cores",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6a-n01", "pt": "Vamos às compras! Parte 1: entrar na loja e procurar o que você quer. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6a-n02", "pt": "Ao entrar, cumprimente. Recordando: como se diz 'boa tarde'? Responda." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep6a-p01", "promptPt": "Diga 'boa tarde'. Fale agora.", "audioKey": "es-bt", "es": "Buenas tardes.", "pt": "Boa tarde." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6a-n03", "pt": "Escute o casal entrando na loja:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-d1", "es": "Hola, ¿te puedo ayudar?", "pt": "Oi, posso ajudar?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-d2", "es": "Gracias, solo estoy mirando.", "pt": "Obrigado, só estou olhando." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-d3", "es": "Estoy buscando una remera.", "pt": "Estou procurando uma camiseta." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6a-n04", "pt": "Quando o vendedor se oferece e você só quer olhar:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-mirando", "es": "Solo estoy mirando, gracias.", "pt": "Só estou olhando, obrigado." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep6a-p02", "promptPt": "Diga 'só estou olhando, obrigado'. Fale agora.", "audioKey": "c-mirando", "es": "Solo estoy mirando, gracias.", "pt": "Só estou olhando, obrigado." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6a-n05", "pt": "Pra dizer o que procura. Camiseta é 'remera':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-buscando", "es": "Estoy buscando una remera.", "pt": "Estou procurando uma camiseta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep6a-p03", "promptPt": "Diga que está procurando uma camiseta. Fale agora.", "audioKey": "c-buscando", "es": "Estoy buscando una remera.", "pt": "Estou procurando uma camiseta." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6a-n06", "pt": "As peças: remera (camiseta), camisa e pantalón (calça):" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-camisa", "es": "Una camisa.", "pt": "Uma camisa." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-pantalon", "es": "Un pantalón.", "pt": "Uma calça." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep6a-p04", "promptPt": "Diga 'uma calça', un pantalón. Fale agora.", "audioKey": "c-pantalon", "es": "Un pantalón.", "pt": "Uma calça." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6a-n07", "pt": "Mais peças: vestido, campera (jaqueta) e zapatos (sapatos):" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-vestido", "es": "Un vestido.", "pt": "Um vestido." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-campera", "es": "Una campera.", "pt": "Uma jaqueta." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-zapatos", "es": "Unos zapatos.", "pt": "Uns sapatos." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep6a-p05", "promptPt": "Diga 'uma jaqueta', una campera. Fale agora.", "audioKey": "c-campera", "es": "Una campera.", "pt": "Uma jaqueta." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6a-n08", "pt": "Pra perguntar onde fica algo na loja:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-donde", "es": "¿Dónde están las remeras?", "pt": "Onde estão as camisetas?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep6a-p06", "promptPt": "Pergunte onde estão as camisetas. Fale agora.", "audioKey": "c-donde", "es": "¿Dónde están las remeras?", "pt": "Onde estão as camisetas?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6a-n09", "pt": "As cores: vermelho, azul, preto e branco. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-rojo", "es": "Rojo.", "pt": "Vermelho." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-azul", "es": "Azul.", "pt": "Azul." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-negro", "es": "Negro.", "pt": "Preto." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-blanco", "es": "Blanco.", "pt": "Branco." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep6a-p07", "promptPt": "Diga 'vermelho', rojo. Fale agora.", "audioKey": "c-rojo", "es": "Rojo.", "pt": "Vermelho." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6a-n10", "pt": "Pra pedir em outra cor:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-otrocolor", "es": "¿Lo tienen en otro color?", "pt": "Vocês têm em outra cor?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep6a-p08", "promptPt": "Pergunte se têm em outra cor. Fale agora.", "audioKey": "c-otrocolor", "es": "¿Lo tienen en otro color?", "pt": "Vocês têm em outra cor?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6a-n11", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep6a-p09", "promptPt": "Diga 'só estou olhando'. Fale agora.", "audioKey": "c-mirando", "es": "Solo estoy mirando, gracias.", "pt": "Só estou olhando, obrigado." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep6a-p10", "promptPt": "Diga que está procurando uma camiseta. Fale agora.", "audioKey": "c-buscando", "es": "Estoy buscando una remera.", "pt": "Estou procurando uma camiseta." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6a-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "c-mirando", "es": "Solo estoy mirando, gracias.", "pt": "Só estou olhando, obrigado." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "c-buscando", "es": "Estoy buscando una remera.", "pt": "Estou procurando uma camiseta." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6a-n12", "pt": "Gramática em foco: pra dizer o que você está fazendo agora, use 'estar' + verbo em -ando/-iendo. 'Estoy buscando' é 'estou procurando'. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-buscando", "es": "Estoy buscando una remera.", "pt": "Estou procurando uma camiseta." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-mirando", "es": "Solo estoy mirando.", "pt": "Só estou olhando." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6a-n13", "pt": "É a ação em andamento, igual ao 'estou -ndo' do português. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep6a-rend", "pt": "Ótimo! Você já entra e procura o que quer. Na próxima parte: tamanho e provar a roupa. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "Estar + gerúndio, roupas e cores",
+    "secoes": [
+      {
+        "titulo": "Ação em andamento (estar + -ando/-iendo)",
+        "corpo": "Pra dizer o que está acontecendo agora: estar + verbo em -ando (verbos -ar) ou -iendo (verbos -er/-ir). Bate com o 'estou -ndo' do português.",
+        "exemplos": [
+          { "es": "Estoy mirando.", "pt": "Estou olhando." },
+          { "es": "Estoy buscando una campera.", "pt": "Estou procurando uma jaqueta." }
+        ]
+      },
+      {
+        "titulo": "Roupas (rioplatense)",
+        "corpo": "Alguns nomes mudam: camiseta = remera; jaqueta/casaco = campera; calça = pantalón.",
+        "exemplos": [
+          { "es": "una remera, una campera, un pantalón", "pt": "uma camiseta, uma jaqueta, uma calça" },
+          { "es": "un vestido, unos zapatos", "pt": "um vestido, uns sapatos" }
+        ]
+      },
+      {
+        "titulo": "Cores",
+        "corpo": "rojo (vermelho), azul, negro (preto), blanco (branco), verde, amarillo (amarelo)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "b03c",
+  "nivel": "basico",
+  "numero": 3,
+  "parte": "C",
+  "titulo": "Na rua — Passagem e situações",
+  "subtitulo": "Comprar passagem, pedir pra parar e se virar quando se perder",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3c-n01", "pt": "Última parte: passagem e situações na rua. Antes, recordando: diga 'o ônibus'. Responda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3c-p01", "promptPt": "Diga 'o ônibus', el colectivo. Fale agora.", "audioKey": "tr-colectivo", "es": "El colectivo.", "pt": "O ônibus." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3c-n02", "pt": "Escute no táxi:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-d5", "es": "Al centro, por favor.", "pt": "Ao centro, por favor." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-d6", "es": "¿Lo dejo en la esquina?", "pt": "Deixo o senhor na esquina?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3c-n03", "pt": "Pra comprar uma passagem pra algum lugar:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-boleto", "es": "Un boleto al centro.", "pt": "Uma passagem ao centro." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3c-p02", "promptPt": "Peça uma passagem ao centro, 'un boleto'. Fale agora.", "audioKey": "tr-boleto", "es": "Un boleto al centro.", "pt": "Uma passagem ao centro." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3c-n04", "pt": "Pra saber a que horas sai:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-sale", "es": "¿A qué hora sale?", "pt": "A que horas sai?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3c-p03", "promptPt": "Pergunte 'a que horas sai?'. Fale agora.", "audioKey": "tr-sale", "es": "¿A qué hora sale?", "pt": "A que horas sai?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3c-n05", "pt": "No táxi, pra pedir pra parar:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-pare", "es": "Pare aquí, por favor.", "pt": "Pare aqui, por favor." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep3c-p04", "promptPt": "Diga 'pare aqui, por favor'. Fale agora.", "audioKey": "tr-pare", "es": "Pare aquí, por favor.", "pt": "Pare aqui, por favor." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3c-n06", "pt": "Se você se perder:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-perdido", "es": "Estoy perdido.", "pt": "Estou perdido." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-perdida", "es": "Estoy perdida.", "pt": "Estou perdida." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3c-p05", "promptPt": "Diga que está perdido, 'estoy perdido' (mulher: perdida). Fale agora.", "audioKey": "tr-perdido", "es": "Estoy perdido.", "pt": "Estou perdido." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3c-n07", "pt": "Pra pedir ajuda:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-ayudar", "es": "¿Me puede ayudar?", "pt": "Pode me ajudar?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3c-p06", "promptPt": "Peça ajuda, '¿me puede ayudar?'. Fale agora.", "audioKey": "tr-ayudar", "es": "¿Me puede ayudar?", "pt": "Pode me ajudar?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3c-n08", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3c-p07", "promptPt": "Peça uma passagem ao centro. Fale agora.", "audioKey": "tr-boleto", "es": "Un boleto al centro.", "pt": "Uma passagem ao centro." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3c-p08", "promptPt": "Diga que está perdido. Fale agora.", "audioKey": "tr-perdido", "es": "Estoy perdido.", "pt": "Estou perdido." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3c-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Ana", "audioKey": "tr-pare", "es": "Pare aquí, por favor.", "pt": "Pare aqui, por favor." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "tr-ayudar", "es": "¿Me puede ayudar?", "pt": "Pode me ajudar?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3c-r00", "pt": "Pra fechar, uma cena na rua. Você entende tudo:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-llego", "es": "¿Cómo llego al centro?", "pt": "Como chego ao centro?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-derecho", "es": "Seguí derecho.", "pt": "Siga reto." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-va", "es": "¿Este colectivo va al centro?", "pt": "Este ônibus vai ao centro?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-boleto", "es": "Un boleto al centro.", "pt": "Uma passagem ao centro." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-pare", "es": "Pare aquí, por favor.", "pt": "Pare aqui, por favor." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3c-n09", "pt": "Gramática em foco: pra pedir ajuda, '¿me puede ayudar?'; e pra dar/entender instruções, o imperativo: 'pare' (pare), 'seguí' (siga), 'doblá' (vire). Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-pare", "es": "Pare aquí.", "pt": "Pare aqui." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-ayudar", "es": "¿Me puede ayudar?", "pt": "Pode me ajudar?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3c-n10", "pt": "Imperativo pra instruções; '¿me puede…?' pra pedir. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep3c-rend", "pt": "Parabéns! Você se vira na rua e nos transportes — e agora sim fechou o módulo Básico inteiro! Que jornada. Quando quiser, partimos pro Intermediário. Até logo!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
+  ],
+  "aprofundar": {
+    "titulo": "Passagem, táxi e pedir ajuda",
+    "secoes": [
+      {
+        "titulo": "Na viagem",
+        "corpo": "un boleto (passagem), '¿a qué hora sale?' (a que horas sai?), 'pare aquí' (pare aqui), la parada (ponto).",
+        "exemplos": [
+          { "es": "Un boleto al centro.", "pt": "Uma passagem ao centro." }
+        ]
+      },
+      {
+        "titulo": "Se perdeu? Peça ajuda",
+        "corpo": "'Estoy perdido/a' (estou perdido/a), '¿me puede ayudar?' (pode me ajudar?). O imperativo dá instruções: pare, seguí, doblá.",
+        "exemplos": [
+          { "es": "Estoy perdido, ¿me puede ayudar?", "pt": "Estou perdido, pode me ajudar?" }
+        ]
+      }
+    ]
+  }
+}

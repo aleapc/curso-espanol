@@ -1,0 +1,70 @@
+{
+  "id": "a05c",
+  "nivel": "avancado",
+  "numero": 21,
+  "parte": "C",
+  "titulo": "Resolver — Reclamar e negociar",
+  "subtitulo": "Quisiera hacer un reclamo, ¿me hace un descuento?",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr3-n01", "pt": "Última parte: resolver problemas, reclamar e negociar com jeito. Antes, recordando: proponha 'poderíamos agendar uma chamada?'. Responda." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "atr3-p01", "promptPt": "Proponha 'poderíamos agendar uma chamada?', ¿podríamos agendar una llamada?. Fale agora.", "audioKey": "tr-agendar", "es": "¿Podríamos agendar una llamada?", "pt": "Poderíamos agendar uma chamada?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr3-n02", "pt": "Escute alguém resolvendo um problema com calma:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-d5", "es": "Hay un problema con la factura.", "pt": "Tem um problema com a fatura." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-d6", "es": "Disculpe, lo resolvemos enseguida.", "pt": "Desculpe, resolvemos já já." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr3-n03", "pt": "Pra apontar o problema sem brigar — 'hay un problema con…':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-problema", "es": "Hay un problema con la factura.", "pt": "Tem um problema com a fatura." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "atr3-p02", "promptPt": "Diga 'tem um problema com a fatura', hay un problema con la factura. Fale agora.", "audioKey": "tr-problema", "es": "Hay un problema con la factura.", "pt": "Tem um problema com a fatura." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr3-n04", "pt": "Pra reclamar formalmente — 'quisiera hacer un reclamo':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-reclamo", "es": "Quisiera hacer un reclamo.", "pt": "Eu gostaria de fazer uma reclamação." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "atr3-p03", "promptPt": "Diga 'gostaria de fazer uma reclamação', quisiera hacer un reclamo. Fale agora.", "audioKey": "tr-reclamo", "es": "Quisiera hacer un reclamo.", "pt": "Gostaria de fazer uma reclamação." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr3-n05", "pt": "Pra negociar preço — '¿me hace un descuento?':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-descuento", "es": "¿Me hace un descuento si pago en efectivo?", "pt": "Me faz um desconto se eu pagar à vista?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "atr3-p04", "promptPt": "Pergunte 'me faz um desconto se eu pagar à vista?', ¿me hace un descuento si pago en efectivo?. Fale agora.", "audioKey": "tr-descuento", "es": "¿Me hace un descuento si pago en efectivo?", "pt": "Me faz um desconto à vista?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr3-n06", "pt": "Pra dizer que algo não ficou claro — 'no me quedó claro':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-noclaro", "es": "Perdón, no me quedó claro.", "pt": "Desculpe, não ficou claro pra mim." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "atr3-p05", "promptPt": "Diga 'desculpe, não ficou claro pra mim', perdón, no me quedó claro. Fale agora.", "audioKey": "tr-noclaro", "es": "Perdón, no me quedó claro.", "pt": "Desculpe, não ficou claro." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr3-n07", "pt": "E pra encerrar aguardando resposta — 'quedo a la espera':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-espera", "es": "Quedo a la espera de su respuesta.", "pt": "Fico no aguardo da sua resposta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "atr3-p06", "promptPt": "Diga 'fico no aguardo da sua resposta', quedo a la espera de su respuesta. Fale agora.", "audioKey": "tr-espera", "es": "Quedo a la espera de su respuesta.", "pt": "Fico no aguardo da resposta." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr3-n08", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "atr3-p07", "promptPt": "Diga 'gostaria de fazer uma reclamação'. Fale agora.", "audioKey": "tr-reclamo", "es": "Quisiera hacer un reclamo.", "pt": "Gostaria de fazer uma reclamação." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "atr3-p08", "promptPt": "Pergunte 'me faz um desconto se eu pagar à vista?'. Fale agora.", "audioKey": "tr-descuento", "es": "¿Me hace un descuento si pago en efectivo?", "pt": "Me faz um desconto à vista?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr3-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Ana", "audioKey": "tr-reclamo", "es": "Quisiera hacer un reclamo.", "pt": "Gostaria de fazer uma reclamação." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "tr-espera", "es": "Quedo a la espera de su respuesta.", "pt": "Fico no aguardo da resposta." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr3-r00", "pt": "Pra fechar, um atendimento inteiro. Você acompanha:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-problema", "es": "Hay un problema con la factura.", "pt": "Tem um problema com a fatura." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-reclamo", "es": "Quisiera hacer un reclamo.", "pt": "Gostaria de fazer uma reclamação." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-espera", "es": "Quedo a la espera de su respuesta.", "pt": "Fico no aguardo da resposta." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr3-n09", "pt": "Gramática em foco: pra reclamar com elegância, use 'quisiera' (eu gostaria — condicional de cortesia) em vez de 'quiero'. 'Reclamo' (rioplatense) é reclamação. E 'no me quedó claro' tira a culpa da pessoa, soa educado. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-reclamo", "es": "Quisiera hacer un reclamo.", "pt": "Gostaria de fazer uma reclamação." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-noclaro", "es": "No me quedó claro.", "pt": "Não ficou claro pra mim." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr3-n10", "pt": "Quisiera = gostaria (cortesia); reclamo = reclamação. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "atr3-rend", "pt": "Parabéns! Você resolve, reclama e negocia com classe. Na próxima, a última: entender o nativo falando rápido. Até logo!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
+  ],
+  "aprofundar": {
+    "titulo": "Reclamar e negociar",
+    "secoes": [
+      {
+        "titulo": "Cortesia que resolve",
+        "corpo": "Quisiera + infinitivo (gostaria de…) é mais suave que 'quiero'. 'Hay un problema con…' aponta o problema sem acusar. 'No me quedó claro' pede explicação sem confronto. 'Quedo a la espera' fecha um e-mail/atendimento.",
+        "exemplos": [
+          { "es": "Quisiera cambiar este producto.", "pt": "Gostaria de trocar este produto." },
+          { "es": "¿Me podría hacer un descuento?", "pt": "O senhor poderia me dar um desconto?" }
+        ]
+      },
+      {
+        "titulo": "Vocabulário",
+        "corpo": "el reclamo (reclamação); el descuento (desconto); en efectivo (à vista/em dinheiro); la garantía (garantia); el recibo (recibo); devolver / el cambio (devolver / a troca)."
+      }
+    ]
+  }
+}

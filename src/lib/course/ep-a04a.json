@@ -1,0 +1,66 @@
+{
+  "id": "a04a",
+  "nivel": "avancado",
+  "numero": 20,
+  "parte": "A",
+  "titulo": "Modismos — Expressões do dia a dia",
+  "subtitulo": "Qué bajón, está bárbaro, ni idea",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "amd1-n01", "pt": "Avançado, episódio 4: modismos e registros rioplatenses. Parte 1: expressões que todo mundo usa por lá. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "amd1-n02", "pt": "Recordando dos conectores: diga 'na minha opinião, vale a pena'. Responda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "amd1-p01", "promptPt": "Diga 'na minha opinião, vale a pena', en mi opinión, vale la pena. Fale agora.", "audioKey": "cn-opinion", "es": "En mi opinión, vale la pena.", "pt": "Na minha opinião, vale a pena." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "amd1-n03", "pt": "Escute uma conversa bem rioplatense:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "md-d1", "es": "Se canceló el viaje. ¡Qué bajón!", "pt": "A viagem foi cancelada. Que decepção!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "md-d2", "es": "Una lástima. Pero está todo bien.", "pt": "Uma pena. Mas tá tudo certo." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "amd1-n04", "pt": "Pra lamentar uma frustração — '¡qué bajón!' (que decepção):" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "md-bajon", "es": "¡Qué bajón!", "pt": "Que decepção! / Que fossa!" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "amd1-p02", "promptPt": "Lamente: 'que decepção!', ¡qué bajón!. Fale agora.", "audioKey": "md-bajon", "es": "¡Qué bajón!", "pt": "Que decepção!" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "amd1-n05", "pt": "Pra dizer que algo está ótimo — 'está bárbaro':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "md-barbaro", "es": "Está bárbaro, me encanta.", "pt": "Tá ótimo, eu adoro." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "amd1-p03", "promptPt": "Diga 'tá ótimo, eu adoro', está bárbaro, me encanta. Fale agora.", "audioKey": "md-barbaro", "es": "Está bárbaro, me encanta.", "pt": "Tá ótimo, eu adoro." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "amd1-n06", "pt": "Pra dizer 'tanto faz' — 'me da igual':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "md-daigual", "es": "Me da igual, decidí vos.", "pt": "Tanto faz, decide você." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "amd1-p04", "promptPt": "Diga 'tanto faz, decide você', me da igual, decidí vos. Fale agora.", "audioKey": "md-daigual", "es": "Me da igual, decidí vos.", "pt": "Tanto faz, decide você." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "amd1-n07", "pt": "Pra dizer 'não faço ideia' — 'ni idea':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "md-niidea", "es": "No tengo ni idea.", "pt": "Não faço a menor ideia." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "amd1-p05", "promptPt": "Diga 'não faço a menor ideia', no tengo ni idea. Fale agora.", "audioKey": "md-niidea", "es": "No tengo ni idea.", "pt": "Não faço a menor ideia." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "amd1-n08", "pt": "E pra lamentar de leve — '¡qué lástima!':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "md-lastima", "es": "¡Qué lástima!", "pt": "Que pena!" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "amd1-p06", "promptPt": "Diga 'que pena!', ¡qué lástima!. Fale agora.", "audioKey": "md-lastima", "es": "¡Qué lástima!", "pt": "Que pena!" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "amd1-n09", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "amd1-p07", "promptPt": "Lamente: 'que decepção!'. Fale agora.", "audioKey": "md-bajon", "es": "¡Qué bajón!", "pt": "Que decepção!" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "amd1-p08", "promptPt": "Diga 'não faço a menor ideia'. Fale agora.", "audioKey": "md-niidea", "es": "No tengo ni idea.", "pt": "Não faço a menor ideia." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "amd1-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "md-barbaro", "es": "Está bárbaro, me encanta.", "pt": "Tá ótimo, eu adoro." },
+    { "tipo": "shadow", "voz": "Ana", "audioKey": "md-daigual", "es": "Me da igual, decidí vos.", "pt": "Tanto faz, decide você." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "amd1-n10", "pt": "Gramática em foco: 'bajón' é baixo-astral; 'bárbaro' é ótimo (nada a ver com bárbaro ruim do português!); 'me da igual' é tanto faz; 'ni idea' é nem ideia. São blocos: decore inteiros e use. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "md-bajon", "es": "¡Qué bajón!", "pt": "Que decepção!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "md-barbaro", "es": "Está bárbaro.", "pt": "Tá ótimo." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "amd1-n11", "pt": "Bárbaro = ótimo; bajón = fossa. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "amd1-rend", "pt": "Muito bem! Você já solta os modismos. Na próxima: intensificar e reagir como nativo. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
+  ],
+  "aprofundar": {
+    "titulo": "Modismos rioplatenses",
+    "secoes": [
+      {
+        "titulo": "Decore como blocos",
+        "corpo": "¡Qué bajón! (que fossa); está bárbaro/genial (ótimo); me da igual / me da lo mismo (tanto faz); (no tengo) ni idea (nem ideia); ¡qué lástima! (que pena); está todo bien (tá tudo certo).",
+        "exemplos": [
+          { "es": "Está bárbaro el lugar.", "pt": "O lugar está ótimo." },
+          { "es": "Me da igual, elegí vos.", "pt": "Tanto faz, escolhe você." }
+        ]
+      },
+      {
+        "titulo": "Falso amigo: bárbaro",
+        "corpo": "Em espanhol rioplatense, '¡bárbaro!' é elogio = ótimo, perfeito. Nada a ver com 'bárbaro' de violento. 'Nos vemos mañana.' '¡Bárbaro!' = 'Combinado, ótimo!'."
+      }
+    ]
+  }
+}

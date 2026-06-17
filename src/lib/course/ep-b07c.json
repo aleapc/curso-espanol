@@ -1,0 +1,82 @@
+{
+  "id": "b07c",
+  "nivel": "basico",
+  "numero": 7,
+  "parte": "4C",
+  "titulo": "No hotel — Check-out e serviços",
+  "subtitulo": "Sair, guardar malas, pedir táxi e a conta",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n01", "pt": "Última parte do hotel: o check-out e os serviços. Antes, recordando: como você diz que o ar não funciona? Responda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7c-p01", "promptPt": "Diga 'o ar não funciona'. Fale agora.", "audioKey": "h-aire", "es": "No funciona el aire.", "pt": "O ar não funciona." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n02", "pt": "Escute a saída do hotel:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-d6", "es": "Quería hacer el check-out.", "pt": "Eu queria fazer o check-out." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "h-d7", "es": "¿Todo bien con la habitación?", "pt": "Tudo bem com o quarto?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-d8", "es": "Sí, todo perfecto.", "pt": "Sim, tudo perfeito." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n03", "pt": "Pra fazer o check-out:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-checkout", "es": "Quería hacer el check-out.", "pt": "Eu queria fazer o check-out." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7c-p02", "promptPt": "Diga que quer fazer o check-out. Fale agora.", "audioKey": "h-checkout", "es": "Quería hacer el check-out.", "pt": "Eu queria fazer o check-out." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n04", "pt": "Pra saber a hora do check-out:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-horacheckout", "es": "¿A qué hora es el check-out?", "pt": "A que horas é o check-out?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7c-p03", "promptPt": "Pergunte a que horas é o check-out. Fale agora.", "audioKey": "h-horacheckout", "es": "¿A qué hora es el check-out?", "pt": "A que horas é o check-out?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n05", "pt": "Pra deixar as malas guardadas. Mala, no Rio da Prata, é 'valija':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-valijas", "es": "¿Puedo dejar las valijas?", "pt": "Posso deixar as malas?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7c-p04", "promptPt": "Pergunte se pode deixar as malas, 'las valijas'. Fale agora.", "audioKey": "h-valijas", "es": "¿Puedo dejar las valijas?", "pt": "Posso deixar as malas?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n06", "pt": "Pra pedir um táxi:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-taxi", "es": "¿Me puede pedir un taxi?", "pt": "Pode chamar um táxi pra mim?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7c-p05", "promptPt": "Peça que chamem um táxi. Fale agora.", "audioKey": "h-taxi", "es": "¿Me puede pedir un taxi?", "pt": "Pode chamar um táxi pra mim?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n07", "pt": "Se houver um erro na conta:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-error", "es": "Hay un error en la cuenta.", "pt": "Há um erro na conta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7c-p06", "promptPt": "Diga 'há um erro na conta'. Fale agora.", "audioKey": "h-error", "es": "Hay un error en la cuenta.", "pt": "Há um erro na conta." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n08", "pt": "Pra pedir a fatura:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-factura", "es": "¿Me da la factura?", "pt": "Pode me dar a fatura?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7c-p07", "promptPt": "Peça a fatura. Fale agora.", "audioKey": "h-factura", "es": "¿Me da la factura?", "pt": "Pode me dar a fatura?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n09", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7c-p08", "promptPt": "Diga que quer fazer o check-out. Fale agora.", "audioKey": "h-checkout", "es": "Quería hacer el check-out.", "pt": "Eu queria fazer o check-out." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7c-p09", "promptPt": "Pergunte se pode deixar as malas. Fale agora.", "audioKey": "h-valijas", "es": "¿Puedo dejar las valijas?", "pt": "Posso deixar as malas?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "h-checkout", "es": "Quería hacer el check-out.", "pt": "Eu queria fazer o check-out." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "h-taxi", "es": "¿Me puede pedir un taxi?", "pt": "Pode chamar um táxi pra mim?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-r00", "pt": "Pra fechar, uma estadia inteira em poucas frases. Você entende tudo:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-reserva", "es": "Tengo una reserva.", "pt": "Tenho uma reserva." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "h-doble", "es": "Una habitación doble.", "pt": "Um quarto de casal." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-wifi", "es": "¿Cuál es la contraseña del wifi?", "pt": "Qual é a senha do wifi?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-aire", "es": "No funciona el aire.", "pt": "O ar não funciona." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-checkout", "es": "Quería hacer el check-out.", "pt": "Eu queria fazer o check-out." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n10", "pt": "Gramática em foco: pedidos educados. '¿Me puede…?' é 'você pode me…?'; '¿Puedo…?' é 'eu posso…?'. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-taxi", "es": "¿Me puede pedir un taxi?", "pt": "Pode chamar um táxi pra mim?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-valijas", "es": "¿Puedo dejar las valijas?", "pt": "Posso deixar as malas?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n11", "pt": "'¿Me puede…?' e '¿Puedo…?' deixam qualquer pedido educado. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep7c-rend", "pt": "Parabéns! Você se vira num hotel inteiro: chegar, pedir, resolver e sair. Até logo!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
+  ],
+  "aprofundar": {
+    "titulo": "Check-out e pedidos educados",
+    "secoes": [
+      {
+        "titulo": "Pedir com educação",
+        "corpo": "'¿Me puede…?' (você pode me…?) e '¿Puedo…?' (eu posso…?) servem pra quase tudo.",
+        "exemplos": [
+          { "es": "¿Me puede pedir un taxi?", "pt": "Pode chamar um táxi pra mim?" },
+          { "es": "¿Puedo dejar las valijas?", "pt": "Posso deixar as malas?" }
+        ]
+      },
+      {
+        "titulo": "Sair do hotel",
+        "corpo": "valija/maleta = mala; factura = nota/fatura; 'hay un error' avisa problema na conta.",
+        "exemplos": [
+          { "es": "Quería hacer el check-out.", "pt": "Eu queria fazer o check-out." },
+          { "es": "Hay un error en la cuenta.", "pt": "Há um erro na conta." }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "a02c",
+  "nivel": "avancado",
+  "numero": 18,
+  "parte": "C",
+  "titulo": "Condicional — Dar conselhos",
+  "subtitulo": "Yo que vos…, deberías…: aconselhar com jeito",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco3-n01", "pt": "Última parte: dar conselho com o condicional. Antes, recordando: diga 'se eu tivesse tempo, viajaria'. Responda." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "aco3-p01", "promptPt": "Diga 'se eu tivesse tempo, viajaria', si tuviera tiempo, viajaría. Fale agora.", "audioKey": "co-situviera", "es": "Si tuviera tiempo, viajaría.", "pt": "Se eu tivesse tempo, viajaria." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco3-n02", "pt": "Escute um conselho de amigo:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "co-d5", "es": "Yo que vos, descansaría un poco.", "pt": "Eu, no seu lugar, descansaria um pouco." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "co-d6", "es": "Tenés razón, estoy agotada.", "pt": "Você tem razão, estou esgotada." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco3-n03", "pt": "A fórmula rioplatense pra 'eu, no seu lugar' — 'yo que vos':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "co-yoquevos", "es": "Yo que vos, iría.", "pt": "Eu, no seu lugar, iria." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "aco3-p02", "promptPt": "Aconselhe 'eu, no seu lugar, iria', yo que vos, iría. Fale agora.", "audioKey": "co-yoquevos", "es": "Yo que vos, iría.", "pt": "Eu, no seu lugar, iria." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco3-n04", "pt": "Pra dizer 'você deveria' — 'deberías':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "co-deberias", "es": "Deberías descansar.", "pt": "Você deveria descansar." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "aco3-p03", "promptPt": "Aconselhe 'você deveria descansar', deberías descansar. Fale agora.", "audioKey": "co-deberias", "es": "Deberías descansar.", "pt": "Você deveria descansar." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco3-n05", "pt": "Pra dizer 'você teria que' — 'tendrías que':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "co-tendrias", "es": "Tendrías que ir al médico.", "pt": "Você teria que ir ao médico." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "aco3-p04", "promptPt": "Diga 'você teria que ir ao médico', tendrías que ir al médico. Fale agora.", "audioKey": "co-tendrias", "es": "Tendrías que ir al médico.", "pt": "Você teria que ir ao médico." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco3-n06", "pt": "E pra concordar com o conselho — 'tenés razón':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "co-tenesrazon", "es": "Tenés razón.", "pt": "Você tem razão." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "aco3-p05", "promptPt": "Concorde: 'você tem razão', tenés razón. Fale agora.", "audioKey": "co-tenesrazon", "es": "Tenés razón.", "pt": "Você tem razão." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco3-n07", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "aco3-p06", "promptPt": "Aconselhe 'eu, no seu lugar, iria'. Fale agora.", "audioKey": "co-yoquevos", "es": "Yo que vos, iría.", "pt": "Eu, no seu lugar, iria." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "aco3-p07", "promptPt": "Aconselhe 'você deveria descansar'. Fale agora.", "audioKey": "co-deberias", "es": "Deberías descansar.", "pt": "Você deveria descansar." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco3-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "co-yoquevos", "es": "Yo que vos, iría.", "pt": "Eu, no seu lugar, iria." },
+    { "tipo": "shadow", "voz": "Ana", "audioKey": "co-deberias", "es": "Deberías descansar.", "pt": "Você deveria descansar." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco3-r00", "pt": "Pra fechar, uma conversa de conselhos. Você acompanha tudo:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "co-yoquevos", "es": "Yo que vos, iría.", "pt": "Eu, no seu lugar, iria." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "co-deberias", "es": "Deberías descansar.", "pt": "Você deveria descansar." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "co-tenesrazon", "es": "Tenés razón.", "pt": "Você tem razão." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco3-n08", "pt": "Gramática em foco: pra aconselhar, o rioplatense usa 'yo que vos…' + condicional (yo que vos, iría), ou 'deberías / tendrías que' + infinitivo. Tudo no tom gentil do condicional. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "co-yoquevos", "es": "Yo que vos, iría.", "pt": "Eu, no seu lugar, iria." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "co-deberias", "es": "Deberías descansar.", "pt": "Você deveria descansar." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco3-n09", "pt": "'Yo que vos' + iria; 'deberías/tendrías que' + verbo. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "aco3-rend", "pt": "Parabéns! Você pede, supõe e aconselha com elegância. Na próxima: conectar ideias e argumentar. Até logo!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
+  ],
+  "aprofundar": {
+    "titulo": "Aconselhar com o condicional",
+    "secoes": [
+      {
+        "titulo": "Fórmulas de conselho",
+        "corpo": "Yo que vos / yo en tu lugar + condicional (iría, hablaría); deberías + infinitivo (você deveria); tendrías que + infinitivo (você teria que). São mais suaves que a ordem direta.",
+        "exemplos": [
+          { "es": "Yo que vos, lo llamaría.", "pt": "Eu, no seu lugar, ligaria pra ele." },
+          { "es": "Deberías probarlo.", "pt": "Você deveria experimentar." }
+        ]
+      }
+    ]
+  }
+}

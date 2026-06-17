@@ -1,0 +1,106 @@
+{
+  "id": "b01c",
+  "nivel": "basico",
+  "numero": 1,
+  "parte": "1C",
+  "titulo": "Apresentar-se",
+  "subtitulo": "Nome, prazer, de onde você é — e ser/estar",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n01", "pt": "Última parte do Episódio 1: se apresentar. Antes, uma recordação das partes anteriores. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1c-p01", "promptPt": "Responda 'muito bem, obrigado'. Fale agora.", "audioKey": "es-mb", "es": "Muy bien, gracias.", "pt": "Muito bem, obrigado." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p02", "promptPt": "Diga 'desculpa'. Fale agora.", "audioKey": "es-perdon", "es": "Perdón.", "pt": "Desculpa." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n02", "pt": "Agora escute esta apresentação:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "b01-d4", "es": "Bien también. ¿Cómo te llamás?", "pt": "Bem também. Como você se chama?" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "b01-d5", "es": "Me llamo Ana. ¿Y vos?", "pt": "Eu me chamo Ana. E você?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "b01-d6", "es": "Me llamo Diego. ¡Mucho gusto!", "pt": "Eu me chamo Diego. Muito prazer!" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n03", "pt": "Pra perguntar o nome, do jeito uruguaio o acento vai pro fim. Ouça as duas formas; fique com a segunda:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-llamas", "es": "¿Cómo te llamas?", "pt": "Como você se chama? (forma neutra)" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "b01-f2", "es": "¿Cómo te llamás?", "pt": "Como você se chama? (uruguaio)" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p03", "promptPt": "Pergunte 'como você se chama?' do jeito uruguaio. Fale agora.", "audioKey": "b01-f2", "es": "¿Cómo te llamás?", "pt": "Como você se chama?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n04", "pt": "Pra dizer o seu nome, em português é 'me chamo'. Em espanhol:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "b01-f3", "es": "Me llamo Alexandre.", "pt": "Eu me chamo Alexandre." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p04", "promptPt": "Diga o seu nome com 'me llamo'. Fale agora.", "audioKey": "b01-f3", "es": "Me llamo Alexandre.", "pt": "(exemplo) Eu me chamo Alexandre." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n05", "pt": "Outro jeito, com 'sou':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-soy", "es": "Soy Alexandre.", "pt": "Eu sou o Alexandre." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p05", "promptPt": "Diga o seu nome com 'soy'. Fale agora.", "audioKey": "es-soy", "es": "Soy Alexandre.", "pt": "(exemplo) Eu sou o Alexandre." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n06", "pt": "Ao se apresentar, diga 'muito prazer':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "b01-f1", "es": "Mucho gusto.", "pt": "Muito prazer." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1c-p06", "promptPt": "Diga 'muito prazer'. Fale agora.", "audioKey": "b01-f1", "es": "Mucho gusto.", "pt": "Muito prazer." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n07", "pt": "Ou 'encantado', que muda pra homem e mulher:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-enc", "es": "Encantado.", "pt": "Encantado. (homem)" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-enca", "es": "Encantada.", "pt": "Encantada. (mulher)" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p07", "promptPt": "Se você é homem, diga 'encantado'. Se é mulher, 'encantada'. Fale agora.", "audioKey": "es-enc", "es": "Encantado.", "pt": "Encantado." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n08", "pt": "Pra dizer de onde você é, e perguntar de volta:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-dedonde", "es": "¿De dónde sos?", "pt": "De onde você é?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p08", "promptPt": "Pergunte 'de onde você é?'. Fale agora.", "audioKey": "es-dedonde", "es": "¿De dónde sos?", "pt": "De onde você é?" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-soybr", "es": "Soy de Brasil.", "pt": "Eu sou do Brasil." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1c-p09", "promptPt": "Diga que você é do Brasil. Fale agora.", "audioKey": "es-soybr", "es": "Soy de Brasil.", "pt": "Eu sou do Brasil." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n09", "pt": "E a nacionalidade, que muda pra homem e mulher:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-soybrasileno", "es": "Soy brasileño.", "pt": "Sou brasileiro." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-soybrasilena", "es": "Soy brasileña.", "pt": "Sou brasileira." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p10", "promptPt": "Diga a sua nacionalidade. Homem: 'soy brasileño'; mulher: 'soy brasileña'. Fale agora.", "audioKey": "es-soybrasileno", "es": "Soy brasileño.", "pt": "Sou brasileiro." },
+
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep1c-n10", "pt": "Uma armadilha de apresentação. Em espanhol, 'apellido' não é 'apelido' — quer dizer sobrenome. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-apellido", "es": "Apellido.", "pt": "Sobrenome." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-apellido2", "es": "¿Cuál es tu apellido?", "pt": "Qual é o seu sobrenome?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p11", "promptPt": "Pergunte o sobrenome da pessoa: 'qual é o seu apellido?'. Fale agora.", "audioKey": "es-apellido2", "es": "¿Cuál es tu apellido?", "pt": "Qual é o seu sobrenome?" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep1c-n11", "pt": "Então, no hotel, quando pedirem o seu 'apellido', é o seu sobrenome — não um apelido carinhoso." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n12", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1c-p12", "promptPt": "Diga 'muito prazer'. Fale agora.", "audioKey": "b01-f1", "es": "Mucho gusto.", "pt": "Muito prazer." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p13", "promptPt": "Pergunte de onde a pessoa é. Fale agora.", "audioKey": "es-dedonde", "es": "¿De dónde sos?", "pt": "De onde você é?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p14", "promptPt": "Diga o seu nome. Fale agora.", "audioKey": "b01-f3", "es": "Me llamo Alexandre.", "pt": "(exemplo) Eu me chamo Alexandre." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-s00", "pt": "Shadowing: repita junto, ao mesmo tempo, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "es-sh2", "es": "Mucho gusto, ¿de dónde sos?", "pt": "Muito prazer, de onde você é?" },
+    { "tipo": "shadow", "voz": "Ana", "audioKey": "b01-f1", "es": "Mucho gusto.", "pt": "Muito prazer." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-r00", "pt": "Agora ouça a conversa inteira do começo. Você entende tudo:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "b01-d1", "es": "¡Hola! Buenos días.", "pt": "Oi! Bom dia." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "b01-d2", "es": "¡Buenos días! ¿Cómo estás?", "pt": "Bom dia! Como você está?" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "b01-d3", "es": "Muy bien, gracias. ¿Y vos?", "pt": "Muito bem, obrigada. E você?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "b01-d4", "es": "Bien también. ¿Cómo te llamás?", "pt": "Bem também. Como você se chama?" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "b01-d5", "es": "Me llamo Ana. ¿Y vos?", "pt": "Eu me chamo Ana. E você?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "b01-d6", "es": "Me llamo Diego. ¡Mucho gusto!", "pt": "Eu me chamo Diego. Muito prazer!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "b01-d7", "es": "¡Mucho gusto! Hasta luego.", "pt": "Muito prazer! Até logo." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "b01-d8", "es": "¡Adiós!", "pt": "Tchau!" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n13", "pt": "Gramática em foco: 'ser' e 'estar'. Use SER pro que é fixo — seu nome, de onde você é. Use ESTAR pro que muda — como você está agora. Ouça:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-soybr", "es": "Soy de Brasil.", "pt": "Eu sou do Brasil. (ser — fixo)" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-ce", "es": "¿Cómo estás?", "pt": "Como você está? (estar — momento)" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n14", "pt": "'Soy' é permanente; 'estás' é o momento. Quer mais detalhes? Abra 'Para ir além' no fim da tela." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep1c-rend", "pt": "Parabéns! Você fechou o Episódio 1 inteiro: cumprimentar, se virar e se apresentar. Pratique com a Andréia e siga pro próximo quando quiser. Até logo!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
+  ],
+  "aprofundar": {
+    "titulo": "Ser e estar — dois verbos para um",
+    "secoes": [
+      {
+        "titulo": "SER — identidade / permanente",
+        "corpo": "Use 'ser' para quem você é e de onde você é: nome, origem, profissão, características fixas.",
+        "exemplos": [
+          { "es": "Soy Alexandre.", "pt": "Eu sou o Alexandre." },
+          { "es": "Soy de Brasil. / Soy brasileño.", "pt": "Sou do Brasil. / Sou brasileiro." }
+        ]
+      },
+      {
+        "titulo": "ESTAR — estado / lugar / momento",
+        "corpo": "Use 'estar' para como você está agora e para onde algo está.",
+        "exemplos": [
+          { "es": "¿Cómo estás?", "pt": "Como você está?" },
+          { "es": "Estoy cansado.", "pt": "Estou cansado." },
+          { "es": "El hotel está cerca.", "pt": "O hotel está perto." }
+        ]
+      },
+      {
+        "titulo": "Cuidado de brasileiro",
+        "corpo": "Origem e identidade pedem SER: é 'soy de Brasil', nunca 'estoy de Brasil'."
+      }
+    ]
+  }
+}

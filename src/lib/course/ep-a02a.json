@@ -1,0 +1,59 @@
+{
+  "id": "a02a",
+  "nivel": "avancado",
+  "numero": 18,
+  "parte": "A",
+  "titulo": "Condicional — Pedidos educados",
+  "subtitulo": "¿Podrías…? Querría…: soar mais gentil",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco1-n01", "pt": "Avançado, episódio 2: condicional e hipóteses. Parte 1: pedir com mais educação. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco1-n02", "pt": "Recordando do subjuntivo: deseje 'tenha um bom dia'. Responda." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "aco1-p01", "promptPt": "Deseje 'tenha um bom dia', que tengas un buen día. Fale agora.", "audioKey": "su-buendia", "es": "Que tengas un buen día.", "pt": "Tenha um bom dia." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco1-n03", "pt": "Escute um pedido bem educado:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "co-d1", "es": "¿Podrías ayudarme con esto?", "pt": "Você poderia me ajudar com isto?" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "co-d2", "es": "Claro, con gusto.", "pt": "Claro, com prazer." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco1-n04", "pt": "O condicional deixa o pedido gentil. 'Você poderia…?' — '¿podrías…?':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "co-podrias", "es": "¿Podrías ayudarme?", "pt": "Você poderia me ajudar?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "aco1-p02", "promptPt": "Peça com gentileza: 'você poderia me ajudar?', ¿podrías ayudarme?. Fale agora.", "audioKey": "co-podrias", "es": "¿Podrías ayudarme?", "pt": "Você poderia me ajudar?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco1-n05", "pt": "Pra pedir algo com classe — 'querría':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "co-querria", "es": "Querría un café, por favor.", "pt": "Eu gostaria de um café, por favor." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "aco1-p03", "promptPt": "Peça 'eu gostaria de um café', querría un café. Fale agora.", "audioKey": "co-querria", "es": "Querría un café, por favor.", "pt": "Eu gostaria de um café." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco1-n06", "pt": "Pra pedir um favor com cuidado — '¿te importaría…?':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "co-importaria", "es": "¿Te importaría esperar un momento?", "pt": "Você se importaria de esperar um momento?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "aco1-p04", "promptPt": "Pergunte 'você se importaria de esperar?', ¿te importaría esperar?. Fale agora.", "audioKey": "co-importaria", "es": "¿Te importaría esperar un momento?", "pt": "Você se importaria de esperar?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco1-n07", "pt": "E pra pedir uma informação — '¿me podrías decir…?':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "co-podriasdecir", "es": "¿Me podrías decir la hora?", "pt": "Você poderia me dizer as horas?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "aco1-p05", "promptPt": "Pergunte 'você poderia me dizer as horas?', ¿me podrías decir la hora?. Fale agora.", "audioKey": "co-podriasdecir", "es": "¿Me podrías decir la hora?", "pt": "Você poderia me dizer as horas?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco1-n08", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "aco1-p06", "promptPt": "Peça 'você poderia me ajudar?'. Fale agora.", "audioKey": "co-podrias", "es": "¿Podrías ayudarme?", "pt": "Você poderia me ajudar?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "aco1-p07", "promptPt": "Peça 'eu gostaria de um café'. Fale agora.", "audioKey": "co-querria", "es": "Querría un café, por favor.", "pt": "Eu gostaria de um café." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco1-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "co-podrias", "es": "¿Podrías ayudarme?", "pt": "Você poderia me ajudar?" },
+    { "tipo": "shadow", "voz": "Ana", "audioKey": "co-querria", "es": "Querría un café, por favor.", "pt": "Eu gostaria de um café." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco1-n09", "pt": "Gramática em foco: o condicional termina em '-ría' e deixa tudo mais educado. Podés vira 'podrías'; quiero vira 'querría'. É o nosso 'poderia, gostaria'. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "co-podrias", "es": "¿Podrías ayudarme?", "pt": "Você poderia me ajudar?" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "co-querria", "es": "Querría un café.", "pt": "Eu gostaria de um café." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "aco1-n10", "pt": "'-ría' = poderia/gostaria. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "aco1-rend", "pt": "Muito bem! Seus pedidos ficaram elegantes. Na próxima: hipóteses, o 'se eu pudesse'. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
+  ],
+  "aprofundar": {
+    "titulo": "Condicional para educação",
+    "secoes": [
+      {
+        "titulo": "A forma",
+        "corpo": "Pega o infinitivo e acrescenta -ía: poder → podría, querer → querría, gustar → gustaría, deber → debería. Vale pra pedidos gentis e conselhos.",
+        "exemplos": [
+          { "es": "¿Podrías pasarme la sal?", "pt": "Você poderia me passar o sal?" },
+          { "es": "Querría reservar una mesa.", "pt": "Eu gostaria de reservar uma mesa." }
+        ]
+      }
+    ]
+  }
+}

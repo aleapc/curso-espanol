@@ -1,0 +1,79 @@
+{
+  "id": "b04a",
+  "nivel": "basico",
+  "numero": 4,
+  "parte": "1A",
+  "titulo": "No restaurante — Chegar e a mesa",
+  "subtitulo": "Conseguir mesa, reservar e sentar",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n01", "pt": "Bem-vindos ao restaurante! Esta é a parte 1: chegar e conseguir mesa. Como sempre, quando eu pedir, fale em voz alta." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n02", "pt": "Primeiro, uma recordação. Como você cumprimenta de tarde? Responda." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4a-p01", "promptPt": "Diga 'boa tarde'. Fale agora.", "audioKey": "es-bt", "es": "Buenas tardes.", "pt": "Boa tarde." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n03", "pt": "Escute o casal chegando no restaurante:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-d1", "es": "Buenas tardes, ¿tienen una mesa para dos?", "pt": "Boa tarde, vocês têm uma mesa pra dois?" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-d2", "es": "Sí, claro. ¿Adentro o afuera?", "pt": "Sim, claro. Dentro ou fora?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-d3", "es": "Afuera, por favor.", "pt": "Fora, por favor." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n04", "pt": "Vamos treinar. Pra pedir uma mesa pra dois, no formal com o garçom:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-mesados", "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4a-p02", "promptPt": "Pergunte se têm mesa pra dois. Fale agora.", "audioKey": "r-mesados", "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n05", "pt": "Se quiser reservar antes:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-reservar", "es": "Quería reservar una mesa para esta noche.", "pt": "Eu queria reservar uma mesa pra hoje à noite." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4a-p03", "promptPt": "Diga que queria reservar uma mesa pra hoje à noite. Fale agora.", "audioKey": "r-reservar", "es": "Quería reservar una mesa para esta noche.", "pt": "Eu queria reservar uma mesa pra hoje à noite." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n06", "pt": "O garçom pode perguntar pra quantas pessoas. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-cuantas", "es": "¿Para cuántas personas?", "pt": "Pra quantas pessoas?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n07", "pt": "Você responde quantos são. 'Somos dois':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-somosdos", "es": "Somos dos.", "pt": "Somos dois." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4a-p04", "promptPt": "Diga 'somos dois'. Fale agora.", "audioKey": "r-somosdos", "es": "Somos dos.", "pt": "Somos dois." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n08", "pt": "Pra perguntar se tem lugar:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-haylugar", "es": "¿Hay lugar?", "pt": "Tem lugar?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4a-p05", "promptPt": "Pergunte 'tem lugar?'. Fale agora.", "audioKey": "r-haylugar", "es": "¿Hay lugar?", "pt": "Tem lugar?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n09", "pt": "Pra escolher sentar na varanda, lá fora:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-afuera", "es": "¿Podemos sentarnos afuera?", "pt": "Podemos sentar lá fora?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4a-p06", "promptPt": "Pergunte se podem sentar lá fora. Fale agora.", "audioKey": "r-afuera", "es": "¿Podemos sentarnos afuera?", "pt": "Podemos sentar lá fora?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n10", "pt": "E já sentado, pra pedir o cardápio:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-lacarta", "es": "¿Me trae la carta, por favor?", "pt": "Pode me trazer o cardápio, por favor?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4a-p07", "promptPt": "Peça o cardápio, por favor. Fale agora.", "audioKey": "r-lacarta", "es": "¿Me trae la carta, por favor?", "pt": "Pode me trazer o cardápio, por favor?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n11", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4a-p08", "promptPt": "Pergunte se têm mesa pra dois. Fale agora.", "audioKey": "r-mesados", "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4a-p09", "promptPt": "Peça o cardápio, por favor. Fale agora.", "audioKey": "r-lacarta", "es": "¿Me trae la carta, por favor?", "pt": "Pode me trazer o cardápio, por favor?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-s00", "pt": "Shadowing: repita junto, ao mesmo tempo, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "r-mesados", "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois?" },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "r-lacarta", "es": "¿Me trae la carta, por favor?", "pt": "Pode me trazer o cardápio, por favor?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n12", "pt": "Gramática em foco: com quem te atende, use o formal. 'Vocês têm?' é '¿tienen?', e os pedidos vão com '¿me trae?'. Ouça:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-mesados", "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-lacarta", "es": "¿Me trae la carta, por favor?", "pt": "Pode me trazer o cardápio, por favor?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n13", "pt": "Esse é o tom educado com o garçom. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep4a-rend", "pt": "Ótimo! Você já entra e consegue mesa. Na parte 2, vamos pedir a comida. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "Falar com o garçom (formal e pedidos educados)",
+    "secoes": [
+      {
+        "titulo": "Trate no formal",
+        "corpo": "Com o garçom, use o formal (usted/ustedes). 'Vocês têm?' = ¿tienen? (de 'ustedes').",
+        "exemplos": [
+          { "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois?" },
+          { "es": "¿Tienen lugar afuera?", "pt": "Vocês têm lugar lá fora?" }
+        ]
+      },
+      {
+        "titulo": "Pedir com educação",
+        "corpo": "Pra soar educado, use 'quería' (em vez de 'quiero') e '¿me trae...?' ou '¿me podría traer...?'.",
+        "exemplos": [
+          { "es": "Quería reservar una mesa.", "pt": "Eu queria reservar uma mesa." },
+          { "es": "¿Me trae la carta, por favor?", "pt": "Pode me trazer o cardápio, por favor?" },
+          { "es": "¿Me podría traer agua?", "pt": "Poderia me trazer água?" }
+        ]
+      }
+    ]
+  }
+}

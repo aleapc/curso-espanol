@@ -1,0 +1,84 @@
+{
+  "id": "b04b",
+  "nivel": "basico",
+  "numero": 4,
+  "parte": "1B",
+  "titulo": "No restaurante — Pedir",
+  "subtitulo": "O cardápio, pedir comida e bebida",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n01", "pt": "Parte 2: fazer o pedido. Antes, recordando: como você pede o cardápio? Responda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4b-p01", "promptPt": "Peça o cardápio, por favor. Fale agora.", "audioKey": "r-lacarta", "es": "¿Me trae la carta, por favor?", "pt": "Pode me trazer o cardápio, por favor?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n02", "pt": "Escute o casal pedindo:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-d4", "es": "¿Qué van a tomar?", "pt": "O que vão beber?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-d5", "es": "Para mí, una copa de vino tinto.", "pt": "Pra mim, uma taça de vinho tinto." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-d6", "es": "¿Qué nos recomienda?", "pt": "O que você recomenda pra gente?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n03", "pt": "Vamos treinar. Pra pedir, comece com 'para mí', 'pra mim':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-parami", "es": "Para mí, la milanesa.", "pt": "Pra mim, a milanesa." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4b-p02", "promptPt": "Comece um pedido com 'pra mim…'. Fale agora.", "audioKey": "r-parami", "es": "Para mí, la milanesa.", "pt": "Pra mim, a milanesa." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n04", "pt": "Pra pedir uma recomendação:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-recomienda", "es": "¿Qué me recomienda?", "pt": "O que você me recomenda?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4b-p03", "promptPt": "Pergunte o que ele recomenda. Fale agora.", "audioKey": "r-recomienda", "es": "¿Qué me recomienda?", "pt": "O que você me recomenda?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n05", "pt": "Agora as bebidas. Uma garrafa de água, sem gás:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-agua", "es": "Una botella de agua sin gas.", "pt": "Uma garrafa de água sem gás." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4b-p04", "promptPt": "Peça uma garrafa de água sem gás. Fale agora.", "audioKey": "r-agua", "es": "Una botella de agua sin gas.", "pt": "Uma garrafa de água sem gás." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n06", "pt": "Uma taça de vinho tinto:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-vino", "es": "Una copa de vino tinto.", "pt": "Uma taça de vinho tinto." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4b-p05", "promptPt": "Peça uma taça de vinho tinto. Fale agora.", "audioKey": "r-vino", "es": "Una copa de vino tinto.", "pt": "Uma taça de vinho tinto." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n07", "pt": "Uma cerveja:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-cerveza", "es": "Una cerveza, por favor.", "pt": "Uma cerveja, por favor." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4b-p06", "promptPt": "Peça uma cerveja, por favor. Fale agora.", "audioKey": "r-cerveza", "es": "Una cerveza, por favor.", "pt": "Uma cerveja, por favor." },
+
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep4b-n08", "pt": "Armadilha importante na hora de beber. 'Vaso', em espanhol, não é vaso de planta nem privada — é o copo de beber! Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-vaso", "es": "Un vaso de agua, por favor.", "pt": "Um copo de água, por favor." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4b-p07", "promptPt": "Peça um copo de água — lembre, 'vaso'. Fale agora.", "audioKey": "r-vaso", "es": "Un vaso de agua, por favor.", "pt": "Um copo de água, por favor." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n09", "pt": "Pra organizar o pedido: de entrada, prato principal e sobremesa. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-entrada", "es": "De entrada, una empanada.", "pt": "De entrada, uma empanada." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-principal", "es": "De plato principal, el bife.", "pt": "De prato principal, o bife." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4b-p08", "promptPt": "Peça uma empanada de entrada. Fale agora.", "audioKey": "r-entrada", "es": "De entrada, una empanada.", "pt": "De entrada, uma empanada." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n10", "pt": "Quando o garçom perguntar se quer mais alguma coisa, você pode fechar com:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-nadamas", "es": "Nada más, gracias.", "pt": "Só isso, obrigado." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4b-p09", "promptPt": "Diga 'só isso, obrigado'. Fale agora.", "audioKey": "r-nadamas", "es": "Nada más, gracias.", "pt": "Só isso, obrigado." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n11", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4b-p10", "promptPt": "Pergunte o que ele recomenda. Fale agora.", "audioKey": "r-recomienda", "es": "¿Qué me recomienda?", "pt": "O que você me recomenda?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4b-p11", "promptPt": "Peça um copo de água. Fale agora.", "audioKey": "r-vaso", "es": "Un vaso de agua, por favor.", "pt": "Um copo de água, por favor." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4b-p12", "promptPt": "Comece um pedido com 'pra mim…'. Fale agora.", "audioKey": "r-parami", "es": "Para mí, la milanesa.", "pt": "Pra mim, a milanesa." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "r-vino", "es": "Una copa de vino tinto.", "pt": "Uma taça de vinho tinto." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "r-recomienda", "es": "¿Qué me recomienda?", "pt": "O que você me recomenda?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n12", "pt": "Gramática em foco: os artigos 'un' e 'una' mudam com o gênero da palavra. 'Un' pro masculino, 'una' pro feminino. Ouça:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-masc", "es": "un vino, un café, un vaso", "pt": "um vinho, um café, um copo (masculino)" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-unas", "es": "una cerveza, una copa, una mesa", "pt": "uma cerveja, uma taça, uma mesa (feminino)" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n13", "pt": "Com o tempo, o gênero gruda pelo uso. Mais exemplos em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep4b-rend", "pt": "Muito bem! Você já faz o pedido inteiro. Na parte 3, a conta e como resolver imprevistos. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "Pedir: artigos, gênero e 'falso amigo' vaso",
+    "secoes": [
+      {
+        "titulo": "un / una (gênero)",
+        "corpo": "O artigo muda com o gênero da palavra: 'un' (masculino) e 'una' (feminino). Quase sempre bate com o português, mas confira as exceções com o uso.",
+        "exemplos": [
+          { "es": "un café, un vino, un vaso, un plato", "pt": "um café, um vinho, um copo, um prato" },
+          { "es": "una cerveza, una copa, una mesa, una cuenta", "pt": "uma cerveja, uma taça, uma mesa, uma conta" }
+        ]
+      },
+      {
+        "titulo": "Falso amigo: vaso",
+        "corpo": "'Vaso' em espanhol é o COPO de beber. Vaso de planta é 'maceta'; vaso sanitário é 'inodoro'. Então 'un vaso de agua' = um copo de água.",
+        "exemplos": [
+          { "es": "Un vaso de agua, por favor.", "pt": "Um copo de água, por favor." },
+          { "es": "una copa de vino", "pt": "uma taça de vinho" }
+        ]
+      }
+    ]
+  }
+}

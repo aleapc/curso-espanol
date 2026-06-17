@@ -1,0 +1,102 @@
+{
+  "id": "b04c",
+  "nivel": "basico",
+  "numero": 4,
+  "parte": "1C",
+  "titulo": "No restaurante — Pagar e resolver",
+  "subtitulo": "A conta, pagar, elogiar e reclamar com educação",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n01", "pt": "Última parte: a conta e resolver imprevistos. Antes, recordando: como você pede uma taça de vinho tinto? Responda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4c-p01", "promptPt": "Peça uma taça de vinho tinto. Fale agora.", "audioKey": "r-vino", "es": "Una copa de vino tinto.", "pt": "Uma taça de vinho tinto." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n02", "pt": "Escute o fim da refeição:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-rd1", "es": "¡Mozo! La cuenta, por favor.", "pt": "Garçom! A conta, por favor." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-rd2", "es": "Enseguida. ¿Cómo van a pagar?", "pt": "Já trago. Como vão pagar?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-rd3", "es": "¿Puedo pagar con tarjeta?", "pt": "Posso pagar com cartão?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n03", "pt": "Repare: no Rio da Prata, garçom é 'mozo'. Pra pedir a conta:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-cuenta", "es": "La cuenta, por favor.", "pt": "A conta, por favor." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4c-p02", "promptPt": "Peça a conta, por favor. Fale agora.", "audioKey": "r-cuenta", "es": "La cuenta, por favor.", "pt": "A conta, por favor." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n04", "pt": "Pra perguntar quanto é:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-cuantoes", "es": "¿Cuánto es?", "pt": "Quanto é?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4c-p03", "promptPt": "Pergunte 'quanto é?'. Fale agora.", "audioKey": "r-cuantoes", "es": "¿Cuánto es?", "pt": "Quanto é?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n05", "pt": "Pra saber se a gorjeta já está incluída:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-propina", "es": "¿Está incluida la propina?", "pt": "A gorjeta está incluída?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4c-p04", "promptPt": "Pergunte se a gorjeta está incluída. Fale agora.", "audioKey": "r-propina", "es": "¿Está incluida la propina?", "pt": "A gorjeta está incluída?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n06", "pt": "Pra pagar no cartão:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-tarjeta", "es": "¿Puedo pagar con tarjeta?", "pt": "Posso pagar com cartão?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4c-p05", "promptPt": "Pergunte se pode pagar com cartão. Fale agora.", "audioKey": "r-tarjeta", "es": "¿Puedo pagar con tarjeta?", "pt": "Posso pagar com cartão?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n07", "pt": "Ou em dinheiro:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-efectivo", "es": "Voy a pagar en efectivo.", "pt": "Vou pagar em dinheiro." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4c-p06", "promptPt": "Diga que vai pagar em dinheiro. Fale agora.", "audioKey": "r-efectivo", "es": "Voy a pagar en efectivo.", "pt": "Vou pagar em dinheiro." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n08", "pt": "Pra elogiar — 'estava tudo gostoso':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-rico", "es": "Estaba todo muy rico.", "pt": "Estava tudo muito gostoso." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4c-p07", "promptPt": "Elogie: 'estava tudo gostoso'. Fale agora.", "audioKey": "r-rico", "es": "Estaba todo muy rico.", "pt": "Estava tudo muito gostoso." },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep4c-n09", "pt": "E o falso amigo que prometi: se algo está delicioso, diga 'exquisito'. Parece 'esquisito' do português, mas é o maior elogio. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-exq", "es": "Exquisito.", "pt": "Delicioso." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4c-p08", "promptPt": "Elogie a comida: 'está exquisita'. Fale agora.", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n10", "pt": "Se algo vier errado, reclame com educação:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-noeslo", "es": "Disculpe, esto no es lo que pedí.", "pt": "Desculpe, isso não é o que pedi." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4c-p09", "promptPt": "Diga com educação: 'isso não é o que pedi'. Fale agora.", "audioKey": "r-noeslo", "es": "Disculpe, esto no es lo que pedí.", "pt": "Desculpe, isso não é o que pedi." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n11", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4c-p10", "promptPt": "Peça a conta, por favor. Fale agora.", "audioKey": "r-cuenta", "es": "La cuenta, por favor.", "pt": "A conta, por favor." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4c-p11", "promptPt": "Pergunte se pode pagar com cartão. Fale agora.", "audioKey": "r-tarjeta", "es": "¿Puedo pagar con tarjeta?", "pt": "Posso pagar com cartão?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4c-p12", "promptPt": "Elogie a comida: 'está exquisita'. Fale agora.", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "r-cuenta", "es": "La cuenta, por favor.", "pt": "A conta, por favor." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "r-tarjeta", "es": "¿Puedo pagar con tarjeta?", "pt": "Posso pagar com cartão?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-r00", "pt": "Agora ouça uma cena completa, do pedido à conta. Você entende tudo:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-mesados", "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-lacarta", "es": "¿Me trae la carta, por favor?", "pt": "Pode me trazer o cardápio, por favor?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-recomienda", "es": "¿Qué me recomienda?", "pt": "O que você me recomenda?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-vino", "es": "Una copa de vino tinto.", "pt": "Uma taça de vinho tinto." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-cuenta", "es": "La cuenta, por favor.", "pt": "A conta, por favor." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-tarjeta", "es": "¿Puedo pagar con tarjeta?", "pt": "Posso pagar com cartão?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n12", "pt": "Gramática em foco: pra dizer como algo está agora — a comida, o ambiente — use 'estar'. 'A comida está gostosa' é 'la comida está rica'. Ouça:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa. (estar)" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n13", "pt": "'Está' é do verbo estar, pra como as coisas estão. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep4c-rend", "pt": "Parabéns! Você fecha uma refeição inteira em espanhol: chegar, pedir e pagar. Na sequência, vamos às compras. Até logo!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
+  ],
+  "aprofundar": {
+    "titulo": "Pagar, elogiar e reclamar",
+    "secoes": [
+      {
+        "titulo": "Pagar",
+        "corpo": "O básico da conta no Rio da Prata. 'Mozo' é o garçom; 'la cuenta' é a conta; 'propina' é a gorjeta.",
+        "exemplos": [
+          { "es": "La cuenta, por favor.", "pt": "A conta, por favor." },
+          { "es": "¿Puedo pagar con tarjeta?", "pt": "Posso pagar com cartão?" },
+          { "es": "Voy a pagar en efectivo.", "pt": "Vou pagar em dinheiro." },
+          { "es": "¿Está incluida la propina?", "pt": "A gorjeta está incluída?" }
+        ]
+      },
+      {
+        "titulo": "Elogiar (com estar)",
+        "corpo": "Pra dizer que está gostoso, use 'estar': está rico, está exquisito. 'Exquisito' é elogio (delicioso), não 'esquisito'.",
+        "exemplos": [
+          { "es": "Está todo muy rico.", "pt": "Está tudo muito gostoso." },
+          { "es": "La comida está exquisita.", "pt": "A comida está deliciosa." }
+        ]
+      },
+      {
+        "titulo": "Reclamar com educação",
+        "corpo": "Comece sempre com 'disculpe' pra suavizar.",
+        "exemplos": [
+          { "es": "Disculpe, esto no es lo que pedí.", "pt": "Desculpe, isso não é o que pedi." },
+          { "es": "Disculpe, falta un plato.", "pt": "Desculpe, está faltando um prato." }
+        ]
+      }
+    ]
+  }
+}

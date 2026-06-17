@@ -1,0 +1,70 @@
+{
+  "id": "b03b",
+  "nivel": "basico",
+  "numero": 3,
+  "parte": "B",
+  "titulo": "Na rua — Transportes",
+  "subtitulo": "Ônibus, metrô, táxi e o ponto",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3b-n01", "pt": "Parte 2: os transportes. Antes, recordando: pergunte como chegar ao centro. Responda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3b-p01", "promptPt": "Pergunte 'como chego ao centro?'. Fale agora.", "audioKey": "tr-llego", "es": "¿Cómo llego al centro?", "pt": "Como chego ao centro?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3b-n02", "pt": "Escute no ponto:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-d3", "es": "¿Este colectivo va al centro?", "pt": "Este ônibus vai ao centro?" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-d4", "es": "Sí, subí.", "pt": "Sim, pode subir." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3b-n03", "pt": "Ônibus, no Rio da Prata, é 'el colectivo' (na gíria, 'el bondi'):" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-colectivo", "es": "El colectivo.", "pt": "O ônibus." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3b-p02", "promptPt": "Diga 'o ônibus', el colectivo. Fale agora.", "audioKey": "tr-colectivo", "es": "El colectivo.", "pt": "O ônibus." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3b-n04", "pt": "O metrô (em Buenos Aires) é 'el subte':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-subte", "es": "El subte.", "pt": "O metrô." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep3b-p03", "promptPt": "Diga 'o metrô', el subte. Fale agora.", "audioKey": "tr-subte", "es": "El subte.", "pt": "O metrô." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3b-n05", "pt": "Um táxi:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-taxi", "es": "Un taxi.", "pt": "Um táxi." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3b-p04", "promptPt": "Peça um táxi, 'un taxi'. Fale agora.", "audioKey": "tr-taxi", "es": "Un taxi.", "pt": "Um táxi." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3b-n06", "pt": "O ponto de ônibus é 'la parada':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-parada", "es": "¿Dónde está la parada?", "pt": "Onde fica o ponto?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep3b-p05", "promptPt": "Pergunte onde fica o ponto, 'la parada'. Fale agora.", "audioKey": "tr-parada", "es": "¿Dónde está la parada?", "pt": "Onde fica o ponto?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3b-n07", "pt": "Pra saber se um ônibus vai a um lugar:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-va", "es": "¿Este colectivo va al centro?", "pt": "Este ônibus vai ao centro?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3b-p06", "promptPt": "Pergunte se esse ônibus vai ao centro. Fale agora.", "audioKey": "tr-va", "es": "¿Este colectivo va al centro?", "pt": "Este ônibus vai ao centro?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3b-n08", "pt": "Pra saber o preço até um lugar:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-hasta", "es": "¿Cuánto sale hasta el centro?", "pt": "Quanto custa até o centro?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3b-p07", "promptPt": "Pergunte quanto custa até o centro. Fale agora.", "audioKey": "tr-hasta", "es": "¿Cuánto sale hasta el centro?", "pt": "Quanto custa até o centro?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3b-n09", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3b-p08", "promptPt": "Diga 'o ônibus', el colectivo. Fale agora.", "audioKey": "tr-colectivo", "es": "El colectivo.", "pt": "O ônibus." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep3b-p09", "promptPt": "Pergunte onde fica o ponto. Fale agora.", "audioKey": "tr-parada", "es": "¿Dónde está la parada?", "pt": "Onde fica o ponto?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3b-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "tr-colectivo", "es": "El colectivo.", "pt": "O ônibus." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "tr-va", "es": "¿Este colectivo va al centro?", "pt": "Este ônibus vai ao centro?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3b-n10", "pt": "Gramática em foco: 'voy en colectivo' (vou de ônibus) — o meio com 'en'. 'Voy al centro' (vou ao centro) — o destino com 'a'. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-voyen", "es": "Voy en colectivo.", "pt": "Vou de ônibus." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-voya", "es": "Voy al centro.", "pt": "Vou ao centro." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3b-n11", "pt": "'En' pro meio de transporte; 'a' pro destino. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep3b-rend", "pt": "Muito bem! Você se vira nos transportes. Na última parte: passagem e situações. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "Transportes rioplatenses",
+    "secoes": [
+      {
+        "titulo": "Os meios",
+        "corpo": "el colectivo (ônibus; gíria 'bondi'), el subte (metrô em Buenos Aires), el taxi, el remís (carro com motorista), la parada (ponto).",
+        "exemplos": [
+          { "es": "¿Este colectivo va al centro?", "pt": "Este ônibus vai ao centro?" }
+        ]
+      },
+      {
+        "titulo": "ir en / ir a",
+        "corpo": "Meio de transporte com 'en' (voy en subte); destino com 'a' (voy a la playa).",
+        "exemplos": [
+          { "es": "Voy en colectivo al centro.", "pt": "Vou de ônibus ao centro." }
+        ]
+      }
+    ]
+  }
+}

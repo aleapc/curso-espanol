@@ -1,0 +1,96 @@
+{
+  "id": "b01b",
+  "nivel": "basico",
+  "numero": 1,
+  "parte": "1B",
+  "titulo": "Ser educado e se virar",
+  "subtitulo": "Cortesia, frases de sobrevivência e despedidas",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n01", "pt": "Olá de novo! Parte 2: ser educado e se virar quando o espanhol apertar. Antes, uma recordação rápida da parte 1." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1b-p01", "promptPt": "Como se diz 'bom dia'? Fale agora.", "audioKey": "es-bd", "es": "Buenos días.", "pt": "Bom dia." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1b-p02", "promptPt": "Responda 'tudo bem, e você?'. Fale agora.", "audioKey": "es-todobien", "es": "Todo bien, ¿y vos?", "pt": "Tudo bem, e você?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n02", "pt": "Agora o essencial da cortesia. 'Por favor':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-porfa", "es": "Por favor.", "pt": "Por favor." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1b-p03", "promptPt": "Diga 'por favor'. Fale agora.", "audioKey": "es-porfa", "es": "Por favor.", "pt": "Por favor." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n03", "pt": "'Obrigado':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1b-p04", "promptPt": "Diga 'obrigado'. Fale agora.", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n04", "pt": "E 'de nada', pra responder a um obrigado:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-denada", "es": "De nada.", "pt": "De nada." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1b-p05", "promptPt": "Responda 'de nada'. Fale agora.", "audioKey": "es-denada", "es": "De nada.", "pt": "De nada." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n05", "pt": "Pra pedir desculpa:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-perdon", "es": "Perdón.", "pt": "Desculpa." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1b-p06", "promptPt": "Diga 'desculpa'. Fale agora.", "audioKey": "es-perdon", "es": "Perdón.", "pt": "Desculpa." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n06", "pt": "Pra pedir licença ou chamar a atenção de alguém com educação:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-disculpe", "es": "Disculpe.", "pt": "Com licença." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1b-p07", "promptPt": "Diga 'com licença'. Fale agora.", "audioKey": "es-disculpe", "es": "Disculpe.", "pt": "Com licença." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n07", "pt": "Agora as que mais salvam viajante. 'Não entendo':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-noentiendo", "es": "No entiendo.", "pt": "Não entendo." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1b-p08", "promptPt": "Diga 'não entendo'. Fale agora.", "audioKey": "es-noentiendo", "es": "No entiendo.", "pt": "Não entendo." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n08", "pt": "E a mais útil de todas: 'pode repetir mais devagar, por favor?':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-repetir", "es": "¿Podés repetir más despacio, por favor?", "pt": "Pode repetir mais devagar, por favor?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1b-p09", "promptPt": "Peça pra repetir mais devagar, por favor. Fale agora.", "audioKey": "es-repetir", "es": "¿Podés repetir más despacio, por favor?", "pt": "Pode repetir mais devagar, por favor?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n09", "pt": "Pra dizer que você fala português:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-hablaspt", "es": "¿Hablás portugués?", "pt": "Você fala português?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1b-p10", "promptPt": "Pergunte 'você fala português?'. Fale agora.", "audioKey": "es-hablaspt", "es": "¿Hablás portugués?", "pt": "Você fala português?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n10", "pt": "E que você ainda não fala bem espanhol:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-nohablo", "es": "No hablo bien español.", "pt": "Não falo bem espanhol." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1b-p11", "promptPt": "Diga 'não falo bem espanhol'. Fale agora.", "audioKey": "es-nohablo", "es": "No hablo bien español.", "pt": "Não falo bem espanhol." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n11", "pt": "Pra se despedir, no dia a dia o normal é 'tchau':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1b-p12", "promptPt": "Despeça-se com 'tchau'. Fale agora.", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n12", "pt": "Também: 'até logo':" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-hasta", "es": "Hasta luego.", "pt": "Até logo." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1b-p13", "promptPt": "Diga 'até logo'. Fale agora.", "audioKey": "es-hasta", "es": "Hasta luego.", "pt": "Até logo." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n13", "pt": "'A gente se vê':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-nosvemos", "es": "Nos vemos.", "pt": "A gente se vê." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1b-p14", "promptPt": "Diga 'a gente se vê'. Fale agora.", "audioKey": "es-nosvemos", "es": "Nos vemos.", "pt": "A gente se vê." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n14", "pt": "E 'se cuida', bem carinhoso:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-cuidate", "es": "Cuidate.", "pt": "Se cuida." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1b-p15", "promptPt": "Diga 'se cuida'. Fale agora.", "audioKey": "es-cuidate", "es": "Cuidate.", "pt": "Se cuida." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n15", "pt": "Existe 'adiós', mas soa definitivo, como um adeus pra sempre. No dia a dia, prefira 'chau'." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n16", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1b-p16", "promptPt": "Peça pra repetir mais devagar. Fale agora.", "audioKey": "es-repetir", "es": "¿Podés repetir más despacio, por favor?", "pt": "Pode repetir mais devagar, por favor?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1b-p17", "promptPt": "Como se diz 'não entendo'? Fale agora.", "audioKey": "es-noentiendo", "es": "No entiendo.", "pt": "Não entendo." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1b-p18", "promptPt": "Como você se despede no dia a dia? Fale agora.", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-s00", "pt": "Shadowing: repita junto, ao mesmo tempo, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "es-repetir", "es": "¿Podés repetir más despacio, por favor?", "pt": "Pode repetir mais devagar, por favor?" },
+    { "tipo": "shadow", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n17", "pt": "Gramática em foco: perguntas no jeito 'vos'. Repare que o verbo termina diferente, com o acento no fim. Ouça:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-hablaspt", "es": "¿Hablás portugués?", "pt": "Você fala português?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-repetir", "es": "¿Podés repetir más despacio?", "pt": "Pode repetir mais devagar?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n18", "pt": "'Hablás', 'podés' — esse final é o 'vos'. Mais detalhes em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep1b-rend", "pt": "Excelente! Agora você se vira sozinho. Na parte 3, a gente se apresenta. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
+  ],
+  "aprofundar": {
+    "titulo": "Perguntar no 'vos'",
+    "secoes": [
+      {
+        "titulo": "Como se forma",
+        "corpo": "Pra perguntar 'você...?' no rioplatense, pega o verbo, tira o '-r' e acentua a última vogal (e, nos verbos terminados em -ir, vira -ís). O som fica diferente do 'tú' do resto da América Latina.",
+        "exemplos": [
+          { "es": "¿Hablás portugués?", "pt": "Você fala português?" },
+          { "es": "¿Podés repetir?", "pt": "Você pode repetir?" },
+          { "es": "¿Querés un café?", "pt": "Você quer um café?" },
+          { "es": "¿Tenés tiempo?", "pt": "Você tem tempo?" }
+        ]
+      },
+      {
+        "titulo": "No formal (usted)",
+        "corpo": "Com usted, a pergunta muda pra 3ª pessoa: ¿Habla usted...? ¿Puede usted...?",
+        "exemplos": [
+          { "es": "¿Habla usted inglés?", "pt": "O(a) senhor(a) fala inglês?" }
+        ]
+      }
+    ]
+  }
+}

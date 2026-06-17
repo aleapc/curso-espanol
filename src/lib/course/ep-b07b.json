@@ -1,0 +1,84 @@
+{
+  "id": "b07b",
+  "nivel": "basico",
+  "numero": 7,
+  "parte": "4B",
+  "titulo": "No hotel — O quarto e problemas",
+  "subtitulo": "Chave, wifi, pedidos e como reportar problemas",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n01", "pt": "Parte 2: o quarto, pedidos e problemas. Antes, recordando: como você pergunta se inclui café da manhã? Responda." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p01", "promptPt": "Pergunte se inclui café da manhã. Fale agora.", "audioKey": "h-desayuno", "es": "¿Incluye el desayuno?", "pt": "Inclui o café da manhã?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n02", "pt": "Escute um pedido na recepção:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-d4", "es": "Disculpe, no funciona el aire.", "pt": "Com licença, o ar não funciona." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "h-d5", "es": "Perdón, ya lo solucionamos.", "pt": "Desculpe, já resolvemos." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n03", "pt": "Pra pedir a chave do quarto:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-llave", "es": "¿Me da la llave, por favor?", "pt": "Pode me dar a chave, por favor?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p02", "promptPt": "Peça a chave, por favor. Fale agora.", "audioKey": "h-llave", "es": "¿Me da la llave, por favor?", "pt": "Pode me dar a chave, por favor?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n04", "pt": "Pra perguntar a senha do wifi:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-wifi", "es": "¿Cuál es la contraseña del wifi?", "pt": "Qual é a senha do wifi?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p03", "promptPt": "Pergunte a senha do wifi. Fale agora.", "audioKey": "h-wifi", "es": "¿Cuál es la contraseña del wifi?", "pt": "Qual é a senha do wifi?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n05", "pt": "Pra saber a hora do café da manhã:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-horadesayuno", "es": "¿A qué hora es el desayuno?", "pt": "A que horas é o café da manhã?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p04", "promptPt": "Pergunte a que horas é o café da manhã. Fale agora.", "audioKey": "h-horadesayuno", "es": "¿A qué hora es el desayuno?", "pt": "A que horas é o café da manhã?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n06", "pt": "Agora os problemas. Quando algo não funciona, 'no funciona'. O ar-condicionado:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-aire", "es": "No funciona el aire.", "pt": "O ar não funciona." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p05", "promptPt": "Diga 'o ar não funciona'. Fale agora.", "audioKey": "h-aire", "es": "No funciona el aire.", "pt": "O ar não funciona." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n07", "pt": "O chuveiro:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-ducha", "es": "No funciona la ducha.", "pt": "O chuveiro não funciona." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p06", "promptPt": "Diga 'o chuveiro não funciona'. Fale agora.", "audioKey": "h-ducha", "es": "No funciona la ducha.", "pt": "O chuveiro não funciona." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n08", "pt": "Não tem água quente:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "h-aguacaliente", "es": "No hay agua caliente.", "pt": "Não tem água quente." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep7b-p07", "promptPt": "Diga 'não tem água quente'. Fale agora.", "audioKey": "h-aguacaliente", "es": "No hay agua caliente.", "pt": "Não tem água quente." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n09", "pt": "Está faltando uma toalha:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "h-toalla", "es": "Falta una toalla.", "pt": "Falta uma toalha." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep7b-p08", "promptPt": "Diga 'falta uma toalha'. Fale agora.", "audioKey": "h-toalla", "es": "Falta una toalla.", "pt": "Falta uma toalha." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n10", "pt": "Pra pedir que tragam algo:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-traer", "es": "¿Me pueden traer más toallas?", "pt": "Podem me trazer mais toalhas?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p09", "promptPt": "Peça que tragam mais toalhas. Fale agora.", "audioKey": "h-traer", "es": "¿Me pueden traer más toallas?", "pt": "Podem me trazer mais toalhas?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n11", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p10", "promptPt": "Diga 'o ar não funciona'. Fale agora.", "audioKey": "h-aire", "es": "No funciona el aire.", "pt": "O ar não funciona." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p11", "promptPt": "Pergunte a senha do wifi. Fale agora.", "audioKey": "h-wifi", "es": "¿Cuál es la contraseña del wifi?", "pt": "Qual é a senha do wifi?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "h-aire", "es": "No funciona el aire.", "pt": "O ar não funciona." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "h-traer", "es": "¿Me pueden traer más toallas?", "pt": "Podem me trazer mais toalhas?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n12", "pt": "Gramática em foco: pra reclamar de problemas. 'No funciona…' (não funciona), 'no hay…' (não tem), 'falta…' (falta). Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-aire", "es": "No funciona el aire.", "pt": "O ar não funciona." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "h-toalla", "es": "Falta una toalla.", "pt": "Falta uma toalha." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n13", "pt": "Essas três resolvem quase qualquer problema no quarto. Mais em 'Para ir além'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep7b-rend", "pt": "Muito bem! Você pede e resolve no quarto. Na última parte: o check-out. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "Pedir e reportar problemas no quarto",
+    "secoes": [
+      {
+        "titulo": "Reportar problema",
+        "corpo": "Três fórmulas resolvem quase tudo: 'no funciona…' (não funciona), 'no hay…' (não tem) e 'falta…' (falta).",
+        "exemplos": [
+          { "es": "No funciona el aire / la ducha.", "pt": "O ar / o chuveiro não funciona." },
+          { "es": "No hay agua caliente.", "pt": "Não tem água quente." },
+          { "es": "Falta una toalla.", "pt": "Falta uma toalha." }
+        ]
+      },
+      {
+        "titulo": "Pedir algo (¿me pueden…?)",
+        "corpo": "Pra pedir um serviço: '¿me pueden traer…?' (podem me trazer…?), '¿me da…?' (pode me dar…?).",
+        "exemplos": [
+          { "es": "¿Me pueden traer más toallas?", "pt": "Podem me trazer mais toalhas?" },
+          { "es": "¿Me da la llave?", "pt": "Pode me dar a chave?" }
+        ]
+      },
+      {
+        "titulo": "No quarto",
+        "corpo": "la llave (chave), la contraseña (senha), el aire (ar-condicionado), la ducha (chuveiro), la toalla (toalha)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "b09b",
+  "nivel": "basico",
+  "numero": 9,
+  "parte": "6B",
+  "titulo": "Falsos amigos — Pessoas e lugares",
+  "subtitulo": "Embarazada, oficina, apellido, cena",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9b-n01", "pt": "Parte 2 dos falsos amigos: pessoas e lugares. Fale em voz alta quando eu pedir." },
+
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9b-n02", "pt": "O mais clássico e perigoso: 'embarazada' NÃO é envergonhada — é GRÁVIDA! Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "fa-embarazada", "es": "Ella está embarazada.", "pt": "Ela está grávida." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep9b-p01", "promptPt": "Diga 'ela está grávida', está embarazada. Fale agora.", "audioKey": "fa-embarazada", "es": "Ella está embarazada.", "pt": "Ela está grávida." },
+
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9b-n03", "pt": "'Oficina' é ESCRITÓRIO. Oficina mecânica é 'taller'. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "fa-oficina", "es": "Trabajo en una oficina.", "pt": "Trabalho num escritório." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep9b-p02", "promptPt": "Diga 'trabalho num escritório', en una oficina. Fale agora.", "audioKey": "fa-oficina", "es": "Trabajo en una oficina.", "pt": "Trabalho num escritório." },
+
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9b-n04", "pt": "Você já viu no hotel: 'apellido' é SOBRENOME, não apelido. Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-apellido2", "es": "¿Cuál es tu apellido?", "pt": "Qual é o seu sobrenome?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep9b-p03", "promptPt": "Pergunte o sobrenome, 'apellido'. Fale agora.", "audioKey": "es-apellido2", "es": "¿Cuál es tu apellido?", "pt": "Qual é o seu sobrenome?" },
+
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9b-n05", "pt": "'Cena' não é cena de filme — é o JANTAR! Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "fa-cena", "es": "La cena es a las nueve.", "pt": "O jantar é às nove." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep9b-p04", "promptPt": "Diga 'o jantar é às nove', la cena. Fale agora.", "audioKey": "fa-cena", "es": "La cena es a las nueve.", "pt": "O jantar é às nove." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9b-n06", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep9b-p05", "promptPt": "Diga 'ela está grávida'. Fale agora.", "audioKey": "fa-embarazada", "es": "Ella está embarazada.", "pt": "Ela está grávida." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep9b-p06", "promptPt": "Diga 'o jantar é às nove'. Fale agora.", "audioKey": "fa-cena", "es": "La cena es a las nueve.", "pt": "O jantar é às nove." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9b-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "fa-oficina", "es": "Trabajo en una oficina.", "pt": "Trabalho num escritório." },
+    { "tipo": "shadow", "voz": "Ana", "audioKey": "fa-cena", "es": "La cena es a las nueve.", "pt": "O jantar é às nove." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9b-n07", "pt": "Gramática em foco: esses são erros que 'fossilizam' — grudam errado e custam a corrigir. Por isso treinamos cedo. 'Embarazada' é o campeão das histórias de portunhol — não diga isso pra justificar uma vergonha!" },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep9b-rend", "pt": "Boa! Mais quatro dominados. Na última parte: tempo e estados. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "Falsos amigos de pessoas e lugares",
+    "secoes": [
+      {
+        "titulo": "A lista",
+        "corpo": "As que mais geram histórias de portunhol:",
+        "exemplos": [
+          { "es": "embarazada", "pt": "grávida (NÃO envergonhada!)" },
+          { "es": "oficina", "pt": "escritório (mecânica = taller)" },
+          { "es": "apellido", "pt": "sobrenome (não apelido)" },
+          { "es": "cena", "pt": "jantar (não cena de filme)" }
+        ]
+      }
+    ]
+  }
+}
