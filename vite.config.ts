@@ -12,9 +12,9 @@ export default defineConfig({
       injectRegister: 'auto',
       strategies: 'generateSW',
       manifest: {
-        name: 'Curso de Español',
-        short_name: 'Español',
-        description: 'Curso de espanhol (latino-americano) do casal · áudio + offline',
+        name: 'Hablá — Español rioplatense',
+        short_name: 'Hablá',
+        description: 'Curso de espanhol rioplatense (voseo) do casal · áudio-first + offline',
         lang: 'pt-BR',
         theme_color: '#C84B31',
         background_color: '#FFF7EC',

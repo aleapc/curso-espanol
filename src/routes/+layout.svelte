@@ -10,8 +10,9 @@
   <header
     class="sticky top-0 z-10 flex items-center justify-between gap-2 border-b border-black/5 bg-creme/90 px-4 py-3 backdrop-blur"
   >
-    <a href="{base}/" class="flex items-center gap-2 font-bold text-terracota">
-      <span class="text-xl">🌎</span> Curso de Español
+    <a href="{base}/" class="flex items-baseline gap-1.5">
+      <span class="text-lg font-extrabold text-terracota">Hablá</span>
+      <span class="hidden text-xs font-medium text-carvao/50 sm:inline">· Español rioplatense</span>
     </a>
     <div class="flex gap-1">
       {#each PROFILES as p}
