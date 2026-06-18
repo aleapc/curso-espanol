@@ -13,6 +13,7 @@ if (-not (Test-Path 'D:\tmp')) { New-Item -ItemType Directory -Path 'D:\tmp' | O
 # 1. Build com base path do GitHub Pages
 $env:BASE_PATH = '/curso-espanol'
 npm run build
+if ($LASTEXITCODE -ne 0) { throw "ABORTADO: npm run build falhou (exit $LASTEXITCODE) — não vou publicar build antigo." }
 
 # 2. Trava de segurança: confere se o base path entrou no HTML
 $indexHtml = Get-Content (Join-Path $buildPath 'index.html') -Raw

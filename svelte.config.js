@@ -15,6 +15,15 @@ const config = {
     paths: {
       relative: false,
       base: process.env.BASE_PATH ?? ''
+    },
+    prerender: {
+      // As "fotos" dos cards (static/img/<id>.jpg) são opcionais — geradas depois
+      // pelo usuário. Sem elas o card cai no emoji (onerror no runtime). Não deixar
+      // o prerender quebrar por causa desses 404.
+      handleHttpError: ({ path, message }) => {
+        if (path.includes('/img/')) return;
+        throw new Error(message);
+      }
     }
   }
 };
