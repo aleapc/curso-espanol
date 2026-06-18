@@ -102,3 +102,78 @@ export const outline: ModuloOutline[] = [
     ]
   }
 ];
+
+// ── Navegação em cards (home) ────────────────────────────────────────────────
+// Agrupa as partes (licoes) em EPISÓDIOS, cada um com tema/emoji e uma "foto"
+// opcional em static/img/<id>.jpg (cai num gradiente+emoji se a foto não existir).
+const EP_META: Record<string, { nome: string; emoji: string }> = {
+  b01: { nome: 'Saludos y presentaciones', emoji: '👋' },
+  b02: { nome: 'Números, precios y horas', emoji: '🔢' },
+  b03: { nome: 'En la calle: direcciones y bondis', emoji: '🧭' },
+  b04: { nome: 'Restaurante I: llegar y pedir', emoji: '🍽️' },
+  b05: { nome: 'Restaurante II: la parrilla', emoji: '🥩' },
+  b06: { nome: 'Compras: ropa y talles', emoji: '🛍️' },
+  b07: { nome: 'Hotel: check-in y problemas', emoji: '🏨' },
+  b08: { nome: 'Mercado y farmacia', emoji: '🛒' },
+  b09: { nome: 'Falsos amigos', emoji: '⚠️' },
+  i01: { nome: 'Hablar del pasado', emoji: '🕰️' },
+  i02: { nome: 'Rutinas y cómo era antes', emoji: '☀️' },
+  i03: { nome: 'Planes y futuro', emoji: '📅' },
+  i04: { nome: 'Salud y emergencias', emoji: '🩺' },
+  i05: { nome: 'Servicios y reclamos', emoji: '🏦' },
+  i06: { nome: 'Socializar', emoji: '🎉' },
+  i07: { nome: 'Cultura rioplatense', emoji: '🧉' },
+  a01: { nome: 'El subjuntivo', emoji: '🌟' },
+  a02: { nome: 'Condicional e hipótesis', emoji: '🎩' },
+  a03: { nome: 'Conectores y argumentación', emoji: '🔗' },
+  a04: { nome: 'Modismos y registros', emoji: '💬' },
+  a05: { nome: 'Trámites y negocios', emoji: '📑' },
+  a06: { nome: 'Entender a los nativos', emoji: '👂' }
+};
+
+export interface ParteCard {
+  id: string;
+  letra: string;
+  titulo: string;
+  pronta: boolean;
+}
+export interface EpisodioCard {
+  id: string;
+  nome: string;
+  emoji: string;
+  partes: ParteCard[];
+}
+export interface NivelCards {
+  nivel: string;
+  nome: string;
+  cor: string;
+  descricao: string;
+  episodios: EpisodioCard[];
+}
+
+export const niveis: NivelCards[] = outline.map((mod) => {
+  const groups: Record<string, EpisodioCard> = {};
+  const ordem: string[] = [];
+  for (const l of mod.licoes) {
+    const epId = l.id.slice(0, -1); // b01a -> b01
+    if (!groups[epId]) {
+      const meta = EP_META[epId] ?? { nome: l.titulo, emoji: '🎧' };
+      groups[epId] = { id: epId, nome: meta.nome, emoji: meta.emoji, partes: [] };
+      ordem.push(epId);
+    }
+    const titulo = l.titulo.includes('—') ? l.titulo.split('—').pop()!.trim() : l.titulo;
+    groups[epId].partes.push({
+      id: l.id,
+      letra: l.id.slice(-1).toUpperCase(),
+      titulo,
+      pronta: l.pronta
+    });
+  }
+  return {
+    nivel: mod.nivel,
+    nome: mod.nome,
+    cor: mod.cor,
+    descricao: mod.descricao,
+    episodios: ordem.map((id) => groups[id])
+  };
+});
