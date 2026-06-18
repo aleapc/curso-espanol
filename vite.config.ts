@@ -30,13 +30,36 @@ export default defineConfig({
         ]
       },
       workbox: {
-        // Precache o app shell, as páginas pré-renderizadas E os mp3 do curso → offline total.
-        globPatterns: ['**/*.{js,css,html,svg,png,ico,webp,jpg,jpeg,woff2,json,txt,mp3}'],
+        // Precache SÓ o app shell (leve). Os ~2.300 mp3 + fotos (150 MB+) NÃO entram
+        // no precache — no iOS isso estourava a cota e travava o app (erro 500).
+        // Áudio e imagens são cacheados sob demanda (CacheFirst): tocou/abriu uma vez
+        // com internet → fica offline depois.
+        globPatterns: ['**/*.{js,css,html,svg,ico,woff2,txt}', 'icon-*.png', 'favicon.svg', 'manifest.webmanifest'],
         navigateFallback: `${base}/`,
-        maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
+        maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
         skipWaiting: true,
         clientsClaim: true,
-        cleanupOutdatedCaches: true
+        cleanupOutdatedCaches: true,
+        runtimeCaching: [
+          {
+            urlPattern: /\/audio\/[^?]+\.mp3$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'audio-clips',
+              expiration: { maxEntries: 3000, maxAgeSeconds: 60 * 60 * 24 * 365 },
+              cacheableResponse: { statuses: [0, 200] }
+            }
+          },
+          {
+            urlPattern: /\/img\/[^?]+\.(?:jpg|jpeg|png|webp)$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'card-img',
+              expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 365 },
+              cacheableResponse: { statuses: [0, 200] }
+            }
+          }
+        ]
       },
       devOptions: { enabled: false }
     })
