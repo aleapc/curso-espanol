@@ -8,24 +8,24 @@
   "steps": [
     { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n01", "pt": "Avançado, episódio 3: conectar ideias e argumentar. Parte 1: os conectores do dia a dia, pra suas frases deixarem de ser soltas. Fale em voz alta quando eu pedir." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n02", "pt": "Recordando do condicional: aconselhe 'você deveria descansar'. Responda." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "acn1-p01", "promptPt": "Aconselhe 'você deveria descansar', deberías descansar. Fale agora.", "audioKey": "co-deberias", "es": "Deberías descansar.", "pt": "Você deveria descansar." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "acn1-p01", "promptPt": "Aconselhe 'você deveria descansar'. Fale agora.", "audioKey": "co-deberias", "es": "Deberías descansar.", "pt": "Você deveria descansar." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n03", "pt": "Escute como um nativo encadeia:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "cn-d1", "es": "Hace frío, así que llevá un abrigo.", "pt": "Faz frio, então leve um casaco." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "cn-d2", "es": "Buena idea, gracias.", "pt": "Boa ideia, obrigada." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n04", "pt": "Pra dar a consequência — 'así que' (então/por isso):" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n04", "pt": "Pra dar a consequência (então/por isso):" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "cn-asique", "es": "Hace frío, así que llevá un abrigo.", "pt": "Faz frio, então leve um casaco." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "acn1-p02", "promptPt": "Diga 'faz frio, então leve um casaco', hace frío, así que llevá un abrigo. Fale agora.", "audioKey": "cn-asique", "es": "Hace frío, así que llevá un abrigo.", "pt": "Faz frio, então leve um casaco." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n05", "pt": "Pra dar o motivo — 'porque':" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "acn1-p02", "promptPt": "Diga 'faz frio, então leve um casaco'. Fale agora.", "audioKey": "cn-asique", "es": "Hace frío, así que llevá un abrigo.", "pt": "Faz frio, então leve um casaco." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n05", "pt": "Pra dar o motivo (porque):" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "cn-porque", "es": "No fui porque estaba cansada.", "pt": "Não fui porque estava cansada." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "acn1-p03", "promptPt": "Diga 'não fui porque estava cansada', no fui porque estaba cansada. Fale agora.", "audioKey": "cn-porque", "es": "No fui porque estaba cansada.", "pt": "Não fui porque estava cansada." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n06", "pt": "Pra opor duas ideias — 'pero' (mas):" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "acn1-p03", "promptPt": "Diga 'não fui porque estava cansada'. Fale agora.", "audioKey": "cn-porque", "es": "No fui porque estaba cansada.", "pt": "Não fui porque estava cansada." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n06", "pt": "Pra opor duas ideias (mas):" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "cn-pero", "es": "Quiero ir, pero no puedo.", "pt": "Quero ir, mas não posso." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "acn1-p04", "promptPt": "Diga 'quero ir, mas não posso', quiero ir, pero no puedo. Fale agora.", "audioKey": "cn-pero", "es": "Quiero ir, pero no puedo.", "pt": "Quero ir, mas não posso." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n07", "pt": "E pra dar ordem aos fatos — 'primero… después':" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "acn1-p04", "promptPt": "Diga 'quero ir, mas não posso'. Fale agora.", "audioKey": "cn-pero", "es": "Quiero ir, pero no puedo.", "pt": "Quero ir, mas não posso." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n07", "pt": "E pra dar ordem aos fatos (primeiro… depois):" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "cn-primero", "es": "Primero comemos y después salimos.", "pt": "Primeiro comemos e depois saímos." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "acn1-p05", "promptPt": "Diga 'primeiro comemos e depois saímos', primero comemos y después salimos. Fale agora.", "audioKey": "cn-primero", "es": "Primero comemos y después salimos.", "pt": "Primeiro comemos e depois saímos." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "acn1-p05", "promptPt": "Diga 'primeiro comemos e depois saímos'. Fale agora.", "audioKey": "cn-primero", "es": "Primero comemos y después salimos.", "pt": "Primeiro comemos e depois saímos." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n08", "pt": "Vamos recordar. Responda em voz alta." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "acn1-p06", "promptPt": "Diga 'faz frio, então leve um casaco'. Fale agora.", "audioKey": "cn-asique", "es": "Hace frío, así que llevá un abrigo.", "pt": "Faz frio, então leve um casaco." },
@@ -35,10 +35,10 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "cn-asique", "es": "Hace frío, así que llevá un abrigo.", "pt": "Faz frio, então leve um casaco." },
     { "tipo": "shadow", "voz": "Ana", "audioKey": "cn-porque", "es": "No fui porque estaba cansada.", "pt": "Não fui porque estava cansada." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n09", "pt": "Gramática em foco: os conectores ligam frases. 'Porque' dá o motivo; 'así que' dá a consequência (= então/por isso); 'pero' opõe; 'primero/después' ordenam. Cuidado: 'porque' (junto) responde 'por quê'; '¿por qué?' (separado) pergunta. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n09", "pt": "Gramática em foco: os conectores ligam frases. Um dá o motivo (porque); outro dá a consequência (então, por isso); outro opõe (mas); e há os que ordenam (primeiro, depois). Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "cn-asique", "es": "Hace frío, así que llevá un abrigo.", "pt": "Faz frio, então leve um casaco." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "cn-porque", "es": "No fui porque estaba cansada.", "pt": "Não fui porque estava cansada." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n10", "pt": "Porque = motivo; así que = consequência; pero = oposição. Mais em 'Para ir além'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "acn1-n10", "pt": "Motivo, consequência, oposição: cada conector tem seu papel. Mais em 'Para ir além'." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "acn1-rend", "pt": "Muito bem! Suas frases já se encadeiam. Na próxima: dar opinião e argumentar. Até já!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }

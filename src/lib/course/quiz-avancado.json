@@ -1,0 +1,28 @@
+{
+  "id": "q-avancado",
+  "nivel": "avancado",
+  "titulo": "Quiz Avançado — No balcão de atendimento",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "qa-intro",
+  "introPt": "Quiz do Avançado! Uma conversa formal num atendimento — registro 'usted', com trâmites e condicional. Escute toda a conversa, quantas vezes precisar, e responda. Preste atenção no que ela precisa, quando fica marcado e como eles se tratam.",
+  "cenario": "Uma cliente vai a um balcão de atendimento resolver um trâmite. Tratamento formal (usted).",
+  "dialogo": [
+    { "audioKey": "qa-d1", "voz": "Ana", "es": "Buenos días. Vengo a hacer un trámite, necesito sacar un turno.", "pt": "Bom dia. Venho fazer um trâmite, preciso marcar um horário." },
+    { "audioKey": "qa-d2", "voz": "Diego", "es": "Buenos días. ¿Para qué fecha le gustaría?", "pt": "Bom dia. Para que data a senhora gostaria?" },
+    { "audioKey": "qa-d3", "voz": "Ana", "es": "Si fuera posible, esta semana. ¿Sería mucho pedir?", "pt": "Se fosse possível, esta semana. Seria pedir demais?" },
+    { "audioKey": "qa-d4", "voz": "Diego", "es": "Déjeme ver... Podría ser el jueves a las diez. ¿Le parece bien?", "pt": "Deixe-me ver... Poderia ser na quinta às dez. A senhora concorda?" },
+    { "audioKey": "qa-d5", "voz": "Ana", "es": "Perfecto. ¿Qué documentación tengo que traer?", "pt": "Perfeito. Que documentação tenho que trazer?" },
+    { "audioKey": "qa-d6", "voz": "Diego", "es": "Traiga el documento y un comprobante de domicilio.", "pt": "Traga o documento e um comprovante de endereço." },
+    { "audioKey": "qa-d7", "voz": "Ana", "es": "Muchas gracias. ¿Me puede mandar un recordatorio por correo?", "pt": "Muito obrigada. O senhor pode me mandar um lembrete por e-mail?" },
+    { "audioKey": "qa-d8", "voz": "Diego", "es": "Claro, no hay problema. Que tenga un buen día.", "pt": "Claro, sem problema. Tenha um bom dia." },
+    { "audioKey": "qa-d9", "voz": "Ana", "es": "Igualmente, muchas gracias.", "pt": "Igualmente, muito obrigada." }
+  ],
+  "perguntas": [
+    { "es": "¿A qué fue la clienta?", "opcoes": ["A hacer un trámite", "A comprar ropa", "A comer", "A pagar una multa"], "correta": 0, "pt": "A que a cliente foi?" },
+    { "es": "¿Qué necesita exactamente?", "opcoes": ["Sacar un turno", "Un presupuesto", "Hacer un reclamo", "Cambiar plata"], "correta": 0, "pt": "O que ela precisa exatamente?" },
+    { "es": "¿Para qué día quedó el turno?", "opcoes": ["El jueves a las diez", "El martes a las nueve", "El viernes a las diez", "El lunes a las ocho"], "correta": 0, "pt": "Para que dia ficou marcado?" },
+    { "es": "¿Qué documentación tiene que traer?", "opcoes": ["El documento y un comprobante de domicilio", "Solo el documento", "Una foto", "Nada"], "correta": 0, "pt": "Que documentação tem que trazer?" },
+    { "es": "¿Qué registro usan los dos?", "opcoes": ["Formal (usted)", "Informal (vos)", "Mezclan los dos", "Hablan en inglés"], "correta": 0, "pt": "Que registro os dois usam?" },
+    { "es": "¿Cómo se despiden?", "opcoes": ["Que tenga un buen día", "Chau, nos vemos", "Hasta mañana", "Dale, listo"], "correta": 0, "pt": "Como eles se despedem?" }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "q-intermediario",
+  "nivel": "intermediario",
+  "titulo": "Quiz Intermediário — O fim de semana",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "qi-intro",
+  "introPt": "Quiz do Intermediário! Dois amigos conversam sobre o fim de semana e combinam um encontro. Escute a conversa toda — quantas vezes precisar — e depois responda. Foque no sentido geral: o que cada um fez e o que vão fazer.",
+  "cenario": "Dois amigos se encontram e conversam sobre o fim de semana.",
+  "dialogo": [
+    { "audioKey": "qi-d1", "voz": "Ana", "es": "¡Hola! ¿Cómo andás? ¿Qué hiciste el finde?", "pt": "Oi! Como vai? O que você fez no fim de semana?" },
+    { "audioKey": "qi-d2", "voz": "Diego", "es": "¡Bárbaro! Fui a Colonia con unos amigos. La pasamos muy bien.", "pt": "Ótimo! Fui a Colonia com uns amigos. A gente se divertiu muito." },
+    { "audioKey": "qi-d3", "voz": "Ana", "es": "¡Qué lindo! ¿Y qué hicieron allá?", "pt": "Que legal! E o que fizeram lá?" },
+    { "audioKey": "qi-d4", "voz": "Diego", "es": "Caminamos por el centro, sacamos muchas fotos y comimos un asado increíble.", "pt": "Caminhamos pelo centro, tiramos muitas fotos e comemos um churrasco incrível." },
+    { "audioKey": "qi-d5", "voz": "Ana", "es": "¡Me encanta Colonia! ¿Cuándo volviste?", "pt": "Adoro Colonia! Quando você voltou?" },
+    { "audioKey": "qi-d6", "voz": "Diego", "es": "El domingo a la noche. Estaba cansadísimo. ¿Y vos, qué vas a hacer este finde?", "pt": "Domingo à noite. Estava cansadíssimo. E você, o que vai fazer neste fim de semana?" },
+    { "audioKey": "qi-d7", "voz": "Ana", "es": "Voy a quedarme en casa. La semana que viene tengo mucho trabajo.", "pt": "Vou ficar em casa. Na semana que vem tenho muito trabalho." },
+    { "audioKey": "qi-d8", "voz": "Diego", "es": "Dale. Si querés, el sábado tomamos un café.", "pt": "Beleza. Se quiser, sábado tomamos um café." },
+    { "audioKey": "qi-d9", "voz": "Ana", "es": "¡Buenísimo! ¿Quedamos a las cuatro?", "pt": "Ótimo! Combinamos às quatro?" },
+    { "audioKey": "qi-d10", "voz": "Diego", "es": "Perfecto, nos vemos el sábado.", "pt": "Perfeito, a gente se vê no sábado." }
+  ],
+  "perguntas": [
+    { "es": "¿Adónde fue Diego el fin de semana?", "opcoes": ["A Colonia", "A Montevideo", "A Buenos Aires", "A la playa"], "correta": 0, "pt": "Aonde Diego foi no fim de semana?" },
+    { "es": "¿Con quién fue?", "opcoes": ["Con unos amigos", "Solo", "Con la familia", "Con Ana"], "correta": 0, "pt": "Com quem ele foi?" },
+    { "es": "¿Qué comieron allá?", "opcoes": ["Un asado", "Una milanesa", "Una pizza", "Pescado"], "correta": 0, "pt": "O que comeram lá?" },
+    { "es": "¿Cuándo volvió Diego?", "opcoes": ["El domingo a la noche", "El sábado", "El lunes", "El viernes"], "correta": 0, "pt": "Quando Diego voltou?" },
+    { "es": "¿Qué va a hacer Ana este fin de semana?", "opcoes": ["Quedarse en casa", "Viajar", "Ir a Colonia", "Trabajar el sábado"], "correta": 0, "pt": "O que Ana vai fazer neste fim de semana?" },
+    { "es": "¿A qué hora quedaron el sábado?", "opcoes": ["A las cuatro", "A las dos", "A las cinco", "A las ocho"], "correta": 0, "pt": "A que horas combinaram no sábado?" }
+  ]
+}

@@ -12,7 +12,7 @@
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep5b-n02", "pt": "O prato mais popular: a milanesa, um bife empanado. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-milanesa", "es": "Una milanesa.", "pt": "Uma milanesa (bife empanado)." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep5b-p02", "promptPt": "Peça uma milanesa. Fale agora.", "audioKey": "r2-milanesa", "es": "Una milanesa.", "pt": "Uma milanesa." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5b-n03", "pt": "Com presunto, queijo e molho, vira 'napolitana':" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5b-n03", "pt": "Com presunto, queijo e molho, vira a napolitana:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-napolitana", "es": "Una milanesa napolitana.", "pt": "Uma milanesa à napolitana." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep5b-p03", "promptPt": "Peça uma milanesa napolitana. Fale agora.", "audioKey": "r2-napolitana", "es": "Una milanesa napolitana.", "pt": "Uma milanesa à napolitana." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep5b-n04", "pt": "As empanadas, salgadinhos recheados:" },
@@ -25,16 +25,16 @@
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep5b-n06", "pt": "Peixe e frutos do mar:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-pescado", "es": "Pescado.", "pt": "Peixe." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-mariscos", "es": "Mariscos.", "pt": "Frutos do mar." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep5b-p06", "promptPt": "Diga 'frutos do mar', mariscos. Fale agora.", "audioKey": "r2-mariscos", "es": "Mariscos.", "pt": "Frutos do mar." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep5b-p06", "promptPt": "Diga 'frutos do mar'. Fale agora.", "audioKey": "r2-mariscos", "es": "Mariscos.", "pt": "Frutos do mar." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep5b-n07", "pt": "Uma salada:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-ensalada", "es": "Una ensalada.", "pt": "Uma salada." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep5b-p07", "promptPt": "Peça uma salada. Fale agora.", "audioKey": "r2-ensalada", "es": "Una ensalada.", "pt": "Uma salada." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep5b-n08", "pt": "Pra acompanhar: batata frita ou purê:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-papas", "es": "Papas fritas.", "pt": "Batata frita." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-pure", "es": "Puré.", "pt": "Purê." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep5b-p08", "promptPt": "Peça batata frita, 'papas fritas'. Fale agora.", "audioKey": "r2-papas", "es": "Papas fritas.", "pt": "Batata frita." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep5b-p08", "promptPt": "Peça batata frita. Fale agora.", "audioKey": "r2-papas", "es": "Papas fritas.", "pt": "Batata frita." },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep5b-n09", "pt": "Falso amigo de frutos do mar: 'polvo' em espanhol é PÓ, poeira — não o bicho! O polvo, o animal, é 'pulpo'. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep5b-n09", "pt": "Falso amigo de frutos do mar: tem uma palavra igualzinha a 'polvo' do português, mas em espanhol quer dizer pó, poeira — não o bicho! O polvo, o animal, tem outro nome. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-pulpo", "es": "El pulpo.", "pt": "O polvo (o animal)." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep5b-p09", "promptPt": "Diga 'o polvo' (o animal) em espanhol. Fale agora.", "audioKey": "r2-pulpo", "es": "El pulpo.", "pt": "O polvo." },
 
@@ -46,11 +46,11 @@
     { "tipo": "shadow", "voz": "Ana", "audioKey": "r2-milanesa", "es": "Una milanesa.", "pt": "Uma milanesa." },
     { "tipo": "shadow", "voz": "Ana", "audioKey": "r2-empanadas", "es": "Dos empanadas de carne.", "pt": "Duas empanadas de carne." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5b-n11", "pt": "Gramática em foco: 'con' é com, 'sin' é sem — pra customizar o prato. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5b-n11", "pt": "Gramática em foco: tem uma palavrinha pra 'com' e outra pra 'sem' — pra customizar o prato. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-conqueso", "es": "Con queso.", "pt": "Com queijo." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-sincebolla", "es": "Sin cebolla.", "pt": "Sem cebola." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep5b-p12", "promptPt": "Diga 'sem cebola', sin cebolla. Fale agora.", "audioKey": "r2-sincebolla", "es": "Sin cebolla.", "pt": "Sem cebola." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5b-n12", "pt": "'Con' e 'sin' te deixam pedir do seu jeito. Mais em 'Para ir além'." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep5b-p12", "promptPt": "Diga 'sem cebola'. Fale agora.", "audioKey": "r2-sincebolla", "es": "Sin cebolla.", "pt": "Sem cebola." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5b-n12", "pt": "Esse 'com' e 'sem' te deixam pedir do seu jeito. Mais em 'Para ir além'." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "ep5b-rend", "pt": "Excelente! Agora você pede quase qualquer prato. Na última parte: sobremesa, café e restrições alimentares. Até já!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }

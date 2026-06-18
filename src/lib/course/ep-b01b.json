@@ -52,7 +52,7 @@
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n14", "pt": "E 'se cuida', bem carinhoso:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-cuidate", "es": "Cuidate.", "pt": "Se cuida." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1b-p15", "promptPt": "Diga 'se cuida'. Fale agora.", "audioKey": "es-cuidate", "es": "Cuidate.", "pt": "Se cuida." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n15", "pt": "Existe 'adiós', mas soa definitivo, como um adeus pra sempre. No dia a dia, prefira 'chau'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n15", "pt": "Existe também uma palavra parecida com 'adeus', mas ela soa definitiva, como uma despedida pra sempre. No dia a dia, prefira o 'tchau'." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n16", "pt": "Vamos recordar. Responda em voz alta." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1b-p16", "promptPt": "Peça pra repetir mais devagar. Fale agora.", "audioKey": "es-repetir", "es": "¿Podés repetir más despacio, por favor?", "pt": "Pode repetir mais devagar, por favor?" },
@@ -66,7 +66,7 @@
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n17", "pt": "Gramática em foco: perguntas no jeito 'vos'. Repare que o verbo termina diferente, com o acento no fim. Ouça:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-hablaspt", "es": "¿Hablás portugués?", "pt": "Você fala português?" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-repetir", "es": "¿Podés repetir más despacio?", "pt": "Pode repetir mais devagar?" },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n18", "pt": "'Hablás', 'podés' — esse final é o 'vos'. Mais detalhes em 'Para ir além'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1b-n18", "pt": "Esse final acentuado é a marca do 'vos'. Mais detalhes em 'Para ir além'." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "ep1b-rend", "pt": "Excelente! Agora você se vira sozinho. Na parte 3, a gente se apresenta. Até já!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }

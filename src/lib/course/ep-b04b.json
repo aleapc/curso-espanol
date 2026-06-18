@@ -14,7 +14,7 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-d5", "es": "Para mí, una copa de vino tinto.", "pt": "Pra mim, uma taça de vinho tinto." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-d6", "es": "¿Qué nos recomienda?", "pt": "O que você recomenda pra gente?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n03", "pt": "Vamos treinar. Pra pedir, comece com 'para mí', 'pra mim':" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n03", "pt": "Vamos treinar. Pra pedir, comece com 'pra mim':" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-parami", "es": "Para mí, la milanesa.", "pt": "Pra mim, a milanesa." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4b-p02", "promptPt": "Comece um pedido com 'pra mim…'. Fale agora.", "audioKey": "r-parami", "es": "Para mí, la milanesa.", "pt": "Pra mim, a milanesa." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n04", "pt": "Pra pedir uma recomendação:" },
@@ -31,9 +31,9 @@
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-cerveza", "es": "Una cerveza, por favor.", "pt": "Uma cerveja, por favor." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4b-p06", "promptPt": "Peça uma cerveja, por favor. Fale agora.", "audioKey": "r-cerveza", "es": "Una cerveza, por favor.", "pt": "Uma cerveja, por favor." },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep4b-n08", "pt": "Armadilha importante na hora de beber. 'Vaso', em espanhol, não é vaso de planta nem privada — é o copo de beber! Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep4b-n08", "pt": "Armadilha importante na hora de beber. Tem uma palavra que parece 'vaso' do português, mas não é vaso de planta nem privada — é o copo de beber! Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-vaso", "es": "Un vaso de agua, por favor.", "pt": "Um copo de água, por favor." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4b-p07", "promptPt": "Peça um copo de água — lembre, 'vaso'. Fale agora.", "audioKey": "r-vaso", "es": "Un vaso de agua, por favor.", "pt": "Um copo de água, por favor." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4b-p07", "promptPt": "Peça um copo de água. Fale agora.", "audioKey": "r-vaso", "es": "Un vaso de agua, por favor.", "pt": "Um copo de água, por favor." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n09", "pt": "Pra organizar o pedido: de entrada, prato principal e sobremesa. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-entrada", "es": "De entrada, una empanada.", "pt": "De entrada, uma empanada." },
@@ -52,7 +52,7 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "r-vino", "es": "Una copa de vino tinto.", "pt": "Uma taça de vinho tinto." },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "r-recomienda", "es": "¿Qué me recomienda?", "pt": "O que você me recomenda?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n12", "pt": "Gramática em foco: os artigos 'un' e 'una' mudam com o gênero da palavra. 'Un' pro masculino, 'una' pro feminino. Ouça:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n12", "pt": "Gramática em foco: o artigo 'um' muda com o gênero da palavra: uma forma pro masculino e outra pro feminino. Ouça:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-masc", "es": "un vino, un café, un vaso", "pt": "um vinho, um café, um copo (masculino)" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-unas", "es": "una cerveza, una copa, una mesa", "pt": "uma cerveja, uma taça, uma mesa (feminino)" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep4b-n13", "pt": "Com o tempo, o gênero gruda pelo uso. Mais exemplos em 'Para ir além'." },

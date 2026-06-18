@@ -105,3 +105,30 @@ export interface Episode {
   steps: Step[];
   aprofundar?: GrammarDeep; // seção opcional renderizada fora do player
 }
+
+// --- Quiz de compreensão ---
+// Diálogo longo em espanhol (vozes nativas) + perguntas de múltipla escolha
+// em espanhol. A intro é em PT (Bia); as perguntas/opções ficam em texto na tela.
+export interface QuizFala {
+  audioKey: string;
+  voz: string; // Ana | Diego
+  es: string;
+  pt: string; // tradução (tela, opcional ver depois)
+}
+export interface QuizPergunta {
+  es: string; // enunciado em espanhol
+  opcoes: string[]; // alternativas em espanhol
+  correta: number; // índice da correta
+  pt?: string; // tradução do enunciado (revelada com o gabarito)
+}
+export interface Quiz {
+  id: string; // ex.: 'q-basico'
+  nivel: Nivel;
+  titulo: string;
+  subtitulo: string;
+  introAudioKey: string; // narração PT (Bia)
+  introPt: string;
+  cenario: string; // contexto curto em PT mostrado na tela
+  dialogo: QuizFala[];
+  perguntas: QuizPergunta[];
+}

@@ -46,7 +46,7 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "r-mesados", "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois?" },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "r-lacarta", "es": "¿Me trae la carta, por favor?", "pt": "Pode me trazer o cardápio, por favor?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n12", "pt": "Gramática em foco: com quem te atende, use o formal. 'Vocês têm?' é '¿tienen?', e os pedidos vão com '¿me trae?'. Ouça:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n12", "pt": "Gramática em foco: com quem te atende, use o formal. Tem uma forma própria pra 'vocês', e os pedidos saem com um jeito educado de perguntar. Ouça:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-mesados", "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois?" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-lacarta", "es": "¿Me trae la carta, por favor?", "pt": "Pode me trazer o cardápio, por favor?" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n13", "pt": "Esse é o tom educado com o garçom. Mais em 'Para ir além'." },

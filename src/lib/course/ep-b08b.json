@@ -16,7 +16,7 @@
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n03", "pt": "As quantidades. Um quilo:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-kilo", "es": "Un kilo.", "pt": "Um quilo." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p02", "promptPt": "Peça um quilo, 'un kilo'. Fale agora.", "audioKey": "m-kilo", "es": "Un kilo.", "pt": "Um quilo." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p02", "promptPt": "Peça um quilo. Fale agora.", "audioKey": "m-kilo", "es": "Un kilo.", "pt": "Um quilo." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n04", "pt": "Meio quilo:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-mediokilo", "es": "Medio kilo.", "pt": "Meio quilo." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p03", "promptPt": "Peça meio quilo. Fale agora.", "audioKey": "m-mediokilo", "es": "Medio kilo.", "pt": "Meio quilo." },
@@ -29,7 +29,7 @@
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p05", "promptPt": "Pergunte quanto custa o quilo. Fale agora.", "audioKey": "m-cuantokilo", "es": "¿Cuánto cuesta el kilo?", "pt": "Quanto custa o quilo?" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n07", "pt": "No caixa, pra pedir uma sacola:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-bolsa", "es": "¿Me da una bolsa?", "pt": "Pode me dar uma sacola?" },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p06", "promptPt": "Peça uma sacola, 'una bolsa'. Fale agora.", "audioKey": "m-bolsa", "es": "¿Me da una bolsa?", "pt": "Pode me dar uma sacola?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p06", "promptPt": "Peça uma sacola. Fale agora.", "audioKey": "m-bolsa", "es": "¿Me da una bolsa?", "pt": "Pode me dar uma sacola?" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n08", "pt": "Pra fechar a compra:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-nadamas", "es": "Nada más, gracias.", "pt": "Só isso, obrigado." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8b-p07", "promptPt": "Diga 'só isso, obrigado'. Fale agora.", "audioKey": "m-nadamas", "es": "Nada más, gracias.", "pt": "Só isso, obrigado." },
@@ -45,7 +45,7 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "m-kilo", "es": "Un kilo.", "pt": "Um quilo." },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "m-cuantokilo", "es": "¿Cuánto cuesta el kilo?", "pt": "Quanto custa o quilo?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n11", "pt": "Gramática em foco: as quantidades ligam ao produto com 'de'. 'Un kilo DE manzanas', 'una docena DE huevos'. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n11", "pt": "Gramática em foco: as quantidades ligam ao produto com 'de', igual ao português: um quilo DE maçãs, uma dúzia DE ovos. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "m-docena", "es": "Una docena de huevos.", "pt": "Uma dúzia de ovos." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-mediokilo", "es": "Medio kilo.", "pt": "Meio quilo." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep8b-n12", "pt": "Quantidade + 'de' + produto. Mais em 'Para ir além'." },

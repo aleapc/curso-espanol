@@ -7,24 +7,24 @@
   "subtitulo": "As paixões e a vida social rioplatense",
   "steps": [
     { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n01", "pt": "Parte 2: fútbol, asado e sair com os amigos. Antes, recordando: ofereça 'quer um mate?'. Responda." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "icu2-p01", "promptPt": "Ofereça 'quer um mate?', ¿querés un mate?. Fale agora.", "audioKey": "cu-queresmate", "es": "¿Querés un mate?", "pt": "Quer um mate?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "icu2-p01", "promptPt": "Ofereça 'quer um mate?'. Fale agora.", "audioKey": "cu-queresmate", "es": "¿Querés un mate?", "pt": "Quer um mate?" },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n02", "pt": "Escute um plano de fim de semana:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "cu-d3", "es": "El domingo hacemos un asado.", "pt": "Domingo vamos fazer um churrasco." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "cu-d4", "es": "¡Bárbaro! ¿Vamos a la cancha también?", "pt": "Ótimo! Vamos ao estádio também?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n03", "pt": "O futebol é religião. O estádio é 'la cancha':" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n03", "pt": "O futebol é religião. Por lá o estádio é a cancha:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "cu-cancha", "es": "Vamos a la cancha.", "pt": "Vamos ao estádio." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "icu2-p02", "promptPt": "Diga 'vamos ao estádio', vamos a la cancha. Fale agora.", "audioKey": "cu-cancha", "es": "Vamos a la cancha.", "pt": "Vamos ao estádio." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n04", "pt": "O churrasco que junta todo mundo — 'el asado':" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "icu2-p02", "promptPt": "Diga 'vamos ao estádio'. Fale agora.", "audioKey": "cu-cancha", "es": "Vamos a la cancha.", "pt": "Vamos ao estádio." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n04", "pt": "O churrasco que junta todo mundo, o asado:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "cu-asado", "es": "Hacemos un asado.", "pt": "Vamos fazer um churrasco." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "icu2-p03", "promptPt": "Diga 'vamos fazer um churrasco', hacemos un asado. Fale agora.", "audioKey": "cu-asado", "es": "Hacemos un asado.", "pt": "Vamos fazer um churrasco." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n05", "pt": "Sair à noite é 'salir':" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "icu2-p03", "promptPt": "Diga 'vamos fazer um churrasco'. Fale agora.", "audioKey": "cu-asado", "es": "Hacemos un asado.", "pt": "Vamos fazer um churrasco." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n05", "pt": "Tem um verbo pra sair à noite:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "cu-salir", "es": "¿Salimos esta noche?", "pt": "Vamos sair hoje à noite?" },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "icu2-p04", "promptPt": "Pergunte 'vamos sair hoje à noite?', ¿salimos esta noche?. Fale agora.", "audioKey": "cu-salir", "es": "¿Salimos esta noche?", "pt": "Vamos sair hoje à noite?" },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n06", "pt": "E o aquecimento antes de sair, na casa de alguém — 'la previa':" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "icu2-p04", "promptPt": "Pergunte 'vamos sair hoje à noite?'. Fale agora.", "audioKey": "cu-salir", "es": "¿Salimos esta noche?", "pt": "Vamos sair hoje à noite?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n06", "pt": "E o aquecimento antes de sair, na casa de alguém, é a previa:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "cu-previa", "es": "Hacemos la previa en casa.", "pt": "Fazemos o esquenta em casa." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "icu2-p05", "promptPt": "Diga 'fazemos o esquenta em casa', la previa en casa. Fale agora.", "audioKey": "cu-previa", "es": "Hacemos la previa en casa.", "pt": "Fazemos o esquenta em casa." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "icu2-p05", "promptPt": "Diga 'fazemos o esquenta em casa'. Fale agora.", "audioKey": "cu-previa", "es": "Hacemos la previa en casa.", "pt": "Fazemos o esquenta em casa." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n07", "pt": "Vamos recordar. Responda em voz alta." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "icu2-p06", "promptPt": "Diga 'vamos ao estádio'. Fale agora.", "audioKey": "cu-cancha", "es": "Vamos a la cancha.", "pt": "Vamos ao estádio." },
@@ -34,10 +34,10 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "cu-cancha", "es": "Vamos a la cancha.", "pt": "Vamos ao estádio." },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "cu-salir", "es": "¿Salimos esta noche?", "pt": "Vamos sair hoje à noite?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n08", "pt": "Cultura em foco: o asado não é só comida, é o encontro — pode durar horas. 'La cancha' é o estádio, e a torcida é 'la hinchada'. Convites com 'hacemos…' (vamos fazer) são comuns. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n08", "pt": "Cultura em foco: o asado não é só comida, é o encontro — pode durar horas. A cancha é o estádio, e a torcida é a hinchada. Convites no estilo 'vamos fazer…' são comuns. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "cu-asado", "es": "Hacemos un asado.", "pt": "Vamos fazer um churrasco." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "cu-cancha", "es": "Vamos a la cancha.", "pt": "Vamos ao estádio." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n09", "pt": "Asado, cancha, salir, previa — a vida social por lá. Mais em 'Para ir além'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "icu2-n09", "pt": "Asado, cancha, a previa e sair à noite — a vida social por lá. Mais em 'Para ir além'." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "icu2-rend", "pt": "Muito bem! Você entra na vida social. Na última parte: as gírias rioplatenses. Até já!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }

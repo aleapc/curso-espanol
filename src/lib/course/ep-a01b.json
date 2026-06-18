@@ -7,22 +7,22 @@
   "subtitulo": "Quiero que vengas: pedir e esperar do outro",
   "steps": [
     { "tipo": "intro", "voz": "Bia", "audioKey": "asu2-n01", "pt": "Parte 2: pedir ou esperar que OUTRA pessoa faça algo. Antes, recordando: deseje 'tenha um bom dia'. Responda." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "asu2-p01", "promptPt": "Deseje 'tenha um bom dia', que tengas un buen día. Fale agora.", "audioKey": "su-buendia", "es": "Que tengas un buen día.", "pt": "Tenha um bom dia." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "asu2-p01", "promptPt": "Deseje 'tenha um bom dia'. Fale agora.", "audioKey": "su-buendia", "es": "Que tengas un buen día.", "pt": "Tenha um bom dia." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "asu2-n02", "pt": "Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "su-d3", "es": "Quiero que vengas a la fiesta.", "pt": "Quero que você venha à festa." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "su-d4", "es": "¡Dale! ¿Querés que lleve algo?", "pt": "Beleza! Quer que eu leve algo?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "asu2-n03", "pt": "Pra dizer que quer que alguém venha — 'quiero que vengas':" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "asu2-n03", "pt": "Pra dizer que quer que alguém venha:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "su-quierovengas", "es": "Quiero que vengas.", "pt": "Quero que você venha." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "asu2-p02", "promptPt": "Diga 'quero que você venha', quiero que vengas. Fale agora.", "audioKey": "su-quierovengas", "es": "Quiero que vengas.", "pt": "Quero que você venha." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "asu2-n04", "pt": "Pra se oferecer — '¿querés que te ayude?':" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "asu2-p02", "promptPt": "Diga 'quero que você venha'. Fale agora.", "audioKey": "su-quierovengas", "es": "Quiero que vengas.", "pt": "Quero que você venha." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "asu2-n04", "pt": "Pra se oferecer:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "su-queresayude", "es": "¿Querés que te ayude?", "pt": "Quer que eu te ajude?" },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "asu2-p03", "promptPt": "Ofereça ajuda: 'quer que eu te ajude?', ¿querés que te ayude?. Fale agora.", "audioKey": "su-queresayude", "es": "¿Querés que te ayude?", "pt": "Quer que eu te ajude?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "asu2-p03", "promptPt": "Ofereça ajuda: 'quer que eu te ajude?'. Fale agora.", "audioKey": "su-queresayude", "es": "¿Querés que te ayude?", "pt": "Quer que eu te ajude?" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "asu2-n05", "pt": "Pra dizer que precisa que alguém faça algo:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "su-necesito", "es": "Necesito que me ayudes.", "pt": "Preciso que você me ajude." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "asu2-p04", "promptPt": "Diga 'preciso que você me ajude', necesito que me ayudes. Fale agora.", "audioKey": "su-necesito", "es": "Necesito que me ayudes.", "pt": "Preciso que você me ajude." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "asu2-n06", "pt": "E pra torcer que a pessoa goste — 'espero que te guste' (você já viu):" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "asu2-p04", "promptPt": "Diga 'preciso que você me ajude'. Fale agora.", "audioKey": "su-necesito", "es": "Necesito que me ayudes.", "pt": "Preciso que você me ajude." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "asu2-n06", "pt": "E pra torcer que a pessoa goste (você já viu):" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "su-espero", "es": "Espero que te guste.", "pt": "Espero que você goste." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "asu2-p05", "promptPt": "Diga 'espero que você goste'. Fale agora.", "audioKey": "su-espero", "es": "Espero que te guste.", "pt": "Espero que você goste." },
 
@@ -34,7 +34,7 @@
     { "tipo": "shadow", "voz": "Ana", "audioKey": "su-quierovengas", "es": "Quiero que vengas.", "pt": "Quero que você venha." },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "su-queresayude", "es": "¿Querés que te ayude?", "pt": "Quer que eu te ajude?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "asu2-n08", "pt": "Gramática em foco: quando você quer que OUTRA pessoa faça algo, vem 'quiero/necesito/espero QUE' + subjuntivo: que vengas, que ayudes, que guste. Dois sujeitos diferentes — por isso o subjuntivo. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "asu2-n08", "pt": "Gramática em foco: quando você quer que OUTRA pessoa faça algo, vem o verbo de querer, precisar ou esperar, mais 'que', mais o subjuntivo. São dois sujeitos diferentes — por isso o subjuntivo. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "su-quierovengas", "es": "Quiero que vengas.", "pt": "Quero que você venha." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "su-necesito", "es": "Necesito que me ayudes.", "pt": "Preciso que me ajude." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "asu2-n09", "pt": "Querer/precisar/esperar + que + subjuntivo. Mais em 'Para ir além'." },

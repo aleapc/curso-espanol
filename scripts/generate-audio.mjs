@@ -165,7 +165,47 @@ function collectJobs() {
       }
     }
   }
+  // Quizzes: intro em PT (Bia) + diálogo em vozes nativas. Perguntas ficam em texto.
+  for (const f of readdirSync(dir).filter((x) => /^quiz-.*\.json$/.test(x))) {
+    const q = JSON.parse(readFileSync(join(dir, f), 'utf8'));
+    push(q.introAudioKey, 'Bia', q.introPt);
+    for (const d of q.dialogo || []) push(d.audioKey, d.voz || 'Ana', d.es);
+  }
   return jobs;
+}
+
+// Manifesto key→texto: deixa o gerador idempotente no TEXTO (não só na existência
+// do arquivo). Se o texto de um clipe mudou (ex.: correção de portunhol), ele é
+// regerado automaticamente. `--snapshot` grava o manifesto do estado atual sem
+// chamar a API (assume que os mp3 atuais batem com o texto atual).
+function manifestPath() {
+  return join(root, 'static', 'audio', 'manifest.json');
+}
+function loadManifest() {
+  const p = manifestPath();
+  if (existsSync(p)) {
+    try {
+      return JSON.parse(readFileSync(p, 'utf8'));
+    } catch {
+      /* recomeça */
+    }
+  }
+  return {};
+}
+
+function snapshot() {
+  const jobs = collectJobs();
+  const outDir = join(root, 'static', 'audio');
+  const man = {};
+  let n = 0;
+  for (const job of jobs) {
+    if (existsSync(join(outDir, `${job.key}.mp3`))) {
+      man[job.key] = job.text;
+      n++;
+    }
+  }
+  writeFileSync(manifestPath(), JSON.stringify(man, null, 0));
+  console.log(`Snapshot: ${n} clipes registrados no manifesto (baseline).`);
 }
 
 async function generate() {
@@ -173,21 +213,28 @@ async function generate() {
   const voices = loadVoiceMap();
   const outDir = join(root, 'static', 'audio');
   mkdirSync(outDir, { recursive: true });
+  const man = loadManifest();
 
   let made = 0;
+  let regen = 0;
   let skipped = 0;
   let chars = 0;
   for (const job of jobs) {
     const out = join(outDir, `${job.key}.mp3`);
-    if (existsSync(out)) {
+    const exists = existsSync(out);
+    const textChanged = man[job.key] !== undefined && man[job.key] !== job.text;
+    if (exists && !textChanged) {
       skipped++;
+      man[job.key] = job.text;
       continue;
     }
+    if (exists && textChanged) regen++;
     const voiceId = voices[job.voice] || voices.narrador;
-    process.stdout.write(`→ ${job.key} (${job.voice}): "${job.text}" ... `);
+    process.stdout.write(`→ ${job.key} (${job.voice})${textChanged ? ' [texto mudou]' : ''}: "${job.text}" ... `);
     try {
       chars += await tts(voiceId, job.text, out, settingsFor(job.voice));
       made++;
+      man[job.key] = job.text;
       console.log('ok');
     } catch (e) {
       console.log('FALHOU:', e.message);
@@ -198,8 +245,9 @@ async function generate() {
     .filter((f) => f.endsWith('.mp3'))
     .map((f) => f.replace(/\.mp3$/, ''));
   writeFileSync(join(outDir, 'index.json'), JSON.stringify(keys));
+  writeFileSync(manifestPath(), JSON.stringify(man, null, 0));
 
-  console.log(`\nGerados: ${made} · já existiam: ${skipped}`);
+  console.log(`\nGerados: ${made} (novos + ${regen} regerados por mudança de texto) · já existiam: ${skipped}`);
   console.log(`Caracteres novos: ${chars} → ~${Math.ceil(chars * PER_CHAR)} créditos (${MODEL})`);
   console.log(`Índice: static/audio/index.json (${keys.length} áudios no total)`);
 }
@@ -228,6 +276,7 @@ async function genSamples() {
 }
 
 if (process.argv.includes('--balance')) balance();
+else if (process.argv.includes('--snapshot')) snapshot();
 else if (process.argv.includes('--list')) listVoices();
 else if (process.argv.includes('--find-es')) findVoices('es', /argent|uruguay|rioplat|platense|porteñ/);
 else if (process.argv.includes('--find-pt')) findVoices('pt', /bras|brazil/);

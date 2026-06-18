@@ -8,7 +8,7 @@
   "steps": [
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep3a-n01", "pt": "Vamos nos virar na rua! Parte 1: pedir e entender direções. Fale em voz alta quando eu pedir." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep3a-n02", "pt": "Recordando do jeito de perguntar onde fica: 'onde está o banheiro?'. Responda." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3a-p01", "promptPt": "Pergunte onde fica o banheiro, '¿dónde está el baño?'. Fale agora.", "audioKey": "tr-donde", "es": "¿Dónde está el baño?", "pt": "Onde fica o banheiro?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3a-p01", "promptPt": "Pergunte onde fica o banheiro. Fale agora.", "audioKey": "tr-donde", "es": "¿Dónde está el baño?", "pt": "Onde fica o banheiro?" },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep3a-n03", "pt": "Escute alguém pedindo direção:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-d1", "es": "Disculpe, ¿cómo llego al centro?", "pt": "Com licença, como chego ao centro?" },
@@ -19,22 +19,22 @@
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3a-p02", "promptPt": "Pergunte 'como chego ao centro?'. Fale agora.", "audioKey": "tr-llego", "es": "¿Cómo llego al centro?", "pt": "Como chego ao centro?" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep3a-n05", "pt": "As direções. À direita:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-derecha", "es": "A la derecha.", "pt": "À direita." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep3a-p03", "promptPt": "Diga 'à direita', a la derecha. Fale agora.", "audioKey": "tr-derecha", "es": "A la derecha.", "pt": "À direita." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep3a-p03", "promptPt": "Diga 'à direita'. Fale agora.", "audioKey": "tr-derecha", "es": "A la derecha.", "pt": "À direita." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep3a-n06", "pt": "À esquerda:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-izquierda", "es": "A la izquierda.", "pt": "À esquerda." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep3a-p04", "promptPt": "Diga 'à esquerda', a la izquierda. Fale agora.", "audioKey": "tr-izquierda", "es": "A la izquierda.", "pt": "À esquerda." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep3a-p04", "promptPt": "Diga 'à esquerda'. Fale agora.", "audioKey": "tr-izquierda", "es": "A la izquierda.", "pt": "À esquerda." },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep3a-n07", "pt": "Falso amigo importante! 'Derecho' não é 'direito' — é RETO, em frente. À direita é 'a la derecha'. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep3a-n07", "pt": "Falso amigo importante! A palavra que lembra 'direito' não quer dizer o lado direito — quer dizer RETO, em frente. O lado direito tem outra palavra. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-derecho", "es": "Seguí derecho.", "pt": "Siga reto." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3a-p05", "promptPt": "Diga 'siga reto', seguí derecho. Fale agora.", "audioKey": "tr-derecho", "es": "Seguí derecho.", "pt": "Siga reto." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3a-p05", "promptPt": "Diga 'siga reto'. Fale agora.", "audioKey": "tr-derecho", "es": "Seguí derecho.", "pt": "Siga reto." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep3a-n08", "pt": "Perto e longe:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-cerca", "es": "Está cerca.", "pt": "Está perto." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-lejos", "es": "Está lejos.", "pt": "Está longe." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep3a-p06", "promptPt": "Diga 'está perto', está cerca. Fale agora.", "audioKey": "tr-cerca", "es": "Está cerca.", "pt": "Está perto." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep3a-p06", "promptPt": "Diga 'está perto'. Fale agora.", "audioKey": "tr-cerca", "es": "Está cerca.", "pt": "Está perto." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep3a-n09", "pt": "A esquina:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-esquina", "es": "En la esquina.", "pt": "Na esquina." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3a-p07", "promptPt": "Diga 'na esquina', en la esquina. Fale agora.", "audioKey": "tr-esquina", "es": "En la esquina.", "pt": "Na esquina." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3a-p07", "promptPt": "Diga 'na esquina'. Fale agora.", "audioKey": "tr-esquina", "es": "En la esquina.", "pt": "Na esquina." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep3a-n10", "pt": "Vamos recordar. Responda em voz alta." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3a-p08", "promptPt": "Pergunte 'como chego ao centro?'. Fale agora.", "audioKey": "tr-llego", "es": "¿Cómo llego al centro?", "pt": "Como chego ao centro?" },
@@ -44,10 +44,10 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "tr-llego", "es": "¿Cómo llego al centro?", "pt": "Como chego ao centro?" },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "tr-derecho", "es": "Seguí derecho.", "pt": "Siga reto." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3a-n11", "pt": "Gramática em foco: não confunda! 'A la derecha' é à direita; 'derecho' (sem 'a la') é reto. E pra localizar usa-se 'estar': está cerca, está lejos. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3a-n11", "pt": "Gramática em foco: não confunda! Uma expressão indica o lado direito; a palavra parecida, sozinha, quer dizer reto. E pra localizar onde algo fica, o espanhol usa o verbo estar. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-derecha", "es": "A la derecha.", "pt": "À direita." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-derecho", "es": "Derecho.", "pt": "Reto." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3a-n12", "pt": "'A la derecha' (direita) vs 'derecho' (reto) — a pegadinha clássica. Mais em 'Para ir além'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep3a-n12", "pt": "Direita de um lado, reto do outro — a pegadinha clássica. Mais em 'Para ir além'." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "ep3a-rend", "pt": "Ótimo! Você pede e entende direção. Na próxima: os transportes. Até já!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }

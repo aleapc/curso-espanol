@@ -13,22 +13,22 @@
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "fu-d5", "es": "¿Quedamos mañana a las ocho?", "pt": "Combinamos amanhã às oito?" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "fu-d6", "es": "¡Dale! Nos vemos.", "pt": "Combinado! A gente se vê." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ifu3-n03", "pt": "Pra propor um encontro, o verbo é 'quedar' (combinar):" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ifu3-n03", "pt": "Pra propor um encontro, há um verbo que significa combinar de se ver:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "fu-quedamos", "es": "¿Quedamos mañana?", "pt": "Combinamos amanhã?" },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ifu3-p02", "promptPt": "Proponha: 'combinamos amanhã?', ¿quedamos mañana?. Fale agora.", "audioKey": "fu-quedamos", "es": "¿Quedamos mañana?", "pt": "Combinamos amanhã?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ifu3-p02", "promptPt": "Proponha: 'combinamos amanhã?'. Fale agora.", "audioKey": "fu-quedamos", "es": "¿Quedamos mañana?", "pt": "Combinamos amanhã?" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ifu3-n04", "pt": "Pra marcar a hora:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "fu-nosvemos8", "es": "¿Nos vemos a las ocho?", "pt": "A gente se vê às oito?" },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ifu3-p03", "promptPt": "Pergunte 'a gente se vê às oito?', ¿nos vemos a las ocho?. Fale agora.", "audioKey": "fu-nosvemos8", "es": "¿Nos vemos a las ocho?", "pt": "A gente se vê às oito?" },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ifu3-n05", "pt": "Pra checar se a pessoa topa: '¿te parece?':" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ifu3-p03", "promptPt": "Pergunte 'a gente se vê às oito?'. Fale agora.", "audioKey": "fu-nosvemos8", "es": "¿Nos vemos a las ocho?", "pt": "A gente se vê às oito?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ifu3-n05", "pt": "Pra checar se a pessoa topa:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "fu-teparece", "es": "¿Te parece?", "pt": "Topa? / O que acha?" },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ifu3-p04", "promptPt": "Pergunte 'topa?', ¿te parece?. Fale agora.", "audioKey": "fu-teparece", "es": "¿Te parece?", "pt": "Topa?" },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ifu3-n06", "pt": "E pra fechar, bem rioplatense: 'dale' — combinado, beleza:" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ifu3-p04", "promptPt": "Pergunte 'topa?'. Fale agora.", "audioKey": "fu-teparece", "es": "¿Te parece?", "pt": "Topa?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ifu3-n06", "pt": "E pra fechar, uma expressão bem rioplatense pra 'combinado', 'beleza':" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "fu-dale", "es": "¡Dale!", "pt": "Combinado! / Beleza!" },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ifu3-p05", "promptPt": "Feche o combinado: 'dale!'. Fale agora.", "audioKey": "fu-dale", "es": "¡Dale!", "pt": "Combinado!" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ifu3-p05", "promptPt": "Feche o combinado. Fale agora.", "audioKey": "fu-dale", "es": "¡Dale!", "pt": "Combinado!" },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ifu3-n07", "pt": "Vamos recordar. Responda em voz alta." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ifu3-p06", "promptPt": "Proponha 'combinamos amanhã?'. Fale agora.", "audioKey": "fu-quedamos", "es": "¿Quedamos mañana?", "pt": "Combinamos amanhã?" },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ifu3-p07", "promptPt": "Feche com 'dale!'. Fale agora.", "audioKey": "fu-dale", "es": "¡Dale!", "pt": "Combinado!" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ifu3-p07", "promptPt": "Feche o combinado. Fale agora.", "audioKey": "fu-dale", "es": "¡Dale!", "pt": "Combinado!" },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ifu3-s00", "pt": "Shadowing: repita junto, sem ler." },
     { "tipo": "shadow", "voz": "Ana", "audioKey": "fu-quedamos", "es": "¿Quedamos mañana?", "pt": "Combinamos amanhã?" },
@@ -41,10 +41,10 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "fu-nosvemos8", "es": "¿Nos vemos a las ocho?", "pt": "A gente se vê às oito?" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "fu-dale", "es": "¡Dale!", "pt": "Combinado!" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ifu3-n08", "pt": "Gramática em foco: 'quedar' aqui é combinar de se encontrar (¿quedamos?, quedamos a las ocho). E 'dale' é o 'beleza/combinado' rioplatense — fecha qualquer plano. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ifu3-n08", "pt": "Gramática em foco: aqui esse verbo significa combinar de se encontrar. E a tal expressão rioplatense é o 'beleza/combinado' que fecha qualquer plano. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "fu-quedamos", "es": "¿Quedamos mañana?", "pt": "Combinamos amanhã?" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "fu-dale", "es": "¡Dale!", "pt": "Combinado!" },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ifu3-n09", "pt": "'Quedar' (combinar) e 'dale' (combinado). Mais em 'Para ir além'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ifu3-n09", "pt": "O verbo de combinar e a expressão de fechar o plano. Mais em 'Para ir além'." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "ifu3-rend", "pt": "Parabéns! Você faz planos e marca encontros. Até logo!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }

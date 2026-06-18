@@ -7,24 +7,24 @@
   "subtitulo": "Chip, sinal, recarga e wifi",
   "steps": [
     { "tipo": "intro", "voz": "Bia", "audioKey": "ise2-n01", "pt": "Parte 2: celular e internet. Antes, recordando: pergunte onde tem um caixa eletrônico. Responda." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ise2-p01", "promptPt": "Pergunte onde tem um caixa, 'un cajero'. Fale agora.", "audioKey": "se-cajero", "es": "¿Dónde hay un cajero?", "pt": "Onde tem um caixa eletrônico?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ise2-p01", "promptPt": "Pergunte onde tem um caixa. Fale agora.", "audioKey": "se-cajero", "es": "¿Dónde hay un cajero?", "pt": "Onde tem um caixa eletrônico?" },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ise2-n02", "pt": "Escute numa loja de celular:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "se-d3", "es": "Necesito un chip con datos.", "pt": "Preciso de um chip com dados." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "se-d4", "es": "Acá no tengo señal.", "pt": "Aqui não tenho sinal." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ise2-n03", "pt": "Pra pedir um chip — 'un chip':" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise2-n03", "pt": "Pra pedir um chip:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "se-chip", "es": "Necesito un chip.", "pt": "Preciso de um chip." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ise2-p02", "promptPt": "Diga 'preciso de um chip', necesito un chip. Fale agora.", "audioKey": "se-chip", "es": "Necesito un chip.", "pt": "Preciso de um chip." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ise2-p02", "promptPt": "Diga 'preciso de um chip'. Fale agora.", "audioKey": "se-chip", "es": "Necesito un chip.", "pt": "Preciso de um chip." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ise2-n04", "pt": "Pra dizer que não tem sinal:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "se-senal", "es": "No tengo señal.", "pt": "Não tenho sinal." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ise2-p03", "promptPt": "Diga 'não tenho sinal', no tengo señal. Fale agora.", "audioKey": "se-senal", "es": "No tengo señal.", "pt": "Não tenho sinal." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ise2-p03", "promptPt": "Diga 'não tenho sinal'. Fale agora.", "audioKey": "se-senal", "es": "No tengo señal.", "pt": "Não tenho sinal." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ise2-n05", "pt": "Pra recarregar o celular:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "se-recargar", "es": "Quiero recargar el celular.", "pt": "Quero recarregar o celular." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ise2-p04", "promptPt": "Diga 'quero recarregar o celular', recargar el celular. Fale agora.", "audioKey": "se-recargar", "es": "Quiero recargar el celular.", "pt": "Quero recarregar o celular." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ise2-p04", "promptPt": "Diga 'quero recarregar o celular'. Fale agora.", "audioKey": "se-recargar", "es": "Quiero recargar el celular.", "pt": "Quero recarregar o celular." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ise2-n06", "pt": "Quando a internet não funciona:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "se-internet", "es": "No funciona internet.", "pt": "A internet não funciona." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ise2-p05", "promptPt": "Diga 'a internet não funciona', no funciona internet. Fale agora.", "audioKey": "se-internet", "es": "No funciona internet.", "pt": "A internet não funciona." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ise2-p05", "promptPt": "Diga 'a internet não funciona'. Fale agora.", "audioKey": "se-internet", "es": "No funciona internet.", "pt": "A internet não funciona." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ise2-n07", "pt": "E a senha do wifi (você já viu no hotel):" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-wifi", "es": "¿Cuál es la contraseña del wifi?", "pt": "Qual é a senha do wifi?" },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ise2-p06", "promptPt": "Pergunte a senha do wifi. Fale agora.", "audioKey": "h-wifi", "es": "¿Cuál es la contraseña del wifi?", "pt": "Qual é a senha do wifi?" },
@@ -37,10 +37,10 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "se-chip", "es": "Necesito un chip.", "pt": "Preciso de um chip." },
     { "tipo": "shadow", "voz": "Ana", "audioKey": "se-senal", "es": "No tengo señal.", "pt": "Não tenho sinal." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ise2-n09", "pt": "Gramática em foco: junta o que você já sabe — 'no tengo señal' (tener) e 'no funciona internet' (no funciona, do hotel). Mesmas fórmulas, contexto novo. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise2-n09", "pt": "Gramática em foco: junta o que você já sabe — 'não tenho sinal' (com o verbo ter) e 'a internet não funciona' (mesma fórmula do hotel). Mesmas estruturas, contexto novo. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "se-senal", "es": "No tengo señal.", "pt": "Não tenho sinal." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "se-internet", "es": "No funciona internet.", "pt": "A internet não funciona." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ise2-n10", "pt": "'No tengo…' e 'no funciona…' resolvem quase tudo. Mais em 'Para ir além'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ise2-n10", "pt": "As fórmulas de 'não tenho…' e 'não funciona…' resolvem quase tudo. Mais em 'Para ir além'." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "ise2-rend", "pt": "Muito bem! Você resolve celular e internet. Na última parte: reclamar e resolver problemas. Até já!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }

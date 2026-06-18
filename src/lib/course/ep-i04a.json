@@ -8,7 +8,7 @@
   "steps": [
     { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n01", "pt": "Intermediário, episódio 4: saúde e emergências — importante pra viagem. Parte 1: dizer o que você sente. Fale em voz alta quando eu pedir." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n02", "pt": "Recordando: diga 'me dói a cabeça'. Responda." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "isa1-p01", "promptPt": "Diga 'me dói a cabeça', me duele la cabeza. Fale agora.", "audioKey": "m-cabeza", "es": "Me duele la cabeza.", "pt": "Me dói a cabeça." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "isa1-p01", "promptPt": "Diga 'me dói a cabeça'. Fale agora.", "audioKey": "m-cabeza", "es": "Me duele la cabeza.", "pt": "Me dói a cabeça." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n03", "pt": "Escute no consultório:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "sa-d1", "es": "No me siento bien.", "pt": "Não me sinto bem." },
@@ -16,19 +16,19 @@
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n04", "pt": "Pra dizer que não está bem:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "sa-mal", "es": "No me siento bien.", "pt": "Não me sinto bem." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "isa1-p02", "promptPt": "Diga 'não me sinto bem', no me siento bien. Fale agora.", "audioKey": "sa-mal", "es": "No me siento bien.", "pt": "Não me sinto bem." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n05", "pt": "Estou com febre — tengo fiebre:" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "isa1-p02", "promptPt": "Diga 'não me sinto bem'. Fale agora.", "audioKey": "sa-mal", "es": "No me siento bien.", "pt": "Não me sinto bem." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n05", "pt": "Pra dizer 'estou com febre':" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "sa-fiebre", "es": "Tengo fiebre.", "pt": "Estou com febre." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "isa1-p03", "promptPt": "Diga 'estou com febre', tengo fiebre. Fale agora.", "audioKey": "sa-fiebre", "es": "Tengo fiebre.", "pt": "Estou com febre." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n06", "pt": "Estou com tosse — tengo tos:" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "isa1-p03", "promptPt": "Diga 'estou com febre'. Fale agora.", "audioKey": "sa-fiebre", "es": "Tengo fiebre.", "pt": "Estou com febre." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n06", "pt": "Pra dizer 'estou com tosse':" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "sa-tos", "es": "Tengo tos.", "pt": "Estou com tosse." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "isa1-p04", "promptPt": "Diga 'estou com tosse', tengo tos. Fale agora.", "audioKey": "sa-tos", "es": "Tengo tos.", "pt": "Estou com tosse." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n07", "pt": "Estou tonto — estoy mareado:" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "isa1-p04", "promptPt": "Diga 'estou com tosse'. Fale agora.", "audioKey": "sa-tos", "es": "Tengo tos.", "pt": "Estou com tosse." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n07", "pt": "Pra dizer 'estou tonto':" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "sa-mareado", "es": "Estoy mareado.", "pt": "Estou tonto." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "isa1-p05", "promptPt": "Diga 'estou tonto', estoy mareado. Fale agora.", "audioKey": "sa-mareado", "es": "Estoy mareado.", "pt": "Estou tonto." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n08", "pt": "Estou enjoado — tengo náuseas:" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "isa1-p05", "promptPt": "Diga 'estou tonto'. Fale agora.", "audioKey": "sa-mareado", "es": "Estoy mareado.", "pt": "Estou tonto." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n08", "pt": "Pra dizer 'estou enjoado':" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "sa-nauseas", "es": "Tengo náuseas.", "pt": "Estou enjoado." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "isa1-p06", "promptPt": "Diga 'estou enjoado', tengo náuseas. Fale agora.", "audioKey": "sa-nauseas", "es": "Tengo náuseas.", "pt": "Estou enjoado." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "isa1-p06", "promptPt": "Diga 'estou enjoado'. Fale agora.", "audioKey": "sa-nauseas", "es": "Tengo náuseas.", "pt": "Estou enjoado." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n09", "pt": "Vamos recordar. Responda em voz alta." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "isa1-p07", "promptPt": "Diga 'estou com febre'. Fale agora.", "audioKey": "sa-fiebre", "es": "Tengo fiebre.", "pt": "Estou com febre." },
@@ -38,10 +38,10 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "sa-mal", "es": "No me siento bien.", "pt": "Não me sinto bem." },
     { "tipo": "shadow", "voz": "Ana", "audioKey": "sa-fiebre", "es": "Tengo fiebre.", "pt": "Estou com febre." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n10", "pt": "Gramática em foco: muitos sintomas usam 'tener' — tengo fiebre, tengo tos, tengo náuseas (literalmente 'tenho febre'). E estados usam 'estar': estoy mareado, estoy cansado. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n10", "pt": "Gramática em foco: muitos sintomas usam o verbo 'ter' — é como dizer literalmente 'tenho febre', 'tenho tosse'. Já os estados usam o verbo 'estar', como em 'estou tonto', 'estou cansado'. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "sa-fiebre", "es": "Tengo fiebre.", "pt": "Tenho febre. (tener)" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "sa-mareado", "es": "Estoy mareado.", "pt": "Estou tonto. (estar)" },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n11", "pt": "'Tener' pros sintomas; 'estar' pros estados. Mais em 'Para ir além'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "isa1-n11", "pt": "O verbo 'ter' pros sintomas; o verbo 'estar' pros estados. Mais em 'Para ir além'." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "isa1-rend", "pt": "Muito bem! Você descreve como se sente. Na próxima: pedir ajuda médica e emergência. Até já!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }

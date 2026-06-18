@@ -14,14 +14,14 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-d5", "es": "Talle mediano. ¿Puedo probármelo?", "pt": "Tamanho médio. Posso provar?" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-d6", "es": "Sí, el probador está al fondo.", "pt": "Sim, o provador é lá no fundo." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6b-n03", "pt": "Tamanho, no Rio da Prata, é 'talle'. Pra perguntar:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6b-n03", "pt": "Tamanho, no Rio da Prata, tem um nome próprio. Pra perguntar:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-talle", "es": "¿Qué talle?", "pt": "Que tamanho?" },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep6b-p02", "promptPt": "Pergunte 'que tamanho?', ¿qué talle?. Fale agora.", "audioKey": "c-talle", "es": "¿Qué talle?", "pt": "Que tamanho?" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep6b-p02", "promptPt": "Pergunte 'que tamanho?'. Fale agora.", "audioKey": "c-talle", "es": "¿Qué talle?", "pt": "Que tamanho?" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep6b-n04", "pt": "Os tamanhos: pequeno, médio, grande:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-chico", "es": "Talle chico.", "pt": "Tamanho P (pequeno)." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-mediano", "es": "Talle mediano.", "pt": "Tamanho M (médio)." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-grande", "es": "Talle grande.", "pt": "Tamanho G (grande)." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep6b-p03", "promptPt": "Diga 'tamanho médio', talle mediano. Fale agora.", "audioKey": "c-mediano", "es": "Talle mediano.", "pt": "Tamanho médio." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep6b-p03", "promptPt": "Diga 'tamanho médio'. Fale agora.", "audioKey": "c-mediano", "es": "Talle mediano.", "pt": "Tamanho médio." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep6b-n05", "pt": "Pra pedir pra provar:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-probar", "es": "¿Puedo probármelo?", "pt": "Posso provar?" },
@@ -30,7 +30,7 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-probador", "es": "¿Dónde está el probador?", "pt": "Onde fica o provador?" },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep6b-p05", "promptPt": "Pergunte onde fica o provador. Fale agora.", "audioKey": "c-probador", "es": "¿Dónde está el probador?", "pt": "Onde fica o provador?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6b-n07", "pt": "Pra dizer como ficou. 'Me queda bien' é 'ficou bom em mim':" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6b-n07", "pt": "Pra dizer como ficou — 'ficou bom em mim':" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-quedabien", "es": "Me queda bien.", "pt": "Ficou bom (em mim)." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep6b-p06", "promptPt": "Diga 'ficou bom em mim'. Fale agora.", "audioKey": "c-quedabien", "es": "Me queda bien.", "pt": "Ficou bom (em mim)." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep6b-n08", "pt": "Ficou grande, ou ficou pequeno:" },
@@ -38,9 +38,9 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-quedachico", "es": "Me queda chico.", "pt": "Ficou pequeno (em mim)." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep6b-p07", "promptPt": "Diga 'ficou grande em mim'. Fale agora.", "audioKey": "c-quedagrande", "es": "Me queda grande.", "pt": "Ficou grande." },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep6b-n09", "pt": "Falso amigo de roupa: 'largo' em espanhol não é largura — é COMPRIDO. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep6b-n09", "pt": "Falso amigo de roupa: tem uma palavra igual a 'largo' do português, mas em espanhol não é largura — é comprido. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-largo", "es": "Me queda largo.", "pt": "Ficou comprido (em mim)." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep6b-p08", "promptPt": "Diga que ficou comprido, 'me queda largo'. Fale agora.", "audioKey": "c-largo", "es": "Me queda largo.", "pt": "Ficou comprido." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep6b-p08", "promptPt": "Diga que ficou comprido. Fale agora.", "audioKey": "c-largo", "es": "Me queda largo.", "pt": "Ficou comprido." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep6b-n10", "pt": "Pra pedir um número maior:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-masgrande", "es": "¿Tienen un talle más grande?", "pt": "Vocês têm um tamanho maior?" },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep6b-p09", "promptPt": "Peça um tamanho maior. Fale agora.", "audioKey": "c-masgrande", "es": "¿Tienen un talle más grande?", "pt": "Vocês têm um tamanho maior?" },
@@ -56,10 +56,10 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "c-probar", "es": "¿Puedo probármelo?", "pt": "Posso provar?" },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "c-mellevo", "es": "Me lo llevo.", "pt": "Vou levar." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6b-n13", "pt": "Gramática em foco: o verbo 'quedar' diz como a roupa fica em você. 'Me queda bien, grande, chico'. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6b-n13", "pt": "Gramática em foco: tem um verbo que diz como a roupa fica em você — fica bem, fica grande, fica pequena. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-quedabien", "es": "Me queda bien.", "pt": "Fica bem (em mim)." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-quedagrande", "es": "Me queda grande.", "pt": "Fica grande (em mim)." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6b-n14", "pt": "'Me queda…' = fica … em mim. Mais em 'Para ir além'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep6b-n14", "pt": "Esse verbo diz como fica … em mim. Mais em 'Para ir além'." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "ep6b-rend", "pt": "Muito bem! Você prova e escolhe o tamanho. Na última parte: preço, pagar e trocar. Até já!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }

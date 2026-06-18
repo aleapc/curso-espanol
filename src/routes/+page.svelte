@@ -1,6 +1,7 @@
 <script lang="ts">
   import { base } from '$app/paths';
   import { niveis } from '$lib/course';
+  import { quizDoNivel } from '$lib/course/quizzes';
   import { store, isDone, PROFILES } from '$lib/state.svelte';
   import { encodeSync, importSync, whatsappUrl } from '$lib/sync';
 
@@ -141,6 +142,21 @@
         </div>
       {/if}
     {/each}
+
+    <!-- Quiz do nível -->
+    {#if quizDoNivel[nivel.nivel]}
+      <a
+        href="{base}/quiz/{quizDoNivel[nivel.nivel]}/"
+        class="mt-2 flex items-center gap-3 rounded-2xl border border-dashed border-black/15 px-4 py-3 transition hover:bg-black/5"
+      >
+        <span class="text-xl">🎧</span>
+        <span class="flex-1">
+          <span class="block text-sm font-bold">Quiz do {nivel.nome}</span>
+          <span class="block text-xs text-carvao/55">Escute uma conversa e responda em espanhol</span>
+        </span>
+        <span class="text-sm">{isDone(quizDoNivel[nivel.nivel]) ? '✅' : '▶'}</span>
+      </a>
+    {/if}
   </section>
 {/each}
 

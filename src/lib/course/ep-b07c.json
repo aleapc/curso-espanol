@@ -21,9 +21,9 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-horacheckout", "es": "¿A qué hora es el check-out?", "pt": "A que horas é o check-out?" },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7c-p03", "promptPt": "Pergunte a que horas é o check-out. Fale agora.", "audioKey": "h-horacheckout", "es": "¿A qué hora es el check-out?", "pt": "A que horas é o check-out?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n05", "pt": "Pra deixar as malas guardadas. Mala, no Rio da Prata, é 'valija':" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n05", "pt": "Pra deixar as malas guardadas. No Rio da Prata, mala tem um nome próprio. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-valijas", "es": "¿Puedo dejar las valijas?", "pt": "Posso deixar as malas?" },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7c-p04", "promptPt": "Pergunte se pode deixar as malas, 'las valijas'. Fale agora.", "audioKey": "h-valijas", "es": "¿Puedo dejar las valijas?", "pt": "Posso deixar as malas?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7c-p04", "promptPt": "Pergunte se pode deixar as malas. Fale agora.", "audioKey": "h-valijas", "es": "¿Puedo dejar las valijas?", "pt": "Posso deixar as malas?" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n06", "pt": "Pra pedir um táxi:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-taxi", "es": "¿Me puede pedir un taxi?", "pt": "Pode chamar um táxi pra mim?" },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7c-p05", "promptPt": "Peça que chamem um táxi. Fale agora.", "audioKey": "h-taxi", "es": "¿Me puede pedir un taxi?", "pt": "Pode chamar um táxi pra mim?" },
@@ -50,10 +50,10 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-aire", "es": "No funciona el aire.", "pt": "O ar não funciona." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-checkout", "es": "Quería hacer el check-out.", "pt": "Eu queria fazer o check-out." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n10", "pt": "Gramática em foco: pedidos educados. '¿Me puede…?' é 'você pode me…?'; '¿Puedo…?' é 'eu posso…?'. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n10", "pt": "Gramática em foco: pedidos educados. Há uma forma pra 'você pode me…?' e outra pra 'eu posso…?'. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-taxi", "es": "¿Me puede pedir un taxi?", "pt": "Pode chamar um táxi pra mim?" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-valijas", "es": "¿Puedo dejar las valijas?", "pt": "Posso deixar as malas?" },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n11", "pt": "'¿Me puede…?' e '¿Puedo…?' deixam qualquer pedido educado. Mais em 'Para ir além'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7c-n11", "pt": "Essas duas formas deixam qualquer pedido educado. Mais em 'Para ir além'." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "ep7c-rend", "pt": "Parabéns! Você se vira num hotel inteiro: chegar, pedir, resolver e sair. Até logo!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }

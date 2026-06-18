@@ -7,7 +7,7 @@
   "subtitulo": "Uma conversa de verdade, do começo ao fim",
   "steps": [
     { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-n01", "pt": "Última parte do curso! Agora é o teste de escuta: uma conversa em velocidade natural, com tudo que você aprendeu. Não precisa entender cada palavra — pegue o sentido. Antes, recordando: diga 'ou seja, não me incomoda'. Responda." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "anr3-p01", "promptPt": "Diga 'ou seja, não me incomoda', o sea, no me molesta. Fale agora.", "audioKey": "nr-osea", "es": "O sea, no me molesta.", "pt": "Ou seja, não me incomoda." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "anr3-p01", "promptPt": "Diga 'ou seja, não me incomoda'. Fale agora.", "audioKey": "nr-osea", "es": "O sea, no me molesta.", "pt": "Ou seja, não me incomoda." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-n02", "pt": "Cena: um casal chega num restaurante em Montevidéu. Escute a conversa inteira, sem pressa:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "nr-t1", "es": "Buenas, ¿tienen mesa para dos?", "pt": "Olá, têm mesa para dois?" },
@@ -18,27 +18,27 @@
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "nr-t6", "es": "Perfecto. Cuando estén listos, me avisan.", "pt": "Perfeito. Quando estiverem prontos, me avisem." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-n03", "pt": "Entendeu o miolo? Vamos conferir. O que o casal pediu? Responda em voz alta." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr3-p02", "promptPt": "Diga em espanhol o que eles pediram: 'churrasco e vinho tinto', asado y vino tinto. Fale agora.", "audioKey": "nr-pedido", "es": "Asado y vino tinto.", "pt": "Churrasco e vinho tinto." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-n04", "pt": "Repare em três coisas que você já domina: 'bárbaro' (ótimo), '¿qué nos recomendás?' (voseo), e 'cuando estén listos' (subjuntivo do futuro). Escute de novo as peças-chave:" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr3-p02", "promptPt": "Diga em espanhol o que eles pediram: 'churrasco e vinho tinto'. Fale agora.", "audioKey": "nr-pedido", "es": "Asado y vino tinto.", "pt": "Churrasco e vinho tinto." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-n04", "pt": "Repare em três coisas que você já domina: o 'bárbaro' que quer dizer ótimo, a pergunta de recomendação no voseo, e o 'quando estiverem prontos' com o subjuntivo do futuro. Escute de novo as peças-chave:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "nr-t3", "es": "Bárbaro. ¿Qué nos recomendás?", "pt": "Ótimo. O que você recomenda pra gente?" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "nr-t6", "es": "Cuando estén listos, me avisan.", "pt": "Quando estiverem prontos, me avisem." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-n05", "pt": "Agora você. Peça mesa para dois. Fale agora." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr3-p03", "promptPt": "Pergunte 'têm mesa para dois?', ¿tienen mesa para dos?. Fale agora.", "audioKey": "nr-t1", "es": "Buenas, ¿tienen mesa para dos?", "pt": "Olá, têm mesa para dois?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr3-p03", "promptPt": "Pergunte 'têm mesa para dois?'. Fale agora.", "audioKey": "nr-t1", "es": "Buenas, ¿tienen mesa para dos?", "pt": "Olá, têm mesa para dois?" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-n06", "pt": "E peça uma recomendação, no vos. Fale agora." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr3-p04", "promptPt": "Pergunte 'o que você recomenda?', ¿qué nos recomendás?. Fale agora.", "audioKey": "nr-recomendas", "es": "¿Qué nos recomendás?", "pt": "O que você recomenda?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr3-p04", "promptPt": "Pergunte 'o que você recomenda?', no vos. Fale agora.", "audioKey": "nr-recomendas", "es": "¿Qué nos recomendás?", "pt": "O que você recomenda?" },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-s00", "pt": "Shadowing final: repita junto a fala mais útil da cena." },
     { "tipo": "shadow", "voz": "Ana", "audioKey": "nr-t6", "es": "Cuando estén listos, me avisan.", "pt": "Quando estiverem prontos, me avisem." },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "nr-t5", "es": "Dale, traé eso. Y una de vino tinto.", "pt": "Beleza, traz isso. E uma de vinho tinto." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-n07", "pt": "Gramática em foco: entender o nativo rápido não é entender cada palavra — é pegar as âncoras (verbo principal, nome do prato, número) e deixar o resto fluir. Você já tem ouvido pra isso. E sempre que precisar, o kit da parte 1 te salva: 'más despacio', '¿podés repetir?'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-n07", "pt": "Gramática em foco: entender o nativo rápido não é entender cada palavra — é pegar as âncoras (verbo principal, nome do prato, número) e deixar o resto fluir. Você já tem ouvido pra isso. E sempre que precisar, o kit da parte 1 te salva: pedir pra falar mais devagar, pedir pra repetir." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-n08", "pt": "E é isso! Você chegou ao fim do Curso de Español. Do 'hola' do primeiro episódio até entender uma conversa inteira em Montevidéu: presente, passado, futuro, voseo, subjuntivo, condicional, conectores, modismos e o registro formal. Tudo treinado falando em voz alta." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-n08", "pt": "E é isso! Você chegou ao fim do nosso curso de espanhol. Do primeiro 'olá' do primeiro episódio até entender uma conversa inteira em Montevidéu: presente, passado, futuro, voseo, subjuntivo, condicional, conectores, modismos e o registro formal. Tudo treinado falando em voz alta." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "nr-felicidades", "es": "¡Felicidades! Lo lograste.", "pt": "Parabéns! Você conseguiu." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "nr-buenviaje", "es": "Ahora sí, ¡buen viaje y a hablar!", "pt": "Agora sim, boa viagem e a falar!" },
 
-    { "tipo": "recap", "voz": "Bia", "audioKey": "anr3-rend", "pt": "Parabéns aos dois! Sigam ouvindo, repetindo e, principalmente, conversando — agora é só rodagem. Buen viaje, Alexandre e Andréia. ¡Nos vemos en Montevideo!" },
+    { "tipo": "recap", "voz": "Bia", "audioKey": "anr3-rend", "pt": "Parabéns aos dois! Sigam ouvindo, repetindo e, principalmente, conversando — agora é só rodagem. Boa viagem, Alexandre e Andréia. A gente se vê em Montevidéu!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
   ],
   "aprofundar": {

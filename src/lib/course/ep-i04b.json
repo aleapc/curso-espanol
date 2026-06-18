@@ -7,7 +7,7 @@
   "subtitulo": "Pedir um médico, chamar ajuda, achar hospital",
   "steps": [
     { "tipo": "intro", "voz": "Bia", "audioKey": "isa2-n01", "pt": "Parte 2: emergência e pedir ajuda. Frases que podem salvar. Antes, recordando: diga 'estou com febre'. Responda." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "isa2-p01", "promptPt": "Diga 'estou com febre', tengo fiebre. Fale agora.", "audioKey": "sa-fiebre", "es": "Tengo fiebre.", "pt": "Estou com febre." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "isa2-p01", "promptPt": "Diga 'estou com febre'. Fale agora.", "audioKey": "sa-fiebre", "es": "Tengo fiebre.", "pt": "Estou com febre." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "isa2-n02", "pt": "Escute uma emergência:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "sa-d3", "es": "¡Ayuda! Necesito un médico.", "pt": "Socorro! Preciso de um médico." },
@@ -15,19 +15,19 @@
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "isa2-n03", "pt": "Pra pedir um médico:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "sa-medico", "es": "Necesito un médico.", "pt": "Preciso de um médico." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "isa2-p02", "promptPt": "Diga 'preciso de um médico', necesito un médico. Fale agora.", "audioKey": "sa-medico", "es": "Necesito un médico.", "pt": "Preciso de um médico." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "isa2-p02", "promptPt": "Diga 'preciso de um médico'. Fale agora.", "audioKey": "sa-medico", "es": "Necesito un médico.", "pt": "Preciso de um médico." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "isa2-n04", "pt": "Pra pedir que chamem uma ambulância:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "sa-ambulancia", "es": "Llame a una ambulancia.", "pt": "Chame uma ambulância." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "isa2-p03", "promptPt": "Diga 'chame uma ambulância', llame a una ambulancia. Fale agora.", "audioKey": "sa-ambulancia", "es": "Llame a una ambulancia.", "pt": "Chame uma ambulância." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "isa2-p03", "promptPt": "Diga 'chame uma ambulância'. Fale agora.", "audioKey": "sa-ambulancia", "es": "Llame a una ambulancia.", "pt": "Chame uma ambulância." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "isa2-n05", "pt": "Pra dizer que é uma emergência:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "sa-emergencia", "es": "Es una emergencia.", "pt": "É uma emergência." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "isa2-p04", "promptPt": "Diga 'é uma emergência', es una emergencia. Fale agora.", "audioKey": "sa-emergencia", "es": "Es una emergencia.", "pt": "É uma emergência." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "isa2-p04", "promptPt": "Diga 'é uma emergência'. Fale agora.", "audioKey": "sa-emergencia", "es": "Es una emergencia.", "pt": "É uma emergência." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "isa2-n06", "pt": "Pra achar um hospital:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "sa-hospital", "es": "¿Dónde hay un hospital?", "pt": "Onde tem um hospital?" },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "isa2-p05", "promptPt": "Pergunte 'onde tem um hospital?'. Fale agora.", "audioKey": "sa-hospital", "es": "¿Dónde hay un hospital?", "pt": "Onde tem um hospital?" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "isa2-n07", "pt": "E pra pedir ajuda direta:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "sa-ayudeme", "es": "¡Ayúdeme, por favor!", "pt": "Me ajude, por favor!" },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "isa2-p06", "promptPt": "Peça ajuda: 'me ajude, por favor!', ayúdeme. Fale agora.", "audioKey": "sa-ayudeme", "es": "¡Ayúdeme, por favor!", "pt": "Me ajude, por favor!" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "isa2-p06", "promptPt": "Peça ajuda: 'me ajude, por favor!'. Fale agora.", "audioKey": "sa-ayudeme", "es": "¡Ayúdeme, por favor!", "pt": "Me ajude, por favor!" },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "isa2-n08", "pt": "Vamos recordar. Responda em voz alta." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "isa2-p07", "promptPt": "Diga 'preciso de um médico'. Fale agora.", "audioKey": "sa-medico", "es": "Necesito un médico.", "pt": "Preciso de um médico." },
@@ -37,10 +37,10 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "sa-medico", "es": "Necesito un médico.", "pt": "Preciso de um médico." },
     { "tipo": "shadow", "voz": "Ana", "audioKey": "sa-ambulancia", "es": "Llame a una ambulancia.", "pt": "Chame uma ambulância." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "isa2-n09", "pt": "Gramática em foco: pra pedir socorro com urgência, o imperativo formal: 'llame' (chame), 'ayúdeme' (me ajude). E 'hay' (tem/há) acha lugares: ¿dónde hay un hospital? Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "isa2-n09", "pt": "Gramática em foco: pra pedir socorro com urgência, usa-se o imperativo formal, como em 'chame' e 'me ajude'. E há uma palavrinha pra 'tem/há' que serve pra achar lugares, como em 'onde tem um hospital?'. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "sa-ambulancia", "es": "Llame a una ambulancia.", "pt": "Chame uma ambulância." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "sa-hospital", "es": "¿Dónde hay un hospital?", "pt": "Onde tem um hospital?" },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "isa2-n10", "pt": "Imperativo pra socorro; 'hay' pra achar lugar. Mais em 'Para ir além'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "isa2-n10", "pt": "Imperativo pra socorro; e a palavra de 'tem/há' pra achar lugar. Mais em 'Para ir além'." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "isa2-rend", "pt": "Muito bem! Numa emergência, você pede ajuda. Na última parte: farmácia e melhorar. Até já!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }

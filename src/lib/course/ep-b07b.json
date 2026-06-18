@@ -23,7 +23,7 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-horadesayuno", "es": "¿A qué hora es el desayuno?", "pt": "A que horas é o café da manhã?" },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p04", "promptPt": "Pergunte a que horas é o café da manhã. Fale agora.", "audioKey": "h-horadesayuno", "es": "¿A qué hora es el desayuno?", "pt": "A que horas é o café da manhã?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n06", "pt": "Agora os problemas. Quando algo não funciona, 'no funciona'. O ar-condicionado:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n06", "pt": "Agora os problemas. Pra dizer que algo não funciona, há uma fórmula simples. O ar-condicionado:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-aire", "es": "No funciona el aire.", "pt": "O ar não funciona." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p05", "promptPt": "Diga 'o ar não funciona'. Fale agora.", "audioKey": "h-aire", "es": "No funciona el aire.", "pt": "O ar não funciona." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n07", "pt": "O chuveiro:" },
@@ -47,7 +47,7 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "h-aire", "es": "No funciona el aire.", "pt": "O ar não funciona." },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "h-traer", "es": "¿Me pueden traer más toallas?", "pt": "Podem me trazer mais toalhas?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n12", "pt": "Gramática em foco: pra reclamar de problemas. 'No funciona…' (não funciona), 'no hay…' (não tem), 'falta…' (falta). Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n12", "pt": "Gramática em foco: pra reclamar de problemas, três fórmulas resolvem quase tudo — uma pra 'não funciona', uma pra 'não tem' e uma pra 'falta'. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-aire", "es": "No funciona el aire.", "pt": "O ar não funciona." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "h-toalla", "es": "Falta una toalla.", "pt": "Falta uma toalha." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n13", "pt": "Essas três resolvem quase qualquer problema no quarto. Mais em 'Para ir além'." },

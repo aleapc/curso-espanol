@@ -22,10 +22,10 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-habitaciones", "es": "¿Tienen habitaciones libres?", "pt": "Vocês têm quartos disponíveis?" },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7a-p03", "promptPt": "Pergunte se têm quartos disponíveis. Fale agora.", "audioKey": "h-habitaciones", "es": "¿Tienen habitaciones libres?", "pt": "Vocês têm quartos disponíveis?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n06", "pt": "Os tipos de quarto: individual, ou de casal ('doble'):" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n06", "pt": "Os tipos de quarto: individual, ou de casal:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "h-individual", "es": "Una habitación individual.", "pt": "Um quarto individual." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "h-doble", "es": "Una habitación doble.", "pt": "Um quarto de casal." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep7a-p04", "promptPt": "Peça um quarto de casal, 'doble'. Fale agora.", "audioKey": "h-doble", "es": "Una habitación doble.", "pt": "Um quarto de casal." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep7a-p04", "promptPt": "Peça um quarto de casal. Fale agora.", "audioKey": "h-doble", "es": "Una habitación doble.", "pt": "Um quarto de casal." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n07", "pt": "Pra perguntar o preço da diária:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-noche", "es": "¿Cuánto cuesta la noche?", "pt": "Quanto custa a diária?" },
@@ -37,7 +37,7 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-checkin", "es": "Quería hacer el check-in.", "pt": "Eu queria fazer o check-in." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7a-p07", "promptPt": "Diga que quer fazer o check-in. Fale agora.", "audioKey": "h-checkin", "es": "Quería hacer el check-in.", "pt": "Eu queria fazer o check-in." },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep7a-n10", "pt": "Lembra do falso amigo? Na recepção vão pedir o seu 'apellido' — é o seu sobrenome. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep7a-n10", "pt": "Lembra do falso amigo? Na recepção vão pedir uma palavra que parece 'apelido', mas é o seu sobrenome. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-apellido2", "es": "¿Cuál es tu apellido?", "pt": "Qual é o seu sobrenome?" },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n11", "pt": "Vamos recordar. Responda em voz alta." },
@@ -48,10 +48,10 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "h-reserva", "es": "Tengo una reserva.", "pt": "Tenho uma reserva." },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "h-noche", "es": "¿Cuánto cuesta la noche?", "pt": "Quanto custa a diária?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n12", "pt": "Gramática em foco: 'tengo' é eu tenho; '¿tienen?' é vocês têm; e 'hay' é 'tem/há' (existência). Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n12", "pt": "Gramática em foco: há uma forma pra 'eu tenho', outra pra 'vocês têm', e uma palavra à parte pra 'tem/há' no sentido de existência, sem dono. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-reserva", "es": "Tengo una reserva.", "pt": "Tenho uma reserva." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-habitaciones", "es": "¿Tienen habitaciones libres?", "pt": "Vocês têm quartos disponíveis?" },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n13", "pt": "'Tengo / tienen' é do verbo ter; 'hay' é tem/há. Mais em 'Para ir além'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n13", "pt": "As formas de 'ter' indicam quem possui; a palavra de existência diz só 'tem/há'. Mais em 'Para ir além'." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "ep7a-rend", "pt": "Ótimo! Você já faz o check-in. Na próxima parte: o quarto e os pedidos. Até já!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }

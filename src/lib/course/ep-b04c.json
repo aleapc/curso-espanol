@@ -14,7 +14,7 @@
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-rd2", "es": "Enseguida. ¿Cómo van a pagar?", "pt": "Já trago. Como vão pagar?" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-rd3", "es": "¿Puedo pagar con tarjeta?", "pt": "Posso pagar com cartão?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n03", "pt": "Repare: no Rio da Prata, garçom é 'mozo'. Pra pedir a conta:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n03", "pt": "Repare: no Rio da Prata, o garçom é chamado por outro nome, como você ouviu na cena. Pra pedir a conta:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-cuenta", "es": "La cuenta, por favor.", "pt": "A conta, por favor." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4c-p02", "promptPt": "Peça a conta, por favor. Fale agora.", "audioKey": "r-cuenta", "es": "La cuenta, por favor.", "pt": "A conta, por favor." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n04", "pt": "Pra perguntar quanto é:" },
@@ -34,10 +34,10 @@
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n08", "pt": "Pra elogiar — 'estava tudo gostoso':" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-rico", "es": "Estaba todo muy rico.", "pt": "Estava tudo muito gostoso." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4c-p07", "promptPt": "Elogie: 'estava tudo gostoso'. Fale agora.", "audioKey": "r-rico", "es": "Estaba todo muy rico.", "pt": "Estava tudo muito gostoso." },
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep4c-n09", "pt": "E o falso amigo que prometi: se algo está delicioso, diga 'exquisito'. Parece 'esquisito' do português, mas é o maior elogio. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep4c-n09", "pt": "E o falso amigo que prometi: tem uma palavra que parece 'esquisito' do português, mas em espanhol é o maior elogio pra algo delicioso. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-exq", "es": "Exquisito.", "pt": "Delicioso." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4c-p08", "promptPt": "Elogie a comida: 'está exquisita'. Fale agora.", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4c-p08", "promptPt": "Elogie a comida, diga que está deliciosa. Fale agora.", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n10", "pt": "Se algo vier errado, reclame com educação:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-noeslo", "es": "Disculpe, esto no es lo que pedí.", "pt": "Desculpe, isso não é o que pedi." },
@@ -46,7 +46,7 @@
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n11", "pt": "Vamos recordar. Responda em voz alta." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4c-p10", "promptPt": "Peça a conta, por favor. Fale agora.", "audioKey": "r-cuenta", "es": "La cuenta, por favor.", "pt": "A conta, por favor." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4c-p11", "promptPt": "Pergunte se pode pagar com cartão. Fale agora.", "audioKey": "r-tarjeta", "es": "¿Puedo pagar con tarjeta?", "pt": "Posso pagar com cartão?" },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4c-p12", "promptPt": "Elogie a comida: 'está exquisita'. Fale agora.", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4c-p12", "promptPt": "Elogie a comida, diga que está deliciosa. Fale agora.", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-s00", "pt": "Shadowing: repita junto, sem ler." },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "r-cuenta", "es": "La cuenta, por favor.", "pt": "A conta, por favor." },
@@ -61,7 +61,7 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-cuenta", "es": "La cuenta, por favor.", "pt": "A conta, por favor." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-tarjeta", "es": "¿Puedo pagar con tarjeta?", "pt": "Posso pagar com cartão?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n12", "pt": "Gramática em foco: pra dizer como algo está agora — a comida, o ambiente — use 'estar'. 'A comida está gostosa' é 'la comida está rica'. Ouça:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n12", "pt": "Gramática em foco: pra dizer como algo está agora — a comida, o ambiente — use o verbo 'estar', igual ao português. Ouça:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa. (estar)" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n13", "pt": "'Está' é do verbo estar, pra como as coisas estão. Mais em 'Para ir além'." },
 

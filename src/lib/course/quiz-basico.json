@@ -1,0 +1,29 @@
+{
+  "id": "q-basico",
+  "nivel": "basico",
+  "titulo": "Quiz Básico — No restaurante",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "qb-intro",
+  "introPt": "Hora do quiz! Escute a conversa inteira em espanhol — um casal chegando num restaurante. Pode ouvir quantas vezes quiser. Depois, responda às perguntas. Não precisa entender cada palavra: pegue o sentido geral.",
+  "cenario": "Um cliente chega num restaurante e fala com a garçonete (la moza).",
+  "dialogo": [
+    { "audioKey": "qb-d1", "voz": "Ana", "es": "¡Hola! Buenas tardes, ¿mesa para dos?", "pt": "Olá! Boa tarde, mesa para dois?" },
+    { "audioKey": "qb-d2", "voz": "Diego", "es": "Hola, sí, para dos, por favor.", "pt": "Olá, sim, para dois, por favor." },
+    { "audioKey": "qb-d3", "voz": "Ana", "es": "Perfecto. ¿Qué van a tomar?", "pt": "Perfeito. O que vão querer?" },
+    { "audioKey": "qb-d4", "voz": "Diego", "es": "Yo quiero una milanesa con papas fritas. ¿Cuánto sale?", "pt": "Eu quero uma milanesa com batatas fritas. Quanto custa?" },
+    { "audioKey": "qb-d5", "voz": "Ana", "es": "Sale trescientos pesos. ¿Y para tomar?", "pt": "Custa trezentos pesos. E para beber?" },
+    { "audioKey": "qb-d6", "voz": "Diego", "es": "Una botella de agua, por favor. ¿Aceptan tarjeta?", "pt": "Uma garrafa de água, por favor. Aceitam cartão?" },
+    { "audioKey": "qb-d7", "voz": "Ana", "es": "Sí, aceptamos tarjeta. ¿Algo más?", "pt": "Sim, aceitamos cartão. Mais alguma coisa?" },
+    { "audioKey": "qb-d8", "voz": "Diego", "es": "No, gracias. ¿Dónde está el baño?", "pt": "Não, obrigado. Onde fica o banheiro?" },
+    { "audioKey": "qb-d9", "voz": "Ana", "es": "Al fondo a la derecha.", "pt": "No fundo à direita." },
+    { "audioKey": "qb-d10", "voz": "Diego", "es": "Muchas gracias.", "pt": "Muito obrigado." }
+  ],
+  "perguntas": [
+    { "es": "¿Para cuántas personas es la mesa?", "opcoes": ["Para dos", "Para una", "Para tres", "Para cuatro"], "correta": 0, "pt": "Para quantas pessoas é a mesa?" },
+    { "es": "¿Qué pidió de comer el cliente?", "opcoes": ["Una milanesa con papas fritas", "Un asado", "Una pizza", "Una ensalada"], "correta": 0, "pt": "O que o cliente pediu para comer?" },
+    { "es": "¿Cuánto sale la comida?", "opcoes": ["Trescientos pesos", "Trece pesos", "Cien pesos", "Mil pesos"], "correta": 0, "pt": "Quanto custa a comida?" },
+    { "es": "¿Qué pidió para tomar?", "opcoes": ["Una botella de agua", "Un vino", "Una cerveza", "Un café"], "correta": 0, "pt": "O que pediu para beber?" },
+    { "es": "¿Cómo va a pagar?", "opcoes": ["Con tarjeta", "En efectivo", "Con cheque", "No paga"], "correta": 0, "pt": "Como vai pagar?" },
+    { "es": "¿Dónde está el baño?", "opcoes": ["Al fondo a la derecha", "A la izquierda", "Arriba", "Afuera"], "correta": 0, "pt": "Onde fica o banheiro?" }
+  ]
+}

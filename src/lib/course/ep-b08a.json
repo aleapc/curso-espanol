@@ -8,29 +8,29 @@
   "steps": [
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep8a-n01", "pt": "Vamos ao mercado! Parte 1: comprar comida. Fale em voz alta quando eu pedir." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep8a-n02", "pt": "Recordando: pergunte 'quanto custa?'. Responda." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8a-p01", "promptPt": "Pergunte o preço, '¿cuánto sale?'. Fale agora.", "audioKey": "c-cuantosale", "es": "¿Cuánto sale?", "pt": "Quanto custa?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8a-p01", "promptPt": "Pergunte o preço, 'quanto custa?'. Fale agora.", "audioKey": "c-cuantosale", "es": "¿Cuánto sale?", "pt": "Quanto custa?" },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep8a-n03", "pt": "Escute no mercado:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "m-d1", "es": "¿Qué va a llevar?", "pt": "O que vai levar?" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-d2", "es": "Un kilo de manzanas, por favor.", "pt": "Um quilo de maçãs, por favor." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8a-n04", "pt": "Pra dizer o que precisa, 'necesito':" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8a-n04", "pt": "Pra dizer o que precisa, há uma palavra que significa 'preciso'. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-necesito", "es": "Necesito pan y leche.", "pt": "Preciso de pão e leite." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8a-p02", "promptPt": "Diga 'preciso de pão e leite'. Fale agora.", "audioKey": "m-necesito", "es": "Necesito pan y leche.", "pt": "Preciso de pão e leite." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep8a-n05", "pt": "Frutas: maçã e banana:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "m-manzana", "es": "Una manzana.", "pt": "Uma maçã." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "m-banana", "es": "Una banana.", "pt": "Uma banana." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep8a-p03", "promptPt": "Peça uma maçã, 'una manzana'. Fale agora.", "audioKey": "m-manzana", "es": "Una manzana.", "pt": "Uma maçã." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8a-n06", "pt": "Verduras: tomate e alface ('lechuga'):" },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep8a-p03", "promptPt": "Peça uma maçã. Fale agora.", "audioKey": "m-manzana", "es": "Una manzana.", "pt": "Uma maçã." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8a-n06", "pt": "Verduras: tomate e alface:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-tomate", "es": "Tomates.", "pt": "Tomates." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-lechuga", "es": "Lechuga.", "pt": "Alface." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8a-p04", "promptPt": "Peça alface, 'lechuga'. Fale agora.", "audioKey": "m-lechuga", "es": "Lechuga.", "pt": "Alface." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8a-p04", "promptPt": "Peça alface. Fale agora.", "audioKey": "m-lechuga", "es": "Lechuga.", "pt": "Alface." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep8a-n07", "pt": "Básicos: pão, leite e ovos:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "m-pan", "es": "Pan.", "pt": "Pão." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "m-leche", "es": "Leche.", "pt": "Leite." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "m-huevos", "es": "Huevos.", "pt": "Ovos." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep8a-p05", "promptPt": "Peça ovos, 'huevos'. Fale agora.", "audioKey": "m-huevos", "es": "Huevos.", "pt": "Ovos." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep8a-p05", "promptPt": "Peça ovos. Fale agora.", "audioKey": "m-huevos", "es": "Huevos.", "pt": "Ovos." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep8a-n08", "pt": "Pra perguntar se tem algo:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-tiene", "es": "¿Tiene queso?", "pt": "Tem queijo?" },
@@ -47,10 +47,10 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "m-necesito", "es": "Necesito pan y leche.", "pt": "Preciso de pão e leite." },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "m-tiene", "es": "¿Tiene queso?", "pt": "Tem queijo?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8a-n11", "pt": "Gramática em foco: 'necesito' é 'preciso'; 'quiero' é 'quero'. Abrem qualquer pedido. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8a-n11", "pt": "Gramática em foco: há uma palavra pra 'preciso' e outra pra 'quero'. Abrem qualquer pedido. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-necesito", "es": "Necesito pan y leche.", "pt": "Preciso de pão e leite." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "m-quiero", "es": "Quiero un kilo de manzanas.", "pt": "Quero um quilo de maçãs." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8a-n12", "pt": "'Necesito' e 'quiero' resolvem na hora de pedir. Mais em 'Para ir além'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep8a-n12", "pt": "'Preciso' e 'quero' resolvem na hora de pedir. Mais em 'Para ir além'." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "ep8a-rend", "pt": "Ótimo! Você compra comida no mercado. Na próxima: quantidades e o caixa. Até já!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }

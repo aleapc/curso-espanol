@@ -16,7 +16,7 @@
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-d3", "es": "¿Cómo lo quiere?", "pt": "Como o senhor quer (o ponto)?" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-d4", "es": "A punto, por favor.", "pt": "Ao ponto, por favor." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n04", "pt": "A churrascaria, e o próprio churrasco, é 'la parrilla'. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n04", "pt": "A churrascaria, e o próprio churrasco, é a parrilla. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-parrilla", "es": "Una parrilla.", "pt": "Uma parrilla (churrasco)." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n05", "pt": "Um corte clássico: o bife de chorizo. Cuidado: NÃO é linguiça, é um corte nobre. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-bife", "es": "Un bife de chorizo.", "pt": "Um bife de chorizo (corte)." },
@@ -24,13 +24,13 @@
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n06", "pt": "Outro corte, o vacío:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-vacio", "es": "El vacío.", "pt": "O vacío (corte)." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep5a-p03", "promptPt": "Peça o vacío. Fale agora.", "audioKey": "r2-vacio", "es": "El vacío.", "pt": "O vacío." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n07", "pt": "E a costela, 'asado de tira':" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n07", "pt": "E a costela:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-tira", "es": "Asado de tira.", "pt": "Costela (tira)." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep5a-p04", "promptPt": "Peça asado de tira. Fale agora.", "audioKey": "r2-tira", "es": "Asado de tira.", "pt": "Costela." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n08", "pt": "O garçom vai perguntar o ponto: 'como o senhor quer?'. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-comolo", "es": "¿Cómo lo quiere?", "pt": "Como o senhor quer (o ponto)?" },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n09", "pt": "Os pontos: mal passado é 'jugoso'; ao ponto, 'a punto'; bem passado, 'bien cocido'. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n09", "pt": "Os pontos da carne: mal passado, ao ponto e bem passado. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-jugoso", "es": "Jugoso.", "pt": "Mal passado / suculento." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-apunto", "es": "A punto.", "pt": "Ao ponto." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-cocido", "es": "Bien cocido.", "pt": "Bem passado." },
@@ -49,10 +49,10 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "r2-bife", "es": "Un bife de chorizo.", "pt": "Um bife de chorizo." },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "r2-loquiero", "es": "Lo quiero a punto.", "pt": "Eu quero ao ponto." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n13", "pt": "Gramática em foco: pra falar de gosto, use 'me gusta' (eu gosto) e 'me gustaría' (eu gostaria — mais educado pra pedir). Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n13", "pt": "Gramática em foco: pra falar de gosto, tem uma forma pra 'eu gosto' e outra pra 'eu gostaria' — essa, mais educada pra pedir. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-megusta", "es": "Me gusta la carne jugosa.", "pt": "Eu gosto da carne mal passada." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-megustaria", "es": "Me gustaría un bife de chorizo.", "pt": "Eu gostaria de um bife de chorizo." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n14", "pt": "'Me gusta' pro que você gosta; 'me gustaría' pra pedir com jeitinho. Mais em 'Para ir além'." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep5a-n14", "pt": "Uma forma é pro que você gosta; a outra, pra pedir com jeitinho. Mais em 'Para ir além'." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "ep5a-rend", "pt": "Muito bem! Você já manda bem na parrilla. Na próxima parte, outros pratos típicos. Até já!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }

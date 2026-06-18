@@ -8,21 +8,21 @@
   "steps": [
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep9c-n01", "pt": "Última parte dos falsos amigos: tempo e estados. Fale em voz alta quando eu pedir." },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9c-n02", "pt": "'Largo' é COMPRIDO, não largura. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9c-n02", "pt": "A palavra que parece 'largo' quer dizer COMPRIDO, não largura. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-largo", "es": "Me queda largo.", "pt": "Ficou comprido (em mim)." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep9c-p01", "promptPt": "Diga que ficou comprido, 'me queda largo'. Fale agora.", "audioKey": "c-largo", "es": "Me queda largo.", "pt": "Ficou comprido." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep9c-p01", "promptPt": "Diga que ficou comprido. Fale agora.", "audioKey": "c-largo", "es": "Me queda largo.", "pt": "Ficou comprido." },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9c-n03", "pt": "'Rato' não é o bicho — é um INSTANTE, um momentinho. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9c-n03", "pt": "A palavra que parece 'rato' não é o bicho — é um INSTANTE, um momentinho. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "fa-rato", "es": "Esperá un rato.", "pt": "Espera um instante." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep9c-p02", "promptPt": "Diga 'espera um instante', esperá un rato. Fale agora.", "audioKey": "fa-rato", "es": "Esperá un rato.", "pt": "Espera um instante." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep9c-p02", "promptPt": "Diga 'espera um instante'. Fale agora.", "audioKey": "fa-rato", "es": "Esperá un rato.", "pt": "Espera um instante." },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9c-n04", "pt": "'Todavía' não é 'todavia/contudo' — é AINDA. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9c-n04", "pt": "Tem uma palavra que parece 'todavia/contudo' — mas quer dizer AINDA. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "fa-todavia", "es": "Todavía no llegó.", "pt": "Ainda não chegou." },
-    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep9c-p03", "promptPt": "Diga 'ainda não chegou', todavía no llegó. Fale agora.", "audioKey": "fa-todavia", "es": "Todavía no llegó.", "pt": "Ainda não chegou." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep9c-p03", "promptPt": "Diga 'ainda não chegou'. Fale agora.", "audioKey": "fa-todavia", "es": "Todavía no llegó.", "pt": "Ainda não chegou." },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9c-n05", "pt": "Da farmácia: 'constipado' é RESFRIADO, não preso do intestino. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9c-n05", "pt": "Da farmácia: a palavra que parece 'constipado' quer dizer RESFRIADO, não preso do intestino. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-constipado", "es": "Estoy constipado.", "pt": "Estou resfriado." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep9c-p04", "promptPt": "Diga que está resfriado, 'estoy constipado'. Fale agora.", "audioKey": "m-constipado", "es": "Estoy constipado.", "pt": "Estou resfriado." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep9c-p04", "promptPt": "Diga que está resfriado. Fale agora.", "audioKey": "m-constipado", "es": "Estoy constipado.", "pt": "Estou resfriado." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep9c-n06", "pt": "Vamos recordar. Responda em voz alta." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep9c-p05", "promptPt": "Diga 'espera um instante'. Fale agora.", "audioKey": "fa-rato", "es": "Esperá un rato.", "pt": "Espera um instante." },
@@ -39,7 +39,7 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "fa-rato", "es": "Esperá un rato.", "pt": "Espera um instante." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "fa-todavia", "es": "Todavía no llegó.", "pt": "Ainda não chegou." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9c-n07", "pt": "Gramática em foco, o resumo: parecido NÃO é igual. Exquisito, vaso, jamón, salsa, embarazada, oficina, cena, largo, rato, todavía, constipado. Onze armadilhas que agora são suas amigas." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9c-n07", "pt": "Gramática em foco, o resumo: parecido NÃO é igual. Foram onze armadilhas nestes três episódios — comida, objetos, pessoas, lugares, tempo e estados. Agora elas são suas amigas." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "ep9c-rend", "pt": "Parabéns! Você fechou os falsos amigos — e o módulo Básico inteiro! Que jornada. Até logo!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }

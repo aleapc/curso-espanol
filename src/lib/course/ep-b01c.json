@@ -21,10 +21,10 @@
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p03", "promptPt": "Pergunte 'como você se chama?' do jeito uruguaio. Fale agora.", "audioKey": "b01-f2", "es": "¿Cómo te llamás?", "pt": "Como você se chama?" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n04", "pt": "Pra dizer o seu nome, em português é 'me chamo'. Em espanhol:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "b01-f3", "es": "Me llamo Alexandre.", "pt": "Eu me chamo Alexandre." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p04", "promptPt": "Diga o seu nome com 'me llamo'. Fale agora.", "audioKey": "b01-f3", "es": "Me llamo Alexandre.", "pt": "(exemplo) Eu me chamo Alexandre." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p04", "promptPt": "Diga o seu nome usando 'me chamo'. Fale agora.", "audioKey": "b01-f3", "es": "Me llamo Alexandre.", "pt": "(exemplo) Eu me chamo Alexandre." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n05", "pt": "Outro jeito, com 'sou':" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-soy", "es": "Soy Alexandre.", "pt": "Eu sou o Alexandre." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p05", "promptPt": "Diga o seu nome com 'soy'. Fale agora.", "audioKey": "es-soy", "es": "Soy Alexandre.", "pt": "(exemplo) Eu sou o Alexandre." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p05", "promptPt": "Diga o seu nome começando com 'eu sou'. Fale agora.", "audioKey": "es-soy", "es": "Soy Alexandre.", "pt": "(exemplo) Eu sou o Alexandre." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n06", "pt": "Ao se apresentar, diga 'muito prazer':" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "b01-f1", "es": "Mucho gusto.", "pt": "Muito prazer." },
@@ -32,7 +32,7 @@
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n07", "pt": "Ou 'encantado', que muda pra homem e mulher:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-enc", "es": "Encantado.", "pt": "Encantado. (homem)" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-enca", "es": "Encantada.", "pt": "Encantada. (mulher)" },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p07", "promptPt": "Se você é homem, diga 'encantado'. Se é mulher, 'encantada'. Fale agora.", "audioKey": "es-enc", "es": "Encantado.", "pt": "Encantado." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p07", "promptPt": "Diga que ficou encantado de conhecer. Fale agora.", "audioKey": "es-enc", "es": "Encantado.", "pt": "Encantado." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n08", "pt": "Pra dizer de onde você é, e perguntar de volta:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-dedonde", "es": "¿De dónde sos?", "pt": "De onde você é?" },
@@ -42,13 +42,13 @@
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n09", "pt": "E a nacionalidade, que muda pra homem e mulher:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-soybrasileno", "es": "Soy brasileño.", "pt": "Sou brasileiro." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-soybrasilena", "es": "Soy brasileña.", "pt": "Sou brasileira." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p10", "promptPt": "Diga a sua nacionalidade. Homem: 'soy brasileño'; mulher: 'soy brasileña'. Fale agora.", "audioKey": "es-soybrasileno", "es": "Soy brasileño.", "pt": "Sou brasileiro." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p10", "promptPt": "Diga a sua nacionalidade: que você é brasileiro ou brasileira. Fale agora.", "audioKey": "es-soybrasileno", "es": "Soy brasileño.", "pt": "Sou brasileiro." },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep1c-n10", "pt": "Uma armadilha de apresentação. Em espanhol, 'apellido' não é 'apelido' — quer dizer sobrenome. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep1c-n10", "pt": "Uma armadilha de apresentação. Em espanhol, existe uma palavra muito parecida com 'apelido', mas ela não quer dizer apelido — quer dizer sobrenome. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-apellido", "es": "Apellido.", "pt": "Sobrenome." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-apellido2", "es": "¿Cuál es tu apellido?", "pt": "Qual é o seu sobrenome?" },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p11", "promptPt": "Pergunte o sobrenome da pessoa: 'qual é o seu apellido?'. Fale agora.", "audioKey": "es-apellido2", "es": "¿Cuál es tu apellido?", "pt": "Qual é o seu sobrenome?" },
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep1c-n11", "pt": "Então, no hotel, quando pedirem o seu 'apellido', é o seu sobrenome — não um apelido carinhoso." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep1c-p11", "promptPt": "Pergunte qual é o sobrenome da pessoa. Fale agora.", "audioKey": "es-apellido2", "es": "¿Cuál es tu apellido?", "pt": "Qual é o seu sobrenome?" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep1c-n11", "pt": "Então, no hotel, quando pedirem essa palavra parecida com 'apelido', é o seu sobrenome — não um apelido carinhoso." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n12", "pt": "Vamos recordar. Responda em voz alta." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep1c-p12", "promptPt": "Diga 'muito prazer'. Fale agora.", "audioKey": "b01-f1", "es": "Mucho gusto.", "pt": "Muito prazer." },
@@ -72,7 +72,7 @@
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n13", "pt": "Gramática em foco: 'ser' e 'estar'. Use SER pro que é fixo — seu nome, de onde você é. Use ESTAR pro que muda — como você está agora. Ouça:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-soybr", "es": "Soy de Brasil.", "pt": "Eu sou do Brasil. (ser — fixo)" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-ce", "es": "¿Cómo estás?", "pt": "Como você está? (estar — momento)" },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n14", "pt": "'Soy' é permanente; 'estás' é o momento. Quer mais detalhes? Abra 'Para ir além' no fim da tela." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep1c-n14", "pt": "O verbo SER é pro permanente; o verbo ESTAR é pro momento. Quer mais detalhes? Abra 'Para ir além' no fim da tela." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "ep1c-rend", "pt": "Parabéns! Você fechou o Episódio 1 inteiro: cumprimentar, se virar e se apresentar. Pratique com a Andréia e siga pro próximo quando quiser. Até logo!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
