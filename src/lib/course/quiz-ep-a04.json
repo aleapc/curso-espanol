@@ -1,0 +1,58 @@
+{
+  "id": "q-a04",
+  "nivel": "avancado",
+  "titulo": "Quiz — Modismos e registros",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-a04-i",
+  "introPt": "Hora de testar o ouvido com os modismos rioplatenses. Escute a conversa entre Ana e Diego e responda em espanhol — repare no que cada expressão quer dizer de verdade.",
+  "cenario": "Ana e Diego conversam sobre um plano de fim de semana que mudou de última hora; depois aparece um vizinho mais velho e o tom muda.",
+  "dialogo": [
+    { "audioKey": "q-a04-d1", "voz": "Diego", "es": "Che, se canceló el recital del sábado. ¡Qué bajón!", "pt": "Ei, cancelaram o show de sábado. Que decepção!" },
+    { "audioKey": "q-a04-d2", "voz": "Ana", "es": "Uy, qué lástima. Pero está todo bien, armamos otra cosa.", "pt": "Ai, que pena. Mas tá tudo certo, a gente inventa outra coisa." },
+    { "audioKey": "q-a04-d3", "voz": "Diego", "es": "¿Y si vamos al asado de Martín? Dicen que está bárbaro el lugar nuevo.", "pt": "E se a gente for no churrasco do Martín? Dizem que o lugar novo tá ótimo." },
+    { "audioKey": "q-a04-d4", "voz": "Ana", "es": "Me da igual, decidí vos. Yo me prendo a lo que sea.", "pt": "Tanto faz, decide você. Eu topo qualquer coisa." },
+    { "audioKey": "q-a04-d5", "voz": "Diego", "es": "Dale. ¿Llevamos algo? ¿Vino, postre…?", "pt": "Beleza. Levamos algo? Vinho, sobremesa…?" },
+    { "audioKey": "q-a04-d6", "voz": "Ana", "es": "Ni idea de qué falta. Mandale un mensaje y preguntale.", "pt": "Não faço ideia do que falta. Manda uma mensagem e pergunta pra ele." },
+    { "audioKey": "q-a04-d7", "voz": "Diego", "es": "Listo. Ah, ahí viene el señor del tercero. Saludá bien.", "pt": "Pronto. Ah, lá vem o senhor do terceiro andar. Cumprimenta direito." },
+    { "audioKey": "q-a04-d8", "voz": "Ana", "es": "Buenas tardes, ¿cómo está usted? ¿Necesita una mano con las bolsas?", "pt": "Boa tarde, como o senhor está? Precisa de uma mãozinha com as sacolas?" },
+    { "audioKey": "q-a04-d9", "voz": "Diego", "es": "Tranquilo, nosotros lo ayudamos. Que tenga un buen día.", "pt": "Fique tranquilo, nós o ajudamos. Tenha um bom dia." }
+  ],
+  "perguntas": [
+    {
+      "es": "¿Qué le pasó a Diego al principio?",
+      "opcoes": ["Se ganó una entrada", "Se canceló el recital y está decepcionado", "No le gusta el recital", "Llegó tarde al recital"],
+      "correta": 1,
+      "pt": "Pergunta sobre 'qué bajón': Diego está decepcionado porque o show foi cancelado."
+    },
+    {
+      "es": "Cuando Ana dice «me da igual, decidí vos», quiere decir que…",
+      "opcoes": ["No quiere ir a ningún lado", "Le da lo mismo, que elija Diego", "Está enojada con Diego", "Prefiere quedarse en casa"],
+      "correta": 1,
+      "pt": "'Me da igual' = tanto faz; ela deixa Diego decidir."
+    },
+    {
+      "es": "¿Qué significa que el lugar nuevo «está bárbaro»?",
+      "opcoes": ["Que es muy caro", "Que es peligroso", "Que es muy bueno", "Que está cerrado"],
+      "correta": 2,
+      "pt": "Falso amigo: 'bárbaro' no rioplatense é elogio = ótimo."
+    },
+    {
+      "es": "Ana responde «ni idea de qué falta». Eso significa que…",
+      "opcoes": ["No sabe qué hace falta llevar", "Ya tiene todo lo necesario", "No quiere llevar nada", "Va a comprar todo ella"],
+      "correta": 0,
+      "pt": "'Ni idea' = não faço ideia; ela não sabe o que falta levar."
+    },
+    {
+      "es": "¿Por qué cambia el tono cuando aparece el señor del tercero?",
+      "opcoes": ["Porque están enojados con él", "Porque tienen apuro", "Porque le hablan con respeto, usando usted", "Porque no lo conocen de nada"],
+      "correta": 2,
+      "pt": "Inferência de registro: com o vizinho mais velho passam ao formal 'usted'."
+    },
+    {
+      "es": "¿Cuál de estas frases es del registro FORMAL (usted)?",
+      "opcoes": ["¿Cómo estás vos?", "Mandale un mensaje", "Decidí vos", "Que tenga un buen día"],
+      "correta": 3,
+      "pt": "Reconhecer o formal: 'que tenga' usa o verbo na 3ª pessoa (usted)."
+    }
+  ]
+}

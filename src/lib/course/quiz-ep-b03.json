@@ -1,0 +1,29 @@
+{
+  "id": "q-b03",
+  "nivel": "basico",
+  "titulo": "Quiz — Direções e transporte",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-b03-i",
+  "introPt": "Hora do quiz! Escute esta conversa na rua, alguém pedindo informação pra chegar a um lugar. Pode ouvir quantas vezes quiser e depois responda às perguntas em espanhol.",
+  "cenario": "Um turista perdido pede direções e informação sobre o ônibus.",
+  "dialogo": [
+    { "audioKey": "q-b03-d1", "voz": "Diego", "es": "Disculpe, estoy perdido. ¿Me puede ayudar?", "pt": "Com licença, estou perdido. Pode me ajudar?" },
+    { "audioKey": "q-b03-d2", "voz": "Ana", "es": "Sí, claro. ¿Adónde querés ir?", "pt": "Sim, claro. Aonde você quer ir?" },
+    { "audioKey": "q-b03-d3", "voz": "Diego", "es": "Al centro. ¿Cómo llego?", "pt": "Ao centro. Como eu chego?" },
+    { "audioKey": "q-b03-d4", "voz": "Ana", "es": "Seguí derecho y doblá a la izquierda en la esquina.", "pt": "Siga reto e vire à esquerda na esquina." },
+    { "audioKey": "q-b03-d5", "voz": "Diego", "es": "¿Está cerca o está lejos?", "pt": "Está perto ou está longe?" },
+    { "audioKey": "q-b03-d6", "voz": "Ana", "es": "Está un poco lejos. Mejor tomá el colectivo.", "pt": "Está um pouco longe. Melhor pegar o ônibus." },
+    { "audioKey": "q-b03-d7", "voz": "Diego", "es": "¿Dónde está la parada?", "pt": "Onde fica o ponto?" },
+    { "audioKey": "q-b03-d8", "voz": "Ana", "es": "A la derecha, a dos cuadras. El número doce va al centro.", "pt": "À direita, a dois quarteirões. O número doze vai ao centro." },
+    { "audioKey": "q-b03-d9", "voz": "Diego", "es": "¿Y cuánto sale hasta el centro?", "pt": "E quanto custa até o centro?" },
+    { "audioKey": "q-b03-d10", "voz": "Ana", "es": "Sale treinta pesos. ¡Buen viaje!", "pt": "Custa trinta pesos. Boa viagem!" }
+  ],
+  "perguntas": [
+    { "es": "¿Qué problema tiene Diego al principio?", "opcoes": ["Tiene hambre", "Está perdido", "Perdió la plata", "Está cansado"], "correta": 1, "pt": "Qual problema o Diego tem no começo?" },
+    { "es": "¿Adónde quiere ir Diego?", "opcoes": ["A la playa", "Al hotel", "Al centro", "Al aeropuerto"], "correta": 2, "pt": "Aonde o Diego quer ir?" },
+    { "es": "¿Hacia qué lado tiene que doblar en la esquina?", "opcoes": ["A la izquierda", "A la derecha", "Para atrás", "Sigue derecho"], "correta": 0, "pt": "Para que lado ele tem que virar na esquina?" },
+    { "es": "¿El centro está cerca o lejos?", "opcoes": ["Muy cerca", "En la esquina", "Un poco lejos", "Al lado"], "correta": 2, "pt": "O centro está perto ou longe?" },
+    { "es": "¿Qué transporte le recomienda Ana?", "opcoes": ["El subte", "Un taxi", "Ir caminando", "El colectivo"], "correta": 3, "pt": "Qual transporte a Ana recomenda?" },
+    { "es": "¿Cuánto sale el viaje hasta el centro?", "opcoes": ["Trece pesos", "Treinta pesos", "Doce pesos", "Veinte pesos"], "correta": 1, "pt": "Quanto custa a viagem até o centro?" }
+  ]
+}

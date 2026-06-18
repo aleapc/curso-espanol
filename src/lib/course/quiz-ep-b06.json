@@ -1,0 +1,29 @@
+{
+  "id": "q-b06",
+  "nivel": "basico",
+  "titulo": "Quiz — Compras: roupa e tamanhos",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-b06-i",
+  "introPt": "Agora um teste rápido! Escute o casal numa loja de roupa e responda às perguntas em espanhol. Pode ouvir a conversa quantas vezes quiser.",
+  "cenario": "Numa loja de roupa, Diego procura uma camiseta e fala com a vendedora Ana sobre tamanho, prova e preço.",
+  "dialogo": [
+    { "audioKey": "q-b06-d1", "voz": "Ana", "es": "Hola, ¿te puedo ayudar?", "pt": "Oi, posso ajudar?" },
+    { "audioKey": "q-b06-d2", "voz": "Diego", "es": "Sí, gracias. Estoy buscando una remera azul.", "pt": "Sim, obrigado. Estou procurando uma camiseta azul." },
+    { "audioKey": "q-b06-d3", "voz": "Ana", "es": "Tenemos varias. ¿Qué talle buscás?", "pt": "Temos várias. Que tamanho você procura?" },
+    { "audioKey": "q-b06-d4", "voz": "Diego", "es": "Talle mediano. ¿Puedo probármelo?", "pt": "Tamanho médio. Posso provar?" },
+    { "audioKey": "q-b06-d5", "voz": "Ana", "es": "Claro, el probador está al fondo.", "pt": "Claro, o provador é lá no fundo." },
+    { "audioKey": "q-b06-d6", "voz": "Diego", "es": "Me queda un poco grande. ¿Tenés un talle más chico?", "pt": "Ficou um pouco grande. Você tem um tamanho menor?" },
+    { "audioKey": "q-b06-d7", "voz": "Ana", "es": "Sí, acá tenés. Este te queda mejor.", "pt": "Sim, aqui está. Esse fica melhor em você." },
+    { "audioKey": "q-b06-d8", "voz": "Diego", "es": "Me queda bien. ¿Cuánto sale?", "pt": "Ficou bom. Quanto custa?" },
+    { "audioKey": "q-b06-d9", "voz": "Ana", "es": "Mil pesos. Podés pagar en cuotas si querés.", "pt": "Mil pesos. Pode pagar parcelado se quiser." },
+    { "audioKey": "q-b06-d10", "voz": "Diego", "es": "Dale, me la llevo. ¡Gracias!", "pt": "Beleza, vou levar. Obrigado!" }
+  ],
+  "perguntas": [
+    { "es": "¿Qué está buscando Diego?", "opcoes": ["Un pantalón negro", "Una remera azul", "Un vestido rojo", "Una campera"], "correta": 1, "pt": "O que Diego está procurando?" },
+    { "es": "¿Qué talle pide Diego al principio?", "opcoes": ["Chico", "Grande", "Mediano", "Extra grande"], "correta": 2, "pt": "Que tamanho Diego pede no começo?" },
+    { "es": "¿Por qué pide otro talle?", "opcoes": ["Le queda grande", "Le queda chico", "No le gusta el color", "Es muy caro"], "correta": 0, "pt": "Por que ele pede outro tamanho?" },
+    { "es": "¿Cuánto sale la remera?", "opcoes": ["Cien pesos", "Quinientos pesos", "Dos mil pesos", "Mil pesos"], "correta": 3, "pt": "Quanto custa a camiseta?" },
+    { "es": "¿Cómo puede pagar, según Ana?", "opcoes": ["En cuotas", "Solo en efectivo", "Con un descuento", "Solo con tarjeta"], "correta": 0, "pt": "Como ele pode pagar, segundo Ana?" },
+    { "es": "Al final, ¿qué decide Diego?", "opcoes": ["No comprar nada", "Cambiar de tienda", "Probarse un pantalón", "Llevarse la remera"], "correta": 3, "pt": "No fim, o que Diego decide?" }
+  ]
+}

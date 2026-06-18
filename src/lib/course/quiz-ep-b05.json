@@ -1,0 +1,29 @@
+{
+  "id": "q-b05",
+  "nivel": "basico",
+  "titulo": "Quiz — A parrilla",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-b05-i",
+  "introPt": "Hora do quiz! Escute este casal numa parrilla, escolhendo os cortes, o ponto da carne e a sobremesa. Pode ouvir quantas vezes quiser e depois responda às perguntas em espanhol.",
+  "cenario": "Um casal pede churrasco numa parrilla e fecha com sobremesa.",
+  "dialogo": [
+    { "audioKey": "q-b05-d1", "voz": "Ana", "es": "¿Ya saben qué van a pedir?", "pt": "Já sabem o que vão pedir?" },
+    { "audioKey": "q-b05-d2", "voz": "Diego", "es": "Sí. Para mí, un bife de chorizo. ¿Qué me recomienda?", "pt": "Sim. Pra mim, um bife de chorizo. O que você me recomenda?" },
+    { "audioKey": "q-b05-d3", "voz": "Ana", "es": "El vacío está muy bueno hoy. ¿Cómo lo quiere el bife?", "pt": "O vacío está muito bom hoje. Como o senhor quer o bife?" },
+    { "audioKey": "q-b05-d4", "voz": "Diego", "es": "Lo quiero a punto, por favor. No me gusta bien cocido.", "pt": "Eu quero ao ponto, por favor. Não gosto bem passado." },
+    { "audioKey": "q-b05-d5", "voz": "Ana", "es": "Perfecto. ¿Y de entrada? Tenemos provoleta.", "pt": "Perfeito. E de entrada? Temos provoleta." },
+    { "audioKey": "q-b05-d6", "voz": "Diego", "es": "Una provoleta, dale. Y unas papas fritas para acompañar.", "pt": "Uma provoleta, pode ser. E umas batatas fritas pra acompanhar." },
+    { "audioKey": "q-b05-d7", "voz": "Ana", "es": "Muy bien. ¿Algo sin carne? ¿Hay alguien vegetariano?", "pt": "Muito bem. Algo sem carne? Tem alguém vegetariano?" },
+    { "audioKey": "q-b05-d8", "voz": "Diego", "es": "Mi esposa es vegetariana. Para ella, una ensalada sin cebolla.", "pt": "Minha esposa é vegetariana. Pra ela, uma salada sem cebola." },
+    { "audioKey": "q-b05-d9", "voz": "Ana", "es": "Anotado. ¿Van a querer postre?", "pt": "Anotado. Vão querer sobremesa?" },
+    { "audioKey": "q-b05-d10", "voz": "Diego", "es": "Sí, de postre un flan con dulce de leche. ¡Gracias!", "pt": "Sim, de sobremesa um pudim com doce de leite. Obrigado!" }
+  ],
+  "perguntas": [
+    { "es": "¿Qué corte pide Diego para él?", "opcoes": ["El vacío", "Un bife de chorizo", "Asado de tira", "Una milanesa"], "correta": 1, "pt": "Que corte o Diego pede pra ele?" },
+    { "es": "¿Qué corte le recomienda la moza?", "opcoes": ["El vacío", "El bife de chorizo", "La provoleta", "El pescado"], "correta": 0, "pt": "Que corte a garçonete recomenda?" },
+    { "es": "¿Cómo quiere la carne?", "opcoes": ["Jugosa", "Bien cocida", "A punto", "Cruda"], "correta": 2, "pt": "Como ele quer a carne?" },
+    { "es": "¿Qué pide de entrada?", "opcoes": ["Una empanada", "Una ensalada", "Papas fritas", "Una provoleta"], "correta": 3, "pt": "O que ele pede de entrada?" },
+    { "es": "¿Qué pide para su esposa?", "opcoes": ["Una ensalada sin cebolla", "Un bife", "Una milanesa", "Pescado"], "correta": 0, "pt": "O que ele pede para a esposa dele?" },
+    { "es": "¿Qué postre pide?", "opcoes": ["Un helado", "Un café con leche", "Un flan con dulce de leche", "Una fruta"], "correta": 2, "pt": "Que sobremesa ele pede?" }
+  ]
+}

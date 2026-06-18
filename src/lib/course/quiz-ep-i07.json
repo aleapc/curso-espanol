@@ -1,0 +1,89 @@
+{
+  "id": "q-i07",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Cultura rioplatense",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-i07-i",
+  "introPt": "Esta é a mais cultural de todas: mate, asado, cancha e muita gíria. Escute a conversa entre amigos e responda — preste atenção no che, no bárbaro e no posta.",
+  "cenario": "Diego liga para a Ana num domingo de manhã para combinar o programa do dia: mate, churrasco e talvez o estádio. Conversa entre amigos, bem rioplatense.",
+  "dialogo": [
+    { "audioKey": "q-i07-d1", "voz": "Diego", "es": "Che, ¿qué onda? ¿Estás despierta?", "pt": "Ô, e aí? Você tá acordada?" },
+    { "audioKey": "q-i07-d2", "voz": "Ana", "es": "Sí, recién me levanté. Estoy cebando unos mates. ¿Querés venir?", "pt": "Sim, acabei de levantar. Estou preparando uns mates. Quer vir?" },
+    { "audioKey": "q-i07-d3", "voz": "Diego", "es": "¡Dale! Llevo la yerba que la tuya siempre se termina, jaja.", "pt": "Beleza! Levo a erva que a sua sempre acaba, haha." },
+    { "audioKey": "q-i07-d4", "voz": "Ana", "es": "Bárbaro. Y a la tarde mi viejo hace un asado, ¿te prendés?", "pt": "Ótimo. E à tarde meu pai faz um churrasco, você topa?" },
+    { "audioKey": "q-i07-d5", "voz": "Diego", "es": "¿Un asado? Posta que no me lo pierdo. Tu viejo es un parrillero de diez.", "pt": "Um churrasco? Sério que eu não perco. Seu pai é um churrasqueiro nota dez." },
+    { "audioKey": "q-i07-d6", "voz": "Ana", "es": "Es un capo con la parrilla. ¿Y después? Juega River, ¿vamos a la cancha?", "pt": "Ele é fera na churrasqueira. E depois? Joga o River, vamos ao estádio?" },
+    { "audioKey": "q-i07-d7", "voz": "Diego", "es": "Uf, a la cancha está difícil, no conseguí entrada. ¿Lo vemos acá?", "pt": "Uf, ao estádio tá difícil, não consegui ingresso. A gente vê aqui?" },
+    { "audioKey": "q-i07-d8", "voz": "Ana", "es": "Dale, lo miramos con la hinchada en casa. Igual, primero el mate.", "pt": "Beleza, vemos com a torcida em casa. De qualquer jeito, primeiro o mate." },
+    { "audioKey": "q-i07-d9", "voz": "Diego", "es": "Obvio, el mate es sagrado. Salgo para allá. ¿Necesitás algo del super?", "pt": "Óbvio, o mate é sagrado. Saio pra aí. Precisa de algo do mercado?" },
+    { "audioKey": "q-i07-d10", "voz": "Ana", "es": "Traé pan para el asado y listo. ¡Nos vemos, che!", "pt": "Traz pão pro churrasco e pronto. A gente se vê, ô!" }
+  ],
+  "perguntas": [
+    {
+      "es": "¿Qué está haciendo Ana cuando Diego la llama?",
+      "opcoes": [
+        "Está en la cancha",
+        "Está cebando unos mates",
+        "Está haciendo el asado",
+        "Está durmiendo todavía"
+      ],
+      "correta": 1,
+      "pt": "O que Ana está fazendo quando Diego liga? — Está preparando uns mates."
+    },
+    {
+      "es": "¿Por qué Diego dice que lleva la yerba?",
+      "opcoes": [
+        "Porque la de Ana siempre se termina",
+        "Porque a Ana no le gusta el mate",
+        "Porque la suya es más rica",
+        "Porque Ana no tiene termo"
+      ],
+      "correta": 0,
+      "pt": "Por que Diego diz que leva a erva? — Porque a da Ana sempre acaba."
+    },
+    {
+      "es": "¿Quién va a hacer el asado a la tarde?",
+      "opcoes": [
+        "Diego",
+        "Ana",
+        "El padre de Ana",
+        "La hinchada"
+      ],
+      "correta": 2,
+      "pt": "Quem vai fazer o churrasco à tarde? — O pai da Ana."
+    },
+    {
+      "es": "¿Por qué no van a la cancha?",
+      "opcoes": [
+        "Porque no juega River",
+        "Porque prefieren el asado",
+        "Porque a Diego no le gusta el fútbol",
+        "Porque Diego no consiguió entrada"
+      ],
+      "correta": 3,
+      "pt": "Por que eles não vão ao estádio? — Porque Diego não conseguiu ingresso."
+    },
+    {
+      "es": "¿Qué deciden hacer con el partido?",
+      "opcoes": [
+        "No mirarlo",
+        "Mirarlo en casa con la hinchada",
+        "Ir igual a la cancha",
+        "Escucharlo por radio en el super"
+      ],
+      "correta": 1,
+      "pt": "O que eles decidem fazer com o jogo? — Assistir em casa com a torcida."
+    },
+    {
+      "es": "¿Qué le pide Ana que traiga del super?",
+      "opcoes": [
+        "Más yerba",
+        "Carne para el asado",
+        "Pan para el asado",
+        "Entradas para la cancha"
+      ],
+      "correta": 2,
+      "pt": "O que Ana pede que ele traga do mercado? — Pão para o churrasco."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "q-a06",
+  "nivel": "avancado",
+  "titulo": "Quiz — Entender o nativo",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-a06-i",
+  "introPt": "O teste final do ouvido! Ana e Diego falam em ritmo natural, cheios de muletillas. Não precisa pegar cada palavra — pegue o miolo e responda em espanhol.",
+  "cenario": "Ana conta a Diego, em ritmo rápido e com muitas muletillas, sobre um restaurante novo. Diego, em parte, pede pra repetir.",
+  "dialogo": [
+    { "audioKey": "q-a06-d1", "voz": "Ana", "es": "Che, fui al lugar nuevo de la esquina y, o sea, estaba buenísimo, ¿viste?", "pt": "Ei, fui no lugar novo da esquina e, ou seja, estava ótimo, sabe?" },
+    { "audioKey": "q-a06-d2", "voz": "Diego", "es": "Perdón, ¿podés hablar un poco más despacio? No te entendí bien.", "pt": "Desculpe, pode falar um pouco mais devagar? Não te entendi bem." },
+    { "audioKey": "q-a06-d3", "voz": "Ana", "es": "Sí, dale, disculpá. Que fui al restaurante nuevo, digamos, el de la esquina.", "pt": "Sim, claro, desculpa. Que fui no restaurante novo, digamos, o da esquina." },
+    { "audioKey": "q-a06-d4", "voz": "Diego", "es": "Ah, ese. ¿Y qué tal? ¿Caro?", "pt": "Ah, aquele. E aí, como foi? Caro?" },
+    { "audioKey": "q-a06-d5", "voz": "Ana", "es": "Este… medio carito, sí, pero la comida, nada, espectacular.", "pt": "É… meio carinho, sim, mas a comida, enfim, espetacular." },
+    { "audioKey": "q-a06-d6", "voz": "Diego", "es": "¿Cómo se dice eso que pediste? No me acuerdo del nombre.", "pt": "Como se diz aquilo que você pediu? Não lembro o nome." },
+    { "audioKey": "q-a06-d7", "voz": "Ana", "es": "A ver… era un plato de pescado, no me sale el nombre ahora.", "pt": "Deixa ver… era um prato de peixe, não me vem o nome agora." },
+    { "audioKey": "q-a06-d8", "voz": "Diego", "es": "Entonces, ¿decís que vale la pena ir? Para confirmar.", "pt": "Então, você está dizendo que vale a pena ir? Só pra confirmar." },
+    { "audioKey": "q-a06-d9", "voz": "Ana", "es": "Tal cual. O sea, sí, volvería sin pensarlo, ¿viste?", "pt": "Exatamente. Ou seja, sim, eu voltaria sem pensar, sabe?" }
+  ],
+  "perguntas": [
+    {
+      "es": "¿Qué le pide Diego a Ana al principio?",
+      "opcoes": ["Que hable más fuerte", "Que hable más despacio", "Que repita el precio", "Que cambie de tema"],
+      "correta": 1,
+      "pt": "'Más despacio': Diego pede pra ela falar mais devagar."
+    },
+    {
+      "es": "La palabra «o sea» que usa Ana, ¿para qué sirve?",
+      "opcoes": ["Para reformular lo que dice (es una muletilla)", "Para pedir disculpas", "Para preguntar la hora", "Para despedirse"],
+      "correta": 0,
+      "pt": "Muletilla: 'o sea' reformula = nosso 'ou seja'."
+    },
+    {
+      "es": "Cuando Ana dice «este…» antes de responder, está…",
+      "opcoes": ["Enojada", "Ganando tiempo para pensar", "Cambiando de idioma", "Terminando la charla"],
+      "correta": 1,
+      "pt": "'Este…' é a pausa pra pensar, equivale a 'é…/então…'."
+    },
+    {
+      "es": "¿Qué opina Ana del restaurante?",
+      "opcoes": ["Que es barato y malo", "Que no volvería", "Que es medio caro pero la comida es excelente", "Que estaba cerrado"],
+      "correta": 2,
+      "pt": "Compreensão do miolo: meio caro, mas a comida espetacular."
+    },
+    {
+      "es": "Cuando Diego dice «entonces, ¿decís que vale la pena ir?», ¿qué está haciendo?",
+      "opcoes": ["Cambiando de plan", "Quejándose de Ana", "Pidiendo la cuenta", "Repitiendo lo que entendió para confirmar"],
+      "correta": 3,
+      "pt": "Inferência: ele repete o que entendeu para confirmar o sentido."
+    },
+    {
+      "es": "Ana cierra con «tal cual». Eso quiere decir que…",
+      "opcoes": ["Está totalmente de acuerdo", "No sabe la respuesta", "Quiere irse", "No le gustó"],
+      "correta": 0,
+      "pt": "'Tal cual' = exatamente; ela concorda totalmente."
+    }
+  ]
+}

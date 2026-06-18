@@ -1,0 +1,59 @@
+{
+  "id": "q-i02",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Rotina e como era antes",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-i02-i",
+  "introPt": "Escute a Ana e o Diego falando da rotina deles e de como era a vida antes, e responda em espanhol. Pode ouvir quantas vezes quiser, com calma.",
+  "cenario": "A Ana e o Diego conversam sobre o dia a dia de hoje e comparam com a infância.",
+  "dialogo": [
+    { "audioKey": "q-i02-d1", "voz": "Ana", "es": "Diego, ¿a qué hora te levantás durante la semana?", "pt": "Diego, a que horas você se levanta durante a semana?" },
+    { "audioKey": "q-i02-d2", "voz": "Diego", "es": "Me levanto a las siete, me ducho y desayuno un café.", "pt": "Me levanto às sete, tomo banho e tomo um café." },
+    { "audioKey": "q-i02-d3", "voz": "Ana", "es": "Yo me levanto más tarde, pero me acuesto muy tarde también.", "pt": "Eu me levanto mais tarde, mas me deito muito tarde também." },
+    { "audioKey": "q-i02-d4", "voz": "Diego", "es": "Antes era distinto. De chico me acostaba temprano.", "pt": "Antes era diferente. Quando criança eu me deitava cedo." },
+    { "audioKey": "q-i02-d5", "voz": "Ana", "es": "¡Yo igual! Antes vivía en São Paulo y tenía un perro.", "pt": "Eu também! Antes morava em São Paulo e tinha um cachorro." },
+    { "audioKey": "q-i02-d6", "voz": "Diego", "es": "Qué lindo. ¿Y cómo era tu barrio?", "pt": "Que bonito. E como era o seu bairro?" },
+    { "audioKey": "q-i02-d7", "voz": "Ana", "es": "Había mucha gente en la calle y los chicos jugaban afuera.", "pt": "Tinha muita gente na rua e as crianças brincavam na rua." },
+    { "audioKey": "q-i02-d8", "voz": "Diego", "es": "De chico yo iba a la playa todos los veranos.", "pt": "Quando criança eu ia à praia todos os verões." },
+    { "audioKey": "q-i02-d9", "voz": "Ana", "es": "¡Qué suerte! Ahora trabajo mucho y casi no salgo.", "pt": "Que sorte! Agora trabalho muito e quase não saio." },
+    { "audioKey": "q-i02-d10", "voz": "Diego", "es": "Sí, antes teníamos más tiempo libre.", "pt": "É, antes a gente tinha mais tempo livre." }
+  ],
+  "perguntas": [
+    {
+      "es": "¿A qué hora se levanta Diego durante la semana?",
+      "opcoes": ["A las ocho", "A las seis", "A las siete", "A las nueve"],
+      "correta": 2,
+      "pt": "A que horas o Diego se levanta durante a semana?"
+    },
+    {
+      "es": "¿Qué hace Ana muy tarde?",
+      "opcoes": ["Se acuesta", "Almuerza", "Se ducha", "Desayuna"],
+      "correta": 0,
+      "pt": "O que a Ana faz muito tarde?"
+    },
+    {
+      "es": "¿Dónde vivía Ana antes?",
+      "opcoes": ["En Colonia", "En la playa", "En Montevideo", "En São Paulo"],
+      "correta": 3,
+      "pt": "Onde a Ana morava antes?"
+    },
+    {
+      "es": "¿Qué tenía Ana de chica?",
+      "opcoes": ["Un gato", "Un perro", "Una bici", "Un caballo"],
+      "correta": 1,
+      "pt": "O que a Ana tinha quando criança?"
+    },
+    {
+      "es": "¿Qué hacía Diego de chico todos los veranos?",
+      "opcoes": ["Trabajaba", "Estudiaba", "Iba a la playa", "Viajaba al exterior"],
+      "correta": 2,
+      "pt": "O que o Diego fazia quando criança todos os verões?"
+    },
+    {
+      "es": "¿Por qué casi no sale Ana ahora?",
+      "opcoes": ["Porque trabaja mucho", "Porque está enferma", "Porque no le gusta", "Porque llueve"],
+      "correta": 0,
+      "pt": "Por que a Ana quase não sai agora?"
+    }
+  ]
+}

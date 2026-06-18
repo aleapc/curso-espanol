@@ -1,0 +1,29 @@
+{
+  "id": "q-b09",
+  "nivel": "basico",
+  "titulo": "Quiz — Falsos amigos",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-b09-i",
+  "introPt": "Cuidado com as armadilhas! Escute essa conversa cheia de falsos amigos e responda pelo sentido CORRETO em espanhol. Pode ouvir quantas vezes quiser.",
+  "cenario": "Ana e Diego conversam num jantar e um falso amigo causa uma confusão engraçada: Diego acha que Ana disse que está grávida.",
+  "dialogo": [
+    { "audioKey": "q-b09-d1", "voz": "Ana", "es": "Diego, ¡qué rica esta comida! Está exquisita.", "pt": "Diego, que gostosa essa comida! Está deliciosa." },
+    { "audioKey": "q-b09-d2", "voz": "Diego", "es": "¿Exquisita? ¿Querés decir que está rara?", "pt": "Exquisita? Você quer dizer que está esquisita?" },
+    { "audioKey": "q-b09-d3", "voz": "Ana", "es": "¡No, tonto! Exquisita quiere decir deliciosa. Me encanta.", "pt": "Não, bobo! Exquisita quer dizer deliciosa. Adoro." },
+    { "audioKey": "q-b09-d4", "voz": "Diego", "es": "Ah, claro. Pasame un vaso, por favor, tengo sed.", "pt": "Ah, claro. Me passa um copo, por favor, estou com sede." },
+    { "audioKey": "q-b09-d5", "voz": "Ana", "es": "Tomá. Che, hoy estuve embarazada todo el día.", "pt": "Toma. Olha, hoje fiquei embarazada o dia todo." },
+    { "audioKey": "q-b09-d6", "voz": "Diego", "es": "¿¿Embarazada?? ¿Vamos a tener un bebé?", "pt": "Grávida?? Vamos ter um bebê?" },
+    { "audioKey": "q-b09-d7", "voz": "Ana", "es": "¡No, no! Embarazada es grávida. Yo quise decir avergonzada, con vergüenza.", "pt": "Não, não! Embarazada é grávida. Eu quis dizer envergonhada." },
+    { "audioKey": "q-b09-d8", "voz": "Diego", "es": "¡Uf, qué susto! Entonces hoy pasaste vergüenza en la oficina.", "pt": "Ufa, que susto! Então hoje você passou vergonha no escritório." },
+    { "audioKey": "q-b09-d9", "voz": "Ana", "es": "Exacto. Esperá un rato y te cuento todo.", "pt": "Exato. Espera um instante e te conto tudo." },
+    { "audioKey": "q-b09-d10", "voz": "Diego", "es": "Dale. Todavía tenemos tiempo antes de la cena de mañana.", "pt": "Beleza. Ainda temos tempo antes do jantar de amanhã." }
+  ],
+  "perguntas": [
+    { "es": "Cuando Ana dice que la comida está \"exquisita\", quiere decir que está…", "opcoes": ["Rara", "Deliciosa", "Fría", "Salada"], "correta": 1, "pt": "Quando Ana diz que a comida está 'exquisita', ela quer dizer que está…" },
+    { "es": "¿Qué le pide Diego a Ana para tomar agua?", "opcoes": ["Una taza", "Una botella", "Un vaso", "Un plato"], "correta": 2, "pt": "O que Diego pede a Ana para beber água?" },
+    { "es": "En español, \"embarazada\" significa…", "opcoes": ["Avergonzada", "Grávida", "Cansada", "Enojada"], "correta": 1, "pt": "Em espanhol, 'embarazada' significa…" },
+    { "es": "¿Qué quería decir Ana en realidad?", "opcoes": ["Que estaba grávida", "Que estaba avergonzada", "Que estaba enferma", "Que estaba apurada"], "correta": 1, "pt": "O que Ana queria dizer na verdade?" },
+    { "es": "¿Dónde pasó vergüenza Ana?", "opcoes": ["En el taller mecánico", "En casa", "En la oficina", "En la cena"], "correta": 2, "pt": "Onde Ana passou vergonha?" },
+    { "es": "Cuando Diego dice \"todavía tenemos tiempo\", quiere decir que…", "opcoes": ["Aún tienen tiempo", "No tienen tiempo", "Contudo, tienen tiempo", "Perdieron el tiempo"], "correta": 0, "pt": "Quando Diego diz 'todavía tenemos tiempo', ele quer dizer que…" }
+  ]
+}

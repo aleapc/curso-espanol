@@ -1,0 +1,59 @@
+{
+  "id": "q-i04",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Saúde e emergências",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-i04-i",
+  "introPt": "Escute a Ana e o Diego numa situação de saúde e responda em espanhol. Pode ouvir quantas vezes quiser, com calma.",
+  "cenario": "O Diego não se sente bem e a Ana o ajuda a procurar atendimento.",
+  "dialogo": [
+    { "audioKey": "q-i04-d1", "voz": "Ana", "es": "Diego, ¿qué te pasa? Estás pálido.", "pt": "Diego, o que você tem? Você está pálido." },
+    { "audioKey": "q-i04-d2", "voz": "Diego", "es": "No me siento bien. Tengo fiebre y me duele la cabeza.", "pt": "Não me sinto bem. Estou com febre e me dói a cabeça." },
+    { "audioKey": "q-i04-d3", "voz": "Ana", "es": "¿Tenés náuseas o estás mareado?", "pt": "Você está enjoado ou tonto?" },
+    { "audioKey": "q-i04-d4", "voz": "Diego", "es": "Estoy un poco mareado. Y antes me torcí el tobillo en la escalera.", "pt": "Estou um pouco tonto. E antes torci o tornozelo na escada." },
+    { "audioKey": "q-i04-d5", "voz": "Ana", "es": "Uy. Necesitás un médico. ¿Dónde hay un hospital cerca?", "pt": "Eita. Você precisa de um médico. Onde tem um hospital perto?" },
+    { "audioKey": "q-i04-d6", "voz": "Diego", "es": "Hay uno a tres cuadras, pero no puedo caminar bien.", "pt": "Tem um a três quarteirões, mas não consigo caminhar bem." },
+    { "audioKey": "q-i04-d7", "voz": "Ana", "es": "Quedate tranquilo. Voy a llamar a una ambulancia.", "pt": "Fica tranquilo. Vou chamar uma ambulância." },
+    { "audioKey": "q-i04-d8", "voz": "Diego", "es": "Gracias. ¿Tenés algo para el dolor mientras tanto?", "pt": "Obrigado. Você tem algo pra dor enquanto isso?" },
+    { "audioKey": "q-i04-d9", "voz": "Ana", "es": "Sí, una pastilla. ¿Cada cuánto la tomás normalmente?", "pt": "Tenho, um comprimido. De quanto em quanto tempo você toma normalmente?" },
+    { "audioKey": "q-i04-d10", "voz": "Diego", "es": "Cada ocho horas. Ya me siento un poco mejor, gracias.", "pt": "De oito em oito horas. Já me sinto um pouco melhor, obrigado." }
+  ],
+  "perguntas": [
+    {
+      "es": "¿Qué síntomas tiene Diego?",
+      "opcoes": ["Tos y frío", "Fiebre y dolor de cabeza", "Solo cansancio", "Dolor de muela"],
+      "correta": 1,
+      "pt": "Quais sintomas o Diego tem?"
+    },
+    {
+      "es": "¿Qué se torció Diego en la escalera?",
+      "opcoes": ["El tobillo", "El dedo", "La rodilla", "La muñeca"],
+      "correta": 0,
+      "pt": "O que o Diego torceu na escada?"
+    },
+    {
+      "es": "¿Por qué no va caminando al hospital?",
+      "opcoes": ["Porque está lejos", "Porque llueve", "Porque no puede caminar bien", "Porque no sabe dónde está"],
+      "correta": 2,
+      "pt": "Por que ele não vai caminhando ao hospital?"
+    },
+    {
+      "es": "¿Qué decide hacer Ana?",
+      "opcoes": ["Buscar un taxi", "Esperar en casa", "Llevarlo en auto", "Llamar a una ambulancia"],
+      "correta": 3,
+      "pt": "O que a Ana decide fazer?"
+    },
+    {
+      "es": "¿Qué le da Ana a Diego para el dolor?",
+      "opcoes": ["Una pastilla", "Un té", "Agua", "Nada"],
+      "correta": 0,
+      "pt": "O que a Ana dá ao Diego pra dor?"
+    },
+    {
+      "es": "¿Cómo se siente Diego al final?",
+      "opcoes": ["Mucho peor", "Igual que antes", "Un poco mejor", "Sin fiebre del todo"],
+      "correta": 2,
+      "pt": "Como o Diego se sente no final?"
+    }
+  ]
+}

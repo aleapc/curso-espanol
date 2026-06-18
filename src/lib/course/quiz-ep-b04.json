@@ -1,0 +1,29 @@
+{
+  "id": "q-b04",
+  "nivel": "basico",
+  "titulo": "Quiz — Restaurante: chegar e pedir",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-b04-i",
+  "introPt": "Hora do quiz! Escute este casal chegando num restaurante e fazendo o pedido com a garçonete. Pode ouvir quantas vezes quiser e depois responda às perguntas em espanhol.",
+  "cenario": "Um casal chega num restaurante, consegue mesa e faz o pedido.",
+  "dialogo": [
+    { "audioKey": "q-b04-d1", "voz": "Diego", "es": "Buenas noches. ¿Tienen una mesa para dos?", "pt": "Boa noite. Vocês têm uma mesa pra dois?" },
+    { "audioKey": "q-b04-d2", "voz": "Ana", "es": "Sí, claro. ¿Adentro o afuera?", "pt": "Sim, claro. Dentro ou fora?" },
+    { "audioKey": "q-b04-d3", "voz": "Diego", "es": "Afuera, por favor. ¿Me trae la carta?", "pt": "Fora, por favor. Pode me trazer o cardápio?" },
+    { "audioKey": "q-b04-d4", "voz": "Ana", "es": "Acá tiene. ¿Qué van a tomar?", "pt": "Aqui está. O que vão beber?" },
+    { "audioKey": "q-b04-d5", "voz": "Diego", "es": "Para mí, una copa de vino tinto. ¿Qué nos recomienda?", "pt": "Pra mim, uma taça de vinho tinto. O que você recomenda pra gente?" },
+    { "audioKey": "q-b04-d6", "voz": "Ana", "es": "La milanesa está muy rica hoy.", "pt": "A milanesa está muito gostosa hoje." },
+    { "audioKey": "q-b04-d7", "voz": "Diego", "es": "Perfecto. De entrada, una empanada, y de principal, la milanesa.", "pt": "Perfeito. De entrada, uma empanada, e de principal, a milanesa." },
+    { "audioKey": "q-b04-d8", "voz": "Ana", "es": "Muy bien. ¿Algo más para tomar?", "pt": "Muito bem. Mais alguma coisa pra beber?" },
+    { "audioKey": "q-b04-d9", "voz": "Diego", "es": "Un vaso de agua sin gas, por favor. Nada más, gracias.", "pt": "Um copo de água sem gás, por favor. Só isso, obrigado." },
+    { "audioKey": "q-b04-d10", "voz": "Ana", "es": "Enseguida se lo traigo.", "pt": "Já trago pra você." }
+  ],
+  "perguntas": [
+    { "es": "¿Para cuántas personas es la mesa?", "opcoes": ["Para una", "Para dos", "Para tres", "Para cuatro"], "correta": 1, "pt": "Para quantas pessoas é a mesa?" },
+    { "es": "¿Dónde se quieren sentar?", "opcoes": ["Afuera", "Adentro", "En la barra", "Cerca de la puerta"], "correta": 0, "pt": "Onde eles querem se sentar?" },
+    { "es": "¿Qué pide para tomar al principio?", "opcoes": ["Una cerveza", "Un café", "Una copa de vino tinto", "Un jugo"], "correta": 2, "pt": "O que ele pede para beber no começo?" },
+    { "es": "¿Qué le recomienda la moza?", "opcoes": ["El asado", "El pescado", "Las empanadas", "La milanesa"], "correta": 3, "pt": "O que a garçonete recomenda?" },
+    { "es": "¿Qué pide de entrada?", "opcoes": ["Una empanada", "Una ensalada", "Una sopa", "Una provoleta"], "correta": 0, "pt": "O que ele pede de entrada?" },
+    { "es": "¿Cómo pide el agua?", "opcoes": ["Con gas", "Sin gas", "Con limón", "Bien fría"], "correta": 1, "pt": "Como ele pede a água?" }
+  ]
+}

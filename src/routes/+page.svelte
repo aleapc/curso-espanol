@@ -1,7 +1,7 @@
 <script lang="ts">
   import { base } from '$app/paths';
   import { niveis } from '$lib/course';
-  import { quizDoNivel } from '$lib/course/quizzes';
+  import { examDoNivel, quizDoEpisodio } from '$lib/course/quizzes';
   import { store, isDone, PROFILES } from '$lib/state.svelte';
   import { encodeSync, importSync, whatsappUrl } from '$lib/sync';
 
@@ -44,6 +44,12 @@
     oceano: 'ring-2 ring-oceano',
     terracota: 'ring-2 ring-terracota'
   };
+  // Degradê de fundo do card (atrás da imagem/emoji), por nível — vibe dos guias
+  const grad: Record<string, string> = {
+    salvia: 'linear-gradient(155deg, #8FB89B, #5E8870)',
+    oceano: 'linear-gradient(155deg, #3E8DA0, #244F5C)',
+    terracota: 'linear-gradient(155deg, #E0915A, #B23A22)'
+  };
 
   const feitasDe = (ep: { partes: { id: string }[] }) =>
     ep.partes.filter((p) => isDone(p.id)).length;
@@ -76,11 +82,12 @@
         <button
           type="button"
           onclick={() => (aberto = aberto === ep.id ? null : ep.id)}
-          class="w-40 shrink-0 snap-start overflow-hidden rounded-2xl bg-white text-left shadow-sm transition
+          class="w-44 shrink-0 snap-start overflow-hidden rounded-2xl bg-white text-left shadow-md transition
             {aberto === ep.id ? ringCor[nivel.cor] : 'ring-1 ring-black/5'}"
         >
-          <div class="relative flex h-24 items-center justify-center {softBg[nivel.cor]}">
-            <span class="text-4xl">{ep.emoji}</span>
+          <!-- imagem-herói (foto se houver; senão emoji grande sobre degradê) -->
+          <div class="relative h-28" style="background: {grad[nivel.cor]}">
+            <div class="absolute inset-0 grid place-items-center text-5xl opacity-90">{ep.emoji}</div>
             <img
               src="{base}/img/{ep.id}.jpg"
               alt=""
@@ -88,22 +95,24 @@
               class="absolute inset-0 h-full w-full object-cover"
               onerror={(e) => (e.currentTarget.style.display = 'none')}
             />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent"></div>
+            <div class="absolute inset-x-2.5 bottom-2 text-white">
+              <div class="text-[10px] font-bold uppercase tracking-wide opacity-90">
+                Episódio {i + 1}
+              </div>
+              <div class="line-clamp-2 text-sm font-bold leading-snug drop-shadow">{ep.nome}</div>
+            </div>
             {#if f === ep.partes.length}
               <span class="absolute right-1.5 top-1.5 rounded-full bg-white/90 px-1.5 text-xs">✅</span>
             {/if}
           </div>
-          <div class="p-2.5">
-            <div class="text-[11px] font-semibold uppercase tracking-wide {textCor[nivel.cor]}">
-              Episódio {i + 1}
-            </div>
-            <div class="mt-0.5 line-clamp-2 text-sm font-semibold leading-snug">{ep.nome}</div>
-            <div class="mt-1.5 flex gap-1">
-              {#each ep.partes as p}
-                <span
-                  class="h-1.5 flex-1 rounded-full {isDone(p.id) ? dotBg[nivel.cor] : 'bg-black/10'}"
-                ></span>
-              {/each}
-            </div>
+          <!-- progresso das partes -->
+          <div class="flex gap-1 px-2.5 py-2">
+            {#each ep.partes as p}
+              <span
+                class="h-1.5 flex-1 rounded-full {isDone(p.id) ? dotBg[nivel.cor] : 'bg-black/10'}"
+              ></span>
+            {/each}
           </div>
         </button>
       {/each}
@@ -138,23 +147,35 @@
                 <span class="text-sm">{isDone(p.id) ? '✅' : '▶'}</span>
               </a>
             {/each}
+            <!-- Quiz do episódio -->
+            {#if quizDoEpisodio[ep.id]}
+              <a
+                href="{base}/quiz/{quizDoEpisodio[ep.id]}/"
+                class="flex items-center gap-3 rounded-xl border border-dashed border-black/15 px-3 py-2.5 transition hover:bg-black/5"
+              >
+                <span class="grid h-7 w-7 shrink-0 place-items-center rounded-full text-xs {softBg[nivel.cor]}">🎧</span>
+                <span class="flex-1 text-sm font-medium">Quiz do episódio</span>
+                <span class="text-sm">{isDone(quizDoEpisodio[ep.id]) ? '✅' : '▶'}</span>
+              </a>
+            {/if}
           </div>
         </div>
       {/if}
     {/each}
 
-    <!-- Quiz do nível -->
-    {#if quizDoNivel[nivel.nivel]}
+    <!-- Prova do nível (áudio + teste mais longo) -->
+    {#if examDoNivel[nivel.nivel]}
       <a
-        href="{base}/quiz/{quizDoNivel[nivel.nivel]}/"
-        class="mt-2 flex items-center gap-3 rounded-2xl border border-dashed border-black/15 px-4 py-3 transition hover:bg-black/5"
+        href="{base}/quiz/{examDoNivel[nivel.nivel]}/"
+        class="mt-2 flex items-center gap-3 rounded-2xl px-4 py-3 text-white shadow-sm transition hover:brightness-105"
+        style="background: {grad[nivel.cor]}"
       >
-        <span class="text-xl">🎧</span>
+        <span class="text-xl">🎬</span>
         <span class="flex-1">
-          <span class="block text-sm font-bold">Quiz do {nivel.nome}</span>
-          <span class="block text-xs text-carvao/55">Escute uma conversa e responda em espanhol</span>
+          <span class="block text-sm font-bold">Prova do {nivel.nome}</span>
+          <span class="block text-xs opacity-90">Áudio mais longo + teste de interpretação</span>
         </span>
-        <span class="text-sm">{isDone(quizDoNivel[nivel.nivel]) ? '✅' : '▶'}</span>
+        <span class="text-sm">{isDone(examDoNivel[nivel.nivel]) ? '✅' : '▶'}</span>
       </a>
     {/if}
   </section>

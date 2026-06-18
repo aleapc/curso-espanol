@@ -1,0 +1,59 @@
+{
+  "id": "q-i01",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Falar do passado",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-i01-i",
+  "introPt": "Escute a Ana e o Diego conversando sobre o fim de semana e responda às perguntas em espanhol. Pode ouvir quantas vezes quiser, sem pressa.",
+  "cenario": "Segunda-feira de manhã. A Ana pergunta ao Diego o que ele fez no fim de semana.",
+  "dialogo": [
+    { "audioKey": "q-i01-d1", "voz": "Ana", "es": "¡Hola, Diego! ¿Qué hiciste el finde?", "pt": "Oi, Diego! O que você fez no fim de semana?" },
+    { "audioKey": "q-i01-d2", "voz": "Diego", "es": "¡Hola! El sábado fui a Colonia con unos amigos.", "pt": "Oi! No sábado fui a Colônia com uns amigos." },
+    { "audioKey": "q-i01-d3", "voz": "Ana", "es": "¡Qué bueno! ¿Y cómo estuvo?", "pt": "Que legal! E como foi?" },
+    { "audioKey": "q-i01-d4", "voz": "Diego", "es": "Estuvo bárbaro. Caminamos mucho y sacamos un montón de fotos.", "pt": "Foi ótimo. Caminhamos muito e tiramos um montão de fotos." },
+    { "audioKey": "q-i01-d5", "voz": "Ana", "es": "¿Y comieron algo rico?", "pt": "E comeram algo gostoso?" },
+    { "audioKey": "q-i01-d6", "voz": "Diego", "es": "Sí, comimos pescado en un restaurante frente al río. La pasamos bárbaro.", "pt": "Sim, comemos peixe num restaurante de frente pro rio. Foi ótimo." },
+    { "audioKey": "q-i01-d7", "voz": "Ana", "es": "Me encanta Colonia. ¿Te quedaste a dormir allá?", "pt": "Adoro Colônia. Você ficou pra dormir lá?" },
+    { "audioKey": "q-i01-d8", "voz": "Diego", "es": "No, volvimos el mismo día. ¿Y vos? ¿Qué hiciste?", "pt": "Não, voltamos no mesmo dia. E você? O que fez?" },
+    { "audioKey": "q-i01-d9", "voz": "Ana", "es": "Yo me quedé en casa, pero el domingo visité un museo.", "pt": "Eu fiquei em casa, mas no domingo visitei um museu." },
+    { "audioKey": "q-i01-d10", "voz": "Diego", "es": "¡Qué bien! ¿Te gustó?", "pt": "Que bom! Você gostou?" }
+  ],
+  "perguntas": [
+    {
+      "es": "¿Adónde fue Diego el sábado?",
+      "opcoes": ["A la playa", "A Colonia", "A un museo", "Al centro"],
+      "correta": 1,
+      "pt": "Aonde o Diego foi no sábado?"
+    },
+    {
+      "es": "¿Con quién fue Diego?",
+      "opcoes": ["Con unos amigos", "Solo", "Con su familia", "Con Ana"],
+      "correta": 0,
+      "pt": "Com quem o Diego foi?"
+    },
+    {
+      "es": "¿Qué comieron en el restaurante?",
+      "opcoes": ["Carne", "Pizza", "Pescado", "Pasta"],
+      "correta": 2,
+      "pt": "O que eles comeram no restaurante?"
+    },
+    {
+      "es": "¿Se quedó Diego a dormir en Colonia?",
+      "opcoes": ["Sí, dos días", "Sí, una noche", "No sabemos", "No, volvió el mismo día"],
+      "correta": 3,
+      "pt": "O Diego ficou pra dormir em Colônia?"
+    },
+    {
+      "es": "¿Qué hizo Ana el domingo?",
+      "opcoes": ["Visitó un museo", "Fue a la playa", "Viajó a Colonia", "Sacó fotos"],
+      "correta": 0,
+      "pt": "O que a Ana fez no domingo?"
+    },
+    {
+      "es": "¿Cómo le pareció el paseo a Diego?",
+      "opcoes": ["Más o menos", "Aburrido", "Estuvo bárbaro", "No le gustó"],
+      "correta": 2,
+      "pt": "O que o Diego achou do passeio?"
+    }
+  ]
+}

@@ -14,10 +14,13 @@ aparece o emoji sobre um fundo colorido (fallback). Pra colocar a foto:
 
 ## Estilo (cole isto ANTES de cada prompt, pra manter a coerência visual)
 
-> Ilustração editorial moderna, quente e amigável, estilo flat com texturas suaves.
-> Paleta: terracota (#C84B31), creme (#FFF7EC), dourado (#ECB365) e verde-sálvia (#7FA98C).
-> Ambiente rioplatense (Uruguai/Argentina). Sem nenhum texto ou letra na imagem.
-> Enquadramento horizontal 3:2, composição limpa com espaço de respiro.
+Mesmo estilo das fotos dos guias (Uruguai/Puerto Varas) — pintura digital quente, golden-hour:
+
+> Pintura digital cinematográfica, luz de fim de tarde (golden hour), cores quentes e
+> saturadas, atmosfera acolhedora e convidativa, estilo das ilustrações de viagem.
+> Ambiente rioplatense (Uruguai/Argentina — Montevidéu, Colonia). Sem nenhum texto, letra
+> ou logotipo na imagem. Enquadramento horizontal 3:2 (ex.: 1200×800), profundidade de
+> campo suave, composição com ponto focal claro.
 
 ---
 

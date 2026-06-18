@@ -1,0 +1,29 @@
+{
+  "id": "q-b02",
+  "nivel": "basico",
+  "titulo": "Quiz — Números, preços e horas",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-b02-i",
+  "introPt": "Hora do quiz! Escute esta conversa numa feira, com números, preços e horários. Pode ouvir quantas vezes quiser e depois responda às perguntas em espanhol.",
+  "cenario": "Uma cliente compra numa banca e combina o horário de voltar.",
+  "dialogo": [
+    { "audioKey": "q-b02-d1", "voz": "Ana", "es": "Buenas tardes. ¿Cuánto sale el kilo de manzanas?", "pt": "Boa tarde. Quanto custa o quilo de maçãs?" },
+    { "audioKey": "q-b02-d2", "voz": "Diego", "es": "Sale cuarenta pesos el kilo.", "pt": "Custa quarenta pesos o quilo." },
+    { "audioKey": "q-b02-d3", "voz": "Ana", "es": "Dame dos kilos, por favor. ¿Cuánto es en total?", "pt": "Me dá dois quilos, por favor. Quanto é no total?" },
+    { "audioKey": "q-b02-d4", "voz": "Diego", "es": "Son ochenta pesos.", "pt": "São oitenta pesos." },
+    { "audioKey": "q-b02-d5", "voz": "Ana", "es": "Te pago con cien. ¿Me das el vuelto?", "pt": "Pago com cem. Pode me dar o troco?" },
+    { "audioKey": "q-b02-d6", "voz": "Diego", "es": "Sí, claro. Acá van veinte pesos de vuelto.", "pt": "Sim, claro. Aqui vão vinte pesos de troco." },
+    { "audioKey": "q-b02-d7", "voz": "Ana", "es": "Gracias. ¿A qué hora cierra la feria?", "pt": "Obrigada. A que horas a feira fecha?" },
+    { "audioKey": "q-b02-d8", "voz": "Diego", "es": "Cierra a las ocho de la noche.", "pt": "Fecha às oito da noite." },
+    { "audioKey": "q-b02-d9", "voz": "Ana", "es": "¿Y abren mañana? Mañana es sábado, ¿no?", "pt": "E abrem amanhã? Amanhã é sábado, não é?" },
+    { "audioKey": "q-b02-d10", "voz": "Diego", "es": "Sí, el sábado abrimos a las nueve. Hasta luego.", "pt": "Sim, no sábado abrimos às nove. Até logo." }
+  ],
+  "perguntas": [
+    { "es": "¿Cuánto sale el kilo de manzanas?", "opcoes": ["Catorce pesos", "Cuarenta pesos", "Cuatro pesos", "Cien pesos"], "correta": 1, "pt": "Quanto custa o quilo de maçãs?" },
+    { "es": "¿Cuántos kilos compra Ana?", "opcoes": ["Dos kilos", "Un kilo", "Tres kilos", "Cinco kilos"], "correta": 0, "pt": "Quantos quilos a Ana compra?" },
+    { "es": "¿Cuánto es en total?", "opcoes": ["Ochenta pesos", "Cien pesos", "Veinte pesos", "Cuarenta pesos"], "correta": 0, "pt": "Quanto é no total?" },
+    { "es": "¿Cuánto vuelto recibe Ana?", "opcoes": ["Cien pesos", "Ochenta pesos", "Veinte pesos", "Diez pesos"], "correta": 2, "pt": "Quanto de troco a Ana recebe?" },
+    { "es": "¿A qué hora cierra la feria?", "opcoes": ["A las seis", "A las nueve", "A las diez", "A las ocho de la noche"], "correta": 3, "pt": "A que horas a feira fecha?" },
+    { "es": "¿A qué hora abren el sábado?", "opcoes": ["A las ocho", "A las nueve", "A las siete", "A las diez"], "correta": 1, "pt": "A que horas eles abrem no sábado?" }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "q-a03",
+  "nivel": "avancado",
+  "titulo": "Quiz — Conectores e argumentação",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-a03-i",
+  "introPt": "Último teste do avançado: conectores e argumentação. Escute como Ana e Diego defendem suas ideias e responda em espanhol.",
+  "cenario": "Ana e Diego discutem se vale a pena comprar um apartamento perto do centro ou alugar mais longe.",
+  "dialogo": [
+    { "audioKey": "q-a03-d1", "voz": "Ana", "es": "Para mí, deberíamos comprar el departamento del centro, aunque sea más chico.", "pt": "Pra mim, deveríamos comprar o apartamento do centro, mesmo que seja menor." },
+    { "audioKey": "q-a03-d2", "voz": "Diego", "es": "Entiendo tu punto, pero es carísimo. Además, está bastante viejo.", "pt": "Entendo seu ponto, mas é caríssimo. Além disso, está bem velho." },
+    { "audioKey": "q-a03-d3", "voz": "Ana", "es": "Es caro, sin embargo, queda al lado del trabajo, así que ahorraríamos en transporte.", "pt": "É caro, no entanto, fica do lado do trabalho, então economizaríamos em transporte." },
+    { "audioKey": "q-a03-d4", "voz": "Diego", "es": "En eso estoy de acuerdo. Pero, por otro lado, alquilar afuera nos saldría mucho menos.", "pt": "Nisso eu concordo. Mas, por outro lado, alugar mais longe nos sairia bem mais barato." },
+    { "audioKey": "q-a03-d5", "voz": "Ana", "es": "Sí, aunque alquilando nunca sería nuestro. Por eso prefiero comprar.", "pt": "Sim, embora alugando nunca seria nosso. Por isso prefiro comprar." },
+    { "audioKey": "q-a03-d6", "voz": "Diego", "es": "No estoy de acuerdo del todo. Depende de cuánto tiempo pensemos quedarnos.", "pt": "Não concordo totalmente. Depende de quanto tempo pensamos ficar." },
+    { "audioKey": "q-a03-d7", "voz": "Ana", "es": "Tenés razón en eso. Igual, en mi opinión, comprar es invertir, no gastar.", "pt": "Você tem razão nisso. Mesmo assim, na minha opinião, comprar é investir, não gastar." },
+    { "audioKey": "q-a03-d8", "voz": "Diego", "es": "Bueno, hagamos una cosa: lo visitamos otra vez y después decidimos con calma.", "pt": "Bom, vamos fazer assim: visitamos de novo e depois decidimos com calma." },
+    { "audioKey": "q-a03-d9", "voz": "Ana", "es": "Dale. En resumen, vos querés ahorrar y yo quiero invertir; busquemos el equilibrio.", "pt": "Combinado. Em resumo, você quer economizar e eu quero investir; vamos buscar o equilíbrio." }
+  ],
+  "perguntas": [
+    {
+      "es": "¿Cuál es la postura de Ana al abrir la conversación?",
+      "opcoes": ["Que conviene alquilar afuera", "Que no hay que mudarse", "Que deberían comprar el del centro", "Que el centro es demasiado caro"],
+      "correta": 2,
+      "pt": "Qual é a posição de Ana ao abrir a conversa?"
+    },
+    {
+      "es": "¿Qué argumentos usa Diego en contra del departamento del centro?",
+      "opcoes": ["Que es caro y está viejo", "Que está lejos del trabajo", "Que es muy ruidoso", "Que no tiene luz"],
+      "correta": 0,
+      "pt": "Que argumentos Diego usa contra o apartamento do centro?"
+    },
+    {
+      "es": "Con 'sin embargo, queda al lado del trabajo', Ana quiere…",
+      "opcoes": ["darle la razón a Diego", "contrastar con el precio alto y defender el centro", "cambiar de tema", "cerrar la discusión"],
+      "correta": 1,
+      "pt": "Com 'sin embargo, queda al lado del trabajo', Ana quer…"
+    },
+    {
+      "es": "¿Por qué Ana prefiere comprar y no alquilar?",
+      "opcoes": ["Porque alquilar es más caro", "Porque el centro es más lindo", "Porque alquilando la casa nunca sería de ellos", "Porque no le gusta el barrio de afuera"],
+      "correta": 2,
+      "pt": "Por que Ana prefere comprar e não alugar?"
+    },
+    {
+      "es": "Cuando Diego dice 'no estoy de acuerdo del todo', significa que…",
+      "opcoes": ["está completamente en contra", "concuerda en parte, pero no totalmente", "ya decidió comprar", "no quiere opinar"],
+      "correta": 1,
+      "pt": "Quando Diego diz 'no estoy de acuerdo del todo', significa que…"
+    },
+    {
+      "es": "¿Cómo terminan la discusión Ana y Diego?",
+      "opcoes": ["Enojados, sin acuerdo", "Decidiendo comprar ya mismo", "Decidiendo alquilar afuera", "Posponiendo la decisión para visitar de nuevo"],
+      "correta": 3,
+      "pt": "Como Ana e Diego terminam a discussão?"
+    }
+  ]
+}

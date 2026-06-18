@@ -1,0 +1,89 @@
+{
+  "id": "q-i05",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Serviços e reclamações",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-i05-i",
+  "introPt": "Vamos ver se você se vira quando algo dá errado: banco, celular e uma reclamação. Escute a conversa do Diego no balcão e responda.",
+  "cenario": "Diego chega ao balcão de atendimento de uma loja de celular. Comprou um chip há dois dias, mas a internet não funciona. Ana é a atendente.",
+  "dialogo": [
+    { "audioKey": "q-i05-d1", "voz": "Diego", "es": "Disculpe, tengo un problema con el chip que compré acá.", "pt": "Com licença, tenho um problema com o chip que comprei aqui." },
+    { "audioKey": "q-i05-d2", "voz": "Ana", "es": "Contame, ¿qué pasa? ¿No tenés señal?", "pt": "Me conta, o que houve? Você não tem sinal?" },
+    { "audioKey": "q-i05-d3", "voz": "Diego", "es": "Señal sí tengo, pero no funciona internet. No puedo cargar nada.", "pt": "Sinal eu tenho, mas a internet não funciona. Não consigo carregar nada." },
+    { "audioKey": "q-i05-d4", "voz": "Ana", "es": "Ah, mirá. ¿Ya recargaste datos o el chip vino sin saldo?", "pt": "Ah, olha só. Você já recarregou dados ou o chip veio sem saldo?" },
+    { "audioKey": "q-i05-d5", "voz": "Diego", "es": "Recargué ayer en el cajero, pagué con tarjeta. Pero sigue igual.", "pt": "Recarreguei ontem no caixa eletrônico, paguei com cartão. Mas continua igual." },
+    { "audioKey": "q-i05-d6", "voz": "Ana", "es": "Entiendo. Quiero ayudarte, pero esto lo ve el técnico. ¿Querés hacer un reclamo?", "pt": "Entendo. Quero te ajudar, mas isso é o técnico que vê. Você quer fazer uma reclamação?" },
+    { "audioKey": "q-i05-d7", "voz": "Diego", "es": "Sí, quiero hacer un reclamo. ¿Con quién puedo hablar?", "pt": "Sim, quero fazer uma reclamação. Com quem posso falar?" },
+    { "audioKey": "q-i05-d8", "voz": "Ana", "es": "Hablá con el de la ventanilla tres. Llevá el ticket de la recarga.", "pt": "Fale com o da janela três. Leve o comprovante da recarga." },
+    { "audioKey": "q-i05-d9", "voz": "Diego", "es": "Perfecto. ¿Y si no se arregla hoy, me devuelven la plata?", "pt": "Perfeito. E se não resolver hoje, vocês me devolvem o dinheiro?" },
+    { "audioKey": "q-i05-d10", "voz": "Ana", "es": "Eso lo decide el técnico. Pero quedate tranquilo, lo solucionamos.", "pt": "Isso quem decide é o técnico. Mas fique tranquilo, a gente resolve." }
+  ],
+  "perguntas": [
+    {
+      "es": "¿Cuál es el problema de Diego?",
+      "opcoes": [
+        "No tiene señal en el celular",
+        "Perdió el chip que compró",
+        "No funciona internet en su chip",
+        "El cajero no le dio plata"
+      ],
+      "correta": 2,
+      "pt": "Qual é o problema do Diego? — A internet do chip dele não funciona."
+    },
+    {
+      "es": "¿Dónde y cómo pagó Diego la recarga?",
+      "opcoes": [
+        "En el cajero, con tarjeta",
+        "En la ventanilla, en efectivo",
+        "Con el técnico, con dólares",
+        "Todavía no recargó nada"
+      ],
+      "correta": 0,
+      "pt": "Onde e como Diego pagou a recarga? — No caixa eletrônico, com cartão."
+    },
+    {
+      "es": "¿Qué le propone Ana a Diego?",
+      "opcoes": [
+        "Cambiar el chip ahora mismo",
+        "Hacer un reclamo",
+        "Devolverle la plata enseguida",
+        "Recargar datos otra vez"
+      ],
+      "correta": 1,
+      "pt": "O que Ana propõe ao Diego? — Fazer uma reclamação."
+    },
+    {
+      "es": "¿Qué tiene que llevar Diego a la ventanilla tres?",
+      "opcoes": [
+        "El celular y el cajero",
+        "La tarjeta del banco",
+        "Otro chip nuevo",
+        "El ticket de la recarga"
+      ],
+      "correta": 3,
+      "pt": "O que Diego precisa levar à janela três? — O comprovante da recarga."
+    },
+    {
+      "es": "¿Por qué Ana no resuelve el problema ella misma?",
+      "opcoes": [
+        "Porque está por cerrar la tienda",
+        "Porque ese tema lo ve el técnico",
+        "Porque Diego no tiene el ticket",
+        "Porque no acepta tarjetas"
+      ],
+      "correta": 1,
+      "pt": "Por que Ana não resolve o problema ela mesma? — Porque esse assunto é o técnico que vê."
+    },
+    {
+      "es": "¿Quién decide si le devuelven la plata a Diego?",
+      "opcoes": [
+        "Ana, la que atiende",
+        "El banco del cajero",
+        "El técnico",
+        "Nadie, no se devuelve"
+      ],
+      "correta": 2,
+      "pt": "Quem decide se devolvem o dinheiro ao Diego? — O técnico."
+    }
+  ]
+}

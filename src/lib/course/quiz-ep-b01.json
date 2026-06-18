@@ -1,0 +1,29 @@
+{
+  "id": "q-b01",
+  "nivel": "basico",
+  "titulo": "Quiz — Saudações",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-b01-i",
+  "introPt": "Hora do quiz! Escute esta conversa entre duas pessoas que se conhecem agora. Pode ouvir quantas vezes quiser e depois responda às perguntas em espanhol.",
+  "cenario": "Dois turistas se cruzam num café de manhã e se apresentam.",
+  "dialogo": [
+    { "audioKey": "q-b01-d1", "voz": "Ana", "es": "¡Hola! Buenos días. ¿Cómo andás?", "pt": "Oi! Bom dia. Como vai?" },
+    { "audioKey": "q-b01-d2", "voz": "Diego", "es": "Buenos días. Todo bien, ¿y vos?", "pt": "Bom dia. Tudo bem, e você?" },
+    { "audioKey": "q-b01-d3", "voz": "Ana", "es": "Más o menos, un poco cansada. ¿Cómo te llamás?", "pt": "Mais ou menos, um pouco cansada. Como você se chama?" },
+    { "audioKey": "q-b01-d4", "voz": "Diego", "es": "Me llamo Diego. ¿Y vos?", "pt": "Eu me chamo Diego. E você?" },
+    { "audioKey": "q-b01-d5", "voz": "Ana", "es": "Soy Ana. ¡Mucho gusto, Diego!", "pt": "Sou a Ana. Muito prazer, Diego!" },
+    { "audioKey": "q-b01-d6", "voz": "Diego", "es": "Encantado. ¿De dónde sos, Ana?", "pt": "Encantado. De onde você é, Ana?" },
+    { "audioKey": "q-b01-d7", "voz": "Ana", "es": "Soy de Brasil, soy brasileña. ¿Y vos?", "pt": "Sou do Brasil, sou brasileira. E você?" },
+    { "audioKey": "q-b01-d8", "voz": "Diego", "es": "Yo soy de Uruguay. Perdón, ¿hablás portugués?", "pt": "Eu sou do Uruguai. Desculpa, você fala português?" },
+    { "audioKey": "q-b01-d9", "voz": "Ana", "es": "Un poco. No hablo bien español todavía.", "pt": "Um pouco. Ainda não falo bem espanhol." },
+    { "audioKey": "q-b01-d10", "voz": "Diego", "es": "¡Tranquila! Hablás muy bien. Bueno, nos vemos. ¡Chau!", "pt": "Fica tranquila! Você fala muito bem. Bom, a gente se vê. Tchau!" }
+  ],
+  "perguntas": [
+    { "es": "¿En qué momento del día se saludan?", "opcoes": ["A la noche", "A la mañana", "A la tarde", "A la madrugada"], "correta": 1, "pt": "Em que momento do dia eles se cumprimentam?" },
+    { "es": "¿Cómo se siente Ana al principio?", "opcoes": ["Muy bien", "Enojada", "Más o menos, un poco cansada", "Enferma"], "correta": 2, "pt": "Como a Ana se sente no começo?" },
+    { "es": "¿Cómo se llama el hombre?", "opcoes": ["Diego", "Pedro", "Andrés", "Mateo"], "correta": 0, "pt": "Como se chama o homem?" },
+    { "es": "¿De dónde es Ana?", "opcoes": ["De Uruguay", "De Argentina", "De Chile", "De Brasil"], "correta": 3, "pt": "De onde a Ana é?" },
+    { "es": "¿De dónde es Diego?", "opcoes": ["De Brasil", "De Uruguay", "De España", "De México"], "correta": 1, "pt": "De onde o Diego é?" },
+    { "es": "¿Qué dice Ana sobre su español?", "opcoes": ["Que lo habla perfecto", "Que no lo entiende nada", "Que todavía no lo habla bien", "Que no quiere aprender"], "correta": 2, "pt": "O que a Ana diz sobre o espanhol dela?" }
+  ]
+}

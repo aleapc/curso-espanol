@@ -1,0 +1,29 @@
+{
+  "id": "q-b08",
+  "nivel": "basico",
+  "titulo": "Quiz — Mercado e farmácia",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-b08-i",
+  "introPt": "Hora do mercado e da farmácia! Escute as conversas e responda em espanhol. Pode ouvir quantas vezes quiser.",
+  "cenario": "Primeiro Diego compra frutas e ovos no mercado; depois vai à farmácia porque está com dor de cabeça.",
+  "dialogo": [
+    { "audioKey": "q-b08-d1", "voz": "Ana", "es": "Hola, ¿qué va a llevar?", "pt": "Oi, o que vai levar?" },
+    { "audioKey": "q-b08-d2", "voz": "Diego", "es": "Necesito un kilo de manzanas y una docena de huevos.", "pt": "Preciso de um quilo de maçãs e uma dúzia de ovos." },
+    { "audioKey": "q-b08-d3", "voz": "Ana", "es": "Listo. ¿Algo más?", "pt": "Pronto. Mais alguma coisa?" },
+    { "audioKey": "q-b08-d4", "voz": "Diego", "es": "¿Cuánto cuesta el kilo de tomates?", "pt": "Quanto custa o quilo de tomates?" },
+    { "audioKey": "q-b08-d5", "voz": "Ana", "es": "Doscientos pesos el kilo.", "pt": "Duzentos pesos o quilo." },
+    { "audioKey": "q-b08-d6", "voz": "Diego", "es": "Medio kilo, nada más. ¿Me da una bolsa?", "pt": "Meio quilo, só isso. Pode me dar uma sacola?" },
+    { "audioKey": "q-b08-d7", "voz": "Ana", "es": "Acá tenés. ¡Buen provecho!", "pt": "Aqui está. Bom apetite!" },
+    { "audioKey": "q-b08-d8", "voz": "Diego", "es": "Gracias. Ahora voy a la farmacia, me duele la cabeza.", "pt": "Obrigado. Agora vou à farmácia, estou com dor de cabeça." },
+    { "audioKey": "q-b08-d9", "voz": "Ana", "es": "¿Tenés algo para el dolor en casa?", "pt": "Você tem algo pra dor em casa?" },
+    { "audioKey": "q-b08-d10", "voz": "Diego", "es": "No, voy a pedir un ibuprofeno. ¿Necesito receta?", "pt": "Não, vou pedir um ibuprofeno. Preciso de receita?" }
+  ],
+  "perguntas": [
+    { "es": "¿Cuántos huevos pide Diego?", "opcoes": ["Medio kilo", "Una docena", "Un kilo", "Seis"], "correta": 1, "pt": "Quantos ovos Diego pede?" },
+    { "es": "¿Cuánto cuesta el kilo de tomates?", "opcoes": ["Cien pesos", "Mil pesos", "Doscientos pesos", "Cincuenta pesos"], "correta": 2, "pt": "Quanto custa o quilo de tomates?" },
+    { "es": "¿Qué cantidad de tomates lleva al final?", "opcoes": ["Un kilo", "Dos kilos", "Una docena", "Medio kilo"], "correta": 3, "pt": "Que quantidade de tomates ele leva no fim?" },
+    { "es": "¿Qué le pide Diego a Ana en la caja?", "opcoes": ["Una bolsa", "Un descuento", "Una receta", "Un ticket"], "correta": 0, "pt": "O que Diego pede a Ana no caixa?" },
+    { "es": "¿Por qué va Diego a la farmacia?", "opcoes": ["Le duele el estómago", "Le duele la cabeza", "Está constipado", "Necesita protector solar"], "correta": 1, "pt": "Por que Diego vai à farmácia?" },
+    { "es": "¿Qué quiere comprar en la farmacia?", "opcoes": ["Aspirina", "Protector solar", "Ibuprofeno", "Repelente"], "correta": 2, "pt": "O que ele quer comprar na farmácia?" }
+  ]
+}

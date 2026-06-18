@@ -1,0 +1,58 @@
+{
+  "id": "q-a01",
+  "nivel": "avancado",
+  "titulo": "Quiz — O subjuntivo",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-a01-i",
+  "introPt": "Hora de testar o subjuntivo! Escute Ana e Diego e responda em espanhol — desejos, pedidos e dúvidas, tudo junto.",
+  "cenario": "Ana vai viajar amanhã e conversa com Diego, que está meio resfriado, antes de sair.",
+  "dialogo": [
+    { "audioKey": "q-a01-d1", "voz": "Ana", "es": "Mañana me voy de viaje, así que vine a despedirme. ¡Espero que te mejores pronto!", "pt": "Amanhã viajo, então vim me despedir. Espero que você melhore logo!" },
+    { "audioKey": "q-a01-d2", "voz": "Diego", "es": "Gracias, igualmente. ¡Que tengas un buen viaje! ¿Adónde vas?", "pt": "Obrigado, igualmente. Tenha uma boa viagem! Aonde você vai?" },
+    { "audioKey": "q-a01-d3", "voz": "Ana", "es": "A Bariloche. Quiero que vengas conmigo el año que viene, en serio.", "pt": "A Bariloche. Quero que você venha comigo no ano que vem, sério." },
+    { "audioKey": "q-a01-d4", "voz": "Diego", "es": "¡Ojalá pueda! Aunque no creo que sea fácil con el laburo. ¿Es muy caro?", "pt": "Tomara que eu possa! Embora eu não ache que seja fácil com o trabalho. É muito caro?" },
+    { "audioKey": "q-a01-d5", "voz": "Ana", "es": "No creo que sea tan caro si reservás temprano. Te recomiendo que lo pienses ya.", "pt": "Não acho que seja tão caro se você reservar cedo. Recomendo que você pense nisso já." },
+    { "audioKey": "q-a01-d6", "voz": "Diego", "es": "Tenés razón. Necesito que me ayudes a buscar los pasajes cuando vuelvas.", "pt": "Você tem razão. Preciso que você me ajude a procurar as passagens quando voltar." },
+    { "audioKey": "q-a01-d7", "voz": "Ana", "es": "¡Dale! Cuando llegue, te escribo y armamos todo. Es mejor que decidamos rápido.", "pt": "Combinado! Quando eu chegar, te escrevo e organizamos tudo. É melhor decidirmos rápido." },
+    { "audioKey": "q-a01-d8", "voz": "Diego", "es": "Perfecto. Bueno, andá tranquila. ¡Que descanses y que la pases bien!", "pt": "Perfeito. Bom, vá tranquila. Descanse e divirta-se!" },
+    { "audioKey": "q-a01-d9", "voz": "Ana", "es": "Gracias, sos un sol. Cuidate ese resfrío. ¡Nos vemos cuando vuelva!", "pt": "Obrigada, você é um amor. Cuide desse resfriado. A gente se vê quando eu voltar!" }
+  ],
+  "perguntas": [
+    {
+      "es": "¿Qué le desea Ana a Diego al principio de la charla?",
+      "opcoes": ["Que tenga un buen viaje", "Que se mejore pronto", "Que descanse mucho", "Que la pase bien"],
+      "correta": 1,
+      "pt": "O que Ana deseja a Diego no começo da conversa?"
+    },
+    {
+      "es": "¿Por qué Diego duda en aceptar el viaje?",
+      "opcoes": ["Porque no le gusta Bariloche", "Porque está enfermo", "Porque no cree que sea fácil con el trabajo", "Porque es demasiado caro"],
+      "correta": 2,
+      "pt": "Por que Diego hesita em aceitar a viagem?"
+    },
+    {
+      "es": "Según Ana, ¿cómo se puede gastar menos en el viaje?",
+      "opcoes": ["Reservando temprano", "Viajando en grupo", "Yendo en otra temporada", "Quedándose menos días"],
+      "correta": 0,
+      "pt": "Segundo Ana, como dá pra gastar menos na viagem?"
+    },
+    {
+      "es": "¿Qué le pide Diego a Ana que haga cuando ella vuelva?",
+      "opcoes": ["Que le preste plata", "Que lo llame por teléfono", "Que descanse primero", "Que lo ayude a buscar los pasajes"],
+      "correta": 3,
+      "pt": "O que Diego pede que Ana faça quando ela voltar?"
+    },
+    {
+      "es": "Cuando Ana dice 'cuando llegue, te escribo', se entiende que ella va a escribir…",
+      "opcoes": ["en este momento", "antes de salir de viaje", "después de llegar a destino", "solo si Diego se lo pide"],
+      "correta": 2,
+      "pt": "Quando Ana diz 'cuando llegue, te escribo', entende-se que ela vai escrever…"
+    },
+    {
+      "es": "Por la manera en que terminan, ¿cómo es la relación entre Ana y Diego?",
+      "opcoes": ["Son apenas compañeros de trabajo", "Acaban de conocerse", "Son amigos de confianza", "Están enojados entre ellos"],
+      "correta": 2,
+      "pt": "Pelo jeito como se despedem, como é a relação entre Ana e Diego?"
+    }
+  ]
+}

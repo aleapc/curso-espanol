@@ -1,0 +1,89 @@
+{
+  "id": "q-i06",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Socializar",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-i06-i",
+  "introPt": "Hora de soltar a língua entre amigos: gostos, um convite e uma opinião. Escute a conversa da Ana e do Diego e responda.",
+  "cenario": "Ana e Diego estão tomando um café e conversam sobre o que gostam de fazer no fim de semana. Ana acaba fazendo um convite.",
+  "dialogo": [
+    { "audioKey": "q-i06-d1", "voz": "Ana", "es": "Che, ¿qué te gusta hacer los fines de semana?", "pt": "Ô, do que você gosta de fazer nos fins de semana?" },
+    { "audioKey": "q-i06-d2", "voz": "Diego", "es": "Me encanta el cine. Y me gusta mucho cocinar también.", "pt": "Eu adoro cinema. E gosto muito de cozinhar também." },
+    { "audioKey": "q-i06-d3", "voz": "Ana", "es": "¡Qué bueno! A mí no me gusta cocinar, pero me encanta comer.", "pt": "Que bom! Eu não gosto de cozinhar, mas adoro comer." },
+    { "audioKey": "q-i06-d4", "voz": "Diego", "es": "Jaja, entonces hacemos buena pareja. ¿Te gusta el cine de terror?", "pt": "Haha, então formamos uma boa dupla. Você gosta de filme de terror?" },
+    { "audioKey": "q-i06-d5", "voz": "Ana", "es": "No, el terror no me gusta nada. Prefiero las comedias.", "pt": "Não, terror eu não gosto nada. Prefiro as comédias." },
+    { "audioKey": "q-i06-d6", "voz": "Diego", "es": "Dale. Hay una comedia nueva muy buena. ¿Querés ir el sábado?", "pt": "Beleza. Tem uma comédia nova muito boa. Você quer ir no sábado?" },
+    { "audioKey": "q-i06-d7", "voz": "Ana", "es": "El sábado no puedo, tengo cumpleaños de mi hermana. ¿El domingo?", "pt": "No sábado não posso, é aniversário da minha irmã. No domingo?" },
+    { "audioKey": "q-i06-d8", "voz": "Diego", "es": "El domingo me viene bárbaro. ¿Te parece a la tarde?", "pt": "No domingo fica ótimo pra mim. Acha bom à tarde?" },
+    { "audioKey": "q-i06-d9", "voz": "Ana", "es": "Creo que a la tarde está perfecto. Después tomamos algo, ¿sí?", "pt": "Acho que à tarde está perfeito. Depois bebemos alguma coisa, sim?" },
+    { "audioKey": "q-i06-d10", "voz": "Diego", "es": "¡Me encantaría! Estoy de acuerdo, cine y después un café.", "pt": "Eu adoraria! Concordo, cinema e depois um café." }
+  ],
+  "perguntas": [
+    {
+      "es": "¿Qué le encanta a Diego?",
+      "opcoes": [
+        "El cine",
+        "El terror",
+        "Madrugar",
+        "El fútbol"
+      ],
+      "correta": 0,
+      "pt": "O que o Diego adora? — Cinema."
+    },
+    {
+      "es": "¿Qué dice Ana sobre cocinar?",
+      "opcoes": [
+        "Que le encanta cocinar",
+        "Que no le gusta cocinar",
+        "Que cocina los domingos",
+        "Que prefiere cocinar a comer"
+      ],
+      "correta": 1,
+      "pt": "O que Ana diz sobre cozinhar? — Que não gosta de cozinhar."
+    },
+    {
+      "es": "¿Qué tipo de película prefiere Ana?",
+      "opcoes": [
+        "El terror",
+        "Las de acción",
+        "Las comedias",
+        "No le gusta el cine"
+      ],
+      "correta": 2,
+      "pt": "Que tipo de filme Ana prefere? — As comédias."
+    },
+    {
+      "es": "¿Por qué Ana no puede ir el sábado?",
+      "opcoes": [
+        "Porque trabaja el sábado",
+        "Porque no le gusta el plan",
+        "Porque está enferma",
+        "Porque tiene el cumpleaños de su hermana"
+      ],
+      "correta": 3,
+      "pt": "Por que Ana não pode ir no sábado? — Porque é o aniversário da irmã dela."
+    },
+    {
+      "es": "¿Para qué día y momento quedan finalmente?",
+      "opcoes": [
+        "El sábado a la noche",
+        "El domingo a la tarde",
+        "El domingo a la mañana",
+        "El viernes al mediodía"
+      ],
+      "correta": 1,
+      "pt": "Para que dia e momento eles ficam afinal? — Domingo à tarde."
+    },
+    {
+      "es": "¿Qué planean hacer después del cine?",
+      "opcoes": [
+        "Cocinar en casa de Ana",
+        "Ir a la cancha",
+        "Tomar algo",
+        "Volver al trabajo"
+      ],
+      "correta": 2,
+      "pt": "O que eles planejam fazer depois do cinema? — Beber alguma coisa."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "q-a02",
+  "nivel": "avancado",
+  "titulo": "Quiz — Condicional e hipóteses",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-a02-i",
+  "introPt": "Vamos ver se você pega o condicional! Pedidos educados, hipóteses do 'se eu pudesse' e conselhos — escute e responda em espanhol.",
+  "cenario": "Diego está estressado com o trabalho e desabafa com Ana, que dá conselhos e fala dos próprios sonhos.",
+  "dialogo": [
+    { "audioKey": "q-a02-d1", "voz": "Diego", "es": "Ana, ¿podrías escucharme un momento? Estoy reventado con el laburo.", "pt": "Ana, você poderia me escutar um momento? Estou acabado com o trabalho." },
+    { "audioKey": "q-a02-d2", "voz": "Ana", "es": "Claro, contame. Se te ve agotado. ¿Qué harías si pudieras cambiar algo?", "pt": "Claro, me conta. Você está com cara de esgotado. O que você faria se pudesse mudar algo?" },
+    { "audioKey": "q-a02-d3", "voz": "Diego", "es": "Si tuviera valor, renunciaría y me tomaría un año sabático.", "pt": "Se eu tivesse coragem, pediria demissão e tiraria um ano sabático." },
+    { "audioKey": "q-a02-d4", "voz": "Ana", "es": "Yo que vos, no renunciaría sin un plan. Deberías hablar con tu jefe primero.", "pt": "Eu, no seu lugar, não pediria demissão sem um plano. Você deveria falar com seu chefe primeiro." },
+    { "audioKey": "q-a02-d5", "voz": "Diego", "es": "¿Y vos qué harías en mi lugar, hablando en serio?", "pt": "E você, o que faria no meu lugar, falando sério?" },
+    { "audioKey": "q-a02-d6", "voz": "Ana", "es": "Pediría menos horas. Si trabajara menos, tendría tiempo para mí y descansaría.", "pt": "Eu pediria menos horas. Se trabalhasse menos, teria tempo pra mim e descansaria." },
+    { "audioKey": "q-a02-d7", "voz": "Diego", "es": "Tenés razón. Tendría que animarme a pedirlo. ¿Me ayudarías a prepararlo?", "pt": "Você tem razão. Eu teria que me animar a pedir. Você me ajudaria a preparar isso?" },
+    { "audioKey": "q-a02-d8", "voz": "Ana", "es": "Obvio. Y si yo tuviera plata, me iría a estudiar afuera un tiempo, así que te entiendo.", "pt": "Claro. E se eu tivesse dinheiro, iria estudar fora um tempo, então eu te entendo." },
+    { "audioKey": "q-a02-d9", "voz": "Diego", "es": "¡Sería genial! Bueno, mañana mismo hablo con él. Gracias por el consejo.", "pt": "Seria ótimo! Bom, amanhã mesmo falo com ele. Obrigado pelo conselho." }
+  ],
+  "perguntas": [
+    {
+      "es": "¿Cómo le pide Diego a Ana que lo escuche?",
+      "opcoes": ["De forma educada, con '¿podrías?'", "Con una orden directa", "Gritándole", "Por mensaje de texto"],
+      "correta": 0,
+      "pt": "Como Diego pede que Ana o escute?"
+    },
+    {
+      "es": "¿Qué haría Diego si tuviera valor?",
+      "opcoes": ["Hablaría con su jefe", "Pediría menos horas", "Renunciaría y se tomaría un año sabático", "Estudiaría en el exterior"],
+      "correta": 2,
+      "pt": "O que Diego faria se tivesse coragem?"
+    },
+    {
+      "es": "¿Qué le aconseja Ana usando 'yo que vos'?",
+      "opcoes": ["Que renuncie cuanto antes", "Que no renuncie sin un plan", "Que se tome vacaciones", "Que cambie de ciudad"],
+      "correta": 1,
+      "pt": "O que Ana aconselha usando 'yo que vos'?"
+    },
+    {
+      "es": "Según Ana, ¿qué pasaría si ella trabajara menos?",
+      "opcoes": ["Ganaría más plata", "Se aburriría en casa", "Buscaría otro empleo", "Tendría tiempo para sí misma y descansaría"],
+      "correta": 3,
+      "pt": "Segundo Ana, o que aconteceria se ela trabalhasse menos?"
+    },
+    {
+      "es": "¿Qué se entiende sobre el sueño de Ana de estudiar afuera?",
+      "opcoes": ["Que ya está estudiando afuera", "Que es algo que no puede hacer ahora por falta de plata", "Que se va el mes que viene", "Que ya no le interesa"],
+      "correta": 1,
+      "pt": "O que se entende sobre o sonho de Ana de estudar fora?"
+    },
+    {
+      "es": "¿Qué decide hacer Diego al final de la charla?",
+      "opcoes": ["Renunciar de inmediato", "No hacer nada por ahora", "Hablar con su jefe al día siguiente", "Pedirle plata a Ana"],
+      "correta": 2,
+      "pt": "O que Diego decide fazer no fim da conversa?"
+    }
+  ]
+}

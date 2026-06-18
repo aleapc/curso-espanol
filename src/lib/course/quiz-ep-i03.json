@@ -1,0 +1,59 @@
+{
+  "id": "q-i03",
+  "nivel": "intermediario",
+  "titulo": "Quiz — Planos e futuro",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-i03-i",
+  "introPt": "Escute a Ana e o Diego fazendo planos e combinando um encontro, e responda em espanhol. Pode ouvir quantas vezes quiser, sem pressa.",
+  "cenario": "A Ana e o Diego falam do que vão fazer e combinam de sair juntos.",
+  "dialogo": [
+    { "audioKey": "q-i03-d1", "voz": "Ana", "es": "Diego, ¿qué vas a hacer el finde que viene?", "pt": "Diego, o que você vai fazer no fim de semana que vem?" },
+    { "audioKey": "q-i03-d2", "voz": "Diego", "es": "Voy a viajar a Colonia con mi hermano.", "pt": "Vou viajar a Colônia com meu irmão." },
+    { "audioKey": "q-i03-d3", "voz": "Ana", "es": "¡Qué bueno! ¿Y esta semana?", "pt": "Que bom! E esta semana?" },
+    { "audioKey": "q-i03-d4", "voz": "Diego", "es": "Esta noche voy a comer afuera, pero mañana estoy libre.", "pt": "Hoje à noite vou comer fora, mas amanhã estou livre." },
+    { "audioKey": "q-i03-d5", "voz": "Ana", "es": "¿Quedamos mañana a las ocho para tomar un café?", "pt": "Combinamos amanhã às oito pra tomar um café?" },
+    { "audioKey": "q-i03-d6", "voz": "Diego", "es": "¡Dale! ¿En la plaza, te parece?", "pt": "Combinado! Na praça, topa?" },
+    { "audioKey": "q-i03-d7", "voz": "Ana", "es": "Perfecto. Después quiero ver la muestra de fotos del museo.", "pt": "Perfeito. Depois quero ver a exposição de fotos do museu." },
+    { "audioKey": "q-i03-d8", "voz": "Diego", "es": "Buenísimo. Vamos a pasear un rato y después al museo.", "pt": "Ótimo. Vamos passear um pouco e depois ao museu." },
+    { "audioKey": "q-i03-d9", "voz": "Ana", "es": "¡Dale! Entonces nos vemos mañana a las ocho.", "pt": "Beleza! Então a gente se vê amanhã às oito." },
+    { "audioKey": "q-i03-d10", "voz": "Diego", "es": "Nos vemos. ¡Hasta mañana!", "pt": "A gente se vê. Até amanhã!" }
+  ],
+  "perguntas": [
+    {
+      "es": "¿Qué va a hacer Diego el finde que viene?",
+      "opcoes": ["Quedarse en casa", "Viajar a Colonia", "Ir al museo", "Trabajar"],
+      "correta": 1,
+      "pt": "O que o Diego vai fazer no fim de semana que vem?"
+    },
+    {
+      "es": "¿Con quién va a viajar Diego?",
+      "opcoes": ["Con Ana", "Con un amigo", "Con su hermano", "Solo"],
+      "correta": 2,
+      "pt": "Com quem o Diego vai viajar?"
+    },
+    {
+      "es": "¿Qué va a hacer Diego esta noche?",
+      "opcoes": ["Comer afuera", "Quedarse en casa", "Ir al museo", "Viajar"],
+      "correta": 0,
+      "pt": "O que o Diego vai fazer hoje à noite?"
+    },
+    {
+      "es": "¿A qué hora quedan mañana?",
+      "opcoes": ["A las siete", "A las nueve", "A las seis", "A las ocho"],
+      "correta": 3,
+      "pt": "A que horas eles combinam de se ver amanhã?"
+    },
+    {
+      "es": "¿Dónde se van a encontrar?",
+      "opcoes": ["En la plaza", "En el museo", "En un café", "En la playa"],
+      "correta": 0,
+      "pt": "Onde eles vão se encontrar?"
+    },
+    {
+      "es": "¿Qué quiere ver Ana después del café?",
+      "opcoes": ["Una película", "La muestra de fotos del museo", "El río", "Un partido"],
+      "correta": 1,
+      "pt": "O que a Ana quer ver depois do café?"
+    }
+  ]
+}

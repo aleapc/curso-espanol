@@ -1,0 +1,29 @@
+{
+  "id": "q-b07",
+  "nivel": "basico",
+  "titulo": "Quiz — Hotel: check-in e problemas",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-b07-i",
+  "introPt": "Vamos testar o hotel! Escute o casal na recepção e responda em espanhol. Pode ouvir a conversa quantas vezes quiser.",
+  "cenario": "Diego chega num hotel, faz o check-in com a recepcionista Ana e depois relata um problema no quarto.",
+  "dialogo": [
+    { "audioKey": "q-b07-d1", "voz": "Diego", "es": "Buenas tardes, tengo una reserva a nombre de Diego.", "pt": "Boa tarde, tenho uma reserva em nome de Diego." },
+    { "audioKey": "q-b07-d2", "voz": "Ana", "es": "Perfecto. Es una habitación doble, ¿verdad?", "pt": "Perfeito. É um quarto de casal, certo?" },
+    { "audioKey": "q-b07-d3", "voz": "Diego", "es": "Sí. ¿Incluye el desayuno?", "pt": "Sim. Inclui o café da manhã?" },
+    { "audioKey": "q-b07-d4", "voz": "Ana", "es": "Sí, el desayuno es de ocho a diez. Acá tenés la llave.", "pt": "Sim, o café é das oito às dez. Aqui está a chave." },
+    { "audioKey": "q-b07-d5", "voz": "Diego", "es": "Gracias. ¿Cuál es la contraseña del wifi?", "pt": "Obrigado. Qual é a senha do wifi?" },
+    { "audioKey": "q-b07-d6", "voz": "Ana", "es": "Es hotel2026, todo junto.", "pt": "É hotel2026, tudo junto." },
+    { "audioKey": "q-b07-d7", "voz": "Diego", "es": "Disculpá, subí al cuarto y no funciona el aire.", "pt": "Desculpa, subi ao quarto e o ar não funciona." },
+    { "audioKey": "q-b07-d8", "voz": "Ana", "es": "Perdón, ya mando a alguien. ¿Algo más?", "pt": "Desculpe, já mando alguém. Mais alguma coisa?" },
+    { "audioKey": "q-b07-d9", "voz": "Diego", "es": "Sí, falta una toalla. ¿Me pueden traer una?", "pt": "Sim, falta uma toalha. Podem me trazer uma?" },
+    { "audioKey": "q-b07-d10", "voz": "Ana", "es": "Por supuesto, en un rato se la llevamos.", "pt": "Claro, num instante levamos." }
+  ],
+  "perguntas": [
+    { "es": "¿Qué tipo de habitación reservó Diego?", "opcoes": ["Individual", "Doble", "Triple", "Una suite"], "correta": 1, "pt": "Que tipo de quarto Diego reservou?" },
+    { "es": "¿A qué hora es el desayuno?", "opcoes": ["De siete a nueve", "De ocho a diez", "De nueve a once", "De seis a ocho"], "correta": 1, "pt": "A que horas é o café da manhã?" },
+    { "es": "¿Qué le pide Diego a Ana después de la llave?", "opcoes": ["La factura", "Un taxi", "La contraseña del wifi", "El check-out"], "correta": 2, "pt": "O que Diego pede a Ana depois da chave?" },
+    { "es": "¿Cuál es el problema en el cuarto?", "opcoes": ["No hay agua caliente", "No funciona la ducha", "No funciona el aire", "Falta la llave"], "correta": 2, "pt": "Qual é o problema no quarto?" },
+    { "es": "¿Qué más le falta a Diego?", "opcoes": ["Una toalla", "Una sábana", "Una almohada", "El control"], "correta": 0, "pt": "O que mais falta para Diego?" },
+    { "es": "¿Qué responde Ana sobre el problema del aire?", "opcoes": ["Que no se puede arreglar", "Que ya manda a alguien", "Que cambie de cuarto", "Que pague más"], "correta": 1, "pt": "O que Ana responde sobre o problema do ar?" }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "q-a05",
+  "nivel": "avancado",
+  "titulo": "Quiz — Trâmites e negócios",
+  "subtitulo": "Escute a conversa e responda em espanhol",
+  "introAudioKey": "q-a05-i",
+  "introPt": "Vamos ver se você se vira numa repartição e numa conversa de trabalho. Escute o atendimento formal entre Ana e Diego e responda em espanhol — atenção aos falsos amigos.",
+  "cenario": "Diego chega a um escritório de atendimento para resolver uma papelada e, na sequência, fecha detalhes de um orçamento. Ana é a atendente; todo o trato é no formal usted.",
+  "dialogo": [
+    { "audioKey": "q-a05-d1", "voz": "Diego", "es": "Buenos días. Vengo a hacer un trámite, ¿tengo que sacar turno?", "pt": "Bom dia. Vim resolver uma papelada, preciso marcar hora?" },
+    { "audioKey": "q-a05-d2", "voz": "Ana", "es": "Buenos días. Sin turno no puedo atenderlo, pero tengo un lugar a las once.", "pt": "Bom dia. Sem senha não posso te atender, mas tenho um horário às onze." },
+    { "audioKey": "q-a05-d3", "voz": "Diego", "es": "Perfecto. ¿Qué documentación necesito traer?", "pt": "Perfeito. Que documentos preciso trazer?" },
+    { "audioKey": "q-a05-d4", "voz": "Ana", "es": "El documento de identidad y el comprobante de domicilio. Después firma acá.", "pt": "O documento de identidade e o comprovante de residência. Depois assina aqui." },
+    { "audioKey": "q-a05-d5", "voz": "Diego", "es": "De acuerdo. Y por el otro tema, ¿me puede enviar el presupuesto?", "pt": "Combinado. E sobre o outro assunto, o senhor pode me enviar o orçamento?" },
+    { "audioKey": "q-a05-d6", "voz": "Ana", "es": "Claro, se lo envío hoy mismo. ¿Cuál es el plazo que maneja usted?", "pt": "Claro, envio ao senhor hoje mesmo. Qual é o prazo que o senhor trabalha?" },
+    { "audioKey": "q-a05-d7", "voz": "Diego", "es": "Lo necesito para fin de mes. Si pago en efectivo, ¿me hace un descuento?", "pt": "Preciso pra fim do mês. Se eu pagar à vista, o senhor me faz um desconto?" },
+    { "audioKey": "q-a05-d8", "voz": "Ana", "es": "Algo podemos ver. Eso sí, hubo un error en la última factura.", "pt": "Algo a gente pode ver. Mas atenção: houve um erro na última fatura." },
+    { "audioKey": "q-a05-d9", "voz": "Diego", "es": "Justamente, quisiera hacer un reclamo por eso. Quedo a la espera de su respuesta.", "pt": "Justamente, eu gostaria de fazer uma reclamação por isso. Fico no aguardo da sua resposta." }
+  ],
+  "perguntas": [
+    {
+      "es": "¿Por qué Ana no puede atender a Diego enseguida?",
+      "opcoes": ["Porque vino sin turno", "Porque le faltan documentos", "Porque la oficina está cerrada", "Porque no es su día de atención"],
+      "correta": 0,
+      "pt": "'Sin turno no puedo atenderlo': sem hora marcada não dá pra atender na hora."
+    },
+    {
+      "es": "¿Qué documentación le pide Ana?",
+      "opcoes": ["Solo el documento de identidad", "El pasaporte y una foto", "El documento de identidad y el comprobante de domicilio", "Nada, no hace falta"],
+      "correta": 2,
+      "pt": "Compreensão direta: documento de identidade + comprovante de residência."
+    },
+    {
+      "es": "Cuando Diego pide «el presupuesto», ¿qué está pidiendo?",
+      "opcoes": ["Un pressuposto/teoria", "El orçamento (la estimación de costos)", "Un recibo de pago", "Una autorización"],
+      "correta": 1,
+      "pt": "Falso amigo: 'presupuesto' = orçamento, não 'pressuposto'."
+    },
+    {
+      "es": "¿Qué quiere decir «el plazo» en la conversación?",
+      "opcoes": ["El lugar de entrega", "La forma de pago", "El prazo (el tiempo de entrega)", "El precio final"],
+      "correta": 2,
+      "pt": "Falso amigo: 'plazo' = prazo, tempo de entrega."
+    },
+    {
+      "es": "¿Qué condición pone Diego para pedir un descuento?",
+      "opcoes": ["Pagar en cuotas", "Pagar en efectivo", "Comprar más cantidad", "Firmar un contrato largo"],
+      "correta": 1,
+      "pt": "Inferência: o desconto está condicionado a pagar 'en efectivo' (à vista)."
+    },
+    {
+      "es": "Al final, ¿qué decide hacer Diego por el error en la factura?",
+      "opcoes": ["Hacer un reclamo formal", "No pagar nada", "Cambiar de empresa", "Ignorar el problema"],
+      "correta": 0,
+      "pt": "'Quisiera hacer un reclamo': ele decide reclamar formalmente."
+    }
+  ]
+}
