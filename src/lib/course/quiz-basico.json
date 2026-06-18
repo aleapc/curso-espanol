@@ -1,29 +1,117 @@
 {
   "id": "q-basico",
   "nivel": "basico",
-  "titulo": "Quiz Básico — No restaurante",
-  "subtitulo": "Escute a conversa e responda em espanhol",
-  "introAudioKey": "qb-intro",
-  "introPt": "Hora do quiz! Escute a conversa inteira em espanhol — um casal chegando num restaurante. Pode ouvir quantas vezes quiser. Depois, responda às perguntas. Não precisa entender cada palavra: pegue o sentido geral.",
-  "cenario": "Um cliente chega num restaurante e fala com a garçonete (la moza).",
+  "titulo": "Prova do Básico — Um dia en Montevideo",
+  "subtitulo": "Escute a história inteira e responda em espanhol",
+  "introAudioKey": "xb-i",
+  "introPt": "Chegou a prova do nível! Isto é diferente dos quizzes: é uma história inteira, um dia de Ana e Diego em Montevidéu. Escute do começo ao fim, quantas vezes quiser, e só depois responda. É mais longa que o normal — então relaxe, pegue o fio da história e curta.",
+  "cenario": "Um casal de turistas brasileiros, Ana e Diego, passa um dia inteiro em Montevidéu: chegam ao hotel, pedem informação na rua, almoçam numa parrilla (com um probleminha na conta), fazem uma comprinha e combinam o passeio do dia seguinte.",
   "dialogo": [
-    { "audioKey": "qb-d1", "voz": "Ana", "es": "¡Hola! Buenas tardes, ¿mesa para dos?", "pt": "Olá! Boa tarde, mesa para dois?" },
-    { "audioKey": "qb-d2", "voz": "Diego", "es": "Hola, sí, para dos, por favor.", "pt": "Olá, sim, para dois, por favor." },
-    { "audioKey": "qb-d3", "voz": "Ana", "es": "Perfecto. ¿Qué van a tomar?", "pt": "Perfeito. O que vão querer?" },
-    { "audioKey": "qb-d4", "voz": "Diego", "es": "Yo quiero una milanesa con papas fritas. ¿Cuánto sale?", "pt": "Eu quero uma milanesa com batatas fritas. Quanto custa?" },
-    { "audioKey": "qb-d5", "voz": "Ana", "es": "Sale trescientos pesos. ¿Y para tomar?", "pt": "Custa trezentos pesos. E para beber?" },
-    { "audioKey": "qb-d6", "voz": "Diego", "es": "Una botella de agua, por favor. ¿Aceptan tarjeta?", "pt": "Uma garrafa de água, por favor. Aceitam cartão?" },
-    { "audioKey": "qb-d7", "voz": "Ana", "es": "Sí, aceptamos tarjeta. ¿Algo más?", "pt": "Sim, aceitamos cartão. Mais alguma coisa?" },
-    { "audioKey": "qb-d8", "voz": "Diego", "es": "No, gracias. ¿Dónde está el baño?", "pt": "Não, obrigado. Onde fica o banheiro?" },
-    { "audioKey": "qb-d9", "voz": "Ana", "es": "Al fondo a la derecha.", "pt": "No fundo à direita." },
-    { "audioKey": "qb-d10", "voz": "Diego", "es": "Muchas gracias.", "pt": "Muito obrigado." }
+    { "audioKey": "xb-d1", "voz": "Diego", "es": "¡Llegamos! Mirá, ahí está el hotel. Vamos a hacer el check-in que estoy muerto.", "pt": "Chegamos! Olha, ali está o hotel. Vamos fazer o check-in que eu tô morto (cansado)." },
+    { "audioKey": "xb-d2", "voz": "Ana", "es": "Dale. En la recepción la chica nos pidió el apellido y nos dio la habitación doble, la 305, en el segundo piso.", "pt": "Beleza. Na recepção a moça pediu o sobrenome e deu o quarto de casal, o 305, no segundo andar." },
+    { "audioKey": "xb-d3", "voz": "Diego", "es": "Bien. ¿Y el desayuno está incluido? No quiero pagar nada aparte mañana.", "pt": "Boa. E o café da manhã está incluído? Não quero pagar nada à parte amanhã." },
+    { "audioKey": "xb-d4", "voz": "Ana", "es": "Sí, lo dijo la chica: el desayuno va incluido, de siete a diez. Pero el wifi del cuarto andaba mal.", "pt": "Sim, a moça disse: o café vai incluído, das sete às dez. Mas o wifi do quarto estava ruim." },
+    { "audioKey": "xb-d5", "voz": "Diego", "es": "Bah, después lo vemos. Tengo hambre. ¿Vamos a comer algo? Quiero una parrilla de verdad.", "pt": "Ah, depois a gente vê. Tô com fome. Vamos comer algo? Quero uma parrilla de verdade." },
+    { "audioKey": "xb-d6", "voz": "Ana", "es": "Buenísimo. Pero no sé llegar. Pará, le pregunto a aquel señor de la esquina.", "pt": "Ótimo. Mas não sei chegar. Espera, vou perguntar pra aquele senhor da esquina." },
+    { "audioKey": "xb-d7", "voz": "Diego", "es": "El señor dijo: seguí derecho dos cuadras y doblá a la izquierda, que la parrilla está al lado del mercado.", "pt": "O senhor disse: siga reto dois quarteirões e vire à esquerda, que a parrilla está ao lado do mercado." },
+    { "audioKey": "xb-d8", "voz": "Ana", "es": "¿A la izquierda? Yo entendí a la derecha. Por las dudas, vamos caminando despacio.", "pt": "À esquerda? Eu entendi à direita. Por via das dúvidas, vamos andando devagar." },
+    { "audioKey": "xb-d9", "voz": "Diego", "es": "No, era a la izquierda, ya la veo. Estaba cerca igual, no valía la pena tomar el bondi.", "pt": "Não, era à esquerda, já estou vendo. Estava perto mesmo, não valia a pena pegar o ônibus." },
+    { "audioKey": "xb-d10", "voz": "Ana", "es": "Sentémonos afuera. Para mí, un bife de chorizo a punto y un vaso de agua, por favor.", "pt": "Vamos sentar lá fora. Pra mim, um bife de chorizo ao ponto e um copo de água, por favor." },
+    { "audioKey": "xb-d11", "voz": "Diego", "es": "Yo pido el vacío con papas y una copa de vino tinto. ¿Cuánto sale el menú del día, che?", "pt": "Eu peço o vacío com batatas e uma taça de vinho tinto. Quanto sai o prato do dia, cara?" },
+    { "audioKey": "xb-d12", "voz": "Ana", "es": "El mozo dijo que el del día sale cuatrocientos pesos. Pero tardó un montón en traer tu vacío.", "pt": "O garçom disse que o do dia sai quatrocentos pesos. Mas demorou um monte pra trazer o seu vacío." },
+    { "audioKey": "xb-d13", "voz": "Diego", "es": "Sí, casi media hora. Igual estaba exquisito, valió la pena esperar. La carne, un lujo.", "pt": "Sim, quase meia hora. Mas estava delicioso, valeu a pena esperar. A carne, um luxo." },
+    { "audioKey": "xb-d14", "voz": "Ana", "es": "Ojo con la cuenta: nos cobraron dos vinos y vos tomaste uno solo. Hay que avisarle al mozo.", "pt": "Cuidado com a conta: cobraram dois vinhos e você tomou só um. Tem que avisar o garçom." },
+    { "audioKey": "xb-d15", "voz": "Diego", "es": "Tenés razón. Le avisé y lo arregló enseguida, sacó el vino de más. Quedó todo bien.", "pt": "Você tem razão. Avisei e ele resolveu na hora, tirou o vinho a mais. Ficou tudo certo." },
+    { "audioKey": "xb-d16", "voz": "Ana", "es": "Pagamos y dejamos propina. Ahora quiero pasar por esa tienda a ver una campera.", "pt": "Pagamos e deixamos gorjeta. Agora quero passar naquela loja pra ver um casaco." },
+    { "audioKey": "xb-d17", "voz": "Diego", "es": "Probate la azul. ¿Qué talle buscás? Esa te queda un poco larga, pedí una más chica.", "pt": "Experimenta a azul. Que tamanho você procura? Essa fica um pouco comprida em você, pede uma menor." },
+    { "audioKey": "xb-d18", "voz": "Ana", "es": "La mediana me queda bien. Salía mil doscientos, pero con descuento me la dejaron en mil.", "pt": "A média fica bem em mim. Saía mil e duzentos, mas com desconto me deixaram em mil." },
+    { "audioKey": "xb-d19", "voz": "Diego", "es": "¡Buen precio! Bueno, mañana, ¿qué hacemos? Yo quiero ir a la Ciudad Vieja temprano.", "pt": "Bom preço! Bom, amanhã, o que a gente faz? Eu quero ir à Cidade Velha cedo." },
+    { "audioKey": "xb-d20", "voz": "Ana", "es": "Dale, salimos a las nueve después del desayuno y vamos en bondi hasta el centro. ¡Buenísimo el día!", "pt": "Beleza, saímos às nove depois do café e vamos de ônibus até o centro. Que dia ótimo!" }
   ],
   "perguntas": [
-    { "es": "¿Para cuántas personas es la mesa?", "opcoes": ["Para dos", "Para una", "Para tres", "Para cuatro"], "correta": 0, "pt": "Para quantas pessoas é a mesa?" },
-    { "es": "¿Qué pidió de comer el cliente?", "opcoes": ["Una milanesa con papas fritas", "Un asado", "Una pizza", "Una ensalada"], "correta": 0, "pt": "O que o cliente pediu para comer?" },
-    { "es": "¿Cuánto sale la comida?", "opcoes": ["Trescientos pesos", "Trece pesos", "Cien pesos", "Mil pesos"], "correta": 0, "pt": "Quanto custa a comida?" },
-    { "es": "¿Qué pidió para tomar?", "opcoes": ["Una botella de agua", "Un vino", "Una cerveza", "Un café"], "correta": 0, "pt": "O que pediu para beber?" },
-    { "es": "¿Cómo va a pagar?", "opcoes": ["Con tarjeta", "En efectivo", "Con cheque", "No paga"], "correta": 0, "pt": "Como vai pagar?" },
-    { "es": "¿Dónde está el baño?", "opcoes": ["Al fondo a la derecha", "A la izquierda", "Arriba", "Afuera"], "correta": 0, "pt": "Onde fica o banheiro?" }
+    {
+      "es": "¿Qué número de habitación les dieron en el hotel?",
+      "opcoes": ["La 503", "La 350", "La 305", "La 530"],
+      "correta": 2,
+      "pt": "Que número de quarto deram a eles no hotel?"
+    },
+    {
+      "es": "¿Qué pasaba con el wifi del cuarto?",
+      "opcoes": ["Funcionaba perfecto", "No había wifi", "Era carísimo", "Andaba mal"],
+      "correta": 3,
+      "pt": "O que acontecia com o wifi do quarto?"
+    },
+    {
+      "es": "Según Ana, ¿el desayuno estaba incluido?",
+      "opcoes": ["Sí, de siete a diez", "No, se pagaba aparte", "Solo los fines de semana", "Sí, pero hasta las ocho"],
+      "correta": 0,
+      "pt": "Segundo a Ana, o café da manhã estava incluído?"
+    },
+    {
+      "es": "¿Cómo le indicó el señor el camino a la parrilla?",
+      "opcoes": ["Doblar a la derecha enseguida", "Tomar el subte", "Seguir derecho y doblar a la izquierda", "Volver dos cuadras"],
+      "correta": 2,
+      "pt": "Como o senhor indicou o caminho até a parrilla?"
+    },
+    {
+      "es": "Al principio, ¿qué había entendido Ana sobre la dirección?",
+      "opcoes": ["Que era a la derecha", "Que estaba lejos", "Que había que cruzar la plaza", "Que era al lado del hotel"],
+      "correta": 0,
+      "pt": "No começo, o que a Ana tinha entendido sobre a direção?"
+    },
+    {
+      "es": "¿Por qué no tomaron el bondi para ir a la parrilla?",
+      "opcoes": ["Porque no tenían plata", "Porque estaba en huelga", "Porque preferían el subte", "Porque estaba cerca"],
+      "correta": 3,
+      "pt": "Por que eles não pegaram o ônibus para ir à parrilla?"
+    },
+    {
+      "es": "¿Qué pidió Ana para comer?",
+      "opcoes": ["El vacío con papas", "Una provoleta", "Un bife de chorizo a punto", "El menú del día"],
+      "correta": 2,
+      "pt": "O que a Ana pediu para comer?"
+    },
+    {
+      "es": "¿Cuál fue el problema con la comida de Diego?",
+      "opcoes": ["Vino fría", "Estaba muy salada", "No era lo que había pedido", "El mozo tardó mucho en traerla"],
+      "correta": 3,
+      "pt": "Qual foi o problema com a comida do Diego?"
+    },
+    {
+      "es": "Cuando Diego dice que el vacío estaba 'exquisito', ¿qué quiere decir?",
+      "opcoes": ["Que estaba raro", "Que estaba delicioso", "Que estaba caro", "Que estaba poco cocido"],
+      "correta": 1,
+      "pt": "Quando o Diego diz que o vacío estava 'exquisito', o que ele quer dizer?"
+    },
+    {
+      "es": "¿Qué error había en la cuenta del restaurante?",
+      "opcoes": ["Cobraron un postre de más", "Olvidaron el agua", "Cobraron dos vinos en vez de uno", "Cobraron de menos"],
+      "correta": 2,
+      "pt": "Que erro havia na conta do restaurante?"
+    },
+    {
+      "es": "¿Cómo se resolvió el problema de la cuenta?",
+      "opcoes": ["Se fueron sin pagar", "El mozo sacó el vino de más", "Pagaron igual sin avisar", "Llamaron al gerente"],
+      "correta": 1,
+      "pt": "Como o problema da conta foi resolvido?"
+    },
+    {
+      "es": "¿Por qué Ana no se quedó con la primera campera que se probó?",
+      "opcoes": ["Le quedaba cara", "No le gustaba el color", "Le quedaba larga", "Era de otro material"],
+      "correta": 2,
+      "pt": "Por que a Ana não ficou com o primeiro casaco que experimentou?"
+    },
+    {
+      "es": "¿Cuánto pagó finalmente Ana por la campera?",
+      "opcoes": ["Mil pesos", "Cuatrocientos pesos", "Mil doscientos pesos", "Mil quinientos pesos"],
+      "correta": 0,
+      "pt": "Quanto a Ana pagou no fim pelo casaco?"
+    },
+    {
+      "es": "¿Qué planearon hacer al día siguiente?",
+      "opcoes": ["Ir a la Ciudad Vieja en bondi a las nueve", "Quedarse en el hotel descansando", "Volver a la parrilla a almorzar", "Tomar un remís al aeropuerto"],
+      "correta": 0,
+      "pt": "O que eles planejaram fazer no dia seguinte?"
+    }
   ]
 }
