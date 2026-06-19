@@ -15,10 +15,12 @@ $env:BASE_PATH = '/curso-espanol'
 npm run build
 if ($LASTEXITCODE -ne 0) { throw "ABORTADO: npm run build falhou (exit $LASTEXITCODE) — não vou publicar build antigo." }
 
-# 2. Trava de segurança: confere se o base path entrou no HTML
+# 2. Trava de segurança: confere se o base path entrou no build.
+# Com paths.relative=true os assets ficam relativos (./_app), então conferimos
+# o marcador de base do SvelteKit no runtime: assets: "/curso-espanol".
 $indexHtml = Get-Content (Join-Path $buildPath 'index.html') -Raw
-if ($indexHtml -notmatch '/curso-espanol/_app') {
-  throw 'ABORTADO: build/index.html não contém o base path /curso-espanol'
+if ($indexHtml -notmatch 'assets: "/curso-espanol"') {
+  throw 'ABORTADO: build não foi feito com BASE_PATH=/curso-espanol (marcador assets ausente)'
 }
 
 # 3. Worktree efêmero apontando pra gh-pages
