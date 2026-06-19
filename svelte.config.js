@@ -13,7 +13,11 @@ const config = {
       strict: true
     }),
     paths: {
-      relative: false,
+      // relative:true evita o bug "Unable to preload CSS" (caminho duplicado
+      // .../entry/_app/immutable/assets/...) que dava 500 no app de produção
+      // quando há CSS de componente/rota (cards, players). Caminhos relativos à
+      // página resolvem certo sob o base /curso-espanol do GitHub Pages.
+      relative: true,
       base: process.env.BASE_PATH ?? ''
     },
     prerender: {
