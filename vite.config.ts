@@ -11,6 +11,11 @@ export default defineConfig({
       registerType: 'autoUpdate',
       injectRegister: 'auto',
       strategies: 'generateSW',
+      // KILL SWITCH: o service worker do curso estava dando 505 no Safari/iOS
+      // (o Garoa, mesmo stack, funciona). Este SW autodestrutivo desregistra o
+      // SW quebrado e limpa os caches no aparelho → o app volta a ser site
+      // estático puro (verificado 200). Offline volta depois, testado.
+      selfDestroying: true,
       manifest: {
         name: 'Hablá — Español rioplatense',
         short_name: 'Hablá',
