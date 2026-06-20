@@ -9,12 +9,17 @@
 **Tamanho:** episódios longos (~20–30 min de áudio cada), podendo ter partes (I, II).
 Profundidade > pressa. Revisão espaçada (SRS) puxa material dos episódios anteriores.
 
+> **Status (jun/2026): curso 100% produzido e no ar.** Os 3 módulos estão prontos —
+> **66 partes** (Básico + Intermediário + Avançado), **22 quizzes por episódio** e
+> **3 provas de nível**. Este documento é o mapa situacional do que já está publicado em
+> https://aleapc.github.io/curso-espanol/ — não é mais um plano de produção.
+
 ---
 
 ## MÓDULO BÁSICO (A1–A2) — "Me viro de verdade"
 Do zero ao "me viro numa viagem e no dia a dia". Falar desde o episódio 1.
 
-- **B01 · Saludos, presentaciones y el "vos"** ✅ (piloto)
+- **B01 · Saludos, presentaciones y el "vos"**
   Cumprimentar por horário, se apresentar, perguntar nome/origem, despedir. O voseo
   (vos sos/tenés/llamás). Tratamento formal (usted) vs. informal. Falsos amigos de entrada.
 - **B02 · Números, precios, horas y fechas**

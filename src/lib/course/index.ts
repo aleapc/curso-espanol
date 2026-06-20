@@ -1,12 +1,4 @@
-import type { Lesson, ModuloOutline } from '../types';
-import { b01 } from './b01';
-
-// Lições (transcrição/texto). O conteúdo de áudio vive em ep-*.json (ver episodes.ts).
-export const lessons: Lesson[] = [b01];
-
-export function getLesson(id: string): Lesson | undefined {
-  return lessons.find((l) => l.id === id);
-}
+import type { ModuloOutline } from '../types';
 
 // Syllabus situacional completo (ver docs/syllabus.md). Episódios longos, cada tema
 // explorado a fundo. `pronta: true` = já tem áudio; o resto aparece como "em breve".
