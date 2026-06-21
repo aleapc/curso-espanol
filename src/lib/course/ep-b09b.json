@@ -4,17 +4,13 @@
   "numero": 9,
   "parte": "6B",
   "titulo": "Armadilhas do Portunhol — Pessoas e lugares",
-  "subtitulo": "Embarazada, oficina, apellido, cena",
+  "subtitulo": "Embarazada, apellido, cena",
   "steps": [
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9b-n01", "pt": "Parte 2 das armadilhas do portunhol: pessoas e lugares. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9b-n01", "pt": "Parte 2 da revisão das armadilhas: pessoas e lugares. Fale em voz alta quando eu pedir." },
 
     { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9b-n02", "pt": "O mais clássico e perigoso: tem uma palavra que parece 'embaraçada', mas NÃO é envergonhada — é GRÁVIDA! Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "fa-embarazada", "es": "Ella está embarazada.", "pt": "Ela está grávida." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep9b-p01", "promptPt": "Diga 'ela está grávida'. Fale agora.", "audioKey": "fa-embarazada", "es": "Ella está embarazada.", "pt": "Ela está grávida." },
-
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9b-n03", "pt": "A palavra que parece 'oficina' quer dizer ESCRITÓRIO. A oficina mecânica tem outro nome. Escute:" },
-    { "tipo": "ouvir", "voz": "Diego", "audioKey": "fa-oficina", "es": "Trabajo en una oficina.", "pt": "Trabalho num escritório." },
-    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep9b-p02", "promptPt": "Diga 'trabalho num escritório'. Fale agora.", "audioKey": "fa-oficina", "es": "Trabajo en una oficina.", "pt": "Trabalho num escritório." },
 
     { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9b-n04", "pt": "Você já viu no hotel: a palavra que parece 'apelido' é SOBRENOME. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-apellido2", "es": "¿Cuál es tu apellido?", "pt": "Qual é o seu sobrenome?" },
@@ -29,7 +25,7 @@
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep9b-p06", "promptPt": "Diga 'o jantar é às nove'. Fale agora.", "audioKey": "fa-cena", "es": "La cena es a las nueve.", "pt": "O jantar é às nove." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep9b-s00", "pt": "Shadowing: repita junto, sem ler." },
-    { "tipo": "shadow", "voz": "Diego", "audioKey": "fa-oficina", "es": "Trabajo en una oficina.", "pt": "Trabalho num escritório." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "es-apellido2", "es": "¿Cuál es tu apellido?", "pt": "Qual é o seu sobrenome?" },
     { "tipo": "shadow", "voz": "Ana", "audioKey": "fa-cena", "es": "La cena es a las nueve.", "pt": "O jantar é às nove." },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep9b-n07", "pt": "Gramática em foco: esses são erros que 'fossilizam' — grudam errado e custam a corrigir. Por isso treinamos cedo. O do 'grávida' é o campeão das histórias de portunhol — não use a palavra parecida pra justificar uma vergonha!" },
@@ -45,7 +41,6 @@
         "corpo": "As que mais geram histórias de portunhol:",
         "exemplos": [
           { "es": "embarazada", "pt": "grávida (NÃO envergonhada!)" },
-          { "es": "oficina", "pt": "escritório (mecânica = taller)" },
           { "es": "apellido", "pt": "sobrenome (não apelido)" },
           { "es": "cena", "pt": "jantar (não cena de filme)" }
         ]

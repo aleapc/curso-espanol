@@ -39,6 +39,10 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-constipado", "es": "Estoy constipado.", "pt": "Estou resfriado." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8c-p08", "promptPt": "Diga que está resfriado. Fale agora.", "audioKey": "m-constipado", "es": "Estoy constipado.", "pt": "Estou resfriado." },
 
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep8c-n13", "pt": "E a armadilha do portunhol mais famosa, perigosa na farmácia: 'embarazada' NÃO é envergonhada — é grávida! Pra avisar antes de pedir um remédio:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "fa-embyo", "es": "Estoy embarazada.", "pt": "Estou grávida." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep8c-p11", "promptPt": "Diga 'estou grávida'. Fale agora.", "audioKey": "fa-embyo", "es": "Estoy embarazada.", "pt": "Estou grávida." },
+
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep8c-n10", "pt": "Vamos recordar. Responda em voz alta." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8c-p09", "promptPt": "Diga 'me dói a cabeça'. Fale agora.", "audioKey": "m-cabeza", "es": "Me duele la cabeza.", "pt": "Estou com dor de cabeça." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8c-p10", "promptPt": "Pergunte se precisa de receita. Fale agora.", "audioKey": "m-receta", "es": "¿Necesito receta?", "pt": "Preciso de receita?" },
@@ -80,6 +84,10 @@
       {
         "titulo": "Armadilha do portunhol: constipado",
         "corpo": "'Estoy constipado' = estou RESFRIADO (gripado), não preso do intestino. Prisão de ventre é 'estreñimiento'."
+      },
+      {
+        "titulo": "Armadilha do portunhol: embarazada",
+        "corpo": "'Embarazada' = GRÁVIDA, não envergonhada. Envergonhado(a) é 'avergonzado/a' / 'tener vergüenza'. Útil na farmácia: 'estoy embarazada, ¿puedo tomar esto?'."
       }
     ]
   }

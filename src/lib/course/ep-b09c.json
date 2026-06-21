@@ -6,7 +6,7 @@
   "titulo": "Armadilhas do Portunhol — Tempo e estados",
   "subtitulo": "Largo, rato, todavía, constipado",
   "steps": [
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9c-n01", "pt": "Última parte das armadilhas do portunhol: tempo e estados. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9c-n01", "pt": "Última parte da revisão das armadilhas: tempo e estados. Fale em voz alta quando eu pedir." },
 
     { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9c-n02", "pt": "A palavra que parece 'largo' quer dizer COMPRIDO, não largura. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-largo", "es": "Me queda largo.", "pt": "Ficou comprido (em mim)." },

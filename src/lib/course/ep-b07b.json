@@ -39,6 +39,13 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-traer", "es": "¿Me pueden traer más toallas?", "pt": "Podem me trazer mais toalhas?" },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p09", "promptPt": "Peça que tragam mais toalhas. Fale agora.", "audioKey": "h-traer", "es": "¿Me pueden traer más toallas?", "pt": "Podem me trazer mais toalhas?" },
 
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep7b-n14", "pt": "Duas armadilhas do portunhol bem úteis na espera. A recepção pode te pedir pra esperar 'un rato' — não é o bicho, é um instante! Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "fa-rato", "es": "Esperá un rato.", "pt": "Espera um instante." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p12", "promptPt": "Peça pra pessoa esperar um instante. Fale agora.", "audioKey": "fa-rato", "es": "Esperá un rato.", "pt": "Espera um instante." },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep7b-n15", "pt": "E se algo que você pediu ainda não veio: 'todavía' não é 'contudo', quer dizer AINDA. Escute:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "fa-todavia", "es": "Todavía no llegó.", "pt": "Ainda não chegou." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep7b-p13", "promptPt": "Diga que ainda não chegou. Fale agora.", "audioKey": "fa-todavia", "es": "Todavía no llegó.", "pt": "Ainda não chegou." },
+
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep7b-n11", "pt": "Vamos recordar. Responda em voz alta." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p10", "promptPt": "Diga 'o ar não funciona'. Fale agora.", "audioKey": "h-aire", "es": "No funciona el aire.", "pt": "O ar não funciona." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7b-p11", "promptPt": "Pergunte a senha do wifi. Fale agora.", "audioKey": "h-wifi", "es": "¿Cuál es la contraseña del wifi?", "pt": "Qual é a senha do wifi?" },
@@ -78,6 +85,10 @@
       {
         "titulo": "No quarto",
         "corpo": "la llave (chave), la contraseña (senha), el aire (ar-condicionado), la ducha (chuveiro), la toalla (toalha)."
+      },
+      {
+        "titulo": "Armadilhas do portunhol: rato e todavía",
+        "corpo": "'Un rato' = um instante/momentinho (o bicho 'rato' é 'ratón'). 'Todavía' = ainda (não 'contudo'): 'todavía no llegó' = ainda não chegou."
       }
     ]
   }

@@ -29,6 +29,10 @@
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-contacto", "es": "Cualquier cosa, me pongo en contacto.", "pt": "Qualquer coisa, entro em contato." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "atr2-p06", "promptPt": "Diga 'qualquer coisa, entro em contato'. Fale agora.", "audioKey": "tr-contacto", "es": "Cualquier cosa, me pongo en contacto.", "pt": "Qualquer coisa, entro em contato." },
 
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "atr2-n11", "pt": "Armadilha do portunhol no trabalho: 'oficina' é o ESCRITÓRIO, não a oficina mecânica (essa é 'taller'). Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "fa-oficina", "es": "Trabajo en una oficina.", "pt": "Trabalho num escritório." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "atr2-p09", "promptPt": "Diga 'trabalho num escritório'. Fale agora.", "audioKey": "fa-oficina", "es": "Trabajo en una oficina.", "pt": "Trabalho num escritório." },
+
     { "tipo": "intro", "voz": "Bia", "audioKey": "atr2-n08", "pt": "Vamos recordar. Responda em voz alta." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "atr2-p07", "promptPt": "Proponha 'poderíamos agendar uma chamada?'. Fale agora.", "audioKey": "tr-agendar", "es": "¿Podríamos agendar una llamada?", "pt": "Poderíamos agendar uma chamada?" },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "atr2-p08", "promptPt": "Pergunte 'qual é o prazo de entrega?'. Fale agora.", "audioKey": "tr-plazo", "es": "¿Cuál es el plazo de entrega?", "pt": "Qual é o prazo de entrega?" },
@@ -50,7 +54,7 @@
     "secoes": [
       {
         "titulo": "Armadilhas do portunhol no escritório",
-        "corpo": "el presupuesto = o orçamento; el plazo = o prazo; la factura = a nota fiscal/fatura; la reunión = a reunião; agendar/coordinar = marcar; quedar en = combinar.",
+        "corpo": "el presupuesto = o orçamento; el plazo = o prazo; la oficina = o escritório (oficina mecânica = taller); la factura = a nota fiscal/fatura; la reunión = a reunião; agendar/coordinar = marcar; quedar en = combinar.",
         "exemplos": [
           { "es": "Te paso el presupuesto por mail.", "pt": "Te passo o orçamento por e-mail." },
           { "es": "El plazo vence el viernes.", "pt": "O prazo vence sexta." }

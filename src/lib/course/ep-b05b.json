@@ -38,6 +38,10 @@
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-pulpo", "es": "El pulpo.", "pt": "O polvo (o animal)." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep5b-p09", "promptPt": "Diga 'o polvo' (o animal) em espanhol. Fale agora.", "audioKey": "r2-pulpo", "es": "El pulpo.", "pt": "O polvo." },
 
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep5b-n13", "pt": "Outra armadilha do portunhol na mesa: 'salsa' não é só a dança — é o molho! Escute:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "fa-salsa", "es": "La salsa de tomate.", "pt": "O molho de tomate." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep5b-p13", "promptPt": "Diga 'o molho de tomate'. Fale agora.", "audioKey": "fa-salsa", "es": "La salsa de tomate.", "pt": "O molho de tomate." },
+
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep5b-n10", "pt": "Vamos recordar. Responda em voz alta." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep5b-p10", "promptPt": "Peça uma milanesa. Fale agora.", "audioKey": "r2-milanesa", "es": "Una milanesa.", "pt": "Uma milanesa." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep5b-p11", "promptPt": "Peça duas empanadas de carne. Fale agora.", "audioKey": "r2-empanadas", "es": "Dos empanadas de carne.", "pt": "Duas empanadas de carne." },
@@ -77,6 +81,10 @@
       {
         "titulo": "Armadilha do portunhol: pulpo",
         "corpo": "Polvo (o animal) em espanhol é 'pulpo'. 'Polvo' em espanhol significa pó/poeira — cuidado ao pedir frutos do mar."
+      },
+      {
+        "titulo": "Armadilha do portunhol: salsa",
+        "corpo": "'Salsa' em espanhol é o MOLHO (e também o ritmo musical). 'La salsa de tomate' = o molho de tomate."
       }
     ]
   }
