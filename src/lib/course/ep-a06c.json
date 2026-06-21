@@ -19,7 +19,7 @@
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-n03", "pt": "Entendeu o miolo? Vamos conferir. O que o casal pediu? Responda em voz alta." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "anr3-p02", "promptPt": "Diga em espanhol o que eles pediram: 'churrasco e vinho tinto'. Fale agora.", "audioKey": "nr-pedido", "es": "Asado y vino tinto.", "pt": "Churrasco e vinho tinto." },
-    { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-n04", "pt": "Repare em três coisas que você já domina: o 'bárbaro' que quer dizer ótimo, a pergunta de recomendação no voseo, e o 'quando estiverem prontos' com o subjuntivo do futuro. Escute de novo as peças-chave:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "anr3-n04", "pt": "Repare em três coisas que você já domina: o 'bárbaro' que quer dizer ótimo, a pergunta de recomendação no voseo, e o 'cuando estén listos' — depois de 'cuando', pra algo que ainda vai acontecer, usa-se o presente do subjuntivo. Escute de novo as peças-chave:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "nr-t3", "es": "Bárbaro. ¿Qué nos recomendás?", "pt": "Ótimo. O que você recomenda pra gente?" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "nr-t6", "es": "Cuando estén listos, me avisan.", "pt": "Quando estiverem prontos, me avisem." },
 

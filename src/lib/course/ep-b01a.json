@@ -64,11 +64,12 @@
     "secoes": [
       {
         "titulo": "O que é o voseo",
-        "corpo": "No Uruguai e na Argentina, no lugar do 'tú' usa-se 'vos'. Não é gíria nem 'errado' — é o jeito padrão de falar informalmente. O verbo muda: tira-se o '-r' do infinitivo, acentua-se a última vogal e acrescenta-se '-s'.",
+        "corpo": "No Uruguai e na Argentina, no lugar do 'tú' usa-se 'vos'. Não é gíria nem 'errado' — é o jeito padrão de falar informalmente. No presente, a regra é bem regular: tira-se o '-r' do infinitivo, acentua-se a última vogal e acrescenta-se '-s' (hablar→hablás, comer→comés, vivir→vivís). A grande exceção é o verbo 'ser': vos sos. No imperativo (instrução/pedido), a forma é outra: vení, decime, esperá.",
         "exemplos": [
-          { "es": "vos sos", "pt": "você é" },
-          { "es": "vos tenés", "pt": "você tem" },
-          { "es": "¿cómo andás?", "pt": "como vai?" }
+          { "es": "vos hablás / comés / vivís", "pt": "regulares: você fala / come / mora" },
+          { "es": "vos tenés, podés, querés, decís", "pt": "seguem a regra: você tem, pode, quer, diz" },
+          { "es": "vos sos", "pt": "exceção (ser): você é" },
+          { "es": "vení, decime, esperá", "pt": "imperativo: vem, me diz, espera" }
         ]
       },
       {

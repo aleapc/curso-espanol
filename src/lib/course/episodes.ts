@@ -26,6 +26,9 @@ import epB02c from './ep-b02c.json';
 import epB03a from './ep-b03a.json';
 import epB03b from './ep-b03b.json';
 import epB03c from './ep-b03c.json';
+import epB10a from './ep-b10a.json';
+import epB10b from './ep-b10b.json';
+import epB10c from './ep-b10c.json';
 import epI01a from './ep-i01a.json';
 import epI01b from './ep-i01b.json';
 import epI01c from './ep-i01c.json';
@@ -97,6 +100,9 @@ export const episodes: Episode[] = [
   epB03a as Episode,
   epB03b as Episode,
   epB03c as Episode,
+  epB10a as Episode,
+  epB10b as Episode,
+  epB10c as Episode,
   epI01a as Episode,
   epI01b as Episode,
   epI01c as Episode,

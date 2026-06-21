@@ -1,0 +1,70 @@
+{
+  "id": "b10b",
+  "nivel": "basico",
+  "numero": 10,
+  "parte": "B",
+  "titulo": "Chegada — Sair do aeroporto",
+  "subtitulo": "Táxi, remís ou app até o centro",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10b-n01", "pt": "Parte 2 da Chegada: sair do aeroporto. Já com a mala na mão, agora é achar transporte. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10b-n02", "pt": "Recordando a parte 1: pergunte onde retira a bagagem. Fale agora." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10b-p01", "promptPt": "Pergunte onde retira a bagagem. Fale agora.", "audioKey": "ll-retiro", "es": "¿Dónde retiro el equipaje?", "pt": "Onde retiro a bagagem?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10b-n03", "pt": "Escute o viajante pegando um táxi na saída:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-dondetaxi", "es": "¿Dónde tomo un taxi?", "pt": "Onde pego um táxi?" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "ll-saliendo", "es": "Saliendo, a la derecha.", "pt": "Saindo, à direita." },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-direccion", "es": "¿Me lleva a esta dirección?", "pt": "Me leva a este endereço?" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "ll-subi", "es": "Sí, claro. Subí.", "pt": "Sim, claro. Pode subir." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10b-n04", "pt": "Vamos treinar. Pra perguntar onde pegar um táxi:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-dondetaxi", "es": "¿Dónde tomo un taxi?", "pt": "Onde pego um táxi?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10b-p02", "promptPt": "Pergunte onde pega um táxi. Fale agora.", "audioKey": "ll-dondetaxi", "es": "¿Dónde tomo un taxi?", "pt": "Onde pego um táxi?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10b-n05", "pt": "Pra mostrar o endereço e pedir que te leve:" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10b-p03", "promptPt": "Diga 'me leva a este endereço?'. Fale agora.", "audioKey": "ll-direccion", "es": "¿Me lleva a esta dirección?", "pt": "Me leva a este endereço?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10b-n06", "pt": "Pra saber o preço até o centro:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-cuantosale", "es": "¿Cuánto sale hasta el centro?", "pt": "Quanto custa até o centro?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10b-p04", "promptPt": "Pergunte quanto custa até o centro. Fale agora.", "audioKey": "ll-cuantosale", "es": "¿Cuánto sale hasta el centro?", "pt": "Quanto custa até o centro?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10b-n07", "pt": "E pra saber se aceita cartão:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-aceptan", "es": "¿Aceptan tarjeta?", "pt": "Aceitam cartão?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10b-p05", "promptPt": "Pergunte se aceitam cartão. Fale agora.", "audioKey": "ll-aceptan", "es": "¿Aceptan tarjeta?", "pt": "Aceitam cartão?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10b-n08", "pt": "Muita gente prefere o aplicativo. Pra perguntar se o Uber funciona ali:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-app", "es": "¿Acá anda Uber?", "pt": "Aqui funciona o Uber?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10b-p06", "promptPt": "Pergunte se o Uber funciona aqui. Fale agora.", "audioKey": "ll-app", "es": "¿Acá anda Uber?", "pt": "Aqui funciona o Uber?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10b-n09", "pt": "Recordando. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10b-p07", "promptPt": "Pergunte onde pega um táxi. Fale agora.", "audioKey": "ll-dondetaxi", "es": "¿Dónde tomo un taxi?", "pt": "Onde pego um táxi?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10b-p08", "promptPt": "Pergunte quanto custa até o centro. Fale agora.", "audioKey": "ll-cuantosale", "es": "¿Cuánto sale hasta el centro?", "pt": "Quanto custa até o centro?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10b-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "ll-direccion", "es": "¿Me lleva a esta dirección?", "pt": "Me leva a este endereço?" },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "ll-cuantosale", "es": "¿Cuánto sale hasta el centro?", "pt": "Quanto custa até o centro?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10b-n10", "pt": "Gramática em foco: repare no 'subí' — é o imperativo no vos, uma instrução amigável: subí, esperá, vení. E 'sale' aqui é 'custa': '¿cuánto sale?' é o jeito local de perguntar o preço." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep10b-rend", "pt": "Muito bem! Você já sai do aeroporto e chega ao centro. Na parte 3, internet e dinheiro pra começar a viagem. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "Do aeroporto ao centro",
+    "secoes": [
+      {
+        "titulo": "Táxi, remís ou app",
+        "corpo": "No aeroporto há táxi oficial (fila na saída), 'remís' (carro com preço fechado, contratado num balcão) e apps (Uber, Cabify, DiDi), onde funcionam. O remís costuma ser preço fixo; o táxi vai no taxímetro.",
+        "exemplos": [
+          { "es": "¿Dónde tomo un taxi?", "pt": "Onde pego um táxi?" },
+          { "es": "¿Cuánto sale hasta el centro?", "pt": "Quanto custa até o centro?" },
+          { "es": "¿Acá anda Uber?", "pt": "Aqui funciona o Uber?" }
+        ]
+      },
+      {
+        "titulo": "Pedir com jeitinho (vos)",
+        "corpo": "O motorista te trata no 'vos' e usa imperativos amigáveis: 'subí' (entre), 'esperá' (espere), 'dale' (ok, vamos). Não precisa devolver no formal.",
+        "exemplos": [
+          { "es": "¿Me lleva a esta dirección?", "pt": "Me leva a este endereço?" },
+          { "es": "Dale, gracias.", "pt": "Ok, obrigado." }
+        ]
+      }
+    ]
+  }
+}

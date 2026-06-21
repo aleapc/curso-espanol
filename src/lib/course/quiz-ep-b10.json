@@ -1,0 +1,27 @@
+{
+  "id": "q-b10",
+  "nivel": "basico",
+  "titulo": "Quiz — Chegada: aeroporto e primeiros 60 min",
+  "subtitulo": "Escute a chegada e responda em espanhol",
+  "introAudioKey": "q-b10-i",
+  "introPt": "Hora do quiz! Escute um viajante chegando: passa pela imigração, pega a bagagem e procura transporte. Pode ouvir quantas vezes quiser e depois responda às perguntas em espanhol.",
+  "cenario": "Um viajante chega ao aeroporto, passa pela imigração, retira a bagagem e organiza o transporte até o centro.",
+  "dialogo": [
+    { "audioKey": "q-b10-d1", "voz": "Ana", "es": "Buenas. ¿Motivo del viaje?", "pt": "Olá. Motivo da viagem?" },
+    { "audioKey": "q-b10-d2", "voz": "Diego", "es": "Turismo. Me quedo una semana.", "pt": "Turismo. Fico uma semana." },
+    { "audioKey": "q-b10-d3", "voz": "Ana", "es": "¿Dónde se va a alojar?", "pt": "Onde vai se hospedar?" },
+    { "audioKey": "q-b10-d4", "voz": "Diego", "es": "En un hotel en el centro.", "pt": "Num hotel no centro." },
+    { "audioKey": "q-b10-d5", "voz": "Ana", "es": "Perfecto. El equipaje lo retira por la puerta tres.", "pt": "Perfeito. A bagagem você retira pela porta três." },
+    { "audioKey": "q-b10-d6", "voz": "Diego", "es": "Gracias. ¿Y dónde tomo un taxi?", "pt": "Obrigado. E onde pego um táxi?" },
+    { "audioKey": "q-b10-d7", "voz": "Ana", "es": "Saliendo, a la derecha. Pero acá anda Uber también.", "pt": "Saindo, à direita. Mas aqui também funciona o Uber." },
+    { "audioKey": "q-b10-d8", "voz": "Diego", "es": "Bárbaro. Pido uno y aprovecho para comprar un chip con datos.", "pt": "Ótimo. Peço um e aproveito pra comprar um chip com dados." }
+  ],
+  "perguntas": [
+    { "es": "¿Cuál es el motivo del viaje?", "opcoes": ["Trabajo", "Turismo", "Estudio", "Mudanza"], "correta": 1, "pt": "Qual é o motivo da viagem?" },
+    { "es": "¿Cuántos días se queda?", "opcoes": ["Un día", "Tres días", "Una semana", "Un mes"], "correta": 2, "pt": "Quantos dias ele fica?" },
+    { "es": "¿Dónde se va a alojar?", "opcoes": ["En casa de un amigo", "En un hotel en el centro", "En un hostel en la playa", "No lo dice"], "correta": 1, "pt": "Onde ele vai se hospedar?" },
+    { "es": "¿Por dónde retira el equipaje?", "opcoes": ["Por la puerta uno", "Por la puerta dos", "Por la puerta tres", "Por la salida principal"], "correta": 2, "pt": "Por onde ele retira a bagagem?" },
+    { "es": "Además del taxi, ¿qué otra opción hay?", "opcoes": ["El colectivo", "Uber", "El subte", "Un remís"], "correta": 1, "pt": "Além do táxi, que outra opção existe?" },
+    { "es": "¿Qué va a comprar el viajero?", "opcoes": ["Una valija", "Un chip con datos", "Un café", "Dólares"], "correta": 1, "pt": "O que o viajante vai comprar?" }
+  ]
+}

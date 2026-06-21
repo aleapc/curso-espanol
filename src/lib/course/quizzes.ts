@@ -13,6 +13,7 @@ import qB06 from './quiz-ep-b06.json';
 import qB07 from './quiz-ep-b07.json';
 import qB08 from './quiz-ep-b08.json';
 import qB09 from './quiz-ep-b09.json';
+import qB10 from './quiz-ep-b10.json';
 import qI01 from './quiz-ep-i01.json';
 import qI02 from './quiz-ep-i02.json';
 import qI03 from './quiz-ep-i03.json';
@@ -32,7 +33,7 @@ export const exames: Quiz[] = [qBasico as Quiz, qIntermediario as Quiz, qAvancad
 
 // Quizzes por episódio.
 export const quizzesEpisodio: Quiz[] = [
-  qB01, qB02, qB03, qB04, qB05, qB06, qB07, qB08, qB09,
+  qB01, qB02, qB03, qB04, qB05, qB06, qB07, qB08, qB09, qB10,
   qI01, qI02, qI03, qI04, qI05, qI06, qI07,
   qA01, qA02, qA03, qA04, qA05, qA06
 ].map((q) => q as Quiz);

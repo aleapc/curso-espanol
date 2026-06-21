@@ -1,0 +1,72 @@
+{
+  "id": "b10a",
+  "nivel": "basico",
+  "numero": 10,
+  "parte": "A",
+  "titulo": "Chegada — Imigração e bagagem",
+  "subtitulo": "Passar pela migração e pegar a mala",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10a-n01", "pt": "Bem-vindos ao episódio da Chegada! Esta é a parte 1: a imigração e a bagagem — o primeiro espanhol que você usa assim que desembarca. Como sempre, quando eu pedir, fale em voz alta." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10a-n02", "pt": "Primeiro, uma recordação rápida. Como você diz 'boa tarde'? Responda." },
+    { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep10a-p01", "promptPt": "Diga 'boa tarde'. Fale agora.", "audioKey": "es-bt", "es": "Buenas tardes.", "pt": "Boa tarde." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10a-n03", "pt": "Você chega na imigração. Escute a oficial e o viajante:" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "ll-ofmotivo", "es": "Buenas. ¿Motivo del viaje?", "pt": "Olá. Motivo da viagem?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-turismo", "es": "Vengo de turismo.", "pt": "Venho a turismo." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "ll-ofdias", "es": "¿Cuántos días se queda?", "pt": "Quantos dias o senhor fica?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-cincodias", "es": "Cinco días.", "pt": "Cinco dias." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "ll-ofaloja", "es": "¿Dónde se va a alojar?", "pt": "Onde vai se hospedar?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-hotelcentro", "es": "En un hotel en el centro.", "pt": "Num hotel no centro." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10a-n04", "pt": "Vamos treinar as respostas. 'Venho a turismo':" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-turismo", "es": "Vengo de turismo.", "pt": "Venho a turismo." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10a-p02", "promptPt": "Diga 'venho a turismo'. Fale agora.", "audioKey": "ll-turismo", "es": "Vengo de turismo.", "pt": "Venho a turismo." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10a-n05", "pt": "Quantos dias você fica? Diga 'cinco dias':" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10a-p03", "promptPt": "Diga 'cinco dias'. Fale agora.", "audioKey": "ll-cincodias", "es": "Cinco días.", "pt": "Cinco dias." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10a-n06", "pt": "Onde vai se hospedar? 'Num hotel no centro':" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10a-p04", "promptPt": "Diga 'num hotel no centro'. Fale agora.", "audioKey": "ll-hotelcentro", "es": "En un hotel en el centro.", "pt": "Num hotel no centro." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10a-n07", "pt": "Passada a imigração, a bagagem. Pra perguntar onde pegar as malas:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-retiro", "es": "¿Dónde retiro el equipaje?", "pt": "Onde retiro a bagagem?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10a-p05", "promptPt": "Pergunte onde retira a bagagem. Fale agora.", "audioKey": "ll-retiro", "es": "¿Dónde retiro el equipaje?", "pt": "Onde retiro a bagagem?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10a-n08", "pt": "E se a mala não aparecer — o que ninguém quer:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-nollego", "es": "Mi valija no llegó.", "pt": "Minha mala não chegou." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10a-p06", "promptPt": "Diga 'minha mala não chegou'. Fale agora.", "audioKey": "ll-nollego", "es": "Mi valija no llegó.", "pt": "Minha mala não chegou." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10a-n09", "pt": "Vamos recordar. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10a-p07", "promptPt": "Diga 'venho a turismo'. Fale agora.", "audioKey": "ll-turismo", "es": "Vengo de turismo.", "pt": "Venho a turismo." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10a-p08", "promptPt": "Pergunte onde retira a bagagem. Fale agora.", "audioKey": "ll-retiro", "es": "¿Dónde retiro el equipaje?", "pt": "Onde retiro a bagagem?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10a-s00", "pt": "Shadowing: repita junto, ao mesmo tempo, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "ll-turismo", "es": "Vengo de turismo.", "pt": "Venho a turismo." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "ll-retiro", "es": "¿Dónde retiro el equipaje?", "pt": "Onde retiro a bagagem?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10a-n10", "pt": "Gramática em foco: na imigração, a oficial te trata de 'usted' — por isso 'se queda', 'se va a alojar'. Você não precisa devolver no formal: responder curto e claro já basta. 'Vengo de turismo', 'cinco días'." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep10a-rend", "pt": "Ótimo! Você já passa pela imigração e pega a bagagem. Na parte 2, a gente sai do aeroporto. Até já!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
+  ],
+  "aprofundar": {
+    "titulo": "Imigração sem susto",
+    "secoes": [
+      {
+        "titulo": "As três perguntas",
+        "corpo": "Quase sempre são as mesmas três: motivo, tempo e onde você fica. Deixe as respostas na ponta da língua e você passa tranquilo.",
+        "exemplos": [
+          { "es": "¿Motivo del viaje? — Turismo.", "pt": "Motivo da viagem? — Turismo." },
+          { "es": "¿Cuántos días? — Cinco días. / Una semana.", "pt": "Quantos dias? — Cinco dias. / Uma semana." },
+          { "es": "¿Dónde se aloja? — En un hotel en el centro.", "pt": "Onde se hospeda? — Num hotel no centro." }
+        ]
+      },
+      {
+        "titulo": "Bagagem",
+        "corpo": "'Valija' é a mala (na Espanha é 'maleta'). 'Equipaje' é a bagagem em geral. Se algo sumir, procure o balcão de 'Equipajes' ou 'Reclamo de equipaje'.",
+        "exemplos": [
+          { "es": "¿Dónde retiro el equipaje?", "pt": "Onde retiro a bagagem?" },
+          { "es": "Mi valija no llegó.", "pt": "Minha mala não chegou." },
+          { "es": "Perdí una valija.", "pt": "Perdi uma mala." }
+        ]
+      }
+    ]
+  }
+}

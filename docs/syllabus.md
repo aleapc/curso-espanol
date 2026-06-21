@@ -61,7 +61,7 @@ Sair do transacional e sustentar conversa: contar, planejar, opinar, resolver.
 - **I06 · Socializar** — gostos, convites, opiniões, concordar/discordar, small talk.
 - **I07 · Cultura rioplatense** — mate, fútbol, asado, tango/murga, "che", costumes UY/AR.
 
-## MÓDULO AVANÇADO (B2–C1) — "Fluência e nuance"
+## MÓDULO AVANÇADO (B1–B2) — "Fluência e nuance"
 Soar natural, lidar com o inesperado, entender nativo rápido.
 
 - **A01 · El subjuntivo** — desejos, dúvidas, emoções, "ojalá", "cuando + subj.".

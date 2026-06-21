@@ -1,0 +1,75 @@
+{
+  "id": "b10c",
+  "nivel": "basico",
+  "numero": 10,
+  "parte": "C",
+  "titulo": "Chegada — Internet e dinheiro",
+  "subtitulo": "Chip/eSIM, wifi, caixa e pagar por QR",
+  "steps": [
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10c-n01", "pt": "Parte 3 e última da Chegada: ter internet e dinheiro pra começar a viagem. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10c-n02", "pt": "Recordando a parte 2: pergunte quanto custa até o centro. Fale agora." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10c-p01", "promptPt": "Pergunte quanto custa até o centro. Fale agora.", "audioKey": "ll-cuantosale", "es": "¿Cuánto sale hasta el centro?", "pt": "Quanto custa até o centro?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10c-n03", "pt": "Escute o viajante comprando um chip no aeroporto:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-quierochip", "es": "Hola, quiero un chip con datos.", "pt": "Oi, quero um chip com dados." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "ll-cuantosdias", "es": "¿Para cuántos días?", "pt": "Para quantos dias?" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-unasemana", "es": "Para una semana.", "pt": "Para uma semana." },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "ll-activo", "es": "Listo. Te lo activo ahora.", "pt": "Pronto. Já ativo pra você." },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10c-n04", "pt": "Vamos treinar. Pra pedir um chip com dados:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-chipdatos", "es": "Quiero un chip con datos.", "pt": "Quero um chip com dados." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10c-p02", "promptPt": "Peça um chip com dados. Fale agora.", "audioKey": "ll-chipdatos", "es": "Quiero un chip con datos.", "pt": "Quero um chip com dados." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10c-n05", "pt": "Se preferir, dá pra pedir um eSIM, sem chip físico:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-esim", "es": "¿Tienen eSIM?", "pt": "Vocês têm eSIM?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10c-p03", "promptPt": "Pergunte se têm eSIM. Fale agora.", "audioKey": "ll-esim", "es": "¿Tienen eSIM?", "pt": "Vocês têm eSIM?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10c-n06", "pt": "No hotel ou num café, pra pegar o wifi:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-wifi", "es": "¿Cuál es la contraseña del wifi?", "pt": "Qual é a senha do wifi?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10c-p04", "promptPt": "Pergunte a senha do wifi. Fale agora.", "audioKey": "ll-wifi", "es": "¿Cuál es la contraseña del wifi?", "pt": "Qual é a senha do wifi?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10c-n07", "pt": "Agora, dinheiro. Pra achar um caixa eletrônico:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-cajero", "es": "¿Dónde hay un cajero?", "pt": "Onde tem um caixa eletrônico?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10c-p05", "promptPt": "Pergunte onde tem um caixa eletrônico. Fale agora.", "audioKey": "ll-cajero", "es": "¿Dónde hay un cajero?", "pt": "Onde tem um caixa eletrônico?" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10c-n08", "pt": "Pra trocar dólares na casa de câmbio:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-cambiar", "es": "Quiero cambiar dólares.", "pt": "Quero trocar dólares." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10c-p06", "promptPt": "Diga 'quero trocar dólares'. Fale agora.", "audioKey": "ll-cambiar", "es": "Quiero cambiar dólares.", "pt": "Quero trocar dólares." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10c-n09", "pt": "E o jeito moderno: pagar pelo celular, com QR ou Mercado Pago:" },
+    { "tipo": "ouvir", "voz": "Diego", "audioKey": "ll-qr", "es": "¿Puedo pagar con QR?", "pt": "Posso pagar com QR?" },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10c-p07", "promptPt": "Pergunte se pode pagar com QR. Fale agora.", "audioKey": "ll-qr", "es": "¿Puedo pagar con QR?", "pt": "Posso pagar com QR?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10c-n10", "pt": "Recordando. Responda em voz alta." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10c-p08", "promptPt": "Peça um chip com dados. Fale agora.", "audioKey": "ll-chipdatos", "es": "Quiero un chip con datos.", "pt": "Quero um chip com dados." },
+    { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep10c-p09", "promptPt": "Pergunte onde tem um caixa eletrônico. Fale agora.", "audioKey": "ll-cajero", "es": "¿Dónde hay un cajero?", "pt": "Onde tem um caixa eletrônico?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10c-s00", "pt": "Shadowing: repita junto, sem ler." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "ll-chipdatos", "es": "Quiero un chip con datos.", "pt": "Quero um chip com dados." },
+    { "tipo": "shadow", "voz": "Diego", "audioKey": "ll-qr", "es": "¿Puedo pagar con QR?", "pt": "Posso pagar com QR?" },
+
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep10c-n11", "pt": "Gramática em foco: 'datos' são os dados móveis; 'plata' é dinheiro; 'cajero' é o caixa eletrônico. E pagar por QR ou Mercado Pago é comuníssimo na Argentina e no Uruguai — muitas vezes mais fácil que dinheiro vivo." },
+
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep10c-rend", "pt": "Parabéns! Você completou a Chegada: imigração, bagagem, transporte, internet e dinheiro. Agora é só aproveitar a viagem. Até o próximo episódio!" },
+    { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
+  ],
+  "aprofundar": {
+    "titulo": "Internet e dinheiro na chegada",
+    "secoes": [
+      {
+        "titulo": "Conexão",
+        "corpo": "Você tem três caminhos: chip local com dados (barato pra viagens mais longas), eSIM (sem trocar o chip físico, ativa por QR) ou só o wifi de hotéis e cafés. Peça 'un chip con datos' ou pergunte '¿tienen eSIM?'.",
+        "exemplos": [
+          { "es": "Quiero un chip con datos.", "pt": "Quero um chip com dados." },
+          { "es": "¿Tienen eSIM?", "pt": "Vocês têm eSIM?" },
+          { "es": "¿Cuál es la contraseña del wifi?", "pt": "Qual é a senha do wifi?" }
+        ]
+      },
+      {
+        "titulo": "Dinheiro e pagamento",
+        "corpo": "Saque num 'cajero' (caixa eletrônico) e troque numa 'casa de cambio'. Mas no dia a dia o cartão e o pagamento por QR / Mercado Pago dominam — vale perguntar '¿puedo pagar con QR?' ou '¿aceptan Mercado Pago?'.",
+        "exemplos": [
+          { "es": "¿Dónde hay un cajero?", "pt": "Onde tem um caixa eletrônico?" },
+          { "es": "Quiero cambiar dólares.", "pt": "Quero trocar dólares." },
+          { "es": "¿Aceptan Mercado Pago?", "pt": "Aceitam Mercado Pago?" }
+        ]
+      }
+    ]
+  }
+}

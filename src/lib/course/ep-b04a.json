@@ -15,7 +15,7 @@
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-d2", "es": "Sí, claro. ¿Adentro o afuera?", "pt": "Sim, claro. Dentro ou fora?" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-d3", "es": "Afuera, por favor.", "pt": "Fora, por favor." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n04", "pt": "Vamos treinar. Pra pedir uma mesa pra dois, no formal com o garçom:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n04", "pt": "Vamos treinar. Pra pedir uma mesa pra dois, com educação:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-mesados", "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois?" },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep4a-p02", "promptPt": "Pergunte se têm mesa pra dois. Fale agora.", "audioKey": "r-mesados", "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois?" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n05", "pt": "Se quiser reservar antes:" },
@@ -46,7 +46,7 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "r-mesados", "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois?" },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "r-lacarta", "es": "¿Me trae la carta, por favor?", "pt": "Pode me trazer o cardápio, por favor?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n12", "pt": "Gramática em foco: com quem te atende, use o formal. Tem uma forma própria pra 'vocês', e os pedidos saem com um jeito educado de perguntar. Ouça:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n12", "pt": "Gramática em foco: repare no 'tienen' — é o plural, você está falando com o pessoal do restaurante. A polidez não vem de uma forma especial, e sim do 'por favor', do 'quería' e do tom. Ouça:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-mesados", "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois?" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-lacarta", "es": "¿Me trae la carta, por favor?", "pt": "Pode me trazer o cardápio, por favor?" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep4a-n13", "pt": "Esse é o tom educado com o garçom. Mais em 'Para ir além'." },
@@ -55,14 +55,15 @@
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
   ],
   "aprofundar": {
-    "titulo": "Falar com o garçom (formal e pedidos educados)",
+    "titulo": "Falar com o garçom (pedidos educados)",
     "secoes": [
       {
-        "titulo": "Trate no formal",
-        "corpo": "Com o garçom, use o formal (usted/ustedes). 'Vocês têm?' = ¿tienen? (de 'ustedes').",
+        "titulo": "'Ustedes' é plural, não 'formal'",
+        "corpo": "No Rio da Prata, 'ustedes' é só o plural de 'você/vocês' — não marca formalidade (a forma 'vosotros' da Espanha não se usa por aqui). '¿Tienen una mesa?' está no plural porque você fala com o restaurante, com quem atende. Falando com UMA pessoa, a escolha é entre 'vos' (informal) e 'usted' (formal/distante).",
         "exemplos": [
-          { "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois?" },
-          { "es": "¿Tienen lugar afuera?", "pt": "Vocês têm lugar lá fora?" }
+          { "es": "¿Tienen una mesa para dos?", "pt": "Vocês têm uma mesa pra dois? (ao restaurante — plural)" },
+          { "es": "¿Me traés la carta, por favor?", "pt": "Pode me trazer o cardápio? (a uma pessoa, no vos — informal)" },
+          { "es": "¿Me trae la carta, por favor?", "pt": "Pode me trazer o cardápio? (a uma pessoa, no usted — formal)" }
         ]
       },
       {
