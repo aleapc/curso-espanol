@@ -34,7 +34,7 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r2-pure", "es": "Puré.", "pt": "Purê." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep5b-p08", "promptPt": "Peça batata frita. Fale agora.", "audioKey": "r2-papas", "es": "Papas fritas.", "pt": "Batata frita." },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep5b-n09", "pt": "Falso amigo de frutos do mar: tem uma palavra igualzinha a 'polvo' do português, mas em espanhol quer dizer pó, poeira — não o bicho! O polvo, o animal, tem outro nome. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep5b-n09", "pt": "Armadilha do portunhol nos frutos do mar: tem uma palavra igualzinha a 'polvo' do português, mas em espanhol quer dizer pó, poeira — não o bicho! O polvo, o animal, tem outro nome. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r2-pulpo", "es": "El pulpo.", "pt": "O polvo (o animal)." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep5b-p09", "promptPt": "Diga 'o polvo' (o animal) em espanhol. Fale agora.", "audioKey": "r2-pulpo", "es": "El pulpo.", "pt": "O polvo." },
 
@@ -75,7 +75,7 @@
         ]
       },
       {
-        "titulo": "Falso amigo: pulpo",
+        "titulo": "Armadilha do portunhol: pulpo",
         "corpo": "Polvo (o animal) em espanhol é 'pulpo'. 'Polvo' em espanhol significa pó/poeira — cuidado ao pedir frutos do mar."
       }
     ]

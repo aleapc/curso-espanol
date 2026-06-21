@@ -3,10 +3,10 @@
   "nivel": "basico",
   "numero": 9,
   "parte": "6A",
-  "titulo": "Falsos amigos — Na mesa e na loja",
-  "subtitulo": "Palavras de comida e objeto que traem o brasileiro",
+  "titulo": "Armadilhas do Portunhol — Na mesa e na loja",
+  "subtitulo": "Palavras de comida e objeto que enganam o brasileiro",
   "steps": [
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9a-n01", "pt": "Episódio especial: os falsos amigos — palavras que parecem português mas te traem. Parte 1: comida e objetos. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9a-n01", "pt": "Episódio especial: as armadilhas do portunhol — palavras que parecem português mas significam outra coisa. Parte 1: comida e objetos. Fale em voz alta quando eu pedir." },
 
     { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9a-n02", "pt": "Tem uma palavra que parece 'esquisito', mas quer dizer DELICIOSO. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
@@ -32,13 +32,13 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "r-vaso", "es": "Un vaso de agua, por favor.", "pt": "Um copo de água, por favor." },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "fa-salsa", "es": "La salsa de tomate.", "pt": "O molho de tomate." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9a-n07", "pt": "Gramática em foco: a regra de ouro dos falsos amigos. Entre línguas tão parecidas, parecido NÃO é igual — na dúvida, confirme o sentido. Você acabou de ver quatro armadilhas; guarde-as." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9a-n07", "pt": "Gramática em foco: a regra de ouro contra as armadilhas do portunhol. Entre línguas tão parecidas, parecido NÃO é igual — na dúvida, confirme o sentido. Você acabou de ver quatro armadilhas; guarde-as." },
 
     { "tipo": "recap", "voz": "Bia", "audioKey": "ep9a-rend", "pt": "Boa! Esses quatro não te pegam mais. Na próxima parte: pessoas e lugares. Até já!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
   ],
   "aprofundar": {
-    "titulo": "Falsos amigos de comida e objeto",
+    "titulo": "Armadilhas do portunhol: comida e objeto",
     "secoes": [
       {
         "titulo": "A lista",

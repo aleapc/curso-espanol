@@ -2,7 +2,7 @@
 
 > Organização **situacional e funcional** (não gramatical): cada episódio é uma situação
 > real, **explorada a fundo** — diálogos longos e variados, vocabulário em contexto,
-> a gramática que a situação exige (sem jargão), falsos amigos do tema, e muita prática
+> a gramática que a situação exige (sem jargão), armadilhas do portunhol do tema, e muita prática
 > de fala (pause-and-respond + shadowing + recombinação). Voseo rioplatense, com o "tú"
 > mostrado ao lado. Voz-guia em PT-BR só na instrução; espanhol sempre na voz nativa.
 
@@ -21,10 +21,10 @@ Do zero ao "me viro numa viagem e no dia a dia". Falar desde o episódio 1.
 
 - **B01 · Saludos, presentaciones y el "vos"**
   Cumprimentar por horário, se apresentar, perguntar nome/origem, despedir. O voseo
-  (vos sos/tenés/llamás). Tratamento formal (usted) vs. informal. Falsos amigos de entrada.
+  (vos sos/tenés/llamás). Tratamento formal (usted) vs. informal. Armadilhas do portunhol de entrada.
 - **B02 · Números, precios, horas y fechas**
   0–1000+, preços e troco, dizer/perguntar horas, dias, meses, datas, "¿a qué hora?".
-  Base para loja, hotel, restaurante. (Falsos amigos: "billete", "plata" = dinheiro.)
+  Base para loja, hotel, restaurante. (Armadilhas do portunhol: "billete", "plata" = dinheiro.)
 - **B03 · En la calle: direcciones y transporte**
   Pedir e entender direções, "¿dónde queda…?", esquerda/direita/reto, ônibus/colectivo,
   táxi/remís, comprar passagem, "¿cuánto sale hasta…?". Mapa mental da cidade.
@@ -35,7 +35,7 @@ Do zero ao "me viro numa viagem e no dia a dia". Falar desde o episódio 1.
   Tipos de comida explorados: **parrilla/asado** (cortes: bife de chorizo, vacío, asado),
   **milanesa**, **empanadas**, **mariscos/pescados**, massas, **postres** (flan, dulce de
   leche), café/mate. Restrições: "soy vegetariano", "sin gluten", "soy alérgico a…".
-  Reclamar com educação. (Falsos amigos de comida: "exquisito", "postre".)
+  Reclamar com educação. (Armadilhas do portunhol: "exquisito", "postre".)
 - **B06 · De compras: ropa, tallas y pagar**
   Roupas e cores, **tallas/números**, provar ("¿puedo probarme…?"), "¿cuánto cuesta?",
   caro/barato, desconto, pagar (efectivo/tarjeta), troco, troca/devolução.
@@ -45,7 +45,7 @@ Do zero ao "me viro numa viagem e no dia a dia". Falar desde o episódio 1.
 - **B08 · Mercado, almacén y farmacia**
   Comprar alimentos por quantidade ("un kilo de…", "una docena"), feira/supermercado,
   farmácia (remédios comuns, "algo para el dolor de…", receita). Necessidades do dia a dia.
-- **B09 · Falsos amigos y "portuñol": defensa**
+- **B09 · Armadilhas do Portunhol** (interferência PT→ES)
   Módulo dedicado de interferência (antes que fossilize): os clássicos PT→ES
   (embarazada, exquisito, largo, oficina, rato, vaso, presunto, cena, salsa, polvo, berro,
   borracha, cola, todavía…) e os "vícios" de portunhol mais comuns do brasileiro.

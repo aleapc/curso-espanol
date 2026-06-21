@@ -37,7 +37,7 @@
     { "tipo": "shadow", "voz": "Ana", "audioKey": "tr-agendar", "es": "¿Podríamos agendar una llamada?", "pt": "Poderíamos agendar uma chamada?" },
     { "tipo": "shadow", "voz": "Diego", "audioKey": "tr-quedamos", "es": "Quedamos en hablar el lunes.", "pt": "Ficamos de conversar segunda." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "atr2-n09", "pt": "Gramática em foco: falsos amigos do escritório. A palavra que parece 'pressuposto' na verdade quer dizer orçamento. A que parece 'praço' é o prazo. E, no trato formal, o objeto indireto muda de forma, o que dá o tom de 'envio ao senhor'. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr2-n09", "pt": "Gramática em foco: armadilhas do portunhol no escritório. A palavra que parece 'pressuposto' na verdade quer dizer orçamento. A que parece 'praço' é o prazo. E, no trato formal, o objeto indireto muda de forma, o que dá o tom de 'envio ao senhor'. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-presupuesto", "es": "Le envío el presupuesto.", "pt": "Te envio o orçamento." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-quedamos", "es": "Quedamos en hablar el lunes.", "pt": "Ficamos de conversar segunda." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "atr2-n10", "pt": "O sósia de 'pressuposto' é orçamento; o de 'praço' é prazo. Mais em 'Para ir além'." },
@@ -49,7 +49,7 @@
     "titulo": "Espanhol do trabalho",
     "secoes": [
       {
-        "titulo": "Falsos amigos do escritório",
+        "titulo": "Armadilhas do portunhol no escritório",
         "corpo": "el presupuesto = o orçamento; el plazo = o prazo; la factura = a nota fiscal/fatura; la reunión = a reunião; agendar/coordinar = marcar; quedar en = combinar.",
         "exemplos": [
           { "es": "Te paso el presupuesto por mail.", "pt": "Te passo o orçamento por e-mail." },

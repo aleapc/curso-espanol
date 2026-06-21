@@ -24,7 +24,7 @@
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-izquierda", "es": "A la izquierda.", "pt": "À esquerda." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep3a-p04", "promptPt": "Diga 'à esquerda'. Fale agora.", "audioKey": "tr-izquierda", "es": "A la izquierda.", "pt": "À esquerda." },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep3a-n07", "pt": "Falso amigo importante! A palavra que lembra 'direito' não quer dizer o lado direito — quer dizer RETO, em frente. O lado direito tem outra palavra. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep3a-n07", "pt": "Armadilha do portunhol importante! A palavra que lembra 'direito' não quer dizer o lado direito — quer dizer RETO, em frente. O lado direito tem outra palavra. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-derecho", "es": "Seguí derecho.", "pt": "Siga reto." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep3a-p05", "promptPt": "Diga 'siga reto'. Fale agora.", "audioKey": "tr-derecho", "es": "Seguí derecho.", "pt": "Siga reto." },
 
@@ -53,7 +53,7 @@
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
   ],
   "aprofundar": {
-    "titulo": "Direções (e o falso amigo derecho)",
+    "titulo": "Direções (e a armadilha derecho)",
     "secoes": [
       {
         "titulo": "Esquerda, direita, reto",

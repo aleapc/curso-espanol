@@ -38,7 +38,7 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "tr-tramite", "es": "Vengo a hacer un trámite.", "pt": "Vim resolver uma papelada." },
     { "tipo": "shadow", "voz": "Ana", "audioKey": "tr-documentacion", "es": "¿Qué documentación necesito?", "pt": "Que documentos eu preciso?" },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-n10", "pt": "Gramática em foco: cuidado com o falso amigo 'turno'. Lá ele não é plantão: é hora marcada, e pedir turno é tirar senha ou agendar. E pra falar de obrigação há duas formas: uma impessoal, no sentido de 'tem que' ou 'precisa', e outra pessoal, 'eu tenho que'. Escute:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-n10", "pt": "Gramática em foco: cuidado com a armadilha do portunhol 'turno'. Lá ele não é plantão: é hora marcada, e pedir turno é tirar senha ou agendar. E pra falar de obrigação há duas formas: uma impessoal, no sentido de 'tem que' ou 'precisa', e outra pessoal, 'eu tenho que'. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "tr-turno", "es": "¿Hay que sacar turno?", "pt": "Precisa marcar hora?" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "tr-firmar", "es": "¿Dónde tengo que firmar?", "pt": "Onde tenho que assinar?" },
     { "tipo": "intro", "voz": "Bia", "audioKey": "atr1-n11", "pt": "Turno é hora marcada; e há duas formas de dizer obrigação, a impessoal e a pessoal. Mais em 'Para ir além'." },
@@ -58,7 +58,7 @@
         ]
       },
       {
-        "titulo": "Falso amigo: turno",
+        "titulo": "Armadilha do portunhol: turno",
         "corpo": "'Turno' = hora marcada / atendimento agendado, não 'plantão'. 'Pedir/sacar un turno' = agendar. Em consultórios, bancos e repartições, quase tudo funciona 'con turno'."
       }
     ]

@@ -34,7 +34,7 @@
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep4c-n08", "pt": "Pra elogiar — 'estava tudo gostoso':" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "r-rico", "es": "Estaba todo muy rico.", "pt": "Estava tudo muito gostoso." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4c-p07", "promptPt": "Elogie: 'estava tudo gostoso'. Fale agora.", "audioKey": "r-rico", "es": "Estaba todo muy rico.", "pt": "Estava tudo muito gostoso." },
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep4c-n09", "pt": "E o falso amigo que prometi: tem uma palavra que parece 'esquisito' do português, mas em espanhol é o maior elogio pra algo delicioso. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep4c-n09", "pt": "E a armadilha do portunhol que prometi: tem uma palavra que parece 'esquisito' do português, mas em espanhol é o maior elogio pra algo delicioso. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-exq", "es": "Exquisito.", "pt": "Delicioso." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep4c-p08", "promptPt": "Elogie a comida, diga que está deliciosa. Fale agora.", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },

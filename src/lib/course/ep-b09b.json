@@ -3,10 +3,10 @@
   "nivel": "basico",
   "numero": 9,
   "parte": "6B",
-  "titulo": "Falsos amigos — Pessoas e lugares",
+  "titulo": "Armadilhas do Portunhol — Pessoas e lugares",
   "subtitulo": "Embarazada, oficina, apellido, cena",
   "steps": [
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9b-n01", "pt": "Parte 2 dos falsos amigos: pessoas e lugares. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9b-n01", "pt": "Parte 2 das armadilhas do portunhol: pessoas e lugares. Fale em voz alta quando eu pedir." },
 
     { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9b-n02", "pt": "O mais clássico e perigoso: tem uma palavra que parece 'embaraçada', mas NÃO é envergonhada — é GRÁVIDA! Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "fa-embarazada", "es": "Ella está embarazada.", "pt": "Ela está grávida." },
@@ -38,7 +38,7 @@
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
   ],
   "aprofundar": {
-    "titulo": "Falsos amigos de pessoas e lugares",
+    "titulo": "Armadilhas do portunhol: pessoas e lugares",
     "secoes": [
       {
         "titulo": "A lista",

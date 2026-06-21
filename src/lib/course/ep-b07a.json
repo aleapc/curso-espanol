@@ -37,7 +37,7 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "h-checkin", "es": "Quería hacer el check-in.", "pt": "Eu queria fazer o check-in." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep7a-p07", "promptPt": "Diga que quer fazer o check-in. Fale agora.", "audioKey": "h-checkin", "es": "Quería hacer el check-in.", "pt": "Eu queria fazer o check-in." },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep7a-n10", "pt": "Lembra do falso amigo? Na recepção vão pedir uma palavra que parece 'apelido', mas é o seu sobrenome. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep7a-n10", "pt": "Lembra da armadilha que prometi? Na recepção vão pedir uma palavra que parece 'apelido', mas é o seu sobrenome. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "es-apellido2", "es": "¿Cuál es tu apellido?", "pt": "Qual é o seu sobrenome?" },
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep7a-n11", "pt": "Vamos recordar. Responda em voz alta." },

@@ -36,9 +36,9 @@ export const outline: ModuloOutline[] = [
       { id: 'b08a', titulo: 'Mercado 5A — Comprar comida', pronta: true },
       { id: 'b08b', titulo: 'Mercado 5B — Quantidades e o caixa', pronta: true },
       { id: 'b08c', titulo: 'Farmácia 5C — Dor, remédios e receita', pronta: true },
-      { id: 'b09a', titulo: 'Falsos amigos 6A — Na mesa e na loja', pronta: true },
-      { id: 'b09b', titulo: 'Falsos amigos 6B — Pessoas e lugares', pronta: true },
-      { id: 'b09c', titulo: 'Falsos amigos 6C — Tempo e estados', pronta: true }
+      { id: 'b09a', titulo: 'Armadilhas 6A — Na mesa e na loja', pronta: true },
+      { id: 'b09b', titulo: 'Armadilhas 6B — Pessoas e lugares', pronta: true },
+      { id: 'b09c', titulo: 'Armadilhas 6C — Tempo e estados', pronta: true }
     ]
   },
   {
@@ -111,7 +111,7 @@ const EP_META: Record<string, { nome: string; emoji: string }> = {
   b06: { nome: 'Compras: ropa y talles', emoji: '🛍️' },
   b07: { nome: 'Hotel: check-in y problemas', emoji: '🏨' },
   b08: { nome: 'Mercado y farmacia', emoji: '🛒' },
-  b09: { nome: 'Falsos amigos', emoji: '⚠️' },
+  b09: { nome: 'Trampas del portuñol', emoji: '⚠️' },
   i01: { nome: 'Hablar del pasado', emoji: '🕰️' },
   i02: { nome: 'Rutinas y cómo era antes', emoji: '☀️' },
   i03: { nome: 'Planes y futuro', emoji: '📅' },

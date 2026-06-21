@@ -38,7 +38,7 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "c-quedachico", "es": "Me queda chico.", "pt": "Ficou pequeno (em mim)." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep6b-p07", "promptPt": "Diga 'ficou grande em mim'. Fale agora.", "audioKey": "c-quedagrande", "es": "Me queda grande.", "pt": "Ficou grande." },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep6b-n09", "pt": "Falso amigo de roupa: tem uma palavra igual a 'largo' do português, mas em espanhol não é largura — é comprido. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep6b-n09", "pt": "Armadilha do portunhol na roupa: tem uma palavra igual a 'largo' do português, mas em espanhol não é largura — é comprido. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-largo", "es": "Me queda largo.", "pt": "Ficou comprido (em mim)." },
     { "tipo": "responde", "voz": "Ana", "promptAudioKey": "ep6b-p08", "promptPt": "Diga que ficou comprido. Fale agora.", "audioKey": "c-largo", "es": "Me queda largo.", "pt": "Ficou comprido." },
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep6b-n10", "pt": "Pra pedir um número maior:" },
@@ -84,7 +84,7 @@
         ]
       },
       {
-        "titulo": "Falso amigo: largo",
+        "titulo": "Armadilha do portunhol: largo",
         "corpo": "'Largo' em espanhol é COMPRIDO, não largura. 'Me queda largo' = ficou comprido. Largura é 'ancho'."
       }
     ]

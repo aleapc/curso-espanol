@@ -35,7 +35,7 @@
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-receta", "es": "¿Necesito receta?", "pt": "Preciso de receita?" },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8c-p07", "promptPt": "Pergunte se precisa de receita. Fale agora.", "audioKey": "m-receta", "es": "¿Necesito receta?", "pt": "Preciso de receita?" },
 
-    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep8c-n09", "pt": "Falso amigo de farmácia, e perigoso! Tem uma palavra que parece 'constipado', mas em espanhol quer dizer 'estou resfriado' — não preso do intestino. Escute:" },
+    { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep8c-n09", "pt": "Armadilha do portunhol na farmácia, e perigosa! Tem uma palavra que parece 'constipado', mas em espanhol quer dizer 'estou resfriado' — não preso do intestino. Escute:" },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "m-constipado", "es": "Estoy constipado.", "pt": "Estou resfriado." },
     { "tipo": "responde", "voz": "Diego", "promptAudioKey": "ep8c-p08", "promptPt": "Diga que está resfriado. Fale agora.", "audioKey": "m-constipado", "es": "Estoy constipado.", "pt": "Estou resfriado." },
 
@@ -63,7 +63,7 @@
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
   ],
   "aprofundar": {
-    "titulo": "Dor, remédios e o falso amigo constipado",
+    "titulo": "Dor, remédios e a armadilha constipado",
     "secoes": [
       {
         "titulo": "me duele (doer)",
@@ -78,7 +78,7 @@
         "corpo": "'¿Tienen algo para…?' pede um remédio; 'receta' é receita; protector solar e repelente são essenciais de viagem."
       },
       {
-        "titulo": "Falso amigo: constipado",
+        "titulo": "Armadilha do portunhol: constipado",
         "corpo": "'Estoy constipado' = estou RESFRIADO (gripado), não preso do intestino. Prisão de ventre é 'estreñimiento'."
       }
     ]

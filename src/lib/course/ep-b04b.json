@@ -61,7 +61,7 @@
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-gracias", "es": "Gracias.", "pt": "Obrigado(a)." }
   ],
   "aprofundar": {
-    "titulo": "Pedir: artigos, gênero e 'falso amigo' vaso",
+    "titulo": "Pedir: artigos, gênero e a armadilha vaso",
     "secoes": [
       {
         "titulo": "un / una (gênero)",
@@ -72,7 +72,7 @@
         ]
       },
       {
-        "titulo": "Falso amigo: vaso",
+        "titulo": "Armadilha do portunhol: vaso",
         "corpo": "'Vaso' em espanhol é o COPO de beber. Vaso de planta é 'maceta'; vaso sanitário é 'inodoro'. Então 'un vaso de agua' = um copo de água.",
         "exemplos": [
           { "es": "Un vaso de agua, por favor.", "pt": "Um copo de água, por favor." },

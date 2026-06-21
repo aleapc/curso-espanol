@@ -3,10 +3,10 @@
   "nivel": "basico",
   "numero": 9,
   "parte": "6C",
-  "titulo": "Falsos amigos — Tempo e estados",
+  "titulo": "Armadilhas do Portunhol — Tempo e estados",
   "subtitulo": "Largo, rato, todavía, constipado",
   "steps": [
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9c-n01", "pt": "Última parte dos falsos amigos: tempo e estados. Fale em voz alta quando eu pedir." },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9c-n01", "pt": "Última parte das armadilhas do portunhol: tempo e estados. Fale em voz alta quando eu pedir." },
 
     { "tipo": "intro", "voz": "Eduardo", "audioKey": "ep9c-n02", "pt": "A palavra que parece 'largo' quer dizer COMPRIDO, não largura. Escute:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "c-largo", "es": "Me queda largo.", "pt": "Ficou comprido (em mim)." },
@@ -32,7 +32,7 @@
     { "tipo": "shadow", "voz": "Diego", "audioKey": "fa-rato", "es": "Esperá un rato.", "pt": "Espera um instante." },
     { "tipo": "shadow", "voz": "Ana", "audioKey": "fa-todavia", "es": "Todavía no llegó.", "pt": "Ainda não chegou." },
 
-    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9c-r00", "pt": "Pra fechar, ouça os falsos amigos em frases. Agora você não cai em nenhum:" },
+    { "tipo": "intro", "voz": "Bia", "audioKey": "ep9c-r00", "pt": "Pra fechar, ouça as armadilhas em frases. Agora você não cai em nenhuma:" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-exq2", "es": "La comida está exquisita.", "pt": "A comida está deliciosa." },
     { "tipo": "ouvir", "voz": "Diego", "audioKey": "r-vaso", "es": "Un vaso de agua, por favor.", "pt": "Um copo de água, por favor." },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "fa-embarazada", "es": "Ella está embarazada.", "pt": "Ela está grávida." },
@@ -41,11 +41,11 @@
 
     { "tipo": "intro", "voz": "Bia", "audioKey": "ep9c-n07", "pt": "Gramática em foco, o resumo: parecido NÃO é igual. Foram onze armadilhas nestes três episódios — comida, objetos, pessoas, lugares, tempo e estados. Agora elas são suas amigas." },
 
-    { "tipo": "recap", "voz": "Bia", "audioKey": "ep9c-rend", "pt": "Parabéns! Você fechou os falsos amigos — e o módulo Básico inteiro! Que jornada. Até logo!" },
+    { "tipo": "recap", "voz": "Bia", "audioKey": "ep9c-rend", "pt": "Parabéns! Você fechou as armadilhas do portunhol — e o módulo Básico inteiro! Que jornada. Até logo!" },
     { "tipo": "ouvir", "voz": "Ana", "audioKey": "es-chau", "es": "¡Chau!", "pt": "Tchau!" }
   ],
   "aprofundar": {
-    "titulo": "Falsos amigos de tempo e estado",
+    "titulo": "Armadilhas do portunhol: tempo e estado",
     "secoes": [
       {
         "titulo": "A lista",
