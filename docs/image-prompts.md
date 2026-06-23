@@ -35,6 +35,7 @@ Mesmo estilo das fotos dos guias (Uruguai/Puerto Varas) — pintura digital quen
 - **b07 — Hotel: check-in y problemas**: balcão de recepção de hotel boutique com um sino, uma chave-cartão e um vaso de plantas.
 - **b08 — Mercado y farmacia**: banca colorida de feira com frutas e verduras, e ao lado uma cruz verde de farmácia.
 - **b09 — Falsos amigos**: ilustração lúdica de dois personagens confusos com balões de fala trocados e pontos de interrogação (humor leve).
+- **b10 — Chegada: aeroporto e primeiros 60 min**: saguão de chegada de um aeroporto, um viajante com mochila e mala de rodinhas chegando, esteira de bagagem e grandes janelas de vidro ao fundo com luz dourada de fim de tarde entrando (skyline costeiro tipo Montevidéu), clima de começo de viagem.
 
 ## Intermediário
 
