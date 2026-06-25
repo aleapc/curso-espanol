@@ -64,6 +64,25 @@
   </p>
 </section>
 
+<a
+  href="https://translate.google.com/?sl=pt&tl=es&op=translate"
+  target="_blank"
+  rel="noopener"
+  class="mt-4 flex items-center gap-3 rounded-2xl bg-white p-3 shadow-md ring-1 ring-black/5"
+>
+  <span class="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-terracota/15 text-2xl">🗣️</span>
+  <span class="min-w-0 flex-1">
+    <span class="block font-bold leading-tight text-carvao">Tradutor de conversa</span>
+    <span class="block text-xs text-carvao/60"
+      >Abre o Google Tradutor (PT ↔ ES). Toque no “Conversa” pra traduzir os dois lados.</span
+    >
+  </span>
+  <span class="shrink-0 text-lg text-carvao/30">↗</span>
+</a>
+<p class="mt-1 px-1 text-[11px] text-carvao/45">
+  💡 Offline: instale o app Google Tradutor e baixe os pacotes Português e Espanhol.
+</p>
+
 {#each niveis as nivel}
   {@const feitas = nivel.episodios.reduce((n, e) => n + feitasDe(e), 0)}
   {@const totalP = nivel.episodios.reduce((n, e) => n + e.partes.length, 0)}
