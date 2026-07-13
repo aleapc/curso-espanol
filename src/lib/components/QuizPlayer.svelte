@@ -8,7 +8,14 @@
   let audio: HTMLAudioElement;
   let tocando = $state(false);
   let idxFala = $state(-1); // -1 = intro; 0..n = linha do diálogo
+  let erroAudio = $state(false);
   let token = 0;
+  // Posição pra RETOMAR: índice na sequência (0 = intro, 1.. = diálogo) e se
+  // paramos no meio de um clipe. Antes, "⏸ Pausar" resetava tudo — nas provas
+  // longas, qualquer interrupção significava reouvir do zero.
+  let pos = $state(0);
+  let emMeio = $state(false);
+  const seq = $derived([quiz.introAudioKey, ...quiz.dialogo.map((d) => d.audioKey)]);
 
   let mostrarTranscricao = $state(false);
   let respostas = $state<(number | null)[]>(quiz.perguntas.map(() => null));
@@ -22,47 +29,78 @@
     return `${base}/audio/${key}.mp3`;
   }
 
-  function playClip(key: string): Promise<void> {
+  function playClip(key: string, retomar = false): Promise<void> {
     return new Promise((resolve) => {
       if (!key || !audio) return resolve();
-      audio.onended = () => {
+      let cancelado = false;
+      const fim = () => {
         audio.onended = null;
+        audio.onerror = null;
         resolve();
       };
-      audio.src = src(key);
-      audio.play().catch(() => resolve());
+      audio.onended = fim;
+      audio.onerror = () => {
+        erroAudio = true;
+        fim();
+      };
+      const antesDoPause = () => {
+        cancelado = !tocando;
+      };
+      if (!retomar) audio.src = src(key);
+      audio.play().catch(() => {
+        antesDoPause();
+        if (!cancelado) erroAudio = true;
+        fim();
+      });
     });
   }
 
-  async function escutar() {
-    if (tocando) {
-      parar();
-      return;
-    }
+  async function playFrom(inicio: number, retomar: boolean) {
     const meu = ++token;
     tocando = true;
-    idxFala = -1;
-    await playClip(quiz.introAudioKey);
-    for (let i = 0; i < quiz.dialogo.length; i++) {
+    erroAudio = false;
+    for (let i = inicio; i < seq.length; i++) {
       if (meu !== token) return;
-      idxFala = i;
-      await playClip(quiz.dialogo[i].audioKey);
+      pos = i;
+      idxFala = i - 1; // -1 = intro
+      await playClip(seq[i], retomar && i === inicio);
       if (meu !== token) return;
       await new Promise((r) => setTimeout(r, 250));
     }
     if (meu === token) {
       tocando = false;
       idxFala = -1;
+      pos = 0;
+      emMeio = false;
     }
+  }
+
+  function escutar() {
+    if (tocando) {
+      parar();
+      return;
+    }
+    const retomar = emMeio && !!audio?.src && !audio.ended;
+    emMeio = false;
+    void playFrom(pos, retomar);
+  }
+
+  function escutarDoInicio() {
+    parar();
+    pos = 0;
+    emMeio = false;
+    idxFala = -1;
+    void playFrom(0, false);
   }
 
   function parar() {
     token++;
     tocando = false;
-    idxFala = -1;
     if (audio) {
       audio.onended = null;
+      audio.onerror = null;
       audio.pause();
+      emMeio = audio.currentTime > 0 && !audio.ended;
     }
   }
 
@@ -96,7 +134,7 @@
   <p class="text-sm text-carvao/70">🎬 {quiz.cenario}</p>
   <div class="mt-3 flex flex-wrap items-center gap-2">
     <button type="button" class="btn-primary" onclick={escutar}>
-      {tocando ? '⏸ Pausar' : '▶ Escutar a conversa'}
+      {tocando ? '⏸ Pausar' : emMeio || pos > 0 ? '▶ Continuar' : '▶ Escutar a conversa'}
     </button>
     <button
       type="button"
@@ -106,6 +144,12 @@
       {mostrarTranscricao ? 'Esconder transcrição' : 'Ver transcrição'}
     </button>
   </div>
+
+  {#if erroAudio}
+    <p role="status" class="mt-2 text-xs font-medium text-terracota">
+      ⚠️ Áudio indisponível — confira a internet e tente de novo.
+    </p>
+  {/if}
 
   {#if mostrarTranscricao}
     <div class="mt-3 space-y-2 border-t border-black/5 pt-3">
@@ -181,7 +225,7 @@
       </p>
       <div class="mt-4 flex justify-center gap-2">
         <button type="button" class="btn bg-white ring-1 ring-black/10" onclick={refazer}>Refazer</button>
-        <button type="button" class="btn-primary" onclick={escutar}>Escutar de novo</button>
+        <button type="button" class="btn-primary" onclick={escutarDoInicio}>Escutar de novo</button>
       </div>
     </div>
   {/if}

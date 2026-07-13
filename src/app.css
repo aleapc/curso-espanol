@@ -6,6 +6,26 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
+/* Dois toques rápidos em "⏭" davam double-tap zoom no iOS; isto elimina o
+   zoom acidental sem desligar o pinch-zoom (a11y preservada). */
+button,
+a,
+label {
+  touch-action: manipulation;
+}
+
+/* Respeita "Reduzir Movimento" do iOS. Exceção: .barra é a contagem regressiva
+   do "Fale agora!" — carrega informação (tempo restante), então fica. */
+@media (prefers-reduced-motion: reduce) {
+  *:not(.barra),
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 body {
   @apply bg-creme text-carvao font-sans;
 }

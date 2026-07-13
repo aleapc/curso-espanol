@@ -1,6 +1,6 @@
 <script lang="ts">
   import { base } from '$app/paths';
-  import { onMount } from 'svelte';
+  import { onMount, onDestroy } from 'svelte';
   import type { Episode, Step } from '$lib/types';
   import { markDone } from '$lib/state.svelte';
 
@@ -15,6 +15,8 @@
   let mostrarEs = $state(false);
   let gravando = $state(false);
   let recUrl = $state<string | null>(null);
+  let micErro = $state(false);
+  let erroAudio = $state(false);
 
   // Modo: estudo (controle passo a passo) ou carro (áudio-livro contínuo, mãos livres)
   let modo = $state<'estudo' | 'carro'>(
@@ -55,17 +57,32 @@
   function playClip(key?: string): Promise<void> {
     return new Promise((resolve) => {
       if (!key || !audio) return resolve();
-      cancelCurrent = () => {
+      erroAudio = false;
+      let cancelado = false;
+      const fim = () => {
         audio.onended = null;
+        audio.onerror = null;
+        resolve();
+      };
+      cancelCurrent = () => {
+        cancelado = true;
+        audio.onended = null;
+        audio.onerror = null;
         audio.pause();
         resolve();
       };
-      audio.onended = () => {
-        audio.onended = null;
-        resolve();
+      audio.onended = fim;
+      // Sem isto, clipe 404/offline era "pulado" em silêncio (no modo Carro o
+      // episódio inteiro avançava mudo) — agora a falha aparece na tela.
+      audio.onerror = () => {
+        erroAudio = true;
+        fim();
       };
       audio.src = src(key);
-      audio.play().catch(() => resolve());
+      audio.play().catch(() => {
+        if (!cancelado) erroAudio = true;
+        fim();
+      });
     });
   }
 
@@ -84,6 +101,7 @@
     const c = cancelCurrent;
     cancelCurrent = null;
     if (c) c();
+    vozAudio?.pause();
     void stopRec();
   }
 
@@ -113,11 +131,15 @@
         await playClip(s.promptAudioKey);
         if (my !== token) return;
         fase = 'pausa';
+        if (recUrl) URL.revokeObjectURL(recUrl);
         recUrl = null;
-        if (gravando) await startRec();
+        // Captura o flag: se desmarcar "gravar" durante a pausa, o recorder já
+        // iniciado ainda recebe stop() (antes ficava gravando pra sempre).
+        const rec = gravando;
+        if (rec) await startRec();
         await wait(pausaMs(s));
         if (my !== token) return;
-        if (gravando) await stopRec();
+        if (rec) await stopRec();
         if (modo === 'carro') {
           mostrarEs = true;
           fase = 'tocando';
@@ -176,7 +198,9 @@
   function proximo() {
     if (index < total - 1) run(index + 1);
     else {
+      halt(); // sem isto, ⏭ no último passo deixava o áudio tocando sob o "✅ concluída"
       fase = 'fim';
+      setPlaybackState('none');
       markDone(episodio.id);
     }
   }
@@ -199,30 +223,94 @@
   let mediaStream: MediaStream | null = null;
   let recorder: MediaRecorder | null = null;
   let chunks: BlobPart[] = [];
+  let vozAudio: HTMLAudioElement | null = null;
 
   async function startRec() {
     try {
       if (!mediaStream) mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      micErro = false;
       chunks = [];
       recorder = new MediaRecorder(mediaStream);
       recorder.ondataavailable = (e) => chunks.push(e.data);
       recorder.start();
     } catch {
       gravando = false;
+      micErro = true; // antes o checkbox se desmarcava sozinho, sem explicação
     }
   }
   function stopRec(): Promise<void> {
     return new Promise((resolve) => {
       if (!recorder || recorder.state === 'inactive') return resolve();
       recorder.onstop = () => {
+        if (recUrl) URL.revokeObjectURL(recUrl);
         recUrl = URL.createObjectURL(new Blob(chunks, { type: 'audio/webm' }));
         resolve();
       };
       recorder.stop();
     });
   }
+  // Libera o microfone de verdade (o indicador laranja do iPhone apagava só
+  // ao fechar o app — getUserMedia sem track.stop() em lugar nenhum).
+  function releaseMic() {
+    if (recorder && recorder.state !== 'inactive') {
+      try {
+        recorder.stop();
+      } catch {
+        /* já parado */
+      }
+    }
+    recorder = null;
+    mediaStream?.getTracks().forEach((t) => t.stop());
+    mediaStream = null;
+  }
   function ouvirVoce() {
-    if (recUrl) new Audio(recUrl).play();
+    if (!recUrl) return;
+    // Reusa uma instância (antes cada clique empilhava uma reprodução nova).
+    if (!vozAudio) vozAudio = new Audio();
+    vozAudio.pause();
+    vozAudio.src = recUrl;
+    vozAudio.currentTime = 0;
+    vozAudio.play().catch(() => {});
+  }
+
+  // --- baixar a parte pra ouvir offline ---
+  // No iOS o <audio> pede os mp3 com Range (206), que NÃO popula o cache.
+  // Este botão baixa os clipes com fetch normal (200) direto pro cache do SW.
+  let baixando = $state(false);
+  let baixado = $state(false);
+  let baixaProg = $state(0);
+  const clipKeys = [
+    ...new Set(
+      steps.flatMap((s) => [s.audioKey, s.promptAudioKey]).filter((k): k is string => !!k)
+    )
+  ];
+  async function baixarParte() {
+    if (baixando || typeof caches === 'undefined') return;
+    baixando = true;
+    baixaProg = 0;
+    let falhas = 0;
+    try {
+      const cache = await caches.open('audio-clips');
+      for (const k of clipKeys) {
+        const url = src(k);
+        try {
+          if (!(await cache.match(url))) {
+            const r = await fetch(url);
+            if (r.ok) await cache.put(url, r);
+            else falhas++;
+          }
+        } catch {
+          falhas++;
+        }
+        baixaProg++;
+      }
+      baixado = falhas === 0;
+      if (falhas > 0) erroAudio = true;
+    } catch {
+      erroAudio = true;
+    } finally {
+      baixando = false;
+    }
   }
 
   const vozNome: Record<string, string> = {
@@ -259,6 +347,25 @@
       }
     }
   });
+
+  onDestroy(() => {
+    halt();
+    releaseMic();
+    if (recUrl) URL.revokeObjectURL(recUrl);
+    vozAudio?.pause();
+    vozAudio = null;
+    setPlaybackState('none');
+    if (typeof navigator !== 'undefined' && 'mediaSession' in navigator) {
+      try {
+        navigator.mediaSession.setActionHandler('play', null);
+        navigator.mediaSession.setActionHandler('pause', null);
+        navigator.mediaSession.setActionHandler('nexttrack', null);
+        navigator.mediaSession.setActionHandler('previoustrack', null);
+      } catch {
+        /* ok */
+      }
+    }
+  });
 </script>
 
 <audio bind:this={audio}></audio>
@@ -268,6 +375,7 @@
   <button
     type="button"
     onclick={() => setModo('estudo')}
+    aria-pressed={modo === 'estudo'}
     class="flex-1 rounded-full px-3 py-1.5 font-medium transition {modo === 'estudo'
       ? 'bg-white shadow text-terracota'
       : 'text-carvao/60'}"
@@ -277,6 +385,7 @@
   <button
     type="button"
     onclick={() => setModo('carro')}
+    aria-pressed={modo === 'carro'}
     class="flex-1 rounded-full px-3 py-1.5 font-medium transition {modo === 'carro'
       ? 'bg-white shadow text-terracota'
       : 'text-carvao/60'}"
@@ -341,7 +450,15 @@
   {/if}
 
   {#if !ehPt && !mostrarEs && fase !== 'pausa'}
-    <button class="text-xs text-oceano underline" onclick={() => (mostrarEs = true)}>ver texto</button>
+    <button class="-m-2 p-3 text-xs text-oceano underline" onclick={() => (mostrarEs = true)}
+      >ver texto</button
+    >
+  {/if}
+
+  {#if erroAudio}
+    <p role="status" class="text-xs font-medium text-terracota">
+      ⚠️ Áudio indisponível — confira a internet (ou use "deixar offline" antes de sair).
+    </p>
   {/if}
 </div>
 
@@ -372,24 +489,51 @@
 </div>
 
 <div class="mt-3 flex flex-wrap items-center justify-center gap-4 text-sm">
-  <button class="text-oceano" onclick={repetir}>⟲ repetir passo</button>
-  <label class="flex cursor-pointer items-center gap-1 text-carvao/60">
-    <input type="checkbox" bind:checked={gravando} />
+  <button class="-my-1 px-2 py-2 text-oceano" onclick={repetir}>⟲ repetir passo</button>
+  <label class="flex cursor-pointer items-center gap-1 py-2 text-carvao/60">
+    <input
+      type="checkbox"
+      bind:checked={gravando}
+      onchange={() => {
+        if (!gravando) releaseMic();
+      }}
+    />
     🎙️ gravar minha voz
   </label>
 </div>
+{#if micErro}
+  <p role="status" class="mt-1 text-center text-xs text-terracota">
+    ⚠️ Não consegui acessar o microfone — permita em Ajustes do iPhone › Hablá › Microfone.
+  </p>
+{/if}
 
-<div class="mt-2 flex items-center justify-center gap-2 text-xs text-carvao/50">
+<div class="mt-2 flex items-center justify-center gap-2 text-xs text-carvao/70">
   <span>Pausa pra falar:</span>
   {#each velocidades as v}
     <button
       type="button"
       onclick={() => setFator(v.f)}
-      class="rounded-full px-2 py-0.5 {fator === v.f ? 'bg-oceano text-white' : 'ring-1 ring-black/10'}"
+      aria-pressed={fator === v.f}
+      class="rounded-full px-3 py-1.5 {fator === v.f
+        ? 'bg-oceano text-white'
+        : 'ring-1 ring-black/10'}"
     >
       {v.nome}
     </button>
   {/each}
+</div>
+
+<div class="mt-3 flex justify-center">
+  <button
+    type="button"
+    class="text-xs text-carvao/60 underline disabled:opacity-50"
+    onclick={baixarParte}
+    disabled={baixando || baixado}
+  >
+    {#if baixando}⬇ baixando… {baixaProg}/{clipKeys.length}
+    {:else if baixado}✅ parte disponível offline
+    {:else}⬇ deixar esta parte offline{/if}
+  </button>
 </div>
 
 {#if modo === 'carro'}

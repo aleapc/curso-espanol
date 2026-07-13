@@ -1,9 +1,29 @@
 <script lang="ts">
   import '../app.css';
+  import { onMount } from 'svelte';
+  import { dev } from '$app/environment';
   import { base } from '$app/paths';
   import { PROFILES, store, setProfile } from '$lib/state.svelte';
 
   let { children } = $props();
+
+  // Registro MANUAL do service worker (o injectRegister automático não injeta
+  // nada em HTML prerenderizado — sem isto o app nunca teve SW em produção).
+  // Registro direto com URL absoluta do base: o virtual:pwa-register compila
+  // "./sw.js" (relativo à PÁGINA), que quebraria em deep-link de episódio.
+  // Com registerType autoUpdate o sw.js já tem skipWaiting+clientsClaim, então
+  // register puro + update() horário dá o autoUpdate completo.
+  onMount(async () => {
+    if (dev || !('serviceWorker' in navigator)) return;
+    try {
+      const reg = await navigator.serviceWorker.register(`${base}/sw.js`, { scope: `${base}/` });
+      // iOS só checa update no launch; com o app aberto horas (estudo/carro),
+      // checa a cada hora pra nova versão chegar sem depender de reabrir 2x.
+      setInterval(() => void reg.update().catch(() => {}), 60 * 60 * 1000);
+    } catch {
+      /* sem SW (navegador antigo / registro falhou) — app segue online */
+    }
+  });
 </script>
 
 <div class="mx-auto flex min-h-dvh max-w-xl flex-col">

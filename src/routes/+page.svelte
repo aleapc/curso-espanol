@@ -1,7 +1,7 @@
 <script lang="ts">
   import { base } from '$app/paths';
   import { niveis } from '$lib/course';
-  import { examDoNivel, quizDoEpisodio } from '$lib/course/quizzes';
+  import { examDoNivel, quizDoEpisodio } from '$lib/course/quiz-nav';
   import { store, isDone, PROFILES } from '$lib/state.svelte';
   import { encodeSync, importSync, whatsappUrl } from '$lib/sync';
 
@@ -14,11 +14,13 @@
   let codigo = $state('');
   let cola = $state('');
   let msg = $state('');
+  let msgOk = $state(false);
   function gerar() {
     codigo = encodeSync();
   }
   function importar() {
     const r = importSync(cola);
+    msgOk = !!r;
     msg = r
       ? `Importado: +${r.ale} do Alê, +${r.dea} da Andréia. 🎉`
       : 'Código inválido — confira se copiou inteiro (começa com CE1.).';
@@ -108,11 +110,11 @@
           <div class="relative h-28" style="background: {grad[nivel.cor]}">
             <div class="absolute inset-0 grid place-items-center text-5xl opacity-90">{ep.emoji}</div>
             <img
-              src="{base}/img/{ep.id}.jpg"
+              src="{base}/img/{ep.id}.webp"
               alt=""
               loading="lazy"
               class="absolute inset-0 h-full w-full object-cover"
-              onerror={(e) => (e.currentTarget.style.display = 'none')}
+              onerror={(e) => ((e.currentTarget as HTMLImageElement).style.display = 'none')}
             />
             <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent"></div>
             <div class="absolute inset-x-2.5 bottom-2 text-white">
@@ -233,7 +235,12 @@
         rows="2"
       ></textarea>
       <button type="button" class="btn-primary mt-2" onclick={importar}>Importar</button>
-      {#if msg}<p class="mt-2 text-sm text-oceano">{msg}</p>{/if}
+      {#if msg}
+        <p role="status" class="mt-2 text-sm {msgOk ? 'text-salvia' : 'text-terracota'}">
+          {msgOk ? '✅' : '⚠️'}
+          {msg}
+        </p>
+      {/if}
     </div>
   </div>
 </section>

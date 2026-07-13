@@ -1,13 +1,27 @@
 import { error } from '@sveltejs/kit';
-import { quizzes, getQuiz } from '$lib/course/quizzes';
+import { quizIds } from '$lib/course/quiz-nav';
+import type { Quiz } from '$lib/types';
 import type { EntryGenerator, PageLoad } from './$types';
 
 export const prerender = true;
 
-export const entries: EntryGenerator = () => quizzes.map((q) => ({ id: q.id }));
+// Import dinâmico: um chunk pequeno por quiz (o import estático antigo punha
+// os 26 quiz-*.json num chunk de ~98 KB que a home e toda página de quiz baixavam).
+const mods = import.meta.glob<{ default: Quiz }>('$lib/course/quiz-*.json');
 
-export const load: PageLoad = ({ params }) => {
-  const quiz = getQuiz(params.id);
-  if (!quiz) throw error(404, 'Quiz não encontrado');
-  return { quiz };
+// id → arquivo: q-basico/q-intermediario/q-avancado = provas (quiz-<nivel>.json);
+// o resto são quizzes de episódio (quiz-ep-<ep>.json).
+function fileFor(id: string): string {
+  if (/^q-(basico|intermediario|avancado)$/.test(id)) {
+    return `/src/lib/course/quiz-${id.slice(2)}.json`;
+  }
+  return `/src/lib/course/quiz-ep-${id.replace(/^q-/, '')}.json`;
+}
+
+export const entries: EntryGenerator = () => quizIds.map((id) => ({ id }));
+
+export const load: PageLoad = async ({ params }) => {
+  const mod = mods[fileFor(params.id)];
+  if (!mod) throw error(404, 'Quiz não encontrado');
+  return { quiz: (await mod()).default };
 };

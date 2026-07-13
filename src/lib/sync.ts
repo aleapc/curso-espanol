@@ -31,11 +31,18 @@ export function encodeSync(): string {
 
 export function decodeSync(code: string): SyncData | null {
   try {
+    // Input não confiável (viaja por WhatsApp): cap de tamanho + validação de
+    // tipo dos DOIS lados + saneamento dos elementos. Sem isto, um código
+    // adulterado (b como string/número, elementos não-string) poluía o
+    // progresso persistido ou lançava fora do try da página de sync.
+    if (code.length > 10_000) return null;
     const m = code.trim().match(/CE1\.([A-Za-z0-9_-]+)/);
     if (!m) return null;
     const p = JSON.parse(b64uDecode(m[1])) as Payload;
-    if (p.v !== 1 || !Array.isArray(p.a)) return null;
-    return { ale: p.a, dea: p.b ?? [] };
+    if (p.v !== 1 || !Array.isArray(p.a) || !Array.isArray(p.b ?? [])) return null;
+    const limpa = (arr: unknown[]) =>
+      arr.filter((x): x is string => typeof x === 'string' && x.length > 0 && x.length < 40);
+    return { ale: limpa(p.a), dea: limpa(p.b ?? []) };
   } catch {
     return null;
   }
@@ -53,8 +60,12 @@ export function shareUrl(code: string): string {
 }
 
 export function whatsappUrl(code: string): string {
+  // O link abre no NAVEGADOR (não no PWA instalado — storage separado no iOS!),
+  // então a mensagem manda também o código puro pra colar dentro do app.
   const text =
-    `📚 *Curso de Español* — meu progresso!\n` +
-    `Abre esse link que o app junta tudo no seu celular:\n${shareUrl(code)}`;
+    `📚 *Hablá* — meu progresso!\n` +
+    `Copie o código abaixo e cole no app Hablá (home → Sincronizar → Colar):\n\n` +
+    `${code}\n\n` +
+    `(ou abra ${shareUrl(code)} que eu te guio)`;
   return `https://wa.me/?text=${encodeURIComponent(text)}`;
 }

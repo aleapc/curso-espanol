@@ -16,6 +16,12 @@ interface Persisted {
   done: Record<Profile, string[]>;
 }
 
+// Valida o shape vindo do storage: qualquer coisa que não seja array de strings
+// vira [] — estado corrompido se auto-recupera em vez de quebrar o app no boot.
+function soStrings(x: unknown): string[] {
+  return Array.isArray(x) ? x.filter((i): i is string => typeof i === 'string') : [];
+}
+
 function load(): Persisted {
   const fallback: Persisted = { current: 'ale', done: { ale: [], dea: [] } };
   if (typeof localStorage === 'undefined') return fallback;
@@ -25,7 +31,7 @@ function load(): Persisted {
     const p = JSON.parse(raw);
     return {
       current: p.current === 'dea' ? 'dea' : 'ale',
-      done: { ale: p.done?.ale ?? [], dea: p.done?.dea ?? [] }
+      done: { ale: soStrings(p.done?.ale), dea: soStrings(p.done?.dea) }
     };
   } catch {
     return fallback;
@@ -35,8 +41,28 @@ function load(): Persisted {
 export const store = $state<Persisted>(load());
 
 function save() {
-  if (typeof localStorage !== 'undefined') {
+  if (typeof localStorage === 'undefined') return;
+  // Outra aba/contexto pode ter salvo depois de nós: funde (união) o que está
+  // gravado antes de sobrescrever, senão o snapshot velho apaga progresso novo.
+  try {
+    const raw = localStorage.getItem(KEY);
+    if (raw) {
+      const p = JSON.parse(raw);
+      (['ale', 'dea'] as Profile[]).forEach((prof) => {
+        for (const id of soStrings(p?.done?.[prof])) {
+          if (!store.done[prof].includes(id)) store.done[prof].push(id);
+        }
+      });
+    }
+  } catch {
+    /* gravação ilegível → sobrescreve com o estado bom */
+  }
+  try {
     localStorage.setItem(KEY, JSON.stringify(store));
+  } catch (e) {
+    // Quota cheia (a origem aleapc.github.io é COMPARTILHADA pelos outros PWAs).
+    // O progresso segue em memória na sessão; não derruba markDone/importSync.
+    console.warn('Hablá: não consegui salvar o progresso (armazenamento cheio?)', e);
   }
 }
 
@@ -56,19 +82,10 @@ export function markDone(id: string, p: Profile = store.current) {
   }
 }
 
-export function toggleDone(id: string, p: Profile = store.current) {
-  const arr = store.done[p];
-  const i = arr.indexOf(id);
-  if (i >= 0) arr.splice(i, 1);
-  else arr.push(id);
-  save();
-}
-
-export function countDone(p: Profile): number {
-  return store.done[p].length;
-}
-
 // --- Sincronização de casal (união idempotente, sem servidor) ---
+// NOTA: o merge é UNIÃO (só adiciona). Se um dia "desmarcar lição" virar
+// requisito, o sync precisará de tombstones/timestamps — uma desmarcação
+// simples seria "ressuscitada" no próximo import do parceiro.
 export interface SyncData {
   ale: string[];
   dea: string[];

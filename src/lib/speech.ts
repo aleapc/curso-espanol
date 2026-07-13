@@ -7,17 +7,28 @@
 import { base } from '$app/paths';
 
 let premium: Set<string> | null = null;
+let carregando: Promise<Set<string>> | null = null;
 
-async function loadIndex(): Promise<Set<string>> {
-  if (premium) return premium;
-  premium = new Set();
-  try {
-    const r = await fetch(`${base}/audio/index.json`);
-    if (r.ok) premium = new Set<string>(await r.json());
-  } catch {
-    /* offline ou ainda sem áudio premium → fica só o TTS */
-  }
-  return premium;
+// Memoiza a PROMISE (não um Set vazio): chamadas concorrentes esperam o mesmo
+// fetch, e uma falha (offline no cold start) NÃO fica cacheada — o próximo
+// toque tenta de novo. Antes, uma falha desligava o áudio premium da sessão.
+function loadIndex(): Promise<Set<string>> {
+  if (premium) return Promise.resolve(premium);
+  if (carregando) return carregando;
+  carregando = (async () => {
+    try {
+      const r = await fetch(`${base}/audio/index.json`);
+      if (r.ok) {
+        premium = new Set<string>(await r.json());
+        return premium;
+      }
+    } catch {
+      /* offline → tenta de novo no próximo toque */
+    }
+    carregando = null;
+    return new Set<string>();
+  })();
+  return carregando;
 }
 
 let current: HTMLAudioElement | null = null;
@@ -34,6 +45,11 @@ export async function playKey(
   if (key && idx.has(key)) {
     try {
       current?.pause();
+      // Para também o TTS: sem isto, um botão que caiu pra TTS + um premium
+      // em sequência tocavam os dois sobrepostos.
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
       current = new Audio(`${base}/audio/${key}.mp3`);
       await current.play();
       return 'premium';
