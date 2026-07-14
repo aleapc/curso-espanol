@@ -25,7 +25,7 @@ export default defineConfig({
         // vite preview local (sirv) responde 404 → o precache dele ABORTA o
         // install do SW. Local fica sem fallback (todas as rotas reais estão
         // no precache; só URL sem barra digitada à mão offline perde).
-        spa: !!base,
+        spa: base ? true : undefined,
         // O plugin lê o base do VITE — mas o nosso vive no svelte.config
         // (kit.paths.base). Sem isto a home saía {url:"/"} ABSOLUTO no precache
         // (raiz do DOMÍNIO = 404 no Pages) e o install do SW abortava inteiro.
