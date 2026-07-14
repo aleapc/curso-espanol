@@ -17,5 +17,7 @@ export const examDoNivel: Record<string, string> = {
   avancado: 'q-avancado'
 };
 
-/** Todos os ids de quiz existentes (episódios + provas de nível) — usado pelo prerender. */
-export const quizIds: string[] = [...epIds.map((e) => `q-${e}`), ...Object.values(examDoNivel)];
+// NOTA: quizDoEpisodio assume que TODO episódio do outline tem quiz-ep-<id>.json.
+// O prerender (rotas quiz/[id]) deriva as páginas dos ARQUIVOS reais, então um
+// episódio novo sem quiz não quebra o build — mas o link do card daria 404 até
+// o quiz ser gravado. Regra prática: episódio novo = gravar o quiz junto.

@@ -80,8 +80,8 @@
     </p>
     <ol class="mx-auto mt-3 max-w-sm space-y-1 text-left text-sm text-carvao/70">
       <li>1. Toque em <b>Copiar código</b> abaixo</li>
-      <li>2. Abra o app <b>Hablá</b> na tela de início</li>
-      <li>3. Na home, em <b>Sincronizar</b>, cole e importe</li>
+      <li>2. Abra o app <b>Hablá</b> na tela de início (no computador: a home do curso)</li>
+      <li>3. Em <b>Sincronizar</b>, cole e importe</li>
     </ol>
     <button class="btn-primary mt-4" onclick={copiar}>
       {copiado ? '✅ Copiado!' : '📋 Copiar código'}

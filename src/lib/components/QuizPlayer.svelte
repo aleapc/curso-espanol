@@ -29,27 +29,37 @@
     return `${base}/audio/${key}.mp3`;
   }
 
+  let cancelPlay: (() => void) | null = null;
+
   function playClip(key: string, retomar = false): Promise<void> {
     return new Promise((resolve) => {
       if (!key || !audio) return resolve();
-      let cancelado = false;
+      // Identidade por token: um catch/onended TARDIO de um clipe cancelado
+      // (microtask da rejeição do play) não pode apagar os handlers nem acusar
+      // erro do clipe NOVO que já começou.
+      const meu = token;
       const fim = () => {
+        if (token === meu) {
+          audio.onended = null;
+          audio.onerror = null;
+        }
+        cancelPlay = null;
+        resolve();
+      };
+      cancelPlay = () => {
         audio.onended = null;
         audio.onerror = null;
         resolve();
       };
       audio.onended = fim;
       audio.onerror = () => {
-        erroAudio = true;
+        if (token === meu) erroAudio = true;
         fim();
-      };
-      const antesDoPause = () => {
-        cancelado = !tocando;
       };
       if (!retomar) audio.src = src(key);
       audio.play().catch(() => {
-        antesDoPause();
-        if (!cancelado) erroAudio = true;
+        if (token !== meu) return; // cancelado por parar()/reinício
+        erroAudio = true;
         fim();
       });
     });
@@ -96,11 +106,20 @@
   function parar() {
     token++;
     tocando = false;
+    const c = cancelPlay;
+    cancelPlay = null;
+    c?.(); // resolve a promise pendente do playClip (o loop sai pelo token)
     if (audio) {
-      audio.onended = null;
-      audio.onerror = null;
       audio.pause();
-      emMeio = audio.currentTime > 0 && !audio.ended;
+      if (audio.ended) {
+        // Pausou no gap de 250ms APÓS o clipe acabar: ele já foi ouvido —
+        // "Continuar" segue da próxima fala (ou volta ao início se era a última).
+        emMeio = false;
+        pos = pos + 1 < seq.length ? pos + 1 : 0;
+        if (pos === 0) idxFala = -1;
+      } else {
+        emMeio = audio.currentTime > 0;
+      }
     }
   }
 
@@ -113,9 +132,13 @@
     parar();
     corrigido = true;
     markDone(quiz.id);
-    // rola pro topo do resultado
+    // rola pro topo do resultado (sem animação se "Reduzir Movimento" ligado —
+    // o CSS de prefers-reduced-motion não alcança scrollIntoView explícito)
     if (typeof document !== 'undefined') {
-      document.getElementById('quiz-resultado')?.scrollIntoView({ behavior: 'smooth' });
+      const rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      document
+        .getElementById('quiz-resultado')
+        ?.scrollIntoView({ behavior: rm ? 'auto' : 'smooth' });
     }
   }
 

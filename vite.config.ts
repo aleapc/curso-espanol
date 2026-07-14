@@ -18,6 +18,14 @@ export default defineConfig({
       kit: {
         trailingSlash: 'always',
         adapterFallback: '404.html',
+        // spa injeta o 404.html (assets ABSOLUTOS) no precache — é ele o
+        // navigateFallback: serve qualquer URL fora do precache (ex.: episódio
+        // sem a barra final) sem entregar a home com assets relativos quebrados.
+        // SÓ em prod: o GH Pages serve /404.html com status 200 (testado), mas o
+        // vite preview local (sirv) responde 404 → o precache dele ABORTA o
+        // install do SW. Local fica sem fallback (todas as rotas reais estão
+        // no precache; só URL sem barra digitada à mão offline perde).
+        spa: !!base,
         // O plugin lê o base do VITE — mas o nosso vive no svelte.config
         // (kit.paths.base). Sem isto a home saía {url:"/"} ABSOLUTO no precache
         // (raiz do DOMÍNIO = 404 no Pages) e o install do SW abortava inteiro.
@@ -52,8 +60,18 @@ export default defineConfig({
         // casavam nada e só geravam warnings — os ícones entram via manifest.
         // NUNCA definir manifestTransforms aqui: substituiria o transform interno
         // do plugin que converte prerendered/pages/*.html nas URLs finais.
-        globPatterns: ['**/*.{js,css,html,svg,ico,png,woff2,txt}'],
-        navigateFallback: `${base}/`,
+        // Padrões COM prefixo client/: sem prefixo o plugin APPENDA um default
+        // que inclui webp — e as 23 fotos dos cards (640KB+) entravam no
+        // precache, contra o design (fotos são cache de RUNTIME, sob demanda).
+        globPatterns: [
+          'client/**/*.{js,css,svg,ico,png,woff2,txt}',
+          'prerendered/**/*.html'
+        ],
+        globIgnores: ['client/img/**'],
+        // Fallback de navegação = 404.html do adapter (asset paths absolutos),
+        // não a home (relativa — quebrava em /episodio/x sem barra final).
+        // null no local: sem o 404.html no precache não há handler possível.
+        navigateFallback: base ? '404.html' : null,
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
         skipWaiting: true,
         clientsClaim: true,

@@ -57,6 +57,9 @@ export async function playKey(
       /* falhou (autoplay/arquivo) → cai pro TTS */
     }
   }
+  // Fallback TTS: pausa o mp3 que estiver tocando (simetria com o caminho
+  // premium, que cancela o TTS) — senão voz do navegador e mp3 se sobrepõem.
+  current?.pause();
   return speak(fallbackText) ? 'tts' : 'mudo';
 }
 

@@ -1,5 +1,4 @@
 import { error } from '@sveltejs/kit';
-import { quizIds } from '$lib/course/quiz-nav';
 import type { Quiz } from '$lib/types';
 import type { EntryGenerator, PageLoad } from './$types';
 
@@ -18,7 +17,13 @@ function fileFor(id: string): string {
   return `/src/lib/course/quiz-ep-${id.replace(/^q-/, '')}.json`;
 }
 
-export const entries: EntryGenerator = () => quizIds.map((id) => ({ id }));
+// Entries dos ARQUIVOS reais (quiz-nav assume q-<ep> pra todo episódio do
+// outline; um episódio novo sem quiz ainda gravado não pode quebrar o build).
+export const entries: EntryGenerator = () =>
+  Object.keys(mods).map((k) => {
+    const f = k.slice('/src/lib/course/quiz-'.length, -'.json'.length); // 'ep-b01' | 'basico'
+    return { id: f.startsWith('ep-') ? `q-${f.slice(3)}` : `q-${f}` };
+  });
 
 export const load: PageLoad = async ({ params }) => {
   const mod = mods[fileFor(params.id)];

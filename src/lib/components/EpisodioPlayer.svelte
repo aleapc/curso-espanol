@@ -57,7 +57,6 @@
   function playClip(key?: string): Promise<void> {
     return new Promise((resolve) => {
       if (!key || !audio) return resolve();
-      erroAudio = false;
       let cancelado = false;
       const fim = () => {
         audio.onended = null;
@@ -80,7 +79,11 @@
       };
       audio.src = src(key);
       audio.play().catch(() => {
-        if (!cancelado) erroAudio = true;
+        // Cancelado (skip/pausa): o cancelCurrent JÁ resolveu e limpou — sair
+        // sem tocar em nada, senão este catch tardio (microtask da rejeição)
+        // apagaria os handlers que o clipe SEGUINTE acabou de instalar.
+        if (cancelado) return;
+        erroAudio = true;
         fim();
       });
     });
@@ -119,6 +122,7 @@
   async function run(from: number) {
     halt();
     const my = token;
+    erroAudio = false; // reset por AÇÃO do usuário, não por clipe (o banner persiste)
     setPlaybackState('playing');
     for (let i = from; i < steps.length; i++) {
       if (my !== token) return;
@@ -136,7 +140,16 @@
         // Captura o flag: se desmarcar "gravar" durante a pausa, o recorder já
         // iniciado ainda recebe stop() (antes ficava gravando pra sempre).
         const rec = gravando;
-        if (rec) await startRec();
+        if (rec) {
+          await startRec();
+          // Se pausou/navegou ENQUANTO o getUserMedia estava em voo (prompt de
+          // permissão aberto), o recorder pode ter iniciado depois do halt() —
+          // parar aqui, senão ficava gravando com a UI em "parado".
+          if (my !== token) {
+            void stopRec();
+            return;
+          }
+        }
         await wait(pausaMs(s));
         if (my !== token) return;
         if (rec) await stopRec();
@@ -175,6 +188,7 @@
   async function ouvirResposta() {
     halt();
     const my = token;
+    erroAudio = false;
     mostrarEs = true;
     fase = 'tocando';
     setPlaybackState('playing');
@@ -224,10 +238,21 @@
   let recorder: MediaRecorder | null = null;
   let chunks: BlobPart[] = [];
   let vozAudio: HTMLAudioElement | null = null;
+  let destruido = false;
 
   async function startRec() {
     try {
-      if (!mediaStream) mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      if (!mediaStream) {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        // Durante o await (prompt de permissão!) o usuário pode ter desmarcado
+        // "gravar" ou saído da página — soltar o stream na hora, senão o mic
+        // ficava aberto (indicador laranja) sem dono.
+        if (!gravando || destruido) {
+          stream.getTracks().forEach((t) => t.stop());
+          return;
+        }
+        mediaStream = stream;
+      }
       micErro = false;
       chunks = [];
       recorder = new MediaRecorder(mediaStream);
@@ -241,12 +266,16 @@
   function stopRec(): Promise<void> {
     return new Promise((resolve) => {
       if (!recorder || recorder.state === 'inactive') return resolve();
-      recorder.onstop = () => {
+      const r = recorder;
+      r.onstop = () => {
+        // Componente destruído ou recorder já substituído: NÃO criar blob URL
+        // (vazaria) nem ressuscitar um take antigo por cima do recUrl atual.
+        if (destruido || r !== recorder) return resolve();
         if (recUrl) URL.revokeObjectURL(recUrl);
         recUrl = URL.createObjectURL(new Blob(chunks, { type: 'audio/webm' }));
         resolve();
       };
-      recorder.stop();
+      r.stop();
     });
   }
   // Libera o microfone de verdade (o indicador laranja do iPhone apagava só
@@ -349,8 +378,11 @@
   });
 
   onDestroy(() => {
-    halt();
+    // Ordem importa: destruido primeiro (bloqueia onstop tardio de criar blob
+    // URL órfão), releaseMic antes do halt (o stopRec do halt vira no-op).
+    destruido = true;
     releaseMic();
+    halt();
     if (recUrl) URL.revokeObjectURL(recUrl);
     vozAudio?.pause();
     vozAudio = null;
@@ -489,7 +521,7 @@
 </div>
 
 <div class="mt-3 flex flex-wrap items-center justify-center gap-4 text-sm">
-  <button class="-my-1 px-2 py-2 text-oceano" onclick={repetir}>⟲ repetir passo</button>
+  <button class="-my-2 px-2 py-3 text-oceano" onclick={repetir}>⟲ repetir passo</button>
   <label class="flex cursor-pointer items-center gap-1 py-2 text-carvao/60">
     <input
       type="checkbox"
@@ -514,7 +546,8 @@
       type="button"
       onclick={() => setFator(v.f)}
       aria-pressed={fator === v.f}
-      class="rounded-full px-3 py-1.5 {fator === v.f
+      class="relative rounded-full px-3 py-1.5 before:absolute before:-inset-x-1 before:-inset-y-2.5 before:content-[''] {fator ===
+      v.f
         ? 'bg-oceano text-white'
         : 'ring-1 ring-black/10'}"
     >

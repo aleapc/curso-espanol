@@ -1,5 +1,4 @@
 import { error } from '@sveltejs/kit';
-import { outline } from '$lib/course';
 import type { Episode } from '$lib/types';
 import type { EntryGenerator, PageLoad } from './$types';
 
@@ -11,8 +10,12 @@ export const prerender = true;
 // o chunk inteiro nos aparelhos.
 const mods = import.meta.glob<{ default: Episode }>('$lib/course/ep-*.json');
 
+// Entries vêm dos ARQUIVOS reais (não do outline): uma lição futura listada no
+// outline com pronta:false e sem ep-*.json não pode quebrar o prerender.
 export const entries: EntryGenerator = () =>
-  outline.flatMap((m) => m.licoes.map((l) => ({ id: l.id })));
+  Object.keys(mods).map((k) => ({
+    id: k.slice('/src/lib/course/ep-'.length, -'.json'.length)
+  }));
 
 export const load: PageLoad = async ({ params }) => {
   const mod = mods[`/src/lib/course/ep-${params.id}.json`];

@@ -15,6 +15,10 @@
   // register puro + update() horário dá o autoUpdate completo.
   onMount(async () => {
     if (dev || !('serviceWorker' in navigator)) return;
+    // Sem base (= vite preview local em localhost:4173/5182, origem COMPARTILHADA
+    // com os outros PWAs do casal): só registra com ?sw na URL, senão o precache
+    // do Hablá "sequestra" o / dos outros projetos em preview.
+    if (!base && !new URLSearchParams(location.search).has('sw')) return;
     try {
       const reg = await navigator.serviceWorker.register(`${base}/sw.js`, { scope: `${base}/` });
       // iOS só checa update no launch; com o app aberto horas (estudo/carro),
