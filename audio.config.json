@@ -5,5 +5,17 @@
   "Ana": "1ctzUhkgUOhdrYPLo67n",
   "Diego": "xcAUMhbpNX2WRGsuhjFy",
   "Bia": "0ozreaQ0xnggCu2x9oFC",
-  "Eduardo": "4J31DrhygVjvFsoj7BsM"
+  "Eduardo": "4J31DrhygVjvFsoj7BsM",
+  "_g14": {
+    "guia": [
+      "Bia",
+      "Eduardo"
+    ],
+    "guiaLingua": "pt",
+    "alvo": [
+      "Ana",
+      "Diego"
+    ],
+    "alvoLingua": "es"
+  }
 }

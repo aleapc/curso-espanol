@@ -9,7 +9,19 @@
     "preview": "vite preview --host",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "audio": "node scripts/generate-audio.mjs",
-    "audio:list": "node scripts/generate-audio.mjs --list"
+    "audio:list": "node scripts/generate-audio.mjs --list",
+    "estrutura": "node scripts/valida-estrutura.mjs",
+    "audio:check": "node scripts/valida-audio.mjs",
+    "tom": "node scripts/valida-tom.mjs",
+    "tom:relatorio": "node scripts/valida-tom.mjs --relatorio",
+    "reuso": "node scripts/mede-reuso.mjs",
+    "outline": "node scripts/gera-outline.mjs",
+    "outline:conferir": "node scripts/gera-outline.mjs --conferir",
+    "briefing": "node scripts/briefing-slot.mjs",
+    "briefing:todos": "node scripts/briefing-slot.mjs --todos",
+    "consulta": "node scripts/build-consulta.mjs",
+    "consulta:cobertura": "node scripts/build-consulta.mjs --cobertura",
+    "transito": "node scripts/confere-transito.mjs"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.6",
